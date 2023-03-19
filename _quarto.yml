@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "UBC Micromet"
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Documentation.qmd
+        text: Documentation
+      - href: FieldWorkProcedures.qmd
+        text: Field Work
+  sidebar:
+    - id: home
+      title: "Home"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - href: index.qmd
+          text: home
+        - href: about.qmd
+          text: About
+    - id: docs
+      title: "Documentation"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - Documentation.qmd
+        - href: UsingGit.qmd
+          text: Using Git
+    - id: field-work
+      title: "Field Work"
+      style: "floating"
+      collapse-level: 1
+      align: left
+      contents:
+        - FieldWorkProcedures.qmd
+        - href: Calibration.qmd
+          text: Calibration
+        - href: Cleaning.qmd
+          text: Cleaning
+        - href: Checklists_and_logs/Checklists.qmd
+          text: Checklists
+  page-footer:
+    right:
+      - icon: github
+        href: https://github.com/ubc-micromet
+        aria-label: Quarto GitHub
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,13 @@
+id,Task,Notes
+0,Clean IRGAs as Needed, See the [Cleaning Page](Cleaning.qmd) for details
+1,Calibrate IRGAs, See the [Calibration Page](Calibration.qmd) for details
+2,Swap USB in 7550, Press eject and wait for light to turn off before removal.  Ensure light is blinking after inserting new stick.
+3,Swap desiccant, One per box
+4,Refill 7700 washer fluid, take note of fluid supply on site
+5,Check radiometers, Clean as needed
+6,Check rain gauge, Clean as needed
+7,Check wildlife camera, Swap SD card and replace batteries (8AA) as needed
+8,Measure water table depth," Take manual reading with probe record level and date/time.  Record on google drive under ""site""\Flux-tower\met_data\WTH"
+9,Check SWC Sensor ,Ensure it is still positioned correctly
+10,Check Desiccant in Wtd Probe,BB1 - inside logger box <br> BB2 - outside logger box below
+11,Check Battery Box,Ensure there is no water inside

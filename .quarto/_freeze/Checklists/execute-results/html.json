@@ -1,0 +1,16 @@
+{
+  "hash": "a465a8c376e564021e45274aea22d077",
+  "result": {
+    "markdown": "---\ntitle: \"Checklists\"\necho: false\ncode-fold: true\n---\n\n\n\n::: {#tbl-cars .cell tbl-cap='Cars' tbl-colwidths='[40,60]'}\n::: {.cell-output-display}\n|Task                      |Notes                                                                                                                 |\n|:-------------------------|:---------------------------------------------------------------------------------------------------------------------|\n|Clean IRGAs as Needed     |See the [Cleaning Page](Cleaning.qmd) for details                                                                     |\n|Calibrate IRGAs as Needed |See the [Calibration Page](Calibration.qmd) for details                                                               |\n|Swap USB in 7550          |Press eject and wait for light to turn off before removal.  Ensure light is blinking after inserting new stick.       |\n|Swap desiccant            |One per box                                                                                                           |\n|Refill 7700 washer fluid  |take note of fluid supply on site                                                                                     |\n|Check radiometers         |Clean as needed                                                                                                       |\n|Check rain gauge          |Unscrew top and clean funnel if clogged                                                                               |\n|Check wildlife camera     |Swap SD card and replace batteries (8AA) as needed                                                                    |\n|Measure water table depth |Take manual reading with probe record level and date/time.  Record on google drive under site\\Flux-tower\\met_data\\WTH |\n:::\n:::\n\n<!-- <colgroup>\n  <col span=\"1\" width=\"25%\"><col span=\"1\" width=\"70%\"><col span=\"1\" width=\"5%\">\n</colgroup> -->\n",
+    "supporting": [
+      "Checklists_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

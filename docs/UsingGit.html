@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>UBC Micromet - Using Git</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">UBC Micromet</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./Documentation.html" aria-current="page">
+ <span class="menu-text">Documentation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./FieldWorkProcedures.html">
+ <span class="menu-text">Field Work</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Using Git</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Documentation.html" class="sidebar-item-text sidebar-link">Documentation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./UsingGit.html" class="sidebar-item-text sidebar-link active">Using Git</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#git-vs-github-whats-the-difference" id="toc-git-vs-github-whats-the-difference" class="nav-link active" data-scroll-target="#git-vs-github-whats-the-difference">Git vs Github … whats the difference?</a>
+  <ul class="collapse">
+  <li><a href="#whats-a-repository" id="toc-whats-a-repository" class="nav-link" data-scroll-target="#whats-a-repository">Whats a Repository?</a></li>
+  <li><a href="#common-git-commands" id="toc-common-git-commands" class="nav-link" data-scroll-target="#common-git-commands">Common Git Commands</a></li>
+  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a>
+  <ul class="collapse">
+  <li><a href="#i-broke-something" id="toc-i-broke-something" class="nav-link" data-scroll-target="#i-broke-something">I broke something :(</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#more-tasks-features" id="toc-more-tasks-features" class="nav-link" data-scroll-target="#more-tasks-features">More Tasks &amp; Features</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Using Git</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="git-vs-github-whats-the-difference" class="level1">
+<h1>Git vs Github … whats the difference?</h1>
+<p>Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.</p>
+<p><strong>Git</strong> is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.</p>
+<p><strong>GitHub</strong> is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.</p>
+<section id="whats-a-repository" class="level2">
+<h2 class="anchored" data-anchor-id="whats-a-repository">Whats a Repository?</h2>
+<p>A repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.</p>
+</section>
+<section id="common-git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="common-git-commands">Common Git Commands</h2>
+<p><strong>init</strong>: Creates an empty repository</p>
+<p><strong>commit</strong>: Tells git to “save” a repository in its current state.</p>
+<p><strong>status</strong>: Checks to see if there are any “untracked” files in your workspace.</p>
+<p><strong>clone:</strong>: Tells git to “copy” a repository from a remote location (i.e.&nbsp;a github URL) to a local directory on you computer</p>
+<p><strong>pull:</strong>: Tells git to “download” any changes from a remote repository (i.e.&nbsp;a github URL you previously cloned) to your local copy</p>
+<p><strong>push</strong>: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e.&nbsp;a github URL you previously cloned)</p>
+<p align="center">
+<img src="images/Git_workflow.png" width="600">
+</p>
+</section>
+<section id="helpful-resources" class="level2">
+<h2 class="anchored" data-anchor-id="helpful-resources">Helpful Resources</h2>
+<p>Nice video tutorial</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3fUbBnN_H2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<p><a href="https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67">These guidelines</a> will inform how we approach collaborating on a project.</p>
+<p>Add Git Branch Name to Terminal Prompt <a href="https://gist.github.com/joseluisq/1e96c54fa4e1e5647940">(Linux/Mac)</a></p>
+<p align="center">
+<img src="images/AddBranch_Bash.png" width="600">
+</p>
+<section id="i-broke-something" class="level3">
+<h3 class="anchored" data-anchor-id="i-broke-something">I broke something :(</h3>
+<p>Sometimes you break something and need to know how to fix it. Pardon the profanity … but <a href="https://ohshitgit.com/">Oh Shit, Git</a> is a really helpful resource.</p>
+</section>
+</section>
+</section>
+<section id="more-tasks-features" class="level1">
+<h1>More Tasks &amp; Features</h1>
+<p><strong>Issues</strong>: Opening issues on Github allows us to delegate work, discuss task and keep notes on various features. * They can be labeled as bugs, upgrade requests, etc.<br>
+* Issues can be assigned to one or more members of the organization, and you can leave comments to discuss issues. * An issue remains open until they are “closed”.</p>
+<p><strong>Branching</strong>: is a way to create a separate workspace to work on updates, test features, and break things (safely) without affecting the “main” branch. We’ll rely on branches and “branch protection” rules to keep the main (working) branches of repositories safe. More info can be found <a href="https://www.atlassian.com/git/tutorials/using-branches">here</a></p>
+<ul>
+<li>You can use “git branch” to list all existing branches</li>
+<li>You can use “git checkout” to switch between branches
+<ul>
+<li>You can also use “git checkout” to create an new branch</li>
+</ul></li>
+</ul>
+<p><strong>Merging</strong>: is a way to combine branches. An in depth discussion can be found <a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge">here</a></p>
+<p><strong>Conflict Resolution</strong>: This is a tricky task and usually requires a case by case approach to sort things out. We’ll undoubtedly need to do some conflict resolution down the line but lets not worry aoubt it for now.</p>
+<p><strong>Github Pages</strong>: Github can be used to render static sites (like this one). Its a super useful skill/resource. We’ll cover it down the line.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ubc-micromet">
+      <i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

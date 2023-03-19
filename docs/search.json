@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This Github Organization hosts code and documentation for collecting and processing micrometeorological data. This webpage hosts information about our lab, helpful resources, and links to important repositories."
+  },
+  {
+    "objectID": "about.html#territorial-and-cultural-acknowledgement",
+    "href": "about.html#territorial-and-cultural-acknowledgement",
+    "title": "About",
+    "section": "Territorial and Cultural Acknowledgement",
+    "text": "Territorial and Cultural Acknowledgement\nUBC Micromet is based out of the University of British Columbia, which traditional, ancestral, and unceded on xʷməθkʷəy̓əm (Musqueam) teritory. Our field sites are located in the the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This area encompass the traditional territories of a number of First Nations, including the: xʷməθkʷəy̓əm, Stó:lō, sc̓əwaθenaɁɬ təməxʷ (Tsawwassen), kwantlen, Semiahmoo, Stz’uminus, Á,LEṈENEȻ ȽTE (W̱SÁNEĆ), and sq̓əc̓iy̓aɁɬ təməxʷ (Katzie) people. For more information on Indigenous territories around the world, check out NativeLand.ca."
+  },
+  {
+    "objectID": "Calibration.html",
+    "href": "Calibration.html",
+    "title": "Calibration Procedures",
+    "section": "",
+    "text": "This page details the steps for calibrating the 7200 and 7700. Always do the 7200 first, followed by the 7700. You must clean the sensors before calibration."
+  },
+  {
+    "objectID": "Calibration.html#set-co2-zero",
+    "href": "Calibration.html#set-co2-zero",
+    "title": "Calibration Procedures",
+    "section": "Set CO2 zero",
+    "text": "Set CO2 zero\n5{: .label .label-blue} Connect the flow meter to the N2 gas tank and open main valve (on is left, off is right). * Note: PSI should be ~ 1200 (not necessary to the procedure, but good to note as it will decrease over time and indicated when we need a new gas tank)\n6{: .label .label-blue} Open regulator slowly until the flow rate is around 18-20 L/min. You should hear the flow. Note: reversed directions (on is right, off is left)\n7{: .label .label-blue} Watch plot on the program: CO2 should drop to 0. On the calibration screen – green flags show that CO2 concentrations are steady. You may need to change the scale on the chart.\n\nClick “Zero CO2” > “OK”\nClick “Zero H2O > “OK”\nCheck graph values continuously throughout the process to make sure values are correct\n\n7{: .label .label-blue} Close regulator then close the main N2 tank value and disconnect the flow meter."
+  },
+  {
+    "objectID": "Calibration.html#set-co2-span",
+    "href": "Calibration.html#set-co2-span",
+    "title": "Calibration Procedures",
+    "section": "Set CO2 span",
+    "text": "Set CO2 span\n8{: .label .label-blue} Move flow meter to CO2 tank and open the main valve (on is left, off is right). * Note: PSI should be ~ 1200 (not necessary to the procedure, but good to note as it will decrease over time and indicated when we need a new gas tank) ### To Do: Confirm value?\n9{: .label .label-blue} Open regulator slowly until the flow rate is around 18-20 L/min. You should hear the flow. Note: reversed directions (on is right, off is left)\n10{: .label .label-blue} Enter CO2 concentration (ppm), Confirm the exact value on the tank. Then Watch plot on the program: CO2 should increase until it stabilizes. On the calibration screen – green flags show that CO2 concentrations are steady. You may need to change the scale on the chart again.\n\nClick Span CO2” > “OK”\n\nDo Not Click Span H2O\n\n\n10{: .label .label-blue} Close regulator then close the main CO2 tank value and disconnect the flow meter. * Check how much gas we have left & take a picture"
+  },
+  {
+    "objectID": "Calibration.html#check-the-coefficients",
+    "href": "Calibration.html#check-the-coefficients",
+    "title": "Calibration Procedures",
+    "section": "Check the Coefficients",
+    "text": "Check the Coefficients\n11{: .label .label-blue} You can find the calibration results in “LI-7200” > “Calibration” > “Manual” tab. Reference the table below for acceptable values. Take a screenshot (alt + print screen) of the manual tab and save it to the Micromet Google drive: Micromet Lab/Projects/(Flux Site)/Flux-tower/Calibrations/LI-7200/SNXXXX (reference serial number table above)\n\nOptimal Calibration Constant Values\n\n\n\n\n\n\n\n\n\nConstant\nValue\nNotes\n\n\n\n\nCO2 Zero\n0.85 ~ 1.1\nZero is primarily affected by temperature, and the state of the internal chemicals\n\n\nCO2 Span\n0.97 ~ 1.03\nA value outside this range indicates is a warning sign for me that something is not correct with either the instrument (wrong head, bad sensor) or with the tank (not accurately calibrated).\n\n\nH2) Zero\n0.9 ~ 1.2\nSet in lab (dobule check frequency?)\n\n\nH2) Span\n0.9 ~ 1.1\nSet in lab (dobule check frequency?)\n\n\n\n\n\n\n12{: .label .label-blue} Save the after calibration coefficients. Click “Config Files” tab >> “Save Configuration” >> check all and “continue”. Use same naming/saving convention as above.\n13{: .label .label-blue} Disconnect calibration tubing from 7200 intake. All the connections on the tubing that stays connected to the ‘T’ on the 7200 head should be wrench tight when finished with calibrations.\n14{: .label .label-blue} Exit the program"
+  },
+  {
+    "objectID": "Calibration.html#set-ch4-zero",
+    "href": "Calibration.html#set-ch4-zero",
+    "title": "Calibration Procedures",
+    "section": "Set CH4 zero",
+    "text": "Set CH4 zero\n4{: .label .label-green} Connect the flow meter to the N2 gas tank and open main valve (on is left, off is right). * Note: PSI should be ~ 1200 (not necessary to the procedure, but good to note as it will decrease over time and indicated when we need a new gas tank)\n5{: .label .label-green} Open regulator slowly until the flow rate is around 18-20 L/min. You should hear the flow. Note: reversed directions (on is right, off is left)\n5{: .label .label-green} Watch plot on the program: CH4 should drop to 0 (or ~.13). On the calibration screen – green flags show that it’s steady Change scale if needed to check that the trace is flat/steady\n\nClick “Zero CH4” > “Apply”\n\n6{: .label .label-green} Close regulator then close the main N2 tank value and disconnect the flow meter. * Check how much gas we have left & take a picture"
+  },
+  {
+    "objectID": "Calibration.html#set-ch4-span",
+    "href": "Calibration.html#set-ch4-span",
+    "title": "Calibration Procedures",
+    "section": "Set CH4 span",
+    "text": "Set CH4 span\n7{: .label .label-green} Move flow meter to CH4 tank and open the main valve (on is left, off is right). * Note: PSI should be ~ 1200 (not necessary to the procedure, but good to note as it will decrease over time and indicated when we need a new gas tank) ### To Do: Confirm value?\n8{: .label .label-green} Enter CH4 concentration (ppm), Confirm the exact value on the tank. Then Watch plot on the program: CH4 should increase until it stabilizes. On the calibration screen – green flags show that CH4 concentrations are steady. You may need to change the scale on the chart again. * Click “Span CH4” > “Apply”\n9{: .label .label-green} Close regulator then close the main CH4 tank value and disconnect the flow meter. * Check how much gas we have left & take a picture\n10{: .label .label-green} Remove the calibration shield, make sure to disconnect the tubing first. Then make sure to replace the 7700 head cap and washer tube first.\n\nTo Do: Check the Coefficients"
+  },
+  {
+    "objectID": "Checklists_and_logs/Checklists.html",
+    "href": "Checklists_and_logs/Checklists.html",
+    "title": "Checklists",
+    "section": "",
+    "text": "Table 1: Packing List for EC Site Visits\n\n\n\n\n\n\nItem\nNotes\n\n\n\n\nVehicle and Site Keys\n\n\n\nField Laptop\nCharge overnight & bring all necesary calbes plus DC>AC power converter\n\n\nUSB Sticks\nOne per site - ensure its empty and formattedS\n\n\nWildlife Camera SD card\n+ 8 AA batteries per camera as needed\n\n\nCleaning Supplies\nWipes + washer fluid as needed\n\n\nDesiccant\n4-5 bags / site\n\n\nWater Table Probe\nYellow manual probe from lab\n\n\nFirst Aid Kit\nRed first aid kit kept in ponderosa lab\n\n\nWater & Snacks\n\n\n\nWaders/Boots\nWaders necessary at BB sites except in summer - Boots are usually okay at DSM & RBM\n\n\nSpare socks\nas needed during winter\n\n\nTorch or deicing fluids for locks\nas needed during winter\n\n\nSite Specific\n\n\n\nDSM & RMB\n\n\n\nTool kit\n\n\n\n7700 calibration shroud\n\n\n\nBB Sites\n\n\n\nFire exthingusher & water spray\nonly needed during fire season\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2: Tasks on EC Site Visits\n\n\n\n\n\n\nTask\nNotes\n\n\n\n\nClean IRGAs as Needed\nSee the Cleaning Page for details\n\n\nCalibrate IRGAs as Needed\nSee the Calibration Page for details\n\n\nSwap USB in 7550\nPress eject and wait for light to turn off before removal. Ensure light is blinking after inserting new stick.\n\n\nSwap desiccant\nOne per box\n\n\nRefill 7700 washer fluid\ntake note of fluid supply on site\n\n\nCheck radiometers\nClean as needed\n\n\nCheck rain gauge\nUnscrew top and clean funnel if clogged\n\n\nCheck wildlife camera\nSwap SD card and replace batteries (8AA) as needed\n\n\nMeasure water table depth\nTake manual reading with probe record level and date/time. Record on google drive under site-tower_data"
+  },
+  {
+    "objectID": "Cleaning.html",
+    "href": "Cleaning.html",
+    "title": "Cleaning Procedures",
+    "section": "",
+    "text": "Cleaning Procedures\n{: .no_toc }\nThis page details the steps for cleaning the 7700 and 7200. Always do the 7700 first, followed by the 7200. You must clean the sensors before calibration.\n\n\nTable of contents\n\n{: .text-delta } 1. TOC {:toc}\n\n\n\n\nGetting Started\n1{: .label .label-red} Connect the laptop to the site system using the ethernet cable and dongle to the top box on the outside of the scaffolding. Note: remote connection via vinimet & mobile hotspot can also work in a pinch.\n\nTo Do: Add pics of logger box at each each site for reference.\n 2{: .label .label-red} Retract the boom to access the flux sensors. Loosen the two bolts securing the boom > pull quick release tab> slide boom in > Be mindful of cables * For BB1 & DSM: place stepladder on plywood on the ground. Make sure it’s solid.\n\n\n\n\nFor BB2 & RBM: loosen the wing nut > remove the fastening boot > lift up sensors to reduce force needed to pull out the bolt > rotate the arm to bring the sensors within reach from platform. Be careful this can be quite difficult.\n\n\n\n\n3{: .label .label-red} Do a visual inspection of the sensors and note/address any obvious issues.\n\n\n\n\nCleaning the LI 7700\n1{: .label .label-blue} On the laptop, open the program ‘LI-7700’. Click “Connect” >> Ethernet >> Select Instrument >> Connect. Open 2nd data page and look at the single graph with signal strength\n\nTo Do: Add Screenshot\n\n2{: .label .label-blue} Wipe top and bottom windows with windshield cleaner (wet then dry cloth) until signal strength is sufficient:\n\n\n\n\nDesired LI 7700 Signal Strength by Site\n\n\n\n\nSite\nValue\n\n\n\n\nBB1\nHigh 50’s\n\n\nBB2\nAround 80\n\n\nDMS\nAround 70\n\n\nRBM\n…\\\n\n\n\n3{: .label .label-blue} Disconnect from the 7700 and close the LI-7700 program.\n\n\n\n\nCleaning the LI 7200\n1{: .label .label-green} Power down the flux system. Inside the power box, flip the 3 switches as shown in the table below. The power is off when the red light is on.\n\nEC Sensor Power Channels\n\n\n\n\nSite\nLI-7200 flow module (pump)\nLI-7700\nLI-7550\n\n\n\n\nBB1\n12\n7\n2\n\n\nBB2\n3\n4\n5\n\n\nDMS\n3\n4\n5\n\n\nRBM\nTBD\nTBD\nTBD\n\n\n\n2{: .label .label-green} Take the intake tube off by loosening the nut with a wrench. The tube can then just hang loosely from the tower, disconnected from the 7200. Then loosen the knobs on top of 7200 to release the top and take side part off to open the 7200 sensor head. This can can hang next to the instrument while cleaning.\n\n\n\n\n\n\n3{: .label .label-green} Wipe top and bottom windows with windshield cleaner (wet then dry cloth). Then clean intake filter with a wipe. * You may need to replace with a spare clean cap intake. If so: remove the foil wrap, loosen the metal ring with pliers and push it all the way to the tube, remove and replace the cap, use pliers to put the metal ring back on the cap\n4{: .label .label-green} Power system back up using switches listed in the table above. Note: The start up sequence is: 1) LI-7200 pump, 2) LI-7700, 3) LI-7550. Allow 90 seconds between each sensor when powering up. This order is important for proper start up.\n* Inside the Li-7550 box, the USB logging light should be flashing\n5{: .label .label-green} On the laptop open the LI 7x00 program and connect the the 7500 to check that the signal strength is sufficient:\n\nDesired LI 7200 Signal Strength by Site\n\n\n\n\nSite\nValue\n\n\n\n\nBB1\nAbout 100\n\n\nBB2\nAbout 103\n\n\nDMS\nAbout 102\n\n\nRBM\n…"
+  },
+  {
+    "objectID": "Documentation.html",
+    "href": "Documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "This page is intended to serve as a catchall with general information for the lab.\n\nTips and tricks for coding and using github.\nLinks to relevant information."
+  },
+  {
+    "objectID": "FieldWorkProcedures.html",
+    "href": "FieldWorkProcedures.html",
+    "title": "Site Visits & Maintenance Procedures",
+    "section": "",
+    "text": "This page covers general procedures for doing maintenance and calibration at our flux sites. Under normal operating conditions, maintenance trips should occur every 4-6 weeks for each site. Further trips can be scheduled as needed. Ensure you are review the key information before commencing field work. You can checklists below to help prepare for field visits and ensure you are following standard procedures while in the field."
+  },
+  {
+    "objectID": "FieldWorkProcedures.html#planning-a-trip",
+    "href": "FieldWorkProcedures.html#planning-a-trip",
+    "title": "Site Visits & Maintenance Procedures",
+    "section": "Planning a Trip",
+    "text": "Planning a Trip\nMake a clear list of tasks & goals. If you are going to one of the one of the flux stations you can check the field logs. See what was done on the last visit and check for notes to see if there is anything that needs to be done.\n\nBB1&2\nDSM\nRBM\nUse the checklists below to make sure you have all the supplies you need and complete all crucial tasks"
+  },
+  {
+    "objectID": "FieldWorkProcedures.html#scheduling-communication",
+    "href": "FieldWorkProcedures.html#scheduling-communication",
+    "title": "Site Visits & Maintenance Procedures",
+    "section": "Scheduling & Communication",
+    "text": "Scheduling & Communication\nLet the lab know when you will be going into the field and make sure you have at least one person joining you.\n\nYou can use the fieldwork slack channel to discuss scheduling\nBook the Micromet Truck using the google calendar\n\nContact Rick for calendar access or to request alternative vehicle options.\n\nIf you are going into Burns Bog:\n\nBoth participants must be permit holders\nYou must also call Metro Vancouver to check in and check out: 604-520-6442"
+  },
+  {
+    "objectID": "FieldWorkProcedures.html#safety",
+    "href": "FieldWorkProcedures.html#safety",
+    "title": "Site Visits & Maintenance Procedures",
+    "section": "Safety",
+    "text": "Safety\nEnsure that you are familiar with the lab’s Safety Plan\n\nIn Summer: Be cautions of fire safety:\n\nDon’t park on gras, bring water sprayer spray and fire extinguisher.\n\nIn Winter: Be mindful of the weather forecasts:\n\nDress appropriately, bring extra socks, a head lamp, gloves, etc.\nCheck the tides when going to RBM or DSM"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "UBC Micromet",
+    "section": "",
+    "text": "Our research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy."
+  },
+  {
+    "objectID": "UsingGit.html",
+    "href": "UsingGit.html",
+    "title": "Using Git",
+    "section": "",
+    "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
+  }
+]
