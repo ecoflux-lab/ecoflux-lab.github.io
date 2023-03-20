@@ -21,7 +21,7 @@ website:
       align: left
       contents:
         - href: index.qmd
-          text: home
+          text: Home
         - href: about.qmd
           text: About
     - id: docs
@@ -33,6 +33,8 @@ website:
         - Documentation.qmd
         - href: UsingGit.qmd
           text: Using Git
+        - href: DatabaseWorkflows.qmd
+          text: Database
     - id: field-work
       title: "Field Work"
       style: "floating"

@@ -90,14 +90,12 @@ Checklist <- read.csv(file = 'Checklists_and_logs/Tasks_after_SiteVisits.csv')
 kable(Checklist)
 ```
 
-#  Annual Maintenance & Calibration
+#  Semi-Annual Maintenance & Calibration
 
 
-This page details the steps for changing descants etc. 
+These need to be made into a list/schedule:
 
-
-To do during good weather conditions:
-
+* Calibrate 7200 H20 Span (requires sensor be brought back to the lab)
 * Li-7200 internal chemical has to be replaced once per year (and update on Google Calendar and provide dates & details in field site Log > EC Log) 
 	* Last replacement for BB1 & BB2  was on 2022/02/09
 	* Last replacement for DSM was on 2022/06/22
