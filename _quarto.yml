@@ -13,6 +13,10 @@ website:
         text: Documentation
       - href: FieldWorkProcedures.qmd
         text: Field Work
+    right:
+      - icon: github
+        href: https://github.com/ubc-micromet
+        aria-label: Quarto GitHub
   sidebar:
     - id: home
       title: "Home"
@@ -48,11 +52,11 @@ website:
           text: Cleaning
         - href: Checklists_and_logs/Checklists.qmd
           text: Checklists
-  page-footer:
-    right:
-      - icon: github
-        href: https://github.com/ubc-micromet
-        aria-label: Quarto GitHub
+  # page-footer:
+  #   right:
+  #     - icon: github
+  #       href: https://github.com/ubc-micromet
+  #       aria-label: Quarto GitHub
         
 format:
   html:
