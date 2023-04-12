@@ -7,6 +7,13 @@
     "text": "This Github Organization hosts code and documentation for collecting and processing micrometeorological data. This webpage hosts information about our lab, helpful resources, and links to important repositories."
   },
   {
+    "objectID": "about.html#territorial-and-cultural-acknowledgement",
+    "href": "about.html#territorial-and-cultural-acknowledgement",
+    "title": "UBC Micromet",
+    "section": "Territorial and Cultural Acknowledgement",
+    "text": "Territorial and Cultural Acknowledgement\nUBC Micromet is based out of the University of British Columbia, which traditional, ancestral, and unceded on xʷməθkʷəy̓əm (Musqueam) teritory. Our field sites are located in the the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This area encompass the traditional territories of a number of First Nations, including the: xʷməθkʷəy̓əm, Stó:lō, sc̓əwaθenaɁɬ təməxʷ (Tsawwassen), kwantlen, Semiahmoo, Stz’uminus, Á,LEṈENEȻ ȽTE (W̱SÁNEĆ), and sq̓əc̓iy̓aɁɬ təməxʷ (Katzie) people. For more information on Indigenous territories around the world, check out NativeLand.ca."
+  },
+  {
     "objectID": "Calibration.html",
     "href": "Calibration.html",
     "title": "Calibration Procedures",
@@ -119,69 +126,6 @@
     "text": "Quan et al. (2023)\nRussell et al. (2023)\nLee et al. (2022)\nNyberg et al. (2022)\nLee et al. (2021)\n\n\n\n\nRussell, S. J., Windham-Myers, L., Stuart-Haëntjens, E. J., Bergamaschi, B. A., Anderson, F., Oikawa, P., & Knox, S. H. (2023). Increased salinity decreases annual gross primary productivity at a Northern California brackish tidal marsh. Environmental Research Letters, 18(3), 034045. https://doi.org/10.1088/1748-9326/acbbdf\n\n\nQuan, N., Lee, S.-C., Chopra, C., Nesic, Z., Porto, P., Pow, P., et al. (2023). Estimating Net Carbon and Greenhouse Gas Balances of Potato and Pea Crops on a Conventional Farm in Western Canada. Journal of Geophysical Research: Biogeosciences, 128(3), e2022JG007113. https://doi.org/10.1029/2022JG007113\n\n\nLee, S.-C., Knox, S. H., McKendry, I., & Black, T. A. (2022). Biogeochemical and biophysical responses to episodes of wildfire smoke from natural ecosystems in southwestern British Columbia, Canada. Atmospheric Chemistry and Physics, 22(4), 2333–2349. https://doi.org/10.5194/acp-22-2333-2022\n\n\nNyberg, M., Black, T. A., Ketler, R., Lee, S.-C., Johnson, M., Merkens, M., et al. (2022). Impacts of Active Versus Passive Re-Wetting on the Carbon Balance of a Previously Drained Bog. Journal of Geophysical Research: Biogeosciences, 127(9), e2022JG006881. https://doi.org/10.1029/2022JG006881\n\n\nLee, S.-C., Black, T. A., Nyberg, M., Merkens, M., Nesic, Z., Ng, D., & Knox, S. H. (2021). Biophysical Impacts of Historical Disturbances, Restoration Strategies, and Vegetation Types in a Peatland Ecosystem. Journal of Geophysical Research: Biogeosciences, 126(10), e2021JG006532. https://doi.org/10.1029/2021JG006532"
   },
   {
-    "objectID": "UsingGit.html",
-    "href": "UsingGit.html",
-    "title": "Using Git",
-    "section": "",
-    "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
-  },
-  {
-    "objectID": "Publications.html#section-2",
-    "href": "Publications.html#section-2",
-    "title": "Publications",
-    "section": "Section 2",
-    "text": "Section 2\nQuan et al. (2023)\n\n\n\n\n\n\nQuan, N., Lee, S.-C., Chopra, C., Nesic, Z., Porto, P., Pow, P., et al. (2023). Estimating Net Carbon and Greenhouse Gas Balances of Potato and Pea Crops on a Conventional Farm in Western Canada. Journal of Geophysical Research: Biogeosciences, 128(3), e2022JG007113. https://doi.org/10.1029/2022JG007113"
-  },
-  {
-    "objectID": "about.html#peer-reviewed",
-    "href": "about.html#peer-reviewed",
-    "title": "UBC Micromet",
-    "section": "Peer Reviewed",
-    "text": "Peer Reviewed\n\n@quan_estimating_2023 @russell_increased_2023 @lee_biogeochemical_2022 @nyberg_impacts_2022 @lee_biophysical_2021"
-  },
-  {
-    "objectID": "about.html#research-talks",
-    "href": "about.html#research-talks",
-    "title": "UBC Micromet",
-    "section": "Research Talks",
-    "text": "Research Talks"
-  },
-  {
-    "objectID": "about.html#posters",
-    "href": "about.html#posters",
-    "title": "UBC Micromet",
-    "section": "Posters",
-    "text": "Posters"
-  },
-  {
-    "objectID": "about.html#territorial-and-cultural-acknowledgement",
-    "href": "about.html#territorial-and-cultural-acknowledgement",
-    "title": "UBC Micromet",
-    "section": "Territorial and Cultural Acknowledgement",
-    "text": "Territorial and Cultural Acknowledgement\nUBC Micromet is based out of the University of British Columbia, which traditional, ancestral, and unceded on xʷməθkʷəy̓əm (Musqueam) teritory. Our field sites are located in the the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This area encompass the traditional territories of a number of First Nations, including the: xʷməθkʷəy̓əm, Stó:lō, sc̓əwaθenaɁɬ təməxʷ (Tsawwassen), kwantlen, Semiahmoo, Stz’uminus, Á,LEṈENEȻ ȽTE (W̱SÁNEĆ), and sq̓əc̓iy̓aɁɬ təməxʷ (Katzie) people. For more information on Indigenous territories around the world, check out NativeLand.ca."
-  },
-  {
-    "objectID": "Publications.html#research",
-    "href": "Publications.html#research",
-    "title": "Publications",
-    "section": "Research",
-    "text": "Research\nQuan et al. (2023)\n\n\n\n\n\n\nQuan, N., Lee, S.-C., Chopra, C., Nesic, Z., Porto, P., Pow, P., et al. (2023). Estimating Net Carbon and Greenhouse Gas Balances of Potato and Pea Crops on a Conventional Farm in Western Canada. Journal of Geophysical Research: Biogeosciences, 128(3), e2022JG007113. https://doi.org/10.1029/2022JG007113"
-  },
-  {
-    "objectID": "Publications.html#research-talks",
-    "href": "Publications.html#research-talks",
-    "title": "Publications",
-    "section": "Research Talks",
-    "text": "Research Talks\n\n2023\n\n\nSkeeter & Knox (2023) Knox & Skeeter (2023) Ng & Knox (2022) Lu et al. (2022) Satriawan et al. (2022) Satriawan et al. (2022) Satriawan et al. (2021) Russell (2021) Satriawan et al. (2020) Nyberg et al. (2020)\n\n\n\n\n\n\nKnox, S., & Skeeter, J. (2023, March). UBC micrometeorology lab studies review. Research Talk, presented at the Burns Bog Ecological Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy Area Scientific Advisory Panel Meeting, Burnaby, BC.\n\n\nSkeeter, J., & Knox, S. (2023, April). Ongoing and proposed research in the burns bog ecological conservancy area. Research Talk, presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, September). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the AsiaFulx Conference, Sarawak Malaysia.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, June). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the Canadian Geophysical Union Annual Meeting, Saskatoon, SK.\n\n\nLu, T.-Y., Russell, S., Skeeter, J., Lee, S., Oikawa, P., & Knox, S. (2022, December). Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in british columbia. Poster, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nNg, D., & Knox, S. (2022, December). Characterizing within-footprint spatial heterogeneity of CH4 emissions in freshwater wetlands through remote sensing and Footprint-weighted Flux Maps. Research Talk, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2021, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the American Geophysical Union Annual Meeting, New Orleans, LA.\n\n\nRussell, S. (2021). Increased salinity decreases annual gross primary productivity of a Northern California brackish wetland (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0406272\n\n\nNyberg, M., S, K., Black, T., Johnson, M., Ketler, R., & Nesic, Z. (2020, December). Impacts of restoration and climate variability on peatland greenhouse gas fluxes. Research Talk, presented at the American Geophysical Union Annual Meeting, *remote*.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2020, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the American Geophysical Union Annual Meeting, *remote*.\n\n\n\n\nKnox, S., & Skeeter, J. (2023, March). UBC micrometeorology lab studies review. Research Talk, presented at the Burns Bog Ecological Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy Area Scientific Advisory Panel Meeting, Burnaby, BC.\n\n\nSkeeter, J., & Knox, S. (2023, April). Ongoing and proposed research in the burns bog ecological conservancy area. Research Talk, presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, September). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the AsiaFulx Conference, Sarawak Malaysia.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, June). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the Canadian Geophysical Union Annual Meeting, Saskatoon, SK.\n\n\nLu, T.-Y., Russell, S., Skeeter, J., Lee, S., Oikawa, P., & Knox, S. (2022, December). Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in british columbia. Poster, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nNg, D., & Knox, S. (2022, December). Characterizing within-footprint spatial heterogeneity of CH4 emissions in freshwater wetlands through remote sensing and Footprint-weighted Flux Maps. Research Talk, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2021, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the American Geophysical Union Annual Meeting, New Orleans, LA.\n\n\nRussell, S. (2021). Increased salinity decreases annual gross primary productivity of a Northern California brackish wetland (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0406272\n\n\nNyberg, M., S, K., Black, T., Johnson, M., Ketler, R., & Nesic, Z. (2020, December). Impacts of restoration and climate variability on peatland greenhouse gas fluxes. Research Talk, presented at the American Geophysical Union Annual Meeting, *remote*.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2020, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. Research Talk, presented at the American Geophysical Union Annual Meeting, *remote*."
-  },
-  {
-    "objectID": "Publications.html#poster-presentations",
-    "href": "Publications.html#poster-presentations",
-    "title": "Publications",
-    "section": "Poster Presentations",
-    "text": "Poster Presentations"
-  },
-  {
     "objectID": "Publications.html#theses",
     "href": "Publications.html#theses",
     "title": "Publications",
@@ -194,5 +138,12 @@
     "title": "Publications",
     "section": "Research Talks & Poster Presentations",
     "text": "Research Talks & Poster Presentations\n\n\nSkeeter & Knox (2023) Knox & Skeeter (2023) Ng & Knox (2022) Lu et al. (2022) Satriawan et al. (2022) Satriawan et al. (2022) Satriawan et al. (2021) Satriawan et al. (2020) Nyberg et al. (2020)\n\n\n\n\n\n\nSkeeter, J., & Knox, S. (2023, April). Ongoing and proposed research in the burns bog ecological conservancy area. paper-conference, presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC.\n\n\nKnox, S., & Skeeter, J. (2023, March). UBC micrometeorology lab studies review. paper-conference, presented at the Burns Bog Ecological Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy Area Scientific Advisory Panel Meeting, Burnaby, BC.\n\n\nLu, T.-Y., Russell, S., Skeeter, J., Lee, S., Oikawa, P., & Knox, S. (2022, December). Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in british columbia. paper-conference, Poster presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nNg, D., & Knox, S. (2022, December). Characterizing within-footprint spatial heterogeneity of CH4 emissions in freshwater wetlands through remote sensing and Footprint-weighted Flux Maps. paper-conference, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, September). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the AsiaFulx Conference, Sarawak Malaysia.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, June). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the Canadian Geophysical Union Annual Meeting, Saskatoon, SK.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2021, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the American Geophysical Union Annual Meeting, New Orleans, LA.\n\n\nNyberg, M., S, K., Black, T., Johnson, M., Ketler, R., & Nesic, Z. (2020, December). Impacts of restoration and climate variability on peatland greenhouse gas fluxes. paper-conference, presented at the American Geophysical Union Annual Meeting, *remote*.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2020, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the American Geophysical Union Annual Meeting, *remote*."
+  },
+  {
+    "objectID": "UsingGit.html",
+    "href": "UsingGit.html",
+    "title": "Using Git",
+    "section": "",
+    "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
   }
 ]
