@@ -40,5 +40,9 @@
   },
   "DatabaseWorkflows.qmd": {
     "DatabaseWorkflows.html": "6929fef3"
+  },
+  "Publications.qmd": {
+    "Publications.tex": "e61d734b",
+    "Publications.html": "7267e577"
   }
 }

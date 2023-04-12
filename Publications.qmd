@@ -1,0 +1,86 @@
+---
+title: "Publications"
+# author:
+#   - name: Dr. June Skeeter
+#     email: june.skeeter@ubc.ca
+#     url: https://june-skeeter.github.io/
+#     pronouns: "they/them/theirs"
+#     phone: "604 440 1697"
+
+# format: 
+#   pdf:
+#     template-partials: 
+#       - title.tex
+#     # mainfont: TeX Gyre Bonum
+# 	# see for more font options -> https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide
+#     linestretch: 1.25
+#     include-in-header:
+#       text: |
+#         \usepackage[blocks]{authblk}
+#         \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
+
+#   html: 
+#     code-fold: true
+
+bibliography: lab_publications.bib
+section-bibs-bibliography: lab_publications.bib
+filters:
+  - section-bibliographies
+section-bibs-level: 2 # May require edit to line 78 in _extensions/section-bibliographies.lua - have submitted issue
+citeproc: False
+
+csl: american-geophysical-union.csl
+
+---
+
+## Peer Reviewed Journal Articles
+
+
+::: {.content-visible when-format="html"}
+::: {.hidden}
+
+@quan_estimating_2023
+
+@russell_increased_2023
+
+@lee_biogeochemical_2022
+
+@nyberg_impacts_2022
+
+@lee_biophysical_2021
+
+:::
+:::
+
+## Theses
+
+::: {.content-visible when-format="html"}
+::: {.hidden}
+
+@satriawan_interannual_2022
+
+@russell_increased_2021
+
+@nyberg_impacts_2021
+
+:::
+:::
+
+## Research Talks & Poster Presentations
+
+::: {.content-visible when-format="html"}
+::: {.hidden}
+
+@skeeter_ongoing_2023
+@knox_ubc_2023
+@ng_characterizing_2022
+@lu_investigating_2022
+@satriawan_interannual_2022_a
+@satriawan_interannual_2022_b
+@satriawan_interannual_2021
+@russell_increased_2020
+@nyberg_impacts_2020
+
+:::
+:::
+

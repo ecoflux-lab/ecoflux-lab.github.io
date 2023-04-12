@@ -28,6 +28,8 @@ website:
           text: Home
         - href: about.qmd
           text: About
+        - href: Publications.qmd
+          text: Publications
     - id: docs
       title: "Documentation"
       style: "floating"
