@@ -52,8 +52,8 @@ website:
           text: Calibration
         - href: Cleaning.qmd
           text: Cleaning
-        - href: Checklists_and_logs/Checklists.qmd
-          text: Checklists
+        # - href: Checklists_and_logs/Checklists.qmd
+        #   text: Checklists
   # page-footer:
   #   right:
   #     - icon: github

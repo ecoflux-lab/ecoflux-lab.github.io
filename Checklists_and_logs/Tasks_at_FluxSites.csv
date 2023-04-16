@@ -7,7 +7,7 @@ id,Task,Notes
 5,Check radiometers, Clean as needed
 6,Check rain gauge, Clean as needed
 7,Check wildlife camera, Swap SD card and replace batteries (8AA) as needed
-8,Measure water table depth," Take manual reading with probe record level and date/time.  Record on google drive under ""site""\Flux-tower\met_data\WTH"
+8,Measure water table depth,Take manual reading with probe record level and date/time.  Record on google drive: [BB1](https://drive.google.com/file/d/1QajVjXVlGsn21NuYuNMzJlUC_nTXlq9b/view?usp=sharing) [BB2](https://drive.google.com/file/d/1fJLsxMR_qJRs8F_v0SV6sYmdG-TmwAmn/view?usp=sharing) [DSM](https://drive.google.com/file/d/1DzuL0YOV3cZ7lpyCn-zHyIBw9Y3qVRbL/view?usp=sharing) [RBM](https://drive.google.com/file/d/1E4SaGMbuuLVa9lpvtXtp5p8kGY5qqdDu/view?usp=sharing) - the csv files are under /Flux-tower/met_data/WTH in each site's google drive folder
 9,Check SWC Sensor ,Ensure it is still positioned correctly
 10,Check Desiccant in Wtd Probe,BB1 - inside logger box <br> BB2 - outside logger box below
 11,Check Battery Box,Ensure there is no water inside
