@@ -37,6 +37,8 @@ website:
       align: left
       contents:
         - Documentation.qmd
+        - href: LabInfo.qmd
+          text: Information
         - href: UsingGit.qmd
           text: Using Git
         - href: DatabaseWorkflows.qmd

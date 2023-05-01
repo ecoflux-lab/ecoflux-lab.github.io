@@ -44,5 +44,8 @@
   "Publications.qmd": {
     "Publications.tex": "e61d734b",
     "Publications.html": "7267e577"
+  },
+  "LabInfo.qmd": {
+    "LabInfo.html": "57aaf76d"
   }
 }
