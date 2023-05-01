@@ -112,6 +112,13 @@
     "text": "Welcome! Our research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy."
   },
   {
+    "objectID": "LabInfo.html",
+    "href": "LabInfo.html",
+    "title": "Information for Current Lab Members",
+    "section": "",
+    "text": "This page provides information and links to documentation that are relevant to current members of the lab"
+  },
+  {
     "objectID": "Publications.html",
     "href": "Publications.html",
     "title": "Publications",
@@ -138,26 +145,5 @@
     "title": "Using Git",
     "section": "",
     "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
-  },
-  {
-    "objectID": "index.html#territorial-and-cultural-acknowledgement",
-    "href": "index.html#territorial-and-cultural-acknowledgement",
-    "title": "UBC Micromet",
-    "section": "Territorial and Cultural Acknowledgement",
-    "text": "Territorial and Cultural Acknowledgement\nUBC Micromet is based out of the University of British Columbia, which traditional, ancestral, and unceded on xʷməθkʷəy̓əm (Musqueam) teritory. Our field sites are located in the the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This area encompass the traditional territories of a number of First Nations, including the: xʷməθkʷəy̓əm, Stó:lō, sc̓əwaθenaɁɬ təməxʷ (Tsawwassen), kwantlen, Semiahmoo, Stz’uminus, Á,LEṈENEȻ ȽTE (W̱SÁNEĆ), and sq̓əc̓iy̓aɁɬ təməxʷ (Katzie) people. For more information on Indigenous territories around the world, check out NativeLand.ca."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "UBC Micromet",
-    "section": "Welcome!",
-    "text": "Welcome!\nOur research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy."
-  },
-  {
-    "objectID": "LabInfo.html",
-    "href": "LabInfo.html",
-    "title": "Information for Current Lab Members",
-    "section": "",
-    "text": "This page provides information and links to documentation that are relevant to current members of the lab"
   }
 ]

@@ -1,27 +1,5 @@
 ---
 title: "Publications"
-# author:
-#   - name: Dr. June Skeeter
-#     email: june.skeeter@ubc.ca
-#     url: https://june-skeeter.github.io/
-#     pronouns: "they/them/theirs"
-#     phone: "604 440 1697"
-
-# format: 
-#   pdf:
-#     template-partials: 
-#       - title.tex
-#     # mainfont: TeX Gyre Bonum
-# 	# see for more font options -> https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide
-#     linestretch: 1.25
-#     include-in-header:
-#       text: |
-#         \usepackage[blocks]{authblk}
-#         \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
-
-#   html: 
-#     code-fold: true
-
 bibliography: lab_publications.bib
 section-bibs-bibliography: lab_publications.bib
 filters:
