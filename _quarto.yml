@@ -37,12 +37,12 @@ website:
       align: left
       contents:
         - Documentation.qmd
-        - href: LabInfo.qmd
-          text: Information for Current Lab Members
         - href: UsingGit.qmd
           text: Using Git
         - href: DatabaseWorkflows.qmd
           text: Database
+        - href: LabInfo.qmd
+          text: Information for Current Lab Members
     - id: field-work
       title: "Field Work"
       style: "floating"
