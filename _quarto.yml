@@ -38,7 +38,7 @@ website:
       contents:
         - Documentation.qmd
         - href: LabInfo.qmd
-          text: Information
+          text: Information for Current Lab Members
         - href: UsingGit.qmd
           text: Using Git
         - href: DatabaseWorkflows.qmd

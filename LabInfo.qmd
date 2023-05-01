@@ -5,7 +5,5 @@ title: "Information for current lab members"
 
 This page provides information and links to documentation that are relevant to current members of the lab
 
-* Tips and tricks for coding and using github.
-* Links to relevant information.
 
 
