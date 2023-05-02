@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "UsingGit.html",
+    "href": "UsingGit.html",
+    "title": "Using Git",
+    "section": "",
+    "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
+  },
+  {
+    "objectID": "Documentation.html",
+    "href": "Documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "This page is intended to serve as a catchall with general information for the lab.\n\nResources for current members of the lab.\nTips and tricks for coding and using github.\nLinks to relevant information.\nOverview of the data pipeline and database."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "UBC Micromet",
+    "section": "",
+    "text": "Welcome! Our research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy."
+  },
+  {
+    "objectID": "Publications.html",
+    "href": "Publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Quan et al. (2023)\nRussell et al. (2023)\nLee et al. (2022)\nNyberg et al. (2022)\nLee et al. (2021)\n\n\n\n\nRussell, S. J., Windham-Myers, L., Stuart-Haëntjens, E. J., Bergamaschi, B. A., Anderson, F., Oikawa, P., & Knox, S. H. (2023). Increased salinity decreases annual gross primary productivity at a Northern California brackish tidal marsh. Environmental Research Letters, 18(3), 034045. https://doi.org/10.1088/1748-9326/acbbdf\n\n\nQuan, N., Lee, S.-C., Chopra, C., Nesic, Z., Porto, P., Pow, P., et al. (2023). Estimating Net Carbon and Greenhouse Gas Balances of Potato and Pea Crops on a Conventional Farm in Western Canada. Journal of Geophysical Research: Biogeosciences, 128(3), e2022JG007113. https://doi.org/10.1029/2022JG007113\n\n\nLee, S.-C., Knox, S. H., McKendry, I., & Black, T. A. (2022). Biogeochemical and biophysical responses to episodes of wildfire smoke from natural ecosystems in southwestern British Columbia, Canada. Atmospheric Chemistry and Physics, 22(4), 2333–2349. https://doi.org/10.5194/acp-22-2333-2022\n\n\nNyberg, M., Black, T. A., Ketler, R., Lee, S.-C., Johnson, M., Merkens, M., et al. (2022). Impacts of Active Versus Passive Re-Wetting on the Carbon Balance of a Previously Drained Bog. Journal of Geophysical Research: Biogeosciences, 127(9), e2022JG006881. https://doi.org/10.1029/2022JG006881\n\n\nLee, S.-C., Black, T. A., Nyberg, M., Merkens, M., Nesic, Z., Ng, D., & Knox, S. H. (2021). Biophysical Impacts of Historical Disturbances, Restoration Strategies, and Vegetation Types in a Peatland Ecosystem. Journal of Geophysical Research: Biogeosciences, 126(10), e2021JG006532. https://doi.org/10.1029/2021JG006532"
+  },
+  {
+    "objectID": "Publications.html#theses",
+    "href": "Publications.html#theses",
+    "title": "Publications",
+    "section": "Theses",
+    "text": "Theses\n\n\nSatriawan (2022)\nRussell (2021)\nNyberg (2021)\n\n\n\n\nSatriawan, T. (2022). Interannual variability of carbon dioxide (CO₂) and methane (CH₄) fluxes in a temperate bog over a 5-year period (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0416306\n\n\nNyberg, M. (2021). Impacts of restoration and climate variability on peatland GHG fluxes (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0401463\n\n\nRussell, S. (2021). Increased salinity decreases annual gross primary productivity of a Northern California brackish wetland (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0406272"
+  },
+  {
+    "objectID": "Publications.html#research-talks-poster-presentations",
+    "href": "Publications.html#research-talks-poster-presentations",
+    "title": "Publications",
+    "section": "Research Talks & Poster Presentations",
+    "text": "Research Talks & Poster Presentations\n\n\nSkeeter & Knox (2023) Knox & Skeeter (2023) Ng & Knox (2022) Lu et al. (2022) Satriawan et al. (2022) Satriawan et al. (2022) Satriawan et al. (2021) Satriawan et al. (2020) Nyberg et al. (2020)\n\n\n\n\n\n\nSkeeter, J., & Knox, S. (2023, April). Ongoing and proposed research in the burns bog ecological conservancy area. paper-conference, presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC.\n\n\nKnox, S., & Skeeter, J. (2023, March). UBC micrometeorology lab studies review. paper-conference, presented at the Burns Bog Ecological Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy Area Scientific Advisory Panel Meeting, Burnaby, BC.\n\n\nLu, T.-Y., Russell, S., Skeeter, J., Lee, S., Oikawa, P., & Knox, S. (2022, December). Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in british columbia. paper-conference, Poster presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nNg, D., & Knox, S. (2022, December). Characterizing within-footprint spatial heterogeneity of CH4 emissions in freshwater wetlands through remote sensing and Footprint-weighted Flux Maps. paper-conference, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, September). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the AsiaFulx Conference, Sarawak Malaysia.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, June). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the Canadian Geophysical Union Annual Meeting, Saskatoon, SK.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2021, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the American Geophysical Union Annual Meeting, New Orleans, LA.\n\n\nNyberg, M., S, K., Black, T., Johnson, M., Ketler, R., & Nesic, Z. (2020, December). Impacts of restoration and climate variability on peatland greenhouse gas fluxes. paper-conference, presented at the American Geophysical Union Annual Meeting, *remote*.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2020, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the American Geophysical Union Annual Meeting, *remote*."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "UBC Micromet",
@@ -12,6 +54,34 @@
     "title": "UBC Micromet",
     "section": "Territorial and Cultural Acknowledgement",
     "text": "Territorial and Cultural Acknowledgement\nUBC Micromet is based out of the University of British Columbia, which traditional, ancestral, and unceded on xʷməθkʷəy̓əm (Musqueam) teritory. Our field sites are located in the the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This area encompass the traditional territories of a number of First Nations, including the: xʷməθkʷəy̓əm, Stó:lō, sc̓əwaθenaɁɬ təməxʷ (Tsawwassen), kwantlen, Semiahmoo, Stz’uminus, Á,LEṈENEȻ ȽTE (W̱SÁNEĆ), and sq̓əc̓iy̓aɁɬ təməxʷ (Katzie) people. For more information on Indigenous territories around the world, check out NativeLand.ca"
+  },
+  {
+    "objectID": "LabInfo.html",
+    "href": "LabInfo.html",
+    "title": "Information for Current Lab Members",
+    "section": "",
+    "text": "This page provides information and links to documentation that are relevant to current members of the lab"
+  },
+  {
+    "objectID": "LabInfo.html#information-for-new-lab-members",
+    "href": "LabInfo.html#information-for-new-lab-members",
+    "title": "Information for Current Lab Members",
+    "section": "Information for new lab members",
+    "text": "Information for new lab members\n\nAdd your info to the ‘Lab contact information’ doc in Google Drive\nReview the Grad Expectations document \nCoordinate a day/time for your bi-weekly lab meeting with Sara\nMake sure you’ve been added to the Google Drive account and Slack Workspace\nSend bio and picture to Sara so that she can add you to the lab website\nReview program requirements (see below). More information on potential courses can be found here."
+  },
+  {
+    "objectID": "LabInfo.html#program-requirements",
+    "href": "LabInfo.html#program-requirements",
+    "title": "Information for Current Lab Members",
+    "section": "Program requirements",
+    "text": "Program requirements\n\nPhD (typical timeline)\n\nFall term Year 1\n\nComplete memo of expectations  in September.\nCourses\nGEOS 500 - develop literature Review and preliminary proposal\n\nSpring term Year 1\n\nCourses\nWork with supervisor to refine preliminary proposal/research gap. Identify committee members\nComplete spring review - present preliminary proposal, assess progress, discuss timeline for comprehensive exams, set tentative topics, confirm committee, confirm any further coursework\n\nSummer Year 1\n\nFieldwork/research\nFormalise comps reading lists and topics. More details on the comps policy can be found here.\n\nFall term Year 2\n\nComplete memo of expectations  in September.\nFieldwork/research\nPrepare and distribute proposal\n\nSpring term Year 2\n\nFieldwork/research\nComprehensive Exam (written exam followed by oral examination two weeks later)\n\nComplete annual review by end of spring/early summer\n\n\nSummer Year 2\n\nFieldwork/research\nFormal meeting to approve Proposal (or previous spring)\n\nFall term Year 3\n\nComplete memo of expectations  in September.\nFieldwork/research\n\nSpring term Year 3\n\nComplete memo of expectations by end of May\nComplete annual review by end of spring/early summer\nFieldwork/research\n\nSummer term Year 3\n\nFieldwork/research\n\nFall term Year 4\n\nComplete memo of expectations  in September.\nResearch\nCheck doctoral deadlines to plan out timing of defense\n\nBe mindful of the time required to complete the examination process\nThe External Examiner nomination form needs to be submitted ~5 months before the expected defense date. Nomination is the supervisor’s responsibility. Candidates should keep tabs on the process to ensure timely submission, but are not allowed to know who the examiner is.\n\n\nSpring term Year 4\n\nComplete annual review by end of spring/early summer\nResearch\nShare thesis with Supervisory Committee\n\nCommittee may take a while read/approve document\nIncorporate changes/edits\n\nNominate University Examiners - Supervisor’s responsibility, but candidate should keep tabs to ensure the\nSubmit thesis to GPS for external examination\n\nPlan for a defense 6-8 weeks after submitting\n\nShould anticipate that the examiner will take 4-6 weeks to review the thesis.\nThe earliest possible defense date is 1 week after the external report is submitted.\n\nSummer term Year 4\n\nOral exam\n\nNote: Exam must be scheduled at least 4 weeks in advance. *Make necessary revisions/edits\nDue within 1 month of defense\n\n\n\n\n\nMSc (typical timeline)\n\nFall term Year 1\n\nComplete memo of expectations  in September.\nCourses\nGEOS 500 - develop literature Review and preliminary proposal\n\nSpring term Year 1\n\nCourses\nWork with supervisor to refine preliminary proposal/research gap. Identify committee members\nComplete spring review - present preliminary proposal, assess progress\n\nSummer Year 1\n\nFieldwork/research\n\nFall term Year 2\n\nComplete memo of expectations  in September.\nFieldwork/research\n\nSpring term Year 2\n\nFieldwork/research\nComplete annual review by end of spring/early summer\nPresent thesis at Spring Symposium\n\nSummer Year 2\n\nThesis defense & submit final thesis (guidelines for the thesis can be found here). And see ‘msc-thesis-defence-revised.pdf’ doc for details."
+  },
+  {
+    "objectID": "LabInfo.html#leaving-the-lab-checklist",
+    "href": "LabInfo.html#leaving-the-lab-checklist",
+    "title": "Information for Current Lab Members",
+    "section": "Leaving the lab checklist",
+    "text": "Leaving the lab checklist\nWe’re sad to see you go, but we’re excited for your next adventure! However, before you leave, make sure to:\n\nUpload your code to github (or share it with Sara directly). Make sure to follow the guidelines for reproducible data flow so that we can run all your code after you leave!\nMake sure to share all relevant data with Sara. Ideally this would be in the data folder in each of your project/chapter folders.\nReturn all keys, equipment, field gear that belong to be lab/university."
   },
   {
     "objectID": "Calibration.html",
@@ -56,13 +126,6 @@
     "text": "Set CH4 span\n7{: .label .label-green} Move flow meter to CH4 tank and open the main valve (on is left, off is right). * Note: PSI should be ~ 1200 (not necessary to the procedure, but good to note as it will decrease over time and indicated when we need a new gas tank) ### To Do: Confirm value?\n8{: .label .label-green} Enter CH4 concentration (ppm), Confirm the exact value on the tank. Then Watch plot on the program: CH4 should increase until it stabilizes. On the calibration screen – green flags show that CH4 concentrations are steady. You may need to change the scale on the chart again. * Click “Span CH4” > “Apply”\n9{: .label .label-green} Close regulator then close the main CH4 tank value and disconnect the flow meter. * Check how much gas we have left & take a picture\n10{: .label .label-green} Remove the calibration shield, make sure to disconnect the tubing first. Then make sure to replace the 7700 head cap and washer tube first.\n\nTo Do: Check the Coefficients"
   },
   {
-    "objectID": "Cleaning.html",
-    "href": "Cleaning.html",
-    "title": "Cleaning Procedures",
-    "section": "",
-    "text": "Cleaning Procedures\n{: .no_toc }\nThis page details the steps for cleaning the 7700 and 7200. Always do the 7700 first, followed by the 7200. You must clean the sensors before calibration.\n\n\nTable of contents\n\n{: .text-delta } 1. TOC {:toc}\n\n\n\n\nGetting Started\n1{: .label .label-red} Connect the laptop to the site system using the ethernet cable and dongle to the top box on the outside of the scaffolding. Note: remote connection via vinimet & mobile hotspot can also work in a pinch.\n\nTo Do: Add pics of logger box at each each site for reference.\n 2{: .label .label-red} Retract the boom to access the flux sensors. Loosen the two bolts securing the boom > pull quick release tab> slide boom in > Be mindful of cables * For BB1 & DSM: place stepladder on plywood on the ground. Make sure it’s solid.\n\n\n\n\nFor BB2 & RBM: loosen the wing nut > remove the fastening boot > lift up sensors to reduce force needed to pull out the bolt > rotate the arm to bring the sensors within reach from platform. Be careful this can be quite difficult.\n\n\n\n\n3{: .label .label-red} Do a visual inspection of the sensors and note/address any obvious issues.\n\n\n\n\nCleaning the LI 7700\n1{: .label .label-blue} On the laptop, open the program ‘LI-7700’. Click “Connect” >> Ethernet >> Select Instrument >> Connect. Open 2nd data page and look at the single graph with signal strength\n\nTo Do: Add Screenshot\n\n2{: .label .label-blue} Wipe top and bottom windows with windshield cleaner (wet then dry cloth) until signal strength is sufficient:\n\n\n\n\nDesired LI 7700 Signal Strength by Site\n\n\n\n\nSite\nValue\n\n\n\n\nBB1\nHigh 50’s\n\n\nBB2\nAround 80\n\n\nDMS\nAround 70\n\n\nRBM\n…\\\n\n\n\n3{: .label .label-blue} Disconnect from the 7700 and close the LI-7700 program.\n\n\n\n\nCleaning the LI 7200\n1{: .label .label-green} Power down the flux system. Inside the power box, flip the 3 switches as shown in the table below. The power is off when the red light is on.\n\nEC Sensor Power Channels\n\n\n\n\nSite\nLI-7200 flow module (pump)\nLI-7700\nLI-7550\n\n\n\n\nBB1\n12\n7\n2\n\n\nBB2\n3\n4\n5\n\n\nDMS\n3\n4\n5\n\n\nRBM\nTBD\nTBD\nTBD\n\n\n\n2{: .label .label-green} Take the intake tube off by loosening the nut with a wrench. The tube can then just hang loosely from the tower, disconnected from the 7200. Then loosen the knobs on top of 7200 to release the top and take side part off to open the 7200 sensor head. This can can hang next to the instrument while cleaning.\n\n\n\n\n\n\n3{: .label .label-green} Wipe top and bottom windows with windshield cleaner (wet then dry cloth). Then clean intake filter with a wipe. * You may need to replace with a spare clean cap intake. If so: remove the foil wrap, loosen the metal ring with pliers and push it all the way to the tube, remove and replace the cap, use pliers to put the metal ring back on the cap\n4{: .label .label-green} Power system back up using switches listed in the table above. Note: The start up sequence is: 1) LI-7200 pump, 2) LI-7700, 3) LI-7550. Allow 90 seconds between each sensor when powering up. This order is important for proper start up.\n* Inside the Li-7550 box, the USB logging light should be flashing\n5{: .label .label-green} On the laptop open the LI 7x00 program and connect the the 7500 to check that the signal strength is sufficient:\n\nDesired LI 7200 Signal Strength by Site\n\n\n\n\nSite\nValue\n\n\n\n\nBB1\nAbout 100\n\n\nBB2\nAbout 103\n\n\nDMS\nAbout 102\n\n\nRBM\n…"
-  },
-  {
     "objectID": "DatabaseWorkflows.html",
     "href": "DatabaseWorkflows.html",
     "title": "Database",
@@ -70,11 +133,11 @@
     "text": "Add the info for database here"
   },
   {
-    "objectID": "Documentation.html",
-    "href": "Documentation.html",
-    "title": "Documentation",
+    "objectID": "ReproducibleDataFlow.html",
+    "href": "ReproducibleDataFlow.html",
+    "title": "Tips for Reproducible Data Flow",
     "section": "",
-    "text": "This page is intended to serve as a catchall with general information for the lab.\n\nTips and tricks for coding and using github.\nLinks to relevant information."
+    "text": "More to come soon"
   },
   {
     "objectID": "FieldWorkProcedures.html",
@@ -105,45 +168,10 @@
     "text": "Safety\nEnsure that you are familiar with the lab’s Safety Plan\n\nIn Summer: Be cautions of fire safety:\n\nDon’t park on gras, bring water sprayer spray and fire extinguisher.\n\nIn Winter: Be mindful of the weather forecasts:\n\nDress appropriately, bring extra socks, a head lamp, gloves, etc.\nCheck the tides when going to RBM or DSM"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "UBC Micromet",
+    "objectID": "Cleaning.html",
+    "href": "Cleaning.html",
+    "title": "Cleaning Procedures",
     "section": "",
-    "text": "Welcome! Our research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy."
-  },
-  {
-    "objectID": "LabInfo.html",
-    "href": "LabInfo.html",
-    "title": "Information for Current Lab Members",
-    "section": "",
-    "text": "This page provides information and links to documentation that are relevant to current members of the lab"
-  },
-  {
-    "objectID": "Publications.html",
-    "href": "Publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Quan et al. (2023)\nRussell et al. (2023)\nLee et al. (2022)\nNyberg et al. (2022)\nLee et al. (2021)\n\n\n\n\nRussell, S. J., Windham-Myers, L., Stuart-Haëntjens, E. J., Bergamaschi, B. A., Anderson, F., Oikawa, P., & Knox, S. H. (2023). Increased salinity decreases annual gross primary productivity at a Northern California brackish tidal marsh. Environmental Research Letters, 18(3), 034045. https://doi.org/10.1088/1748-9326/acbbdf\n\n\nQuan, N., Lee, S.-C., Chopra, C., Nesic, Z., Porto, P., Pow, P., et al. (2023). Estimating Net Carbon and Greenhouse Gas Balances of Potato and Pea Crops on a Conventional Farm in Western Canada. Journal of Geophysical Research: Biogeosciences, 128(3), e2022JG007113. https://doi.org/10.1029/2022JG007113\n\n\nLee, S.-C., Knox, S. H., McKendry, I., & Black, T. A. (2022). Biogeochemical and biophysical responses to episodes of wildfire smoke from natural ecosystems in southwestern British Columbia, Canada. Atmospheric Chemistry and Physics, 22(4), 2333–2349. https://doi.org/10.5194/acp-22-2333-2022\n\n\nNyberg, M., Black, T. A., Ketler, R., Lee, S.-C., Johnson, M., Merkens, M., et al. (2022). Impacts of Active Versus Passive Re-Wetting on the Carbon Balance of a Previously Drained Bog. Journal of Geophysical Research: Biogeosciences, 127(9), e2022JG006881. https://doi.org/10.1029/2022JG006881\n\n\nLee, S.-C., Black, T. A., Nyberg, M., Merkens, M., Nesic, Z., Ng, D., & Knox, S. H. (2021). Biophysical Impacts of Historical Disturbances, Restoration Strategies, and Vegetation Types in a Peatland Ecosystem. Journal of Geophysical Research: Biogeosciences, 126(10), e2021JG006532. https://doi.org/10.1029/2021JG006532"
-  },
-  {
-    "objectID": "Publications.html#theses",
-    "href": "Publications.html#theses",
-    "title": "Publications",
-    "section": "Theses",
-    "text": "Theses\n\n\nSatriawan (2022)\nRussell (2021)\nNyberg (2021)\n\n\n\n\nSatriawan, T. (2022). Interannual variability of carbon dioxide (CO₂) and methane (CH₄) fluxes in a temperate bog over a 5-year period (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0416306\n\n\nNyberg, M. (2021). Impacts of restoration and climate variability on peatland GHG fluxes (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0401463\n\n\nRussell, S. (2021). Increased salinity decreases annual gross primary productivity of a Northern California brackish wetland (Master’s thesis). University of British Columbia. https://doi.org/10.14288/1.0406272"
-  },
-  {
-    "objectID": "Publications.html#research-talks-poster-presentations",
-    "href": "Publications.html#research-talks-poster-presentations",
-    "title": "Publications",
-    "section": "Research Talks & Poster Presentations",
-    "text": "Research Talks & Poster Presentations\n\n\nSkeeter & Knox (2023) Knox & Skeeter (2023) Ng & Knox (2022) Lu et al. (2022) Satriawan et al. (2022) Satriawan et al. (2022) Satriawan et al. (2021) Satriawan et al. (2020) Nyberg et al. (2020)\n\n\n\n\n\n\nSkeeter, J., & Knox, S. (2023, April). Ongoing and proposed research in the burns bog ecological conservancy area. paper-conference, presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC.\n\n\nKnox, S., & Skeeter, J. (2023, March). UBC micrometeorology lab studies review. paper-conference, presented at the Burns Bog Ecological Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy Area Scientific Advisory Panel Meeting, Burnaby, BC.\n\n\nLu, T.-Y., Russell, S., Skeeter, J., Lee, S., Oikawa, P., & Knox, S. (2022, December). Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in british columbia. paper-conference, Poster presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nNg, D., & Knox, S. (2022, December). Characterizing within-footprint spatial heterogeneity of CH4 emissions in freshwater wetlands through remote sensing and Footprint-weighted Flux Maps. paper-conference, presented at the American Geophysical Union Fall Meeting, San Francisco, CA.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, September). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the AsiaFulx Conference, Sarawak Malaysia.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2022, June). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the Canadian Geophysical Union Annual Meeting, Saskatoon, SK.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2021, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the American Geophysical Union Annual Meeting, New Orleans, LA.\n\n\nNyberg, M., S, K., Black, T., Johnson, M., Ketler, R., & Nesic, Z. (2020, December). Impacts of restoration and climate variability on peatland greenhouse gas fluxes. paper-conference, presented at the American Geophysical Union Annual Meeting, *remote*.\n\n\nSatriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson, M., & Knox, S. (2020, December). Interannual variability of carbon dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year period. paper-conference, presented at the American Geophysical Union Annual Meeting, *remote*."
-  },
-  {
-    "objectID": "UsingGit.html",
-    "href": "UsingGit.html",
-    "title": "Using Git",
-    "section": "",
-    "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
+    "text": "Cleaning Procedures\n{: .no_toc }\nThis page details the steps for cleaning the 7700 and 7200. Always do the 7700 first, followed by the 7200. You must clean the sensors before calibration.\n\n\nTable of contents\n\n{: .text-delta } 1. TOC {:toc}\n\n\n\n\nGetting Started\n1{: .label .label-red} Connect the laptop to the site system using the ethernet cable and dongle to the top box on the outside of the scaffolding. Note: remote connection via vinimet & mobile hotspot can also work in a pinch.\n\nTo Do: Add pics of logger box at each each site for reference.\n 2{: .label .label-red} Retract the boom to access the flux sensors. Loosen the two bolts securing the boom > pull quick release tab> slide boom in > Be mindful of cables * For BB1 & DSM: place stepladder on plywood on the ground. Make sure it’s solid.\n\n\n\n\nFor BB2 & RBM: loosen the wing nut > remove the fastening boot > lift up sensors to reduce force needed to pull out the bolt > rotate the arm to bring the sensors within reach from platform. Be careful this can be quite difficult.\n\n\n\n\n3{: .label .label-red} Do a visual inspection of the sensors and note/address any obvious issues.\n\n\n\n\nCleaning the LI 7700\n1{: .label .label-blue} On the laptop, open the program ‘LI-7700’. Click “Connect” >> Ethernet >> Select Instrument >> Connect. Open 2nd data page and look at the single graph with signal strength\n\nTo Do: Add Screenshot\n\n2{: .label .label-blue} Wipe top and bottom windows with windshield cleaner (wet then dry cloth) until signal strength is sufficient:\n\n\n\n\nDesired LI 7700 Signal Strength by Site\n\n\n\n\nSite\nValue\n\n\n\n\nBB1\nHigh 50’s\n\n\nBB2\nAround 80\n\n\nDMS\nAround 70\n\n\nRBM\n…\\\n\n\n\n3{: .label .label-blue} Disconnect from the 7700 and close the LI-7700 program.\n\n\n\n\nCleaning the LI 7200\n1{: .label .label-green} Power down the flux system. Inside the power box, flip the 3 switches as shown in the table below. The power is off when the red light is on.\n\nEC Sensor Power Channels\n\n\n\n\nSite\nLI-7200 flow module (pump)\nLI-7700\nLI-7550\n\n\n\n\nBB1\n12\n7\n2\n\n\nBB2\n3\n4\n5\n\n\nDMS\n3\n4\n5\n\n\nRBM\nTBD\nTBD\nTBD\n\n\n\n2{: .label .label-green} Take the intake tube off by loosening the nut with a wrench. The tube can then just hang loosely from the tower, disconnected from the 7200. Then loosen the knobs on top of 7200 to release the top and take side part off to open the 7200 sensor head. This can can hang next to the instrument while cleaning.\n\n\n\n\n\n\n3{: .label .label-green} Wipe top and bottom windows with windshield cleaner (wet then dry cloth). Then clean intake filter with a wipe. * You may need to replace with a spare clean cap intake. If so: remove the foil wrap, loosen the metal ring with pliers and push it all the way to the tube, remove and replace the cap, use pliers to put the metal ring back on the cap\n4{: .label .label-green} Power system back up using switches listed in the table above. Note: The start up sequence is: 1) LI-7200 pump, 2) LI-7700, 3) LI-7550. Allow 90 seconds between each sensor when powering up. This order is important for proper start up.\n* Inside the Li-7550 box, the USB logging light should be flashing\n5{: .label .label-green} On the laptop open the LI 7x00 program and connect the the 7500 to check that the signal strength is sufficient:\n\nDesired LI 7200 Signal Strength by Site\n\n\n\n\nSite\nValue\n\n\n\n\nBB1\nAbout 100\n\n\nBB2\nAbout 103\n\n\nDMS\nAbout 102\n\n\nRBM\n…"
   }
 ]

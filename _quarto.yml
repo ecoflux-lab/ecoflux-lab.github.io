@@ -33,7 +33,7 @@ website:
     - id: docs
       title: "Documentation"
       style: "floating"
-      collapse-level: 2
+      collapse-level: 3
       align: left
       contents:
         - Documentation.qmd
@@ -41,6 +41,8 @@ website:
           text: Information for Current Lab Members
         - href: UsingGit.qmd
           text: Using Git
+        - href: ReproducibleDataFlow.qmd
+          text: Tips for Reproducible Data Flow
         - href: DatabaseWorkflows.qmd
           text: Database
     - id: field-work
