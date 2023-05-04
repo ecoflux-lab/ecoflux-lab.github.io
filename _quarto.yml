@@ -13,6 +13,10 @@ website:
         text: Documentation
       - href: FieldWorkProcedures.qmd
         text: Field Work
+      - href: Data.qmd
+        text: Data
+      - href: OutreachNews.qmd
+        text: Outreach and News
     right:
       - icon: github
         href: https://github.com/ubc-micromet
@@ -21,15 +25,21 @@ website:
     - id: home
       title: "Home"
       style: "floating"
-      collapse-level: 2
+      collapse-level: 3
       align: left
       contents:
         - href: index.qmd
           text: Home
         - href: about.qmd
           text: About
+        - href: Research.qmd
+          text: Research
+        - href: People.qmd
+          text: People
         - href: Publications.qmd
           text: Publications
+        - href: Join.qmd
+          text: Join the lab
     - id: docs
       title: "Documentation"
       style: "floating"

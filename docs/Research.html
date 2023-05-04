@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UBC Micromet - Using Git</title>
+<title>UBC Micromet - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,11 +80,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link active" href="./index.html" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Documentation.html" aria-current="page">
+    <a class="nav-link" href="./Documentation.html">
  <span class="menu-text">Documentation</span></a>
   </li>  
   <li class="nav-item">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Using Git</h1>
+      <h1 class="quarto-secondary-nav-title">Research</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -128,27 +128,32 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Documentation.html" class="sidebar-item-text sidebar-link">Documentation</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Home</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./LabInfo.html" class="sidebar-item-text sidebar-link">Information for Current Lab Members</a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">About</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./UsingGit.html" class="sidebar-item-text sidebar-link active">Using Git</a>
+  <a href="./Research.html" class="sidebar-item-text sidebar-link active">Research</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ReproducibleDataFlow.html" class="sidebar-item-text sidebar-link">Tips for Reproducible Data Flow</a>
+  <a href="./People.html" class="sidebar-item-text sidebar-link">People</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./DatabaseWorkflows.html" class="sidebar-item-text sidebar-link">Database</a>
+  <a href="./Publications.html" class="sidebar-item-text sidebar-link">Publications</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Join.html" class="sidebar-item-text sidebar-link">Join the lab</a>
   </div>
 </li>
     </ul>
@@ -160,16 +165,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#git-vs-github-whats-the-difference" id="toc-git-vs-github-whats-the-difference" class="nav-link active" data-scroll-target="#git-vs-github-whats-the-difference">Git vs Github … whats the difference?</a>
-  <ul class="collapse">
-  <li><a href="#whats-a-repository" id="toc-whats-a-repository" class="nav-link" data-scroll-target="#whats-a-repository">Whats a Repository?</a></li>
-  <li><a href="#common-git-commands" id="toc-common-git-commands" class="nav-link" data-scroll-target="#common-git-commands">Common Git Commands</a></li>
-  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a>
-  <ul class="collapse">
-  <li><a href="#i-broke-something" id="toc-i-broke-something" class="nav-link" data-scroll-target="#i-broke-something">I broke something :(</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#more-tasks-features" id="toc-more-tasks-features" class="nav-link" data-scroll-target="#more-tasks-features">More Tasks &amp; Features</a></li>
+  <li><a href="#the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program" id="toc-the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program" class="nav-link active" data-scroll-target="#the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program">The integrated GHG Research and Observations in Wetlands (iGROW) Research Program</a></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Using Git</h1>
+<h1 class="title d-none d-lg-block">Research</h1>
 </div>
 
 
@@ -193,58 +189,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="git-vs-github-whats-the-difference" class="level1">
-<h1>Git vs Github … whats the difference?</h1>
-<p>Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.</p>
-<p><strong>Git</strong> is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.</p>
-<p><strong>GitHub</strong> is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.</p>
-<section id="whats-a-repository" class="level2">
-<h2 class="anchored" data-anchor-id="whats-a-repository">Whats a Repository?</h2>
-<p>A repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.</p>
-</section>
-<section id="common-git-commands" class="level2">
-<h2 class="anchored" data-anchor-id="common-git-commands">Common Git Commands</h2>
-<p><strong>init</strong>: Creates an empty repository</p>
-<p><strong>commit</strong>: Tells git to “save” a repository in its current state.</p>
-<p><strong>status</strong>: Checks to see if there are any “untracked” files in your workspace.</p>
-<p><strong>clone:</strong>: Tells git to “copy” a repository from a remote location (i.e.&nbsp;a github URL) to a local directory on you computer</p>
-<p><strong>pull:</strong>: Tells git to “download” any changes from a remote repository (i.e.&nbsp;a github URL you previously cloned) to your local copy</p>
-<p><strong>push</strong>: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e.&nbsp;a github URL you previously cloned)</p>
-<p align="center">
-<img src="images/Git_workflow.png" width="600">
-</p>
-</section>
-<section id="helpful-resources" class="level2">
-<h2 class="anchored" data-anchor-id="helpful-resources">Helpful Resources</h2>
-<p>Nice video tutorial</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3fUbBnN_H2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-<p><a href="https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67">These guidelines</a> will inform how we approach collaborating on a project.</p>
-<p>Add Git Branch Name to Terminal Prompt <a href="https://gist.github.com/joseluisq/1e96c54fa4e1e5647940">(Linux/Mac)</a></p>
-<p align="center">
-<img src="images/AddBranch_Bash.png" width="600">
-</p>
-<section id="i-broke-something" class="level3">
-<h3 class="anchored" data-anchor-id="i-broke-something">I broke something :(</h3>
-<p>Sometimes you break something and need to know how to fix it. Pardon the profanity … but <a href="https://ohshitgit.com/">Oh Shit, Git</a> is a really helpful resource.</p>
-</section>
-</section>
-</section>
-<section id="more-tasks-features" class="level1">
-<h1>More Tasks &amp; Features</h1>
-<p><strong>Issues</strong>: Opening issues on Github allows us to delegate work, discuss task and keep notes on various features. * They can be labeled as bugs, upgrade requests, etc.<br>
-* Issues can be assigned to one or more members of the organization, and you can leave comments to discuss issues. * An issue remains open until they are “closed”.</p>
-<p><strong>Branching</strong>: is a way to create a separate workspace to work on updates, test features, and break things (safely) without affecting the “main” branch. We’ll rely on branches and “branch protection” rules to keep the main (working) branches of repositories safe. More info can be found <a href="https://www.atlassian.com/git/tutorials/using-branches">here</a></p>
-<ul>
-<li>You can use “git branch” to list all existing branches</li>
-<li>You can use “git checkout” to switch between branches
-<ul>
-<li>You can also use “git checkout” to create an new branch</li>
-</ul></li>
-</ul>
-<p><strong>Merging</strong>: is a way to combine branches. An in depth discussion can be found <a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge">here</a></p>
-<p><strong>Conflict Resolution</strong>: This is a tricky task and usually requires a case by case approach to sort things out. We’ll undoubtedly need to do some conflict resolution down the line but lets not worry aoubt it for now.</p>
-<p><strong>Github Pages</strong>: Github can be used to render static sites (like this one). Its a super useful skill/resource. We’ll cover it down the line.</p>
+<p>Our research focuses on measuring and modelling greenhouse gas, water, and energy fluxes across a range of spatial and temporal scales. We combine field-based measurements, remote sensing, and modelling to investigate land-atmosphere interactions in our rapidly changing world, with a current emphasis on wetland ecosystems.</p>
+<section id="the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program" class="level2">
+<h2 class="anchored" data-anchor-id="the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program">The integrated GHG Research and Observations in Wetlands (iGROW) Research Program</h2>
+<p>Among the numerous ecosystem services provided by wetlands climate regulation is identified as one of their most important benefits to society. Wetland ecosystems play an important role in the global carbon cycle; they provide the ideal environment for long-term storage of atmospheric carbon dioxide, yet they are also the largest single source of methane. Climate change has the potential to increase greenhouse gas (GHG) emissions from wetlands, however, the consequences of rising temperatures on wetland GHG exchange remains uncertain. Furthermore, preventing further wetland loss and restoring wetland ecosystems has been identified by researchers and governments as important in limiting future emissions to help meet climate goals. The integrated GHG Research and Observations in Wetlands (iGROW) research program’, takes an interdisciplinary approach to provide a better understanding of how wetland responses to climate variability and restoration can feedback to slow or accelerate future climate change. iGROW combines state-of-the-art field-based measurements, remote sensing, and modelling to provide new insights into the controls of wetland GHG fluxes across a range of spatial and temporal scales and quantify the potential climate benefits of wetland restoration and conservation. This research is key to better predicting current and future contributions of wetlands to climate change, which is highly relevant for policies aiming to limit the level of global temperature rise. Current iGROW research projects include:</p>
 
 
 </section>

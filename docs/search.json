@@ -7,6 +7,20 @@
     "text": "Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.\nGit is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.\nGitHub is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.\n\n\nA repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.\n\n\n\ninit: Creates an empty repository\ncommit: Tells git to “save” a repository in its current state.\nstatus: Checks to see if there are any “untracked” files in your workspace.\nclone:: Tells git to “copy” a repository from a remote location (i.e. a github URL) to a local directory on you computer\npull:: Tells git to “download” any changes from a remote repository (i.e. a github URL you previously cloned) to your local copy\npush: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e. a github URL you previously cloned)\n\n\n\n\n\n\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\n\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource."
   },
   {
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Our research focuses on measuring and modelling greenhouse gas, water, and energy fluxes across a range of spatial and temporal scales. We combine field-based measurements, remote sensing, and modelling to investigate land-atmosphere interactions in our rapidly changing world, with a current emphasis on wetland ecosystems."
+  },
+  {
+    "objectID": "Research.html#the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program",
+    "href": "Research.html#the-integrated-ghg-research-and-observations-in-wetlands-igrow-research-program",
+    "title": "Research",
+    "section": "The integrated GHG Research and Observations in Wetlands (iGROW) Research Program",
+    "text": "The integrated GHG Research and Observations in Wetlands (iGROW) Research Program\nAmong the numerous ecosystem services provided by wetlands climate regulation is identified as one of their most important benefits to society. Wetland ecosystems play an important role in the global carbon cycle; they provide the ideal environment for long-term storage of atmospheric carbon dioxide, yet they are also the largest single source of methane. Climate change has the potential to increase greenhouse gas (GHG) emissions from wetlands, however, the consequences of rising temperatures on wetland GHG exchange remains uncertain. Furthermore, preventing further wetland loss and restoring wetland ecosystems has been identified by researchers and governments as important in limiting future emissions to help meet climate goals. The integrated GHG Research and Observations in Wetlands (iGROW) research program’, takes an interdisciplinary approach to provide a better understanding of how wetland responses to climate variability and restoration can feedback to slow or accelerate future climate change. iGROW combines state-of-the-art field-based measurements, remote sensing, and modelling to provide new insights into the controls of wetland GHG fluxes across a range of spatial and temporal scales and quantify the potential climate benefits of wetland restoration and conservation. This research is key to better predicting current and future contributions of wetlands to climate change, which is highly relevant for policies aiming to limit the level of global temperature rise. Current iGROW research projects include:"
+  },
+  {
     "objectID": "Documentation.html",
     "href": "Documentation.html",
     "title": "Documentation",
@@ -82,6 +96,13 @@
     "title": "Information for Current Lab Members",
     "section": "Leaving the lab checklist",
     "text": "Leaving the lab checklist\nWe’re sad to see you go, but we’re excited for your next adventure! However, before you leave, make sure to:\n\nUpload your code to github (or share it with Sara directly). Make sure to follow the guidelines for reproducible data flow so that we can run all your code after you leave!\nMake sure to share all relevant data with Sara. Ideally this would be in the data folder in each of your project/chapter folders.\nReturn all keys, equipment, field gear that belong to be lab/university."
+  },
+  {
+    "objectID": "People.html",
+    "href": "People.html",
+    "title": "People",
+    "section": "",
+    "text": "Dr. Sara Helen Knox, Assistant Professor\n\nI am broadly interested in the impacts of climate variability and land-use change on land-atmosphere exchanges of water, energy, and trace gases. I also seek to understand how ecosystem responses to global change can feedback to slow or accelerate future climate change. My research and training is in micrometeorology, hydrology, and ecosystem ecology. I focus on biosphere-atmosphere interactions in a variety of climates and ecosystems.\nEducation  University of California, Berkeley, PhD  Carleton University, MSc  McGill University, BSc \nContact information and links  Email: sara.knox@ubc.ca  https://github.com/sknox01"
   },
   {
     "objectID": "Calibration.html",

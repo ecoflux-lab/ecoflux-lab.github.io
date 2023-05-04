@@ -1,0 +1,18 @@
+---
+title: "People"
+---
+
+**Dr. Sara Helen Knox, Assistant Professor**
+
+<img style="float: left; padding-right:10px" src="images/Knox.jpg" width="200" height="300">
+
+I am broadly interested in the impacts of climate variability and land-use change on land-atmosphere exchanges of water, energy, and trace gases. I also seek to understand how ecosystem responses to global change can feedback to slow or accelerate future climate change. My research and training is in micrometeorology, hydrology, and ecosystem ecology. I focus on biosphere-atmosphere interactions in a variety of climates and ecosystems.
+
+**Education** <br>
+University of California, Berkeley, PhD <br> 
+Carleton University, MSc <br>
+McGill University, BSc <br>
+
+**Contact information and links** <br>
+Email: sara.knox@ubc.ca <br>
+https://github.com/sknox01 <br>
