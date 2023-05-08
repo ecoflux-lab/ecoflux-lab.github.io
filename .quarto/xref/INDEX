@@ -65,5 +65,53 @@
   },
   "Data.qmd": {
     "Data.html": "c9378356"
+  },
+  "ubc-micromet.github.io/UsingGit.qmd": {
+    "UsingGit.html": "547740ee"
+  },
+  "ubc-micromet.github.io/Research.qmd": {
+    "Research.html": "1a0929dc"
+  },
+  "ubc-micromet.github.io/Join.qmd": {
+    "Join.html": "f9aa9a0d"
+  },
+  "ubc-micromet.github.io/Documentation.qmd": {
+    "Documentation.html": "d55686f7"
+  },
+  "ubc-micromet.github.io/index.qmd": {
+    "index.html": "1da50a77"
+  },
+  "ubc-micromet.github.io/Publications.qmd": {
+    "Publications.html": "9dc05db4"
+  },
+  "ubc-micromet.github.io/about.qmd": {
+    "about.html": "9e6c5272"
+  },
+  "ubc-micromet.github.io/LabInfo.qmd": {
+    "LabInfo.html": "62d2e9f3"
+  },
+  "ubc-micromet.github.io/People.qmd": {
+    "People.html": "83406f5b"
+  },
+  "ubc-micromet.github.io/Calibration.qmd": {
+    "Calibration.html": "d2f432f3"
+  },
+  "ubc-micromet.github.io/DatabaseWorkflows.qmd": {
+    "DatabaseWorkflows.html": "469e3188"
+  },
+  "ubc-micromet.github.io/OutreachNews.qmd": {
+    "OutreachNews.html": "6f69a1cf"
+  },
+  "ubc-micromet.github.io/ReproducibleDataFlow.qmd": {
+    "ReproducibleDataFlow.html": "4a15f185"
+  },
+  "ubc-micromet.github.io/FieldWorkProcedures.qmd": {
+    "FieldWorkProcedures.html": "63860477"
+  },
+  "ubc-micromet.github.io/Cleaning.qmd": {
+    "Cleaning.html": "3adf8d3b"
+  },
+  "ubc-micromet.github.io/Data.qmd": {
+    "Data.html": "f551ef7f"
   }
 }

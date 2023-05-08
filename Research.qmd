@@ -1,8 +1,9 @@
 ---
 title: "Research"
 ---
-
 Our research focuses on measuring and modelling greenhouse gas, water, and energy fluxes across a range of spatial and temporal scales. We combine field-based measurements, remote sensing, and modelling to investigate land-atmosphere interactions in our rapidly changing world, with a current emphasis on wetland ecosystems.
 
 ## The integrated GHG Research and Observations in Wetlands (iGROW) Research Program
 Among the numerous ecosystem services provided by wetlands climate regulation is identified as one of their most important benefits to society. Wetland ecosystems play an important role in the global carbon cycle; they provide the ideal environment for long-term storage of atmospheric carbon dioxide, yet they are also the largest single source of methane. Climate change has the potential to increase greenhouse gas (GHG) emissions from wetlands, however, the consequences of rising temperatures on wetland GHG exchange remains uncertain. Furthermore, preventing further wetland loss and restoring wetland ecosystems has been identified by researchers and governments as important in limiting future emissions to help meet climate goals. The integrated GHG Research and Observations in Wetlands (iGROW) research program’, takes an interdisciplinary approach to provide a better understanding of how wetland responses to climate variability and restoration can feedback to slow or accelerate future climate change. iGROW combines state-of-the-art field-based measurements, remote sensing, and modelling to provide new insights into the controls of wetland GHG fluxes across a range of spatial and temporal scales and quantify the potential climate benefits of wetland restoration and conservation. This research is key to better predicting current and future contributions of wetlands to climate change, which is highly relevant for policies aiming to limit the level of global temperature rise. Current iGROW research projects include:
+
+### Carbon Fluxes in Restored Wetlands

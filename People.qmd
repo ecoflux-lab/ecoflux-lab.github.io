@@ -2,7 +2,6 @@
 title: "People"
 ---
 ## Faculty and Staff
-
 **Dr. Sara Helen Knox, Assistant Professor**
 
 <img src="images/headshots/Knox-oval.png" style="float: left; padding-right:25px; margin-top: 25px; margin-bottom:25px" width="250" height="300"/>
