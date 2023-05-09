@@ -3,33 +3,9 @@ title: "Data"
 ---
 *is it better to have it instead grouped by site? and then we have two points one for previews the other for download?*
 
-## Data Preview Graphs
-### Currently Operational Sites
-<ul>
-  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#">Data Preview for Burns Bog 1</a> (CA-DBB) (2014 - *, Delta, BC, Canada)</li>
-  
-  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog2.html#">Data Preview for Burns Bog 2</a> (CA-DB2) (2019 - *, Delta, BC, Canada)</li>
-  
-  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#">Data Preview for Delta Salt Marsh</a> (CA-DSM) (2021 - *, Delta, BC, Canada)</li>
-  
-  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/RichmondBrackishMarsh.html#">Data Preview for Richmond Brackish Marsh</a> (CA-RBM) (2021 - *, Richmond, BC, Canada)</li>
-</ul>
+<img src="images/bb2-banner.jpeg" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
 
-## Data Download
-### Currently Operational Sites
-<ul>
-  <li>Data from <a href="https://ameriflux.lbl.gov/sites/siteinfo/CA-DBB">CA-DBB</a> can be downloaded from AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/">here</a> (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available <a href="https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html">here</a>).</li>
-  
-  <li>Data from <a href="https://ameriflux.lbl.gov/sites/siteinfo/CA-DB2">CA-DB2</a> will soon be available on AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/">here</a> (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available <a href="https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html">here</a>).</li>
-  
-  <li>Data from CA-DSM will soon be available on AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/">here</a> (prefix DSM. note that this is raw data – no filtering or QCQA).</li>
-  
-  <li>Data from CA-RBM will soon be available on AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/data/RichmondBrackishMarsh.html#">here</a> (prefix RBM. note that this is raw data – no filtering or QCQA).</li>
-  
-  <li>UBC Climate Station on Totem Field – Access to <a href="http://137.82.254.122/DataExport.aspx">custom data download</a> of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format.</li>
-</ul>
-
-## Currently Operational Sites
+## Current Operational Sites
 
 *Click <a href="https://ubc-micromet.github.io/FieldSiteMaps/">here</a> for a map of our field sites.*
 
@@ -69,3 +45,47 @@ title: "Data"
 <ul>
   <li> Access to <a href="http://137.82.254.122/DataExport.aspx">custom data download</a> of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format. </li>
 </ul>
+
+## Code and Documentation
+Our <a href="https://github.com/ubc-micromet">lab github</a> hosts code for flux processing, README docs for our lab, and various other bits of information.
+
+More documentation related to maintenance procedures for our sites can be found <a href="https://ubc-micromet.github.io/Documentation.html">here</a>.
+
+# old template
+## Data Preview Graphs
+### Currently Operational Sites
+<ul>
+  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#">Data Preview for Burns Bog 1</a> (CA-DBB) (2014 - *, Delta, BC, Canada)</li>
+  
+  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog2.html#">Data Preview for Burns Bog 2</a> (CA-DB2) (2019 - *, Delta, BC, Canada)</li>
+  
+  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#">Data Preview for Delta Salt Marsh</a> (CA-DSM) (2021 - *, Delta, BC, Canada)</li>
+  
+  <li><a href="https://ibis.geog.ubc.ca/~micromet/data/RichmondBrackishMarsh.html#">Data Preview for Richmond Brackish Marsh</a> (CA-RBM) (2021 - *, Richmond, BC, Canada)</li>
+</ul>
+
+## Data Download
+### Currently Operational Sites
+<ul>
+  <li>Data from <a href="https://ameriflux.lbl.gov/sites/siteinfo/CA-DBB">CA-DBB</a> can be downloaded from AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/">here</a> (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available <a href="https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html">here</a>).</li>
+  
+  <li>Data from <a href="https://ameriflux.lbl.gov/sites/siteinfo/CA-DB2">CA-DB2</a> will soon be available on AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/">here</a> (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available <a href="https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html">here</a>).</li>
+  
+  <li>Data from CA-DSM will soon be available on AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/">here</a> (prefix DSM. note that this is raw data – no filtering or QCQA).</li>
+  
+  <li>Data from CA-RBM will soon be available on AmeriFlux. Data from the web plots are available <a href="https://ibis.geog.ubc.ca/~micromet/data/RichmondBrackishMarsh.html#">here</a> (prefix RBM. note that this is raw data – no filtering or QCQA).</li>
+  
+  <li>UBC Climate Station on Totem Field – Access to <a href="http://137.82.254.122/DataExport.aspx">custom data download</a> of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format.</li>
+</ul>
+
+*A map of our field sites can be found <a href="https://ubc-micromet.github.io/FieldSiteMaps/">here</a>.*
+
+## Site Photos
+<ul>
+  <li> Site Photos for <a href="https://www.flickr.com/gp/188943790@N03/22bQJ7">BB1</a> (also see <a href="https://ibis.geog.ubc.ca/~achristn/projects.html">Dr. Andreas Christen's</a> previous <a href="https://www.flickr.com/photos/140969380@N07/albums/72157666939177185/with/26139296480/">photos</a> from when he held his position at UBC) </li>
+  <li> Site Photos for <a href="https://www.flickr.com/gp/188943790@N03/ny9Pa3">BB2</a> </li>
+  <li> Site Photos for <a href="https://www.flickr.com/gp/188943790@N03/J010Wq">DSM</a> </li>
+  <li> Site Photos for <a href="https://www.flickr.com/photos/188943790@N03/albums/72177720306622844">RBM</a> </li>
+</ul>
+
+## Code and Documentation
