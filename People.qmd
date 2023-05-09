@@ -15,7 +15,7 @@ McGill University, BSc <br>
 
 ***Contact information and links*** <br>
 Email: sara.knox\@ubc.ca <br>
-<a href="https://github.com/sknox01">Lab GitHub</a> 
+<a href="https://github.com/sknox01">GitHub</a> 
 
 **Rick Ketler, Project Manager (Geography)**
 
@@ -47,7 +47,8 @@ M.A.Sc. in Electrical Engineering, University of British Columbia
 
 <img src="images/headshots/june-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
-<br> I am a non-binary geographer, researcher, and educator and my pronouns are they/them/theirs. I have been living as an uninvited guest on unceded Coast Salish Territory since 2015 and (will soon receive) a PhD in Geography from the University of British Columbia in 2022. My research focuses on using micrometeorology, remote sensing, spatial analysis, and machine learning to understand ecosystem-scale carbon fluxes. I am particularly interested in climate feedback mechanisms which either exacerbate or can help mitigate climate change. 
+<br> 
+I am a non-binary geographer, researcher, and educator and my pronouns are they/them/theirs. I have been living as an uninvited guest on unceded Coast Salish Territory since 2015 and (will soon receive) a PhD in Geography from the University of British Columbia in 2022. My research focuses on using micrometeorology, remote sensing, spatial analysis, and machine learning to understand ecosystem-scale carbon fluxes. I am particularly interested in climate feedback mechanisms which either exacerbate or can help mitigate climate change. 
 
 <br>
 
@@ -56,8 +57,7 @@ M.A.Sc. in Electrical Engineering, University of British Columbia
 <img src="images/headshots/tzu-yi-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
 <br>
-
-I received my MS in Geography from National Taiwan University in 2017. I am interested in understanding the response of the wetland ecosystem to climate change, especially in quantifying the net exchange of carbon. My previous research investigated the relationship between environmental controls and CO2 flux in low-latitude wetland ecosystems, applying an Artificial Neural Network technique to simulate the variance of carbon exchange by meteorological variables.
+I received my MS in Geography from National Taiwan University in 2017. I am interested in understanding the response of the wetland ecosystem to climate change, especially in quantifying the net exchange of carbon. My previous research investigated the relationship between environmental controls and CO2 flux in low-latitude wetland ecosystems, applying an Artificial Neural Network technique to simulate the variance of carbon exchange by meteorological variables. 
 
 <br>
 
@@ -65,23 +65,25 @@ I received my MS in Geography from National Taiwan University in 2017. I am inte
 
 <img src="images/headshots/katrina-poppe-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
-I earned an MS in Environmental Science from Western Washington University in 2016 and continued at WWU as a Research Associate for several years. My previous research has focused primarily on blue carbon, studying soil carbon sequestration rates in Pacific Northwest estuaries and in United Arab Emirates mangroves, in addition to monitoring and modeling vegetation and sediment dynamics in relation to estuary restoration and sea level rise. I am currently interested in studying greenhouse gas fluxes in Pacific Northwest tidal wetlands -- particularly how they respond to ecosystem restoration and climate change -- to ultimately better understand the value of tidal wetland management actions as natural climate solutions.
+I earned an MS in Environmental Science from Western Washington University in 2016 and continued at WWU as a Research Associate for several years. My previous research has focused primarily on blue carbon, studying soil carbon sequestration rates in Pacific Northwest estuaries and in United Arab Emirates mangroves, in addition to monitoring and modeling vegetation and sediment dynamics in relation to estuary restoration and sea level rise. I am currently interested in studying greenhouse gas fluxes in Pacific Northwest tidal wetlands -- particularly how they respond to ecosystem restoration and climate change -- to ultimately better understand the value of tidal wetland management actions as natural climate solutions. 
+
+<br>
 
 **Sarah Russell, Ph.D Student**
 
 <img src="images/headshots/sarah-russell-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
 <br>
+I received a BS in Biological Sciences from Wellesley College in 2017, then worked as an ecosystem ecology field technician and research assistant before moving to Vancouver. I am interested in land-atmosphere carbon dynamics and am particularly interested in quantifying the terrestrial carbon sink. My research at UBC involves modeling greenhouse gas fluxes from restored tidal wetlands in the Sacramento-San Joaquin River Delta. 
 
-I received a BS in Biological Sciences from Wellesley College in 2017, then worked as an ecosystem ecology field technician and research assistant before moving to Vancouver. I am interested in land-atmosphere carbon dynamics and am particularly interested in quantifying the terrestrial carbon sink. My research at UBC involves modeling greenhouse gas fluxes from restored tidal wetlands in the Sacramento-San Joaquin River Delta.
-
-<br> <br>
+<br>
+<br>
 
 **Darian Ng, M.Sc. Student**
 
 <img src="images/headshots/darian-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
-I received a BSc in Atmospheric Science from the University of British Columbia in 2021. I have spent research terms at UBC studying effects of climate change on intertidal ecology, cloud microphysics and precipitation modelling, and methane emission hotspots in wetlands. I'm interested in investigating environmental drivers of land-atmosphere greenhouse gas exchange and how they might respond to changing climate conditions. During my MSc, I plan to further examine the controls of wetland methane emissions and better understand how we can effectively manage wetlands as natural climate solutions.
+I received a BSc in Atmospheric Science from the University of British Columbia in 2021. I have spent research terms at UBC studying effects of climate change on intertidal ecology, cloud microphysics and precipitation modelling, and methane emission hotspots in wetlands. I'm interested in investigating environmental drivers of land-atmosphere greenhouse gas exchange and how they might respond to changing climate conditions. During my MSc, I plan to further examine the controls of wetland methane emissions and better understand how we can effectively manage wetlands as natural climate solutions. 
 
 <br>
 
@@ -89,15 +91,16 @@ I received a BSc in Atmospheric Science from the University of British Columbia 
 
 <img src="images/headshots/zhang-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
-I am currently an undergraduate student majoring in Environmental Science and minoring in Economics at the University of British Columbia. My thesis is studying the effects of postfire recovery on greenhouse gas fluxes in a peatland using chamber measurements. I am particularly interested in investigating land-atmosphere exchanges of greenhouse gas fluxes in disturbed wetland ecosystems and assessing the ecological response of the wetlands after different management practices. I am motivated to obtain more training on climate science topics as a graduate student and explore the effective management practices on wetland restoration.
+I am currently an undergraduate student majoring in Environmental Science and minoring in Economics at the University of British Columbia. My thesis is studying the effects of postfire recovery on greenhouse gas fluxes in a peatland using chamber measurements. I am particularly interested in investigating land-atmosphere exchanges of greenhouse gas fluxes in disturbed wetland ecosystems and assessing the ecological response of the wetlands after different management practices. I am motivated to obtain more training on climate science topics as a graduate student and explore the effective management practices on wetland restoration. 
+
+<br>
 
 **Adin Litman, B.Sc. Student**
 
 <img src="images/headshots/litman-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
 <br>
-
-I am currently a 4th year undergraduate student majoring in Atmospheric Science at UBC. I am working on a direct studies under the supervision of Dr. Knox and Zoe Zhang that researches the impact of heatwaves on greenhouse gas exchange at Burns Bog. I have always been passionate about weather patterns and the environment, and hope to pursue a career in meteorology. In my free time, I enjoy skiing and spending time at the beach.
+I am currently a 4th year undergraduate student majoring in Atmospheric Science at UBC. I am working on a direct studies under the supervision of Dr. Knox and Zoe Zhang that researches the impact of heatwaves on greenhouse gas exchange at Burns Bog. I have always been passionate about weather patterns and the environment, and hope to pursue a career in meteorology. In my free time, I enjoy skiing and spending time at the beach. 
 
 <br>
 <br>
@@ -107,7 +110,6 @@ I am currently a 4th year undergraduate student majoring in Atmospheric Science 
 <img src="images/headshots/mcguire-oval.png" style="float: left; padding-right:25px" width="250" height="300"/>
 
 <br>
-
 I am currently an undergraduate student majoring in Geographical Sciences, with concentrations in climatology and Geographic Information Systems. Within the lab, I will mainly be supporting Zoe Zhang with her research on how wildfires impact GHG fluxes at Burns Bog. I hope in later years to conduct more research on land-atmosphere exchanges, specifically around the carbon cycle, and find ways to incorporate different GIS technologies to help in visualizing it.
 
 <br>
