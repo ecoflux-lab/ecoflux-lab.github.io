@@ -59,4 +59,4 @@ Coverage of our work on wetland restoration in the Sacramento-San Joaquin Delta:
 An interview I did as part of STEM week at Los Altos High School in Los Altos, California:
 <a href="https://lahstalon.org/stem-speaker-sara-knox-explores-biometeorology/">
 <img src="images/news-banners/talon-sknox.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="540"/>
-</a> <br>
+</a>
