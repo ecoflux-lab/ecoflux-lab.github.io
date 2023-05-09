@@ -5,7 +5,7 @@ title: "Data"
 
 <img src="images/bb2-banner.jpeg" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
 
-## Current Operational Sites
+## Currently Operational Sites
 
 *Click <a href="https://ubc-micromet.github.io/FieldSiteMaps/">here</a> for a map of our field sites.*
 
@@ -89,3 +89,6 @@ More documentation related to maintenance procedures for our sites can be found 
 </ul>
 
 ## Code and Documentation
+Our <a href="https://github.com/ubc-micromet">lab github</a> hosts code for flux processing, README docs for our lab, and various other bits of information.
+
+More documentation related to maintenance procedures for our sites can be found <a href="https://ubc-micromet.github.io/Documentation.html">here</a>.
