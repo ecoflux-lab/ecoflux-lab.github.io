@@ -231,11 +231,18 @@
     "text": "is it better to have it instead grouped by site? and then we have two points one for previews the other for download?"
   },
   {
-    "objectID": "Data.html#data-download",
-    "href": "Data.html#data-download",
+    "objectID": "Data.html#current-operational-sites",
+    "href": "Data.html#current-operational-sites",
     "title": "Data",
-    "section": "Data Download",
-    "text": "Data Download\n\nCurrently Operational Sites\n\n\nData from CA-DBB can be downloaded from AmeriFlux. Data from the web plots are available here (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nData from CA-DB2 will soon be available on AmeriFlux. Data from the web plots are available here (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nData from CA-DSM will soon be available on AmeriFlux. Data from the web plots are available here (prefix DSM. note that this is raw data – no filtering or QCQA).\n\n\nData from CA-RBM will soon be available on AmeriFlux. Data from the web plots are available here (prefix RBM. note that this is raw data – no filtering or QCQA).\n\n\nUBC Climate Station on Totem Field – Access to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
+    "section": "Current Operational Sites",
+    "text": "Current Operational Sites\nClick here for a map of our field sites.\n\nBurns Bog 1\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\n\n\nDownload Data for CA-DBB from Ameriflux.\n\n\nData from the web plots are available here (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\nBurns Bog 2\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\n\n\nData for CA-DB2 will soon be availble from Ameriflux.\n\n\nData from the web plots are available here (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nBB2 Site Photos\n\n\n\n\nDelta Salt Marsh\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\n\n\nData from CA-DSM will soon be available on AmeriFlux.\n\n\nData from the web plots are available here (prefix DSM. note that this is raw data – no filtering or QCQA).\n\n\nDSM Site Photos\n\n\n\n\nRichmond Brackish Marsh\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\n\n\nData from CA-RBM will soon be available on AmeriFlux.\n\n\nData from the web plots are available here (prefix RBM. note that this is raw data – no filtering or QCQA).\n\n\nRBM Site Photos\n\n\n\n\nUBC Climate Station on Totem Field\n\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
+  },
+  {
+    "objectID": "Data.html#code-and-documentation",
+    "href": "Data.html#code-and-documentation",
+    "title": "Data",
+    "section": "Code and Documentation",
+    "text": "Code and Documentation\nOur lab github hosts code for flux processing, README docs for our lab, and various other bits of information.\nMore documentation related to maintenance procedures for our sites can be found here."
   },
   {
     "objectID": "Data.html#data-preview-graphs",
@@ -245,10 +252,24 @@
     "text": "Data Preview Graphs\n\nCurrently Operational Sites\n\n\nData Preview for Burns Bog 1 (CA-DBB) (2014 - *, Delta, BC, Canada)\n\n\nData Preview for Burns Bog 2 (CA-DB2) (2019 - *, Delta, BC, Canada)\n\n\nData Preview for Delta Salt Marsh (CA-DSM) (2021 - *, Delta, BC, Canada)\n\n\nData Preview for Richmond Brackish Marsh (CA-RBM) (2021 - *, Richmond, BC, Canada)"
   },
   {
-    "objectID": "Data.html#currently-operational-sites-2",
-    "href": "Data.html#currently-operational-sites-2",
+    "objectID": "Data.html#data-download",
+    "href": "Data.html#data-download",
     "title": "Data",
-    "section": "Currently Operational Sites",
-    "text": "Currently Operational Sites\nClick here for a map of our field sites.\n\nBurns Bog 1\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\n\n\nDownload Data for CA-DBB from Ameriflux.\n\n\nData from the web plots are available here (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\nBurns Bog 2\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\n\n\nData for CA-DB2 will soon be availble from Ameriflux.\n\n\nData from the web plots are available here (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nBB2 Site Photos\n\n\n\n\nDelta Salt Marsh\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\n\n\nData from CA-DSM will soon be available on AmeriFlux.\n\n\nData from the web plots are available here (prefix DSM. note that this is raw data – no filtering or QCQA).\n\n\nDSM Site Photos\n\n\n\n\nRichmond Brackish Marsh\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\n\n\nData from CA-RBM will soon be available on AmeriFlux.\n\n\nData from the web plots are available here (prefix RBM. note that this is raw data – no filtering or QCQA).\n\n\nRBM Site Photos\n\n\n\n\nUBC Climate Station on Totem Field\n\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
+    "section": "Data Download",
+    "text": "Data Download\n\nCurrently Operational Sites\n\n\nData from CA-DBB can be downloaded from AmeriFlux. Data from the web plots are available here (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nData from CA-DB2 will soon be available on AmeriFlux. Data from the web plots are available here (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nData from CA-DSM will soon be available on AmeriFlux. Data from the web plots are available here (prefix DSM. note that this is raw data – no filtering or QCQA).\n\n\nData from CA-RBM will soon be available on AmeriFlux. Data from the web plots are available here (prefix RBM. note that this is raw data – no filtering or QCQA).\n\n\nUBC Climate Station on Totem Field – Access to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format.\n\n\nA map of our field sites can be found here."
+  },
+  {
+    "objectID": "Data.html#site-photos",
+    "href": "Data.html#site-photos",
+    "title": "Data",
+    "section": "Site Photos",
+    "text": "Site Photos\n\n\nSite Photos for BB1 (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\nSite Photos for BB2\n\n\nSite Photos for DSM\n\n\nSite Photos for RBM"
+  },
+  {
+    "objectID": "Data.html#code-and-documentation-1",
+    "href": "Data.html#code-and-documentation-1",
+    "title": "Data",
+    "section": "Code and Documentation",
+    "text": "Code and Documentation"
   }
 ]
