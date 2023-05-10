@@ -27,6 +27,29 @@ csl: american-geophysical-union.csl
 
 @lee_biophysical_2021
 
+@yuan_causality_2022
+
+@ouyang_paddy_2023
+
+@zhang_anthropogenic_2021
+
+@miller_potential_2021
+
+@irvin_gap_2021
+
+@knox_identifying_2021
+
+@delwiche_fluxnet_2021
+
+@chang_substantial_2021
+
+@dronova_remotely_2021
+
+@fisher_once_2021
+
+@chu_representativeness_2021
+
+@bogard_hydrologic_2020
 :::
 :::
 
