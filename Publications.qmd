@@ -55,7 +55,38 @@ csl: american-geophysical-union.csl
 
 @feagin_tidal_2020
 
+@kim_gap-filling_2019
+
+@mcnicol_where_2019
+
 @knox_fluxnet_2019
+
+@peltola_monthly_2019
+
+@knox_direct_2018
+
+@windham_tidal_2018 # double check this is cited properly (in a report not a journal)
+
+@windham_potential_2018
+
+@eichelman_effect_2018
+
+@hemes_biogeochemical_2018
+
+@deventer_ecosystem_2018
+
+@holmquist_uncertainty_2018
+
+@knox_using_2017 # figure out why its showing Sara's full name and not just intials
+
+@mcnicol_effects_2017
+
+@oikawa_evaluation_2017
+
+@oikawa_revisiting_2017
+
+@xin_modeling_2017
+
 :::
 :::
 
