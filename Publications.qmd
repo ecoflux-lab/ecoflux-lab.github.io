@@ -50,6 +50,12 @@ csl: american-geophysical-union.csl
 @chu_representativeness_2021
 
 @bogard_hydrologic_2020
+
+@pastorello_fluxnet_2020
+
+@feagin_tidal_2020
+
+@knox_fluxnet_2019
 :::
 :::
 
