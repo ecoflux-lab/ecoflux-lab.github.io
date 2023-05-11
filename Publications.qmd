@@ -13,7 +13,6 @@ csl: american-geophysical-union.csl
 
 ## Peer Reviewed Journal Articles
 
-
 ::: {.content-visible when-format="html"}
 ::: {.hidden}
 
