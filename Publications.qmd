@@ -87,6 +87,28 @@ csl: american-geophysical-union.csl
 
 @xin_modeling_2017
 
+@poindexter_contribution_2016
+
+@baldocchi_impact_2016
+
+@knox_biophysical_2016
+
+@anderson_variation_2016
+
+@sturtevant_identifying_2016
+
+@matthes_predicting_2015
+
+@knox_agricultural_2015
+
+@baraer_contribution_2015
+
+@matthes_parsing_2014
+
+@knox_snow_2012
+
+@baraer_characterizing_2009
+
 :::
 :::
 
