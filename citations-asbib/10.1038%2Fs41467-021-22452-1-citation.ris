@@ -1,0 +1,67 @@
+TY  - JOUR
+AU  - Chang, Kuang-Yu
+AU  - Riley, William J.
+AU  - Knox, Sara H.
+AU  - Jackson, Robert B.
+AU  - McNicol, Gavin
+AU  - Poulter, Benjamin
+AU  - Aurela, Mika
+AU  - Baldocchi, Dennis
+AU  - Bansal, Sheel
+AU  - Bohrer, Gil
+AU  - Campbell, David I.
+AU  - Cescatti, Alessandro
+AU  - Chu, Housen
+AU  - Delwiche, Kyle B.
+AU  - Desai, Ankur R.
+AU  - Euskirchen, Eugenie
+AU  - Friborg, Thomas
+AU  - Goeckede, Mathias
+AU  - Helbig, Manuel
+AU  - Hemes, Kyle S.
+AU  - Hirano, Takashi
+AU  - Iwata, Hiroki
+AU  - Kang, Minseok
+AU  - Keenan, Trevor
+AU  - Krauss, Ken W.
+AU  - Lohila, Annalea
+AU  - Mammarella, Ivan
+AU  - Mitra, Bhaskar
+AU  - Miyata, Akira
+AU  - Nilsson, Mats B.
+AU  - Noormets, Asko
+AU  - Oechel, Walter C.
+AU  - Papale, Dario
+AU  - Peichl, Matthias
+AU  - Reba, Michele L.
+AU  - Rinne, Janne
+AU  - Runkle, Benjamin R. K.
+AU  - Ryu, Youngryel
+AU  - Sachs, Torsten
+AU  - Schäfer, Karina V. R.
+AU  - Schmid, Hans Peter
+AU  - Shurpali, Narasinha
+AU  - Sonnentag, Oliver
+AU  - Tang, Angela C. I.
+AU  - Torn, Margaret S.
+AU  - Trotta, Carlo
+AU  - Tuittila, Eeva-Stiina
+AU  - Ueyama, Masahito
+AU  - Vargas, Rodrigo
+AU  - Vesala, Timo
+AU  - Windham-Myers, Lisamarie
+AU  - Zhang, Zhen
+AU  - Zona, Donatella
+PY  - 2021
+DA  - 2021/04/15
+TI  - Substantial hysteresis in emergent temperature sensitivity of global wetland CH4 emissions
+JO  - Nature Communications
+SP  - 2266
+VL  - 12
+IS  - 1
+AB  - Wetland methane (CH4) emissions ($${F}_{{{CH}}_{4}}$$) are important in global carbon budgets and climate change assessments. Currently, $${F}_{{{CH}}_{4}}$$projections rely on prescribed static temperature sensitivity that varies among biogeochemical models. Meta-analyses have proposed a consistent $${F}_{{{CH}}_{4}}$$temperature dependence across spatial scales for use in models; however, site-level studies demonstrate that $${F}_{{{CH}}_{4}}$$are often controlled by factors beyond temperature. Here, we evaluate the relationship between $${F}_{{{CH}}_{4}}$$and temperature using observations from the FLUXNET-CH4 database. Measurements collected across the globe show substantial seasonal hysteresis between $${F}_{{{CH}}_{4}}$$and temperature, suggesting larger $${F}_{{{CH}}_{4}}$$sensitivity to temperature later in the frost-free season (about 77% of site-years). Results derived from a machine-learning model and several regression models highlight the importance of representing the large spatial and temporal variability within site-years and ecosystem types. Mechanistic advancements in biogeochemical model parameterization and detailed measurements in factors modulating CH4 production are thus needed to improve global CH4 budget assessments.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/s41467-021-22452-1
+DO  - 10.1038/s41467-021-22452-1
+ID  - Chang2021
+ER  - 

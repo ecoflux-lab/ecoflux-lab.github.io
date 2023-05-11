@@ -1,0 +1,36 @@
+aRT Journal Article
+A1 Zhang, Zhen
+A1 Poulter, Benjamin
+A1 Knox, Sara
+A1 Stavert, Ann
+A1 McNicol, Gavin
+A1 Fluet-Chouinard, Etienne
+A1 Feinberg, Aryeh
+A1 Zhao, Yuanhong
+A1 Bousquet, Philippe
+A1 Canadell, Josep G
+A1 Ganesan, Anita
+A1 Hugelius, Gustaf
+A1 Hurtt, George
+A1 Jackson, Robert B
+A1 Patra, Prabir K
+A1 Saunois, Marielle
+A1 Höglund-Isaksson, Lena
+A1 Huang, Chunlin
+A1 Chatterjee, Abhishek
+A1 Li, Xin
+T1 Anthropogenic emission is the main contributor to the rise of atmospheric methane during 1993–2017
+JF National Science Review
+JO Natl Sci Rev
+YR 2021
+DO 10.1093/nsr/nwab200
+OP nwab200
+VO 9
+IS 5
+SN 2095-5138
+AB Atmospheric methane (CH4) concentrations have shown a puzzling resumption in growth since 2007 following a period of stabilization from 2000 to 2006. Multiple hypotheses have been proposed to explain the temporal variations in CH4 growth, and attribute the rise of atmospheric CH4 either to increases in emissions from fossil fuel activities, agriculture and natural wetlands, or to a decrease in the atmospheric chemical sink. Here, we use a comprehensive ensemble of CH4 source estimates and isotopic δ13C-CH4 source signature data to show that the resumption of CH4 growth is most likely due to increased anthropogenic emissions. Our emission scenarios that have the fewest biases with respect to isotopic composition suggest that the agriculture, landfill and waste sectors were responsible for 53 ± 13% of the renewed growth over the period 2007–2017 compared to 2000–2006; industrial fossil fuel sources explained an additional 34 ± 24%, and wetland sources contributed the least at 13 ± 9%. The hypothesis that a large increase in emissions from natural wetlands drove the decrease in atmospheric δ13C-CH4 values cannot be reconciled with current process-based wetland CH4 models. This finding suggests the need for increased wetland measurements to better understand the contemporary and future role of wetlands in the rise of atmospheric methane and climate feedback. Our findings highlight the predominant role of anthropogenic activities in driving the growth of atmospheric CH4 concentrations.
+RD 5/10/2023
+UL https://doi.org/10.1093/nsr/nwab200
+
+
+
