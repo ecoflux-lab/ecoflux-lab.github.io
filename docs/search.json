@@ -186,7 +186,7 @@
     "href": "OutreachNews.html",
     "title": "Outreach and News",
     "section": "",
-    "text": "get a little blurb about TLEF"
+    "text": "June and I presented at the CGU Annual meeting which was held in Banff this year."
   },
   {
     "objectID": "OutreachNews.html#section-1",
@@ -221,7 +221,7 @@
     "href": "ReproducibleDataFlow.html",
     "title": "Tips for Reproducible Data Flow",
     "section": "",
-    "text": "More to come soon"
+    "text": "R resources\nHere is some helpful info on setting up a project in R. I’ve adapted the figure from that link to better suit the needs of our research group (see below).\n\n\n\n\n\nOther helpful resources can be found in the ‘R_dynamic_document_overview_html.html’ and ‘0_set_up_workspace.html’ doc in the ‘Coding resources/R resources’ in the Google Drive. These were written by Dan Moore, but are not meant to be distributed publicly."
   },
   {
     "objectID": "FieldWorkProcedures.html",

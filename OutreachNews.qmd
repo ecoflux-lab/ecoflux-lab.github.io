@@ -2,10 +2,14 @@
 title: "Outreach and News"
 ---
 ## 2023
-*get a little blurb about TLEF*
-<a href="https://geog.ubc.ca/news/mobile-weather-station-project-receives-tlef-funding/">
-<img src="images/news-banners/TLEF.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
-</a> <br>
+
+### May
+June and I presented at the CGU Annual meeting which was held in Banff this year. 
+
+<p float="center">
+  <img src="images/Skeeter_Knox_Banff_2023.jpg" width="300" />
+  <img src="images/Skeeter_Banff_2023.jpg" width="300" /> 
+</p>
 
 ## 2022
 A recent talk I gave during the <a href="https://ires.ubc.ca/december-1-2022-ires-faculty-seminar-with-sara-knox/">UBC IRES Seminar Series</a> on <a href="https://ubc.zoom.us/rec/play/ahDxx5K-scupDWdurMm9QuPAY8GvnOddvGk96Zdi83Ry4WsX4VUoTF2LbF6xbYCfTJ-pmpA1XUBcGht5.qRj2HFxNL3N3bbMd?continueMode=true">'Wetlands in a changing world: processes, feedbacks, and the climate benefits of wetlands.'</a> <br>
