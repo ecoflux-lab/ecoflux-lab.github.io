@@ -1,0 +1,92 @@
+---
+title: "Territorial and Cultural Acknowledgement"
+format: 
+  html:
+    css: styles.css
+echo: false
+---
+
+The University of British Columbia and the city of Vancouver are on the traditional, ancestral, and unceded territory of the Coast Salish Peoples.  Specifically the UBC Vancouver campus is on xʷməθkʷəy̓əm (Musqueam) land. 
+
+* It is essential to recognize Indigenous territories and Indigenous sovereignty, especially within the context of field based research.
+* To learn more about the Indigenous communities where you live and work, check out [native-land.ca](https://native-land.ca).
+
+## Field Sites
+
+Our field sites are located in the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This map below shows the overlapping territories and conveys the multiplicity of occupancy of First Nations wh in and around the Statl̕əẃ delta.  This area encompass the traditional territories of a number of First Nations, including the:
+
+:::: {.columns}
+
+:::{.column width="55%"}
+
+
+* xʷməθkʷəy̓əm 
+* Stó:lō
+* sc̓əwaθenaɁɬ təməxʷ (Tsawwassen)
+* kwantlen
+* Semiahmoo
+* Stz’uminus
+* Á,LEṈENEȻ ȽTE (W̱SÁNEĆ)
+* sq̓əc̓iy̓aɁɬ təməxʷ (Katzie)
+* And others
+
+:::
+
+:::{.column width="45%"}
+
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&&position=&position=49.1318,-123.0015" style="height:300px; border:none;"></iframe>
+
+
+:::
+
+::::
+
+
+
+
+# Why Do an Acknowledgement?
+
+A land acknowledgement is meant to convey a deep rooted cultural connection to the land and the historical and present day injustices and violence enacted on Indigenous communities through colonialism.  For centuries, settler societies have perpetuated a genocide against Indigenous people across the globe.  In many ways this genocide is still ongoing here in British Columbia and across Canada.  There has been concerted effort by the government, religious organizations, and educational institutions to erase Indigenous cultures and identity from both the land and the map.  Historically, maps have been used as tools of oppression and we must work to de-colonize our practices in GIS.
+
+* An acknowledgement is one small way to help with that, but it cannot be treated as a formality.  It is a time to reflect and build understanding. 
+
+## What does it mean?
+
+:::: {.columns}
+
+:::{.column width="65%"}
+
+**Traditional** and **Ancestral** Recognize by whom the lands were traditionally used and/or occupied and the cultures have been handed down from generation to generation.  The area around UBC was used by many different people, including the [xʷməθkʷəy̓əm](https://native-land.ca/maps/territories/x%ca%b7m%c9%99%ce%b8k%ca%b7%c9%99y%cc%93%c9%99m/), [əl̓ilwətaɁɬ](https://native-land.ca/maps/territories/tsleil-waututh-s%c9%99l%cc%93ilw%c9%99ta%c9%82%c9%ac/), and [Skwxwú7mesh-ulh](https://native-land.ca/maps/territories/skwxwu7mesh-uxwumixw/) Nations.  
+
+These people are are part of a broader linguistic / cultural group of Coast Salish speaking people.  The xʷməθkʷəy̓əm and əl̓ilwətaɁɬ speak dialects of [Hul’q’umi’num’ / Halq’eméylem / hən̓q̓əmin̓əm̓](https://native-land.ca/maps/languages/hulquminum-halqemeylem-h%c9%99n%cc%93q%cc%93%c9%99min%cc%93%c9%99m%cc%93/) and the Skwxwú7mesh-ulh speak [Sḵwx̱wú7mesh sníchim](https://native-land.ca/maps/languages/s%e1%b8%b5wx%cc%b1wu7mesh-snichim/).
+
+:::
+
+:::{.column width="35%"}
+
+
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=languages&&name=coast-salish" style="height:300px; border:none;"></iframe>
+
+
+:::
+
+::::
+
+:::: {.columns}
+
+:::{.column width="65%"}
+
+
+**Unceded**: Refers to land that was not turned over to the government by a treaty or other agreement.  Over 95% of the land in BC, and many lands elsewhere in the world were never ceded by treaty.  Without treaties, these lands remain the sovereign territory of the First Nations that call them home.  Yet at the same time, the lands have been claimed by Canada and these First Nations living on these lands lack a framework to express their sovereignty.  This by no means absolves the Canadian government of their crimes where lands were "ceded" by treaty.  Treaties were more frequently reached by coercion than negotiation.  The [RCMP](https://www.cbc.ca/listen/cbc-podcasts/203-the-secret-life-of-canada/episode/15798131-s3-the-mounties-always-get-their-land-part-1) was created specifically to force indigenous people off their lands by any means necessary.
+
+:::
+
+::: {.column width="35%"}
+
+
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=treaties" style="height:300px; border:none;"></iframe>
+
+:::
+
+::::
+

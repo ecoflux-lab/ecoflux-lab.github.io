@@ -40,6 +40,8 @@ website:
           text: Publications
         - href: Join.qmd
           text: Join the lab
+        - href: acknowledgement.qmd
+          text: Territorial and Cultural Acknowledgement
     - id: docs
       title: "Documentation"
       style: "floating"
