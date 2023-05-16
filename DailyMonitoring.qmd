@@ -1,0 +1,7 @@
+---
+title: "Daily Site Monitoring"
+echo: false
+---
+
+Adding info from <a href="https://docs.google.com/document/d/1hM0ZpYF6znLv-90TAyof2EEdsJ6oyaizvdwNYeMugyM/edit?usp=sharing">here</a>
+ 

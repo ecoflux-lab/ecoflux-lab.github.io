@@ -1,5 +1,0 @@
----
-title: "Database"
----
-
-Add the info for database here

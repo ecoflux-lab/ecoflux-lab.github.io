@@ -1,0 +1,59 @@
+---
+title: "Data Pipeline"
+---
+
+# Data flow schematic
+
+Micromet Data Flow (currently for BB1, BB2, DSM, and RBM) <br />
+Note: Manitoba sites have SmartFlux stream only
+
+![](./images/data flow.png){fig-align="center"}
+
+# Drive/Folder structure on vinimet
+
+* `P:\Sites\Site` (data as received from the sites)
+
+                    \Met
+                        \5min (for BB only)
+                    \Flux
+                    \HighFrequencyData
+
+* `P:\Database` (everything in read_bor format)
+                       
+                  \yyyy\Sites
+                             \Met (straight from CRBasic -> read_bor)
+                                 \Clean (First stage clean)
+                             \Flux (from EddyPro summary, site files -> read_bor & then overwrite with EddyPro recalculated output) 
+                                 \Clean (First stage clean)
+                             \Clean\SecondStage 
+                                   \ThirdStage
+                                   \Ameriflux
+                                   \ThirdStage_REddyProc_RF_Fast (simple uncertainty analysis)
+                                   \ThirdStage_REddyProc_RF_Full (full uncertainty analysis)
+                                      
+* `P:\Micromet_web` (note that this mirrors what’s on host remote.geog.ubc.ca)       
+    
+                      \www 
+                          \data (html & javascript for site level web plotting)
+                          \webdata\resources\csv (csv files for web plotting)
+		
+* `Google drive` contains:
+  * Pictures (to remove and host on google photos)
+  * Documents
+
+Continue adding info from <a href="https://docs.google.com/document/d/1kVtfDBTvuR87whcWRWn6p2re3najnij5c0284XPRqWA/edit?usp=sharing">here</a>
+
+# Other Documentation & Tasks
+
+The following documents in the `General procedures, settings and protocols` folder in Google Drive may also be of use:
+
+* Updating webplots → `Micromet web plotting.docx`
+* Documents for dealing with full internal memory for SmartFlux → `Note_SmartFlux internal memory_ssh connection.docx & Note_SmartFlux internal memory_updater.docx`
+* 7200 lab calibration → `Note_LI-7200 Lab calibration procedure.docx`
+* Gas tank calibration → `Report_Gas tank calibration.docx`
+
+**NOTE**: Note that the `troubleshooting reports` folder contains documentation on troubleshooting that is relevant to all sites. 
+
+# Creating a local copy of the database
+
+To create a local copy of the Micromet Lab database or create your own database following the Micromet Lab database structure, following the instructions provided <a href="https://github.com/ubc-micromet/Biomet.net">here</a>
