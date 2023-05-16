@@ -4,14 +4,7 @@
     "href": "about.html",
     "title": "UBC Micromet",
     "section": "",
-    "text": "This Github Organization hosts code and documentation for collecting and processing micrometeorological data. This webpage hosts information about our lab, helpful resources, and links to important repositories."
-  },
-  {
-    "objectID": "about.html#territorial-and-cultural-acknowledgement",
-    "href": "about.html#territorial-and-cultural-acknowledgement",
-    "title": "UBC Micromet",
-    "section": "Territorial and Cultural Acknowledgement",
-    "text": "Territorial and Cultural Acknowledgement\nUBC Micromet is based out of the University of British Columbia, which traditional, ancestral, and unceded on xʷməθkʷəy̓əm (Musqueam) teritory. Our field sites are located in the the Statl̕əẃ (Sto:lo) River Delta (aka the Fraser River Delta). This area encompass the traditional territories of a number of First Nations, including the: xʷməθkʷəy̓əm, Stó:lō, sc̓əwaθenaɁɬ təməxʷ (Tsawwassen), kwantlen, Semiahmoo, Stz’uminus, Á,LEṈENEȻ ȽTE (W̱SÁNEĆ), and sq̓əc̓iy̓aɁɬ təməxʷ (Katzie) people. For more information on Indigenous territories around the world, check out NativeLand.ca"
+    "text": "This Github Organization hosts code and documentation for collecting and processing micrometeorological data. This webpage hosts information about our lab, helpful resources, and links to important repositories.\n\nField Sites\nThis web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.\n\nClick the points to sites to see more information.\n\n\n\n<p>\nYour browser does not support iframes.\n</p>\n<p>\n\nView site in separate window"
   },
   {
     "objectID": "acknowledgement.html",
