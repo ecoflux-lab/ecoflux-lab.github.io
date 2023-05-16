@@ -35,6 +35,13 @@
     "text": "Thank you for your interest in joining our lab! I am always happy to hear from students and postdocs interested in our ongoing research activities.\nPlease contact me by email (sara.knox@ubc.ca) for more details. The deadline for applications in geography is mid-December for MSc students and early January for PhD students, however, I encourage you to contact me well before this deadline. Also, please keep in mind the deadlines for external funding opportunities through NSERC. While graduate student support at UBC is available through teaching assistantships and UBC fellowships, I strongly encourage prospective students to apply for external funding."
   },
   {
+    "objectID": "DataWorkflows.html",
+    "href": "DataWorkflows.html",
+    "title": "Data Pipeline",
+    "section": "",
+    "text": "Data flow schematic\nMicromet Data Flow (currently for BB1, BB2, DSM, and RBM)  Note: Manitoba sites have SmartFlux stream only\n\n\n\n\n\n\n\nDrive/Folder structure on vinimet\n\nP:\\Sites\\Site (data as received from the sites)\n              \\Met\n                  \\5min (for BB only)\n              \\Flux\n              \\HighFrequencyData\nP:\\Database (everything in read_bor format)\n            \\yyyy\\Sites\n                       \\Met (straight from CRBasic -> read_bor)\n                           \\Clean (First stage clean)\n                       \\Flux (from EddyPro summary, site files -> read_bor & then overwrite with EddyPro recalculated output) \n                           \\Clean (First stage clean)\n                       \\Clean\\SecondStage \n                             \\ThirdStage\n                             \\Ameriflux\n                             \\ThirdStage_REddyProc_RF_Fast (simple uncertainty analysis)\n                             \\ThirdStage_REddyProc_RF_Full (full uncertainty analysis)\nP:\\Micromet_web (note that this mirrors what’s on host remote.geog.ubc.ca)\n                \\www \n                    \\data (html & javascript for site level web plotting)\n                    \\webdata\\resources\\csv (csv files for web plotting)\nGoogle drive contains:\n\nPictures (to remove and host on google photos)\nDocuments\n\n\nContinue adding info from here\n\n\nOther Documentation & Tasks\nThe following documents in the General procedures, settings and protocols folder in Google Drive may also be of use:\n\nUpdating webplots → Micromet web plotting.docx\nDocuments for dealing with full internal memory for SmartFlux → Note_SmartFlux internal memory_ssh connection.docx & Note_SmartFlux internal memory_updater.docx\n7200 lab calibration → Note_LI-7200 Lab calibration procedure.docx\nGas tank calibration → Report_Gas tank calibration.docx\n\nNOTE: Note that the troubleshooting reports folder contains documentation on troubleshooting that is relevant to all sites.\n\n\nCreating a local copy of the database\nTo create a local copy of the Micromet Lab database or create your own database following the Micromet Lab database structure, following the instructions provided here"
+  },
+  {
     "objectID": "Documentation.html",
     "href": "Documentation.html",
     "title": "Documentation",
@@ -47,6 +54,13 @@
     "title": "UBC Micromet",
     "section": "",
     "text": "Welcome! Our research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy."
+  },
+  {
+    "objectID": "DailyMonitoring.html",
+    "href": "DailyMonitoring.html",
+    "title": "Daily Site Monitoring",
+    "section": "",
+    "text": "Adding info from here"
   },
   {
     "objectID": "Publications.html",
@@ -173,13 +187,6 @@
     "title": "Calibration Procedures",
     "section": "Set CH4 span",
     "text": "Set CH4 span\n7{: .label .label-green} Move flow meter to CH4 tank and open the main valve (on is left, off is right). * Note: PSI should be ~ 1200 (not necessary to the procedure, but good to note as it will decrease over time and indicated when we need a new gas tank) ### To Do: Confirm value?\n8{: .label .label-green} Enter CH4 concentration (ppm), Confirm the exact value on the tank. Then Watch plot on the program: CH4 should increase until it stabilizes. On the calibration screen – green flags show that CH4 concentrations are steady. You may need to change the scale on the chart again. * Click “Span CH4” > “Apply”\n9{: .label .label-green} Close regulator then close the main CH4 tank value and disconnect the flow meter. * Check how much gas we have left & take a picture\n10{: .label .label-green} Remove the calibration shield, make sure to disconnect the tubing first. Then make sure to replace the 7700 head cap and washer tube first.\n\nTo Do: Check the Coefficients"
-  },
-  {
-    "objectID": "DatabaseWorkflows.html",
-    "href": "DatabaseWorkflows.html",
-    "title": "Database",
-    "section": "",
-    "text": "Add the info for database here"
   },
   {
     "objectID": "OutreachNews.html",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UBC Micromet - Database</title>
+<title>UBC Micromet - Data Pipeline</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./FieldWorkProcedures.html">
- <span class="menu-text">Field Work</span></a>
+ <span class="menu-text">Site Monitoring &amp; Field Work</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Data.html">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Database</h1>
+      <h1 class="quarto-secondary-nav-title">Data Pipeline</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -133,6 +133,11 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./DataWorkflows.html" class="sidebar-item-text sidebar-link active">Data pipeline</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./LabInfo.html" class="sidebar-item-text sidebar-link">Information for Current Lab Members</a>
   </div>
 </li>
@@ -146,24 +151,28 @@ ul.task-list li input[type="checkbox"] {
   <a href="./ReproducibleDataFlow.html" class="sidebar-item-text sidebar-link">Tips for Reproducible Data Flow</a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./DatabaseWorkflows.html" class="sidebar-item-text sidebar-link active">Database</a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-flow-schematic" id="toc-data-flow-schematic" class="nav-link active" data-scroll-target="#data-flow-schematic">Data flow schematic</a></li>
+  <li><a href="#drivefolder-structure-on-vinimet" id="toc-drivefolder-structure-on-vinimet" class="nav-link" data-scroll-target="#drivefolder-structure-on-vinimet">Drive/Folder structure on vinimet</a></li>
+  <li><a href="#other-documentation-tasks" id="toc-other-documentation-tasks" class="nav-link" data-scroll-target="#other-documentation-tasks">Other Documentation &amp; Tasks</a></li>
+  <li><a href="#creating-a-local-copy-of-the-database" id="toc-creating-a-local-copy-of-the-database" class="nav-link" data-scroll-target="#creating-a-local-copy-of-the-database">Creating a local copy of the database</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Database</h1>
+<h1 class="title d-none d-lg-block">Data Pipeline</h1>
 </div>
 
 
@@ -178,9 +187,63 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Add the info for database here</p>
+<section id="data-flow-schematic" class="level1">
+<h1>Data flow schematic</h1>
+<p>Micromet Data Flow (currently for BB1, BB2, DSM, and RBM) <br> Note: Manitoba sites have SmartFlux stream only</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/data flow.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="drivefolder-structure-on-vinimet" class="level1">
+<h1>Drive/Folder structure on vinimet</h1>
+<ul>
+<li><p><code>P:\Sites\Site</code> (data as received from the sites)</p>
+<pre><code>              \Met
+                  \5min (for BB only)
+              \Flux
+              \HighFrequencyData</code></pre></li>
+<li><p><code>P:\Database</code> (everything in read_bor format)</p>
+<pre><code>            \yyyy\Sites
+                       \Met (straight from CRBasic -&gt; read_bor)
+                           \Clean (First stage clean)
+                       \Flux (from EddyPro summary, site files -&gt; read_bor &amp; then overwrite with EddyPro recalculated output) 
+                           \Clean (First stage clean)
+                       \Clean\SecondStage 
+                             \ThirdStage
+                             \Ameriflux
+                             \ThirdStage_REddyProc_RF_Fast (simple uncertainty analysis)
+                             \ThirdStage_REddyProc_RF_Full (full uncertainty analysis)</code></pre></li>
+<li><p><code>P:\Micromet_web</code> (note that this mirrors what’s on host remote.geog.ubc.ca)</p>
+<pre><code>                \www 
+                    \data (html &amp; javascript for site level web plotting)
+                    \webdata\resources\csv (csv files for web plotting)</code></pre></li>
+<li><p><code>Google drive</code> contains:</p>
+<ul>
+<li>Pictures (to remove and host on google photos)</li>
+<li>Documents</li>
+</ul></li>
+</ul>
+<p>Continue adding info from <a href="https://docs.google.com/document/d/1kVtfDBTvuR87whcWRWn6p2re3najnij5c0284XPRqWA/edit?usp=sharing">here</a></p>
+</section>
+<section id="other-documentation-tasks" class="level1">
+<h1>Other Documentation &amp; Tasks</h1>
+<p>The following documents in the <code>General procedures, settings and protocols</code> folder in Google Drive may also be of use:</p>
+<ul>
+<li>Updating webplots → <code>Micromet web plotting.docx</code></li>
+<li>Documents for dealing with full internal memory for SmartFlux → <code>Note_SmartFlux internal memory_ssh connection.docx &amp; Note_SmartFlux internal memory_updater.docx</code></li>
+<li>7200 lab calibration → <code>Note_LI-7200 Lab calibration procedure.docx</code></li>
+<li>Gas tank calibration → <code>Report_Gas tank calibration.docx</code></li>
+</ul>
+<p><strong>NOTE</strong>: Note that the <code>troubleshooting reports</code> folder contains documentation on troubleshooting that is relevant to all sites.</p>
+</section>
+<section id="creating-a-local-copy-of-the-database" class="level1">
+<h1>Creating a local copy of the database</h1>
+<p>To create a local copy of the Micromet Lab database or create your own database following the Micromet Lab database structure, following the instructions provided <a href="https://github.com/ubc-micromet/Biomet.net">here</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -12,7 +12,7 @@ website:
       - href: Documentation.qmd
         text: Documentation
       - href: FieldWorkProcedures.qmd
-        text: Field Work
+        text: Site Monitoring & Field Work
       - href: Data.qmd
         text: Data
       - href: OutreachNews.qmd
@@ -47,20 +47,21 @@ website:
       align: left
       contents:
         - Documentation.qmd
+        - href: DataWorkflows.qmd
+          text: Data pipeline
         - href: LabInfo.qmd
           text: Information for Current Lab Members
         - href: UsingGit.qmd
           text: Using Git
         - href: ReproducibleDataFlow.qmd
           text: Tips for Reproducible Data Flow
-        - href: DatabaseWorkflows.qmd
-          text: Database
     - id: field-work
-      title: "Field Work"
+      title: "Site Monitoring & Field Work"
       style: "floating"
       collapse-level: 1
       align: left
       contents:
+        - DailyMonitoring.qmd
         - FieldWorkProcedures.qmd
         - href: Calibration.qmd
           text: Calibration
