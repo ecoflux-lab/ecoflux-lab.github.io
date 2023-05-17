@@ -14,7 +14,7 @@ website:
       - href: FieldWorkProcedures.qmd
         text: Site Monitoring & Field Work
       - href: Data.qmd
-        text: Data
+        text: Field Sites & Data
       - href: OutreachNews.qmd
         text: Outreach and News
     right:
@@ -30,8 +30,6 @@ website:
       contents:
         - href: index.qmd
           text: Home
-        - href: about.qmd
-          text: About
         - href: Research.qmd
           text: Research
         - href: People.qmd
