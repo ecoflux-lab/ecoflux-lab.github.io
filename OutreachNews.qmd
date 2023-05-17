@@ -12,8 +12,10 @@ June and I presented at the CGU Annual meeting which was held in Banff this year
 </p>
 
 ## 2022
+### December
 A recent talk I gave during the <a href="https://ires.ubc.ca/december-1-2022-ires-faculty-seminar-with-sara-knox/">UBC IRES Seminar Series</a> on <a href="https://ubc.zoom.us/rec/play/ahDxx5K-scupDWdurMm9QuPAY8GvnOddvGk96Zdi83Ry4WsX4VUoTF2LbF6xbYCfTJ-pmpA1XUBcGht5.qRj2HFxNL3N3bbMd?continueMode=true">'Wetlands in a changing world: processes, feedbacks, and the climate benefits of wetlands.'</a> <br>
 
+### November
 Learn more about our recently funded work looking into the role of wetlands as nature-based climate solutions. Excited to work with this great team of researchers!
 <a href="https://geog.ubc.ca/news/new-project-to-study-the-role-of-wetlands-in-combating-climate-change/">
 <img src="images/news-banners/wetlands-as-ncs.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
@@ -24,6 +26,7 @@ Honoured and thrilled to be named <a href="https://www.chairs-chaires.gc.ca/chai
 <img src="images/news-banners/crc.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
 </a>
 
+### September
 Thanks @<a href="https://letstalkscience.ca/">Let’s talk science</a> for featuring our work in your career profiles! See the accompanying interview <a href="https://letstalkscience.ca/careers/sara-knox">here</a>.
 
 <iframe style="display: block; margin: auto;" width="720" height="405" src="https://www.youtube.com/embed/qhWem_mXyX8" title="Career Profile: Sara Knox - Assistant Professor, University of British Columbia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
@@ -34,20 +37,17 @@ Marion’s paper was featured in EOS:
 </a>
 
 ## 2021
+### June
 Coverage of our 2021 Global Change Biology Paper:
 <a href="https://geog.ubc.ca/news/new-study-reveals-how-sensitive-wetlands-are-to-global-warming/">
 <img src="images/news-banners/gcb-paper.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
 </a>
 
 ## 2019
+### August
 The UBC Geography department highlighting our 2019 BAMS paper:
 <a href="https://geog.ubc.ca/news/new-initiative-to-track-greenhouse-gas-levels/">
 <img src="images/news-banners/bams-paper.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
-</a> <br>
-
-A blog post I wrote describing life as a new faculty member:
-<a href="https://fluxnet.org/2019/06/18/people-experiences-as-a-new-faculty-sara-knox/">
-<img src="images/news-banners/fluxnet-blog.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="540"/>
 </a> <br>
 
 An AmeriFlux blog post highlighting our FLUXNET-CH4 work:
@@ -55,11 +55,18 @@ An AmeriFlux blog post highlighting our FLUXNET-CH4 work:
 <img src="images/news-banners/ameriflux.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="540"/>
 </a> <br>
 
-## 2018 and Earlier
-Coverage of our work on wetland restoration in the Sacramento-San Joaquin Delta:
+### June
+A blog post I wrote describing life as a new faculty member:
+<a href="https://fluxnet.org/2019/06/18/people-experiences-as-a-new-faculty-sara-knox/">
+<img src="images/news-banners/fluxnet-blog.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="540"/>
+</a> <br>
 
+## 2018 and Earlier
+### June (2016)
+Coverage of our work on wetland restoration in the Sacramento-San Joaquin Delta:
 <iframe style="display: block; margin: auto;" width="720" height="405" src="https://www.youtube.com/embed/EYyrbfsTc9M" title="Restoring San Francisco Bay’s wetlands one native plant at a time" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
 
+### October (2016)
 An interview I did as part of STEM week at Los Altos High School in Los Altos, California:
 <a href="https://lahstalon.org/stem-speaker-sara-knox-explores-biometeorology/">
 <img src="images/news-banners/talon-sknox.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="540"/>
