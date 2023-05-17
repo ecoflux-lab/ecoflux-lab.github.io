@@ -109,7 +109,7 @@
     "href": "about.html",
     "title": "UBC Micromet",
     "section": "",
-    "text": "This Github Organization hosts code and documentation for collecting and processing micrometeorological data. This webpage hosts information about our lab, helpful resources, and links to important repositories.\n\nField Sites\nThis web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.\n\nClick the points to sites to see more information.\n\n\n\n<p>\nYour browser does not support iframes.\n</p>\n<p>\n\nView site in separate window"
+    "text": "This Github Organization hosts code and documentation for collecting and processing micrometeorological data. This webpage hosts information about our lab, helpful resources, and links to important repositories."
   },
   {
     "objectID": "LabInfo.html",
@@ -214,7 +214,7 @@
     "href": "OutreachNews.html#section-1",
     "title": "Outreach and News",
     "section": "2022",
-    "text": "2022\n\nDecember\nA recent talk I gave during the UBC IRES Seminar Series on ‘Wetlands in a changing world: processes, feedbacks, and the climate benefits of wetlands.’ \n\n\nNovember\nLearn more about our recently funded work looking into the role of wetlands as nature-based climate solutions. Excited to work with this great team of researchers!    \nHonoured and thrilled to be named CRC in Eco-Meteorology! This is really a group accomplishment that reflects my amazing team (past and present) and all the wonderful and talented colleagues and mentors I’ve had the opportunity to worth with.   \n\n\nSeptember\nThanks @Let’s talk science for featuring our work in your career profiles! See the accompanying interview here.\n\n\n\nMarion’s paper was featured in EOS:"
+    "text": "2022\n\nDecember\nA recent talk I gave during the UBC IRES Seminar Series on ‘Wetlands in a changing world: processes, feedbacks, and the climate benefits of wetlands’\n\n\nNovember\nLearn more about our recently funded work looking into the role of wetlands as nature-based climate solutions. Excited to work with this great team of researchers! \nHonoured and thrilled to be named CRC in Eco-Meteorology! This is really a group accomplishment that reflects my amazing team (past and present) and all the wonderful and talented colleagues and mentors I’ve had the opportunity to worth with.\n\n\n\n\n\n\n\nSeptember\nThanks @Let’s talk science for featuring our work in your career profiles! See the accompanying interview here.\n\nMarion’s paper was featured in EOS:"
   },
   {
     "objectID": "OutreachNews.html#section-2",
@@ -228,14 +228,14 @@
     "href": "OutreachNews.html#section-3",
     "title": "Outreach and News",
     "section": "2019",
-    "text": "2019\n\nAugust\nThe UBC Geography department highlighting our 2019 BAMS paper:    \nAn AmeriFlux blog post highlighting our FLUXNET-CH4 work:    \n\n\nJune\nA blog post I wrote describing life as a new faculty member:"
+    "text": "2019\n\nAugust\nThe UBC Geography department highlighting our 2019 BAMS paper:\n\n\n\n\n\nAn AmeriFlux blog post highlighting our FLUXNET-CH4 work:\n\n\n\n\n\n\n\nJune\nA blog post I wrote describing life as a new faculty member:"
   },
   {
     "objectID": "OutreachNews.html#and-earlier",
     "href": "OutreachNews.html#and-earlier",
     "title": "Outreach and News",
     "section": "2018 and Earlier",
-    "text": "2018 and Earlier\n\nJune (2016)\nCoverage of our work on wetland restoration in the Sacramento-San Joaquin Delta:  \n\n\nOctober (2016)\nAn interview I did as part of STEM week at Los Altos High School in Los Altos, California:"
+    "text": "2018 and Earlier\n\nJune (2016)\nCoverage of our work on wetland restoration in the Sacramento-San Joaquin Delta:\n\n\n\nOctober (2016)\nAn interview I did as part of STEM week at Los Altos High School in Los Altos, California:"
   },
   {
     "objectID": "ReproducibleDataFlow.html",
@@ -282,15 +282,22 @@
   {
     "objectID": "Data.html#currently-operational-sites",
     "href": "Data.html#currently-operational-sites",
-    "title": "Data",
+    "title": "Field Sites & Data",
     "section": "Currently Operational Sites",
-    "text": "Currently Operational Sites\nClick here for a map of our field sites.\n\nBurns Bog 1\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\n\n\nDownload Data for CA-DBB from Ameriflux.\n\n\nData from the web plots are available here (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\nBurns Bog 2\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\n\n\nData for CA-DB2 will soon be availble from Ameriflux.\n\n\nData from the web plots are available here (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here).\n\n\nBB2 Site Photos\n\n\n\n\nDelta Salt Marsh\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\n\n\nData from CA-DSM will soon be available on AmeriFlux.\n\n\nData from the web plots are available here (prefix DSM. note that this is raw data – no filtering or QCQA).\n\n\nDSM Site Photos\n\n\n\n\nRichmond Brackish Marsh\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\n\n\nData from CA-RBM will soon be available on AmeriFlux.\n\n\nData from the web plots are available here (prefix RBM. note that this is raw data – no filtering or QCQA).\n\n\nRBM Site Photos\n\n\n\n\nUBC Climate Station on Totem Field\n\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
+    "text": "Currently Operational Sites\n\nBurns Bog 1\n\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\nDownload Data for CA-DBB from Ameriflux.\nData from the web plots are available here (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here.\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog 2\n\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\nDownload Data for CA-DB2 will soon be available from Ameriflux.\nData from the web plots are available here (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here.\nBB2 Site Photos\n\n\n\n\n\n\n\n\n\n\n\nDelta Salt Marsh\n\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\nData from CA-DSM will soon be available on AmeriFlux.\nData from the web plots are available here (prefix DSM. note that this is raw data – no filtering or QCQA.\nDSM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nRichmond Brackish Marsh\n\n\nbroken url for the site photos (don’t think that big of an issue since we want to replace w. the google photos link anyways)\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\nData from CA-RBM will soon be available on AmeriFlux.\nData from the web plots are available here (prefix RBM. note that this is raw data – no filtering or QCQA.\nRBM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nUBC Climate Station on Totem Field\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
   },
   {
     "objectID": "Data.html#code-and-documentation",
     "href": "Data.html#code-and-documentation",
-    "title": "Data",
+    "title": "Field Sites & Data",
     "section": "Code and Documentation",
     "text": "Code and Documentation\nOur lab github hosts code for flux processing, README docs for our lab, and various other bits of information.\nMore documentation related to maintenance procedures for our sites can be found here."
+  },
+  {
+    "objectID": "Data.html#field-sites",
+    "href": "Data.html#field-sites",
+    "title": "Field Sites & Data",
+    "section": "Field Sites",
+    "text": "Field Sites\nThis web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.\n\nClick the points to sites to see more information.\n\n\n\n<p>\nYour browser does not support iframes.\n</p>\n<p>\n\nView site in separate window"
   }
 ]
