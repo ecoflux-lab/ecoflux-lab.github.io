@@ -2,6 +2,83 @@
 title: "Daily Site Monitoring"
 echo: false
 ---
+Below are instructions for visual checks of the data that should be done every day.
 
-Adding info from <a href="https://docs.google.com/document/d/1hM0ZpYF6znLv-90TAyof2EEdsJ6oyaizvdwNYeMugyM/edit?usp=sharing">here</a>
+## Site Monitoring
+1. Check web plots by going to:
+    * [BB1](https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#)
+    * [BB2](https://ibis.geog.ubc.ca/~micromet/data/burnsbog2)
+    * [BB2 w. 2 plots](https://ibis.geog.ubc.ca/~micromet/data/basic_sync5#)
+    * [DSM](https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#)
+    * [Hogg and Young](https://app1.fluxsuite.com/login?next=%2Fmap%2F) (see ‘Micromet sites remote access’ file for login information.)
+  
+  *Note can also view data plot on vinimet (or your local computer if it’s set up) using ‘view_micromet’ in Matlab.*
+
+2. Check critical variables:
+    * Motor Power (%) for LI-7200 pump
+      * Keep checking if this one changes over time (over weeks). Higher power means more air-flow resistance in the tubing indicating either clogged up filter (if we use those), dirty rain cap wire-mesh or damaged tubing (*insert image ![]()*)
+
+    * Pump Flow rate:
+      * we aim for 30-min averages of slpm = 15 L/min;
+      * below 13 L/min we begin to worry, (data quality drops);
+      * below 10 L/min we need to fix it ASAP (data quality questionable or data missing) by cleaning up the intake tube cap
+      
+    * Thermocouples
+      * LI-7200: these two values should be very close to each other (<1 C difference)
+        * In (t_in_LI_7200)
+        * Out (t_out_LI_7200)
+      * LI-7700
+        * Air temperature
+      
+    * Diagnostic flags for all instruments
+
+3. Climate variables
+    * click on “last day” (for [https://ibis.geog.ubc.ca/~micromet/](https://ibis.geog.ubc.ca/~micromet/) webplots; for Hogg and Young make sure ‘Number of Days to Display’ include the last day)
+    * check if there are new data & if the values are reasonable (for all sites)
+
+4. Check fluxes
+    * For latent heat, CO2, CH4, etc. for the current day check if there are new data & if the values are reasonable
+    * Gas analyzer signal strength - view data over a longer period to check for any trends (e.g., over a month). Might need to go to the field if it’s decreasing rapidly (<10%). It’s normal for 7700’s signal strength to drop during rainy periods, but it’s not normal for 7200’s to drop that frequently (if it does, check the 7200 head’s o-ring). 
+    * Voltage - look at data over the past month and tell June or Rick if the battery voltage goes below 24 V at midnight. This usually happens in the winter when we have a few days of clouds & rain.
+  
+5. Notes: if you see **BB1** and **BB2** precip data don't align with each other, there's a possibility that the tipping bucket is clogged.
+
+## Remote Login to Li-7200/LI-7700
+1. Connect to VPN, go to Remote Desktop & connect to vinimet.geog.ubc.ca (or it’s better to do this from your personal computer so you won’t kick off or get kicked off by other people using Vinimet). Note that doing this on your personal computer requires a PC.
+
+2. Open the LI-7x00 software on desktop:
+    * (*insert image ![]()*)
+    
+3. Connect using the right [IP Address](https://docs.google.com/document/d/1JyEQ7OyvLmtzWhKl5TsjZ7FiPcd_f-K0ewoyx3xSmH4/edit)
+
+4. Once on the main page check:
+    * The logger status → should be logging
+    * USB Free Space → make sure there’s still enough space in the USB (usually the USB stick can handle 6-weeks data)
+    * The SmartFlux module has to be connected to the system, make sure it’s not “none”
+    * CO2 dry - during daytime should be around 380-420 ppm, during night time it can be quite high depending on the site (sometimes >600 ppm)
+    * CH4 - should be around 2 ppm
+    * Temperature in and out → these two values should be very close to each other (<1 C difference)
+    * Head pressure - should be between -0.8 to  -3.8 kPa
+    * Flow drive -  should be around 50% to 90%
+    * Flow rate - should be around 13-15 l/m
+
+*insert image ![]()*
+
+You can change the displayed variables by clicking on the values. The recommended default setup for the variables along with the variables’ normal values are as follows:
+
+*insert image ![]()*
+
+5. Click on the “Diagnostics” tab - check if all parameters are “OK”
+
+*insert image ![]()*
+
+6. Also check 7700 Optics RH. If it’s >15%, we should replace the internal chemicals.
+
+*insert image ![]()*
+
+7. Check SmartFlux internal memory every 2-3 months
+    * Instructions to check memory are under `Note_SmartFlux internal memory_ssh connection.docx`
+    * Instructions to clear memory are under `Note_SmartFlux internal memory_updater.docx`
+
+Adding info from [here](https://docs.google.com/document/d/1hM0ZpYF6znLv-90TAyof2EEdsJ6oyaizvdwNYeMugyM/edit?usp=sharing)
  

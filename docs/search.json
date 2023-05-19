@@ -81,7 +81,7 @@
     "href": "DailyMonitoring.html",
     "title": "Daily Site Monitoring",
     "section": "",
-    "text": "Adding info from here"
+    "text": "Below are instructions for visual checks of the data that should be done every day."
   },
   {
     "objectID": "Publications.html",
@@ -299,5 +299,19 @@
     "title": "Field Sites & Data",
     "section": "Code and Documentation",
     "text": "Code and Documentation\nOur lab github hosts code for flux processing, README docs for our lab, and various other bits of information.\nMore documentation related to maintenance procedures for our sites can be found here."
+  },
+  {
+    "objectID": "DailyMonitoring.html#site-monitoring",
+    "href": "DailyMonitoring.html#site-monitoring",
+    "title": "Daily Site Monitoring",
+    "section": "Site Monitoring",
+    "text": "Site Monitoring\n\nCheck web plots by going to:\n\nBB1\nBB2\nBB2 w. 2 plots\nDSM\nHogg and Young (see ‘Micromet sites remote access’ file for login information.)\n\n\nNote can also view data plot on vinimet (or your local computer if it’s set up) using ‘view_micromet’ in Matlab.\n\nCheck critical variables:\n\nMotor Power (%) for LI-7200 pump\n\nKeep checking if this one changes over time (over weeks). Higher power means more air-flow resistance in the tubing indicating either clogged up filter (if we use those), dirty rain cap wire-mesh or damaged tubing (insert image )\n\nPump Flow rate:\n\nwe aim for 30-min averages of slpm = 15 L/min;\nbelow 13 L/min we begin to worry, (data quality drops);\nbelow 10 L/min we need to fix it ASAP (data quality questionable or data missing) by cleaning up the intake tube cap\n\nThermocouples\n\nLI-7200: these two values should be very close to each other (<1 C difference)\n\nIn (t_in_LI_7200)\nOut (t_out_LI_7200)\n\nLI-7700\n\nAir temperature\n\n\nDiagnostic flags for all instruments\n\nClimate variables\n\nclick on “last day” (for https://ibis.geog.ubc.ca/~micromet/ webplots; for Hogg and Young make sure ‘Number of Days to Display’ include the last day)\ncheck if there are new data & if the values are reasonable (for all sites)\n\nCheck fluxes\n\nFor latent heat, CO2, CH4, etc. for the current day check if there are new data & if the values are reasonable\nGas analyzer signal strength - view data over a longer period to check for any trends (e.g., over a month). Might need to go to the field if it’s decreasing rapidly (<10%). It’s normal for 7700’s signal strength to drop during rainy periods, but it’s not normal for 7200’s to drop that frequently (if it does, check the 7200 head’s o-ring).\nVoltage - look at data over the past month and tell June or Rick if the battery voltage goes below 24 V at midnight. This usually happens in the winter when we have a few days of clouds & rain.\n\nNotes: if you see BB1 and BB2 precip data don’t align with each other, there’s a possibility that the tipping bucket is clogged."
+  },
+  {
+    "objectID": "DailyMonitoring.html#remote-login-to-li-7200li-7700",
+    "href": "DailyMonitoring.html#remote-login-to-li-7200li-7700",
+    "title": "Daily Site Monitoring",
+    "section": "Remote Login to Li-7200/LI-7700",
+    "text": "Remote Login to Li-7200/LI-7700\n\nConnect to VPN, go to Remote Desktop & connect to vinimet.geog.ubc.ca (or it’s better to do this from your personal computer so you won’t kick off or get kicked off by other people using Vinimet). Note that doing this on your personal computer requires a PC.\nOpen the LI-7x00 software on desktop:\n\n(insert image )\n\nConnect using the right IP Address\nOnce on the main page check:\n\nThe logger status → should be logging\nUSB Free Space → make sure there’s still enough space in the USB (usually the USB stick can handle 6-weeks data)\nThe SmartFlux module has to be connected to the system, make sure it’s not “none”\nCO2 dry - during daytime should be around 380-420 ppm, during night time it can be quite high depending on the site (sometimes >600 ppm)\nCH4 - should be around 2 ppm\nTemperature in and out → these two values should be very close to each other (<1 C difference)\nHead pressure - should be between -0.8 to -3.8 kPa\nFlow drive - should be around 50% to 90%\nFlow rate - should be around 13-15 l/m\n\n\ninsert image \nYou can change the displayed variables by clicking on the values. The recommended default setup for the variables along with the variables’ normal values are as follows:\ninsert image \n\nClick on the “Diagnostics” tab - check if all parameters are “OK”\n\ninsert image \n\nAlso check 7700 Optics RH. If it’s >15%, we should replace the internal chemicals.\n\ninsert image \n\nCheck SmartFlux internal memory every 2-3 months\n\nInstructions to check memory are under Note_SmartFlux internal memory_ssh connection.docx\nInstructions to clear memory are under Note_SmartFlux internal memory_updater.docx\n\n\nAdding info from here"
   }
 ]
