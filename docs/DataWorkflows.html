@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Data.html">
- <span class="menu-text">Data</span></a>
+ <span class="menu-text">Field Sites &amp; Data</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./OutreachNews.html">
@@ -162,6 +162,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#data-flow-schematic" id="toc-data-flow-schematic" class="nav-link active" data-scroll-target="#data-flow-schematic">Data flow schematic</a></li>
   <li><a href="#drivefolder-structure-on-vinimet" id="toc-drivefolder-structure-on-vinimet" class="nav-link" data-scroll-target="#drivefolder-structure-on-vinimet">Drive/Folder structure on vinimet</a></li>
+  <li><a href="#data-stream-notes" id="toc-data-stream-notes" class="nav-link" data-scroll-target="#data-stream-notes">Data stream notes</a></li>
+  <li><a href="#web-plotting-pipeline" id="toc-web-plotting-pipeline" class="nav-link" data-scroll-target="#web-plotting-pipeline">Web-plotting pipeline</a></li>
   <li><a href="#other-documentation-tasks" id="toc-other-documentation-tasks" class="nav-link" data-scroll-target="#other-documentation-tasks">Other Documentation &amp; Tasks</a></li>
   <li><a href="#creating-a-local-copy-of-the-database" id="toc-creating-a-local-copy-of-the-database" class="nav-link" data-scroll-target="#creating-a-local-copy-of-the-database">Creating a local copy of the database</a></li>
   </ul>
@@ -224,6 +226,105 @@ ul.task-list li input[type="checkbox"] {
 <li>Pictures (to remove and host on google photos)</li>
 <li>Documents</li>
 </ul></li>
+</ul>
+</section>
+<section id="data-stream-notes" class="level1">
+<h1>Data stream notes</h1>
+<p>The data processing is run from LoggerNet Task manager through batch files stored under <code>c:\UBC_Flux\BiometFTPsite</code>. The batch files are named: Site_automatic_processing.bat. The generic Matlab scripts that’s called from these batch files is: run_BB_db_update([],{‘Site’},0)</p>
+<p><strong>More Details</strong></p>
+<ul>
+<li><p>MET Files</p>
+<ul>
+<li>Every 4 hrs (e.g., BB1 4:20, BB2 4:10) Loggernet Task Master downloads MET data to <code>P:\Sites\Site\Met\Site_MET.dat</code> (or Site_biomet.dat)</li>
+</ul>
+<p><em>Note</em> Site <em>is used generically to refer to each site (e.g., BB, BB2, DSM, RBM, Hogg, Young)</em></p></li>
+<li><p>Once per day 1:10 am</p>
+<ul>
+<li>‘Rename files for all sites’ - Called from Loggernet Task Master
+<ul>
+<li>Renames Site_MET.dat to Site_MET.yyyyddd</li>
+<li>-nosplash /r “renam_csi_dat_files”(<code>'P:Sites\Site\Met'</code>);…for each site; exit;”</li>
+</ul></li>
+<li>Site_Process_CSI_to_database - Called from Loggernet Task Master
+<ul>
+<li><p>-nosplash -minimize /r “run_BB_db_update([],{‘Site’});”</p>
+<pre><code>  function run_BB_db_update(yearln)
+    dv = datevec(now);
+    arg_defualt('yearln', dv(1));
+    sites = {'Site'};
+    db_update_BB_site(yearln, sites);
+    exit</code></pre></li>
+</ul></li>
+<li>db_update_BB_site
+<ul>
+<li>Update Site matlab database with new logger files to <code>P:\Database\yyyy\Site\Met</code></li>
+<li>Call <code>C:\UBC_PC_Setup\PC_specific\BB_webupdate</code> to create .csv files used by webplots -&gt; `P:_web</li>
+<li>Call <code>C:\Ubc_flux\BiometFTPsite\BB_Web_Update.bat</code> to move csv files to webserver</li>
+</ul></li>
+</ul></li>
+<li><p>Location of data</p>
+<ul>
+<li><code>P:</code> - local drive on vinimet</li>
+<li><code>P:\Micromet_web\www\webdata\resources\csv</code> - location of CSV files</li>
+<li><code>P:\Micromet_web\www\data</code> - local versions of js, html files</li>
+<li><code>P:\Sites\Sites</code> - raw data</li>
+</ul></li>
+</ul>
+</section>
+<section id="web-plotting-pipeline" class="level1">
+<h1>Web-plotting pipeline</h1>
+<p>First, go from the bottom of the chart in the first page upwards, find out which step stopped working then use the followiwng instructions to troubleshoot.</p>
+<p><strong>EC Data</strong></p>
+<ol type="1">
+<li>SmartFlux files (*_EP-Summary.txt) arrive in the folders as below: <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB\Flux</code> <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB2\Flux</code></li>
+</ol>
+<p><em>insert image <img src=".png" class="img-fluid"></em></p>
+<ul>
+<li>Troubleshooting for <strong>Step 1</strong>:
+<ul>
+<li><p>If there is <strong>NO</strong> recent data files (<em>.zip or </em>.txt) at all, then:</p>
+<ul>
+<li>Check if you can still connect to LI-7200 to determine if it is an Internet issue or not.</li>
+<li>Check if the LoggerNet task for data downloads failed. When all tasks are executed properly, the status of the tasks should be shown like this:</li>
+</ul>
+<p><em>insert image <img src=".png" class="img-fluid"></em></p>
+<ul>
+<li>Check if the SmartFlux system at site skips processing or not by using WinSCP connecting to it (e.g., BB_site or BB2_site). The second figure below shows the BB2 SmartFlux have skipped processing of Feb.&nbsp;1 (there is no summary file for that day):</li>
+</ul>
+<p><em>insert images <img src=".png" class="img-fluid"></em></p></li>
+</ul></li>
+</ul>
+<ol start="2" type="1">
+<li><p>If SmartFlux files arrive, the task “XX_automatic_processing” (as shown in the figure above) that runs Matlab program will process all data (CSI and SmartFlux) and update the web files too.</p>
+<ul>
+<li>Troubleshooting for <strong>Step 2</strong>:
+<ul>
+<li>If you suspect that this task failed, then:
+<ul>
+<li>Check the dates of the last updated web csv files (<code>\\VINIMET.GEOG.UBC.CA\Micromet_web\www\webdata\resources\csv</code>).</li>
+<li>Check a few flux-related csv files to see if the last datestamps are less than 6 hours old.</li>
+<li>If the files are <strong>NOT</strong> up-to-date, manually rerun the Matlab program by using <code>run_BB_db_update([]{'BB2},0)</code></li>
+</ul></li>
+<li>If you confirm the task is working fine or you’ve re-run the Matlab program, then:
+<ul>
+<li>Check if those files were uploaded to the web server by starting WinSCP to connect to ‘remote.geog.ubc.ca’ and see if the files are there.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ol>
+<p><strong>Met Data</strong></p>
+<p>Data from dataloggers goes to <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB\Met\</code> or <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB2\Met\</code>.</p>
+<ul>
+<li>Troubleshooting:
+<ol type="1">
+<li>Check if the files have arrived or not.</li>
+<li>Check the LoggerNet task for data downloads.</li>
+<li>Check connection to the logger</li>
+<li>Check the data of the last updates Biomet database files (<code>\\VINIMET.GEOG.UBC.CA\Database</code>)</li>
+<li>Check a few MET-related csv files to see if the last datestamps are less than 6 hours old.</li>
+<li>Manually re-run the task in Matlab by using <code>run_BB_db_update([]{'BB2},0)</code>.</li>
+<li>Check if those csv files were uploaded to the web server.</li>
+</ol></li>
 </ul>
 <p>Continue adding info from <a href="https://docs.google.com/document/d/1kVtfDBTvuR87whcWRWn6p2re3najnij5c0284XPRqWA/edit?usp=sharing">here</a></p>
 </section>
