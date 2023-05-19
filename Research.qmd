@@ -3,7 +3,7 @@ title: "Research"
 ---
 Our research focuses on measuring and modelling greenhouse gas, water, and energy fluxes across a range of spatial and temporal scales. We combine field-based measurements, remote sensing, and modelling to investigate land-atmosphere interactions in our rapidly changing world, with a current emphasis on wetland ecosystems.
 
-<img src="images/tower.jpeg" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
+![](images/tower.jpeg)
 
 ## The integrated GHG Research and Observations in Wetlands (iGROW) Research Program
 Among the numerous ecosystem services provided by wetlands climate regulation is identified as one of their most important benefits to society. Wetland ecosystems play an important role in the global carbon cycle; they provide the ideal environment for long-term storage of atmospheric carbon dioxide, yet they are also the largest single source of methane. Climate change has the potential to increase greenhouse gas (GHG) emissions from wetlands, however, the consequences of rising temperatures on wetland GHG exchange remains uncertain. Furthermore, preventing further wetland loss and restoring wetland ecosystems has been identified by researchers and governments as important in limiting future emissions to help meet climate goals. The integrated GHG Research and Observations in Wetlands (iGROW) research program’, takes an interdisciplinary approach to provide a better understanding of how wetland responses to climate variability and restoration can feedback to slow or accelerate future climate change. iGROW combines state-of-the-art field-based measurements, remote sensing, and modelling to provide new insights into the controls of wetland GHG fluxes across a range of spatial and temporal scales and quantify the potential climate benefits of wetland restoration and conservation. This research is key to better predicting current and future contributions of wetlands to climate change, which is highly relevant for policies aiming to limit the level of global temperature rise. Current iGROW research projects include:
@@ -18,34 +18,33 @@ In collaboration with several other research groups at UBC, my lab’s research 
 By conducting year-round eddy covariance measurements, we are assessing the biogeochemical and biophysical impacts of peatland restoration, and the impacts of forest fire smoke on carbon cycling and energy fluxes in restored peatlands. This research is also being done in collaboration with researchers and staff at Metro Vancouver who are interested in quantifying the climate mitigation potential of wetland restoration and conservation. <br>
 
 **Collaborators:** <br>
-<a href="https://ecohydro.ires.ubc.ca">UBC Ecohydrology Research Group</a> <br>
-<a href="https://biomet.landfood.ubc.ca">UBC Biometeorology and Soil Physics Group</a> <br>
-<a href="https://ibis.geog.ubc.ca/~rdmoore/index.htm">Dan Moore's Research Group, UBC Geography</a> <br>
+[UBC Ecohydrology Research Group](https://ecohydro.ires.ubc.ca) <br>
+[UBC Biometeorology and Soil Physics Group](https://biomet.landfood.ubc.ca) <br>
+[Dan Moore's Research Group, UBC Geography](https://ibis.geog.ubc.ca/~rdmoore/index.htm) <br>
 
 **News on Burns Bog:** <br>
-April 20, 2023 - <a href="https://theconversation.com/up-in-smoke-human-activities-are-fuelling-wildfires-that-burn-essential-carbon-sequestering-peatlands-202816">Up in smoke: Human activities are fuelling wildfires that burn essential carbon-sequestering peatlands</a> <br>
-June 16, 2021 - <a href="https://www.straight.com/news/david-suzuki-for-climates-sake-save-peat">David Suzuki: For climate's sake, save the peat!</a> <br>
-June 29, 2020 - <a href="http://www.metrovancouver.org/media-room/media-releases/air-quality/613/carbon-neutral-achievement-sets-stage-for-bold-climate-action">Carbon Neutral Achievement Sets Stage for Bold Climate Action</a> <br>
+April 20, 2023 - [Up in smoke: Human activities are fuelling wildfires that burn essential carbon-sequestering peatlands](https://theconversation.com/up-in-smoke-human-activities-are-fuelling-wildfires-that-burn-essential-carbon-sequestering-peatlands-202816) <br>
+June 16, 2021 - [David Suzuki: For climate's sake, save the peat!](https://www.straight.com/news/david-suzuki-for-climates-sake-save-peat) <br>
+June 29, 2020 - [Carbon Neutral Achievement Sets Stage for Bold Climate Action](http://www.metrovancouver.org/media-room/media-releases/air-quality/613/carbon-neutral-achievement-sets-stage-for-bold-climate-action) <br>
 
 ### Blue Carbon Research
 <img src="images/eddytower1.jpeg" style="float: left; padding-right: 25px; margin-top: 12px; margin-bottom: 12px" width="250" height="275"/> 
 
-Blue carbon is the carbon sequestered and stored in coastal ecosystems including tidal marshes, mangroves, and seagrasses. Coastal ecosystems are among the strongest carbon sinks in the biosphere. This coupled with their potential for low methane emissions, has generated widespread interest in these ecosystems for climate change mitigation and adaptation. However, measuring and modelling carbon exchanges in tidal wetlands presents unique challenges due to highly dynamic atmospheric and hydrological fluxes, as well as sensitivities to both terrestrial and marine influences. Through iGROW, my research group recently installed two eddy covariance flux towers (CA-DSM and CA-RBM) in tidal wetlands along the Pacific Coast of Canada to quantify and model the net carbon and GHG balance of these marshes, which represent an important data gap in ecosystem-scale measurements of GHG exchange from tidal marshes. In partnership West Coast Environmental Law, we are also working to translate this blue carbon science into <a href="https://www.wcel.org/publication/policy-and-planning-coastal-ecosystems-british-columbia-through-blue-carbon-lens">policy-relevant information for municipalities and provincial governments</a>. <br>
+Blue carbon is the carbon sequestered and stored in coastal ecosystems including tidal marshes, mangroves, and seagrasses. Coastal ecosystems are among the strongest carbon sinks in the biosphere. This coupled with their potential for low methane emissions, has generated widespread interest in these ecosystems for climate change mitigation and adaptation. However, measuring and modelling carbon exchanges in tidal wetlands presents unique challenges due to highly dynamic atmospheric and hydrological fluxes, as well as sensitivities to both terrestrial and marine influences. Through iGROW, my research group recently installed two eddy covariance flux towers (CA-DSM and CA-RBM) in tidal wetlands along the Pacific Coast of Canada to quantify and model the net carbon and GHG balance of these marshes, which represent an important data gap in ecosystem-scale measurements of GHG exchange from tidal marshes. In partnership West Coast Environmental Law, we are also working to translate this blue carbon science into [policy-relevant information for municipalities and provincial governments](https://www.wcel.org/publication/policy-and-planning-coastal-ecosystems-british-columbia-through-blue-carbon-lens). <br>
 
 <img src="images/eddytower2.jpeg" style="float: right; padding-left: 25px; margin-bottom: 12px" width="250" height="300"/> 
 
-Our research group is also involved in the NSF funded Coastal Carbon Research Coordination Network. Specifically, we are involved in the <a href="https://serc.si.edu/methane-working-group">Methane Working Group</a>, which aims to compile all methane flux data from coastal habitats (excluding mangroves) in the CONUS to parameterize and validate a set of nested process-based methane models. <br>
+Our research group is also involved in the NSF funded Coastal Carbon Research Coordination Network. Specifically, we are involved in the [Methane Working Group](https://serc.si.edu/methane-working-group), which aims to compile all methane flux data from coastal habitats (excluding mangroves) in the CONUS to parameterize and validate a set of nested process-based methane models. <br>
 
-Additionally, we are part of a <a href="https://ess.science.energy.gov/summary-of-environmental-system-science-projects-awarded-in-summer-2021/
-">U.S. Department of Energy</a> grant “High-frequency Data Integration for Landscape Model Calibration of Carbon Fluxes Across Diverse Tidal Marshes” focused on leveraging eddy covariance observations to improve landscape-scale models of carbon fluxes across tidal marshes. This grant brings together university and government researchers from across the U.S. <br>
+Additionally, we are part of a [U.S. Department of Energy](https://ess.science.energy.gov/summary-of-environmental-system-science-projects-awarded-in-summer-2021/) grant “High-frequency Data Integration for Landscape Model Calibration of Carbon Fluxes Across Diverse Tidal Marshes” focused on leveraging eddy covariance observations to improve landscape-scale models of carbon fluxes across tidal marshes. This grant brings together university and government researchers from across the U.S. <br>
 
-I am also a co-investigator on a collaborative research effort to model the current and future mitigation capacity of Canada’s blue carbon ecosystems, which was recently funded by an NSERC Alliance grant. The project is led by Julia Baum (University of Victoria), and includes four co-principal investigators and seventeen collaborators from across the country which are contributing to <a href="https://www.bluecarboncanada.ca">this national natural ocean climate solutions research effort</a>. The project brings together a consortium of four universities, three government agencies, and four eNGOs. <br>
+I am also a co-investigator on a collaborative research effort to model the current and future mitigation capacity of Canada’s blue carbon ecosystems, which was recently funded by an NSERC Alliance grant. The project is led by Julia Baum (University of Victoria), and includes four co-principal investigators and seventeen collaborators from across the country which are contributing to [this national natural ocean climate solutions research effort](https://www.bluecarboncanada.ca). The project brings together a consortium of four universities, three government agencies, and four eNGOs. <br>
 
 **Primary Collaborators:** <br>
-<a href="http://pattyoikawa.weebly.com/">Oikawa Lab, California State University, East Bay</a> <br>
-<a href="https://pubs.er.usgs.gov/publication/fs20163042">The U.S. Geological Survey</a> <br>
-<a href="https://www.juliakbaum.org">The Baum Lab, University of Victoria</a> <br>
-<a href="http://oconnorlab.weebly.com/index.html">O'Connor Lab, The University of British Columbia</a> <br>
+[Oikawa Lab, California State University, East Bay](http://pattyoikawa.weebly.com/) <br>
+[The U.S. Geological Survey](https://pubs.er.usgs.gov/publication/fs20163042) <br>
+[The Baum Lab, University of Victoria](https://www.juliakbaum.org) <br>
+[O'Connor Lab, The University of British Columbia](http://oconnorlab.weebly.com/index.html) <br>
 
 ### Carbon Cycling in the Prairie Pothole Region of Canada
 <img src="images/prairie_CC.jpeg" style="float: left; padding-right: 25px; margin-top: 12px; margin-bottom: 12px" width="300" height="250"/> 
@@ -53,12 +52,12 @@ I am also a co-investigator on a collaborative research effort to model the curr
 With growing interest in wetland management and restoration as a Natural Climate Solution, improved estimates of wetland carbon sequestration and GHG fluxes across Canadian wetland types are strongly needed. In partnership with Ducks Unlimited Canada, we focus on wetlands in the Prairie Pothole Region of western Canada since these ecosystems are understudied relative to other wetland types in Canada, yet they play important roles in carbon cycling and climate regulation. Specifically, this study leverages existing funding and infrastructure to investigate carbon and GHG dynamics across two wetland sites, with the aims of measuring and modeling GHG fluxes in prairie wetlands in Manitoba.
 
 **Primary Collaborators:** <br>
-<a href="https://iwwr.ducks.ca/about-us/">Ducks Unlimited Canada</a> - <a href="https://iwwr.ducks.ca/team/pascal-badiou/">Pascal Badiou</a> <br>
+[Ducks Unlimited Canada](https://iwwr.ducks.ca/about-us/) - [Pascal Badiou](https://iwwr.ducks.ca/team/pascal-badiou/) <br>
 
 **Prairie Wetlands in the News:** <br>
-May 19, 2022 - <a href="https://www.producer.com/news/project-intended-to-demonstrate-wetlands-greenhouse-gas-impact/">Project intended to demonstrate wetlands’ greenhouse gas impact </a> <br>
-April 20, 2022 - <a href="https://www.ducks.ca/news/provincial/alberta/duc-analyzing-wetlands-on-farms-and-ranches-for-carbon-capture/">DUC analyzing wetlands on farms and ranches for carbon capture</a> <br>
-April, 2022 - <a href="https://mfga.net/duc-carbon-tower-project">DUC Carbon Tower Project</a> <br>
+May 19, 2022 - [Project intended to demonstrate wetlands’ greenhouse gas impact](https://www.producer.com/news/project-intended-to-demonstrate-wetlands-greenhouse-gas-impact/) <br>
+April 20, 2022 - [DUC analyzing wetlands on farms and ranches for carbon capture](https://www.ducks.ca/news/provincial/alberta/duc-analyzing-wetlands-on-farms-and-ranches-for-carbon-capture/) <br>
+April, 2022 - [DUC Carbon Tower Project](https://mfga.net/duc-carbon-tower-project) <br>
 
 ## Past iGROW Research Projects
 ### FLUXNET-CH4 – a global database of eddy covariance CH4 flux measurements and wetland synthesis for CH4
@@ -66,15 +65,15 @@ Natural wetlands emit approximately 30% of global CH4 emissions, as their waterl
 
 <img src="images/fluxnet_ch4_map_cap.png" style="float: right; padding-left: 25px; margin-bottom: 12px" width="400" height="265"/> 
 
-FLUXNET-CH4 is an initiative coordinated through the <a href="https://www.globalcarbonproject.org">Global Carbon Project</a> in close partnership with <a href="https://ameriflux.lbl.gov/">AmeriFlux</a> and <a href="http://www.europe-fluxdata.eu">EuroFlux</a>, to compile a global database of eddy covariance CH4 flux measurements to answer regional and global questions related to the global CH4 cycle. Through this activity, we coordinated the collection, aggregation, standardization, and post-processing of global CH4 data from the flux tower community. <a href="https://fluxnet.org/data/fluxnet-ch4-community-product/">FLUXNET-CH4 Version 1.0</a> includes data from 81 sites, representing freshwater, coastal, upland, natural, and managed ecosystems. <br>
+FLUXNET-CH4 is an initiative coordinated through the [Global Carbon Project](https://www.globalcarbonproject.org) in close partnership with [AmeriFlux](https://ameriflux.lbl.gov/) and [EuroFlux](http://www.europe-fluxdata.eu), to compile a global database of eddy covariance CH4 flux measurements to answer regional and global questions related to the global CH4 cycle. Through this activity, we coordinated the collection, aggregation, standardization, and post-processing of global CH4 data from the flux tower community. [FLUXNET-CH4 Version 1.0](https://fluxnet.org/data/fluxnet-ch4-community-product/) includes data from 81 sites, representing freshwater, coastal, upland, natural, and managed ecosystems. <br>
 
-Additionally, through a <a href="https://www.usgs.gov/centers/john-wesley-powell-center-for-analysis-and-synthesis/science/wetland-fluxnet-synthesis">USGS Powell Center Working Group</a>, we leveraged the FLUXNET-CH4 to provide novel insights into the controls and timing of wetland CH4 emissions for North America and globally, inform and validate biogeochemical models, and upscale wetland CH4 flux measurements globally. <br>
+Additionally, through a [USGS Powell Center Working Group](https://www.usgs.gov/centers/john-wesley-powell-center-for-analysis-and-synthesis/science/wetland-fluxnet-synthesis), we leveraged the FLUXNET-CH4 to provide novel insights into the controls and timing of wetland CH4 emissions for North America and globally, inform and validate biogeochemical models, and upscale wetland CH4 flux measurements globally. <br>
 
 **Collaborators:** <br>
-<a href="https://jacksonlab.stanford.edu/">Jackson Lab, Stanford University</a> <br>
-<a href="https://science.gsfc.nasa.gov/sed/bio/benjamin.poulter">NASA Goddard</a> <br>
-<a href="http://www.globalcarbonproject.org/">Global Carbon Project</a> <br>
-<a href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/">Stanford Machine Learning Group</a>
+[Jackson Lab, Stanford University](https://jacksonlab.stanford.edu/) <br>
+[NASA Goddard](https://science.gsfc.nasa.gov/sed/bio/benjamin.poulter) <br>
+[Global Carbon Project](http://www.globalcarbonproject.org/) <br>
+[Stanford Machine Learning Group](https://stanfordmlgroup.github.io/programs/aicc-bootcamp/) <br>
 
 ### Quantifying carbon benefits of tidal wetland restoration in the Delta: Decision support using a robust, integrated and data-driven model
 <img src="images/cbenefits.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 50%" width="750" height="150"/> 
@@ -82,6 +81,6 @@ Additionally, through a <a href="https://www.usgs.gov/centers/john-wesley-powell
 This research was funded through the California Department of Fish and Wildlife and focused on advancing remote sensing data in tidally flooded marshes and using the data to improve modeling of greenhouse gases in these systems. The modeling tool will be made publicly available through Google Earth Engine. This research was a collaboration between UBC, California State University, East Bay, UC Berkeley, and the U.S. Geological Survey.
 
 **Collaborators:** <br>
-<a href="http://pattyoikawa.weebly.com/">Oikawa Lab, California State University, East Bay</a> <br>
-<a href="https://pubs.er.usgs.gov/publication/fs20163042">The U.S. Geological Survey</a> <br>
-<a href="http://landscaperesearchgroup.berkeley.edu/">The Landscape Research Group, UC Berkeley</a>
+[Oikawa Lab, California State University, East Bay](http://pattyoikawa.weebly.com/) <br>
+[The U.S. Geological Survey](https://pubs.er.usgs.gov/publication/fs20163042) <br>
+[The Landscape Research Group, UC Berkeley](http://landscaperesearchgroup.berkeley.edu/) <br>
