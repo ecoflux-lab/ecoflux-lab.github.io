@@ -122,5 +122,25 @@
   },
   "acknowledgement.qmd": {
     "acknowledgement.html": "8c478fd0"
+  },
+  "Pub.qmd": {
+    "Pub.html": "e5898056",
+    "Pub.md": "993b8f09"
+  },
+  "Pub_fmt.qmd": {
+    "Pub_fmt.html": "db3e1ab2"
+  },
+  "Pubs.qmd": {
+    "Pubs.md": "6983aa1b",
+    "Pubs.html": "669206c6"
+  },
+  "Pubs_fmt.qmd": {
+    "Pubs_fmt.html": "94056591"
+  },
+  "Pubs_list.qmd": {
+    "Pubs_list.html": "3f599f3d"
+  },
+  "docs/Pubs.md": {
+    "Pubs.html": "58577351"
   }
 }

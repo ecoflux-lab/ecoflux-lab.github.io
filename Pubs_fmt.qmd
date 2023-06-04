@@ -1,0 +1,42 @@
+---
+title: "Publications"
+format: 
+  html: 
+    code-fold: true
+    
+jupyter: python3
+---
+
+
+```{python}
+import os
+import shutil
+
+raw_doc = "Pubs"
+updated_doc = "Pubs_list"
+
+f = open(f"{raw_doc}.md", "r")
+raw = f.read()
+raw = raw.split('---',2)[-1]
+
+names_list = ['Knox, S. H.','Skeeter, J.','Lee, S.-C.','Russell, S. J.','Lu, T.-Y.','Ng, D.','Satriawan, T.','Nyberg, M.','Nesic, Z.','Ketler, R']
+
+for name in names_list:
+  raw = raw.replace(name,f'**{name}**')
+
+with open(f"{updated_doc}.qmd", "r") as f:
+
+  updated = f.read()
+  updated = updated.split('---',2)[1]
+  updated = '---' + updated + '---\n' + raw
+
+with open(f"{updated_doc}.qmd", "w+") as f: 
+
+  f.write(updated)
+
+shutil.copy('american-geophysical-union.csl','docs/american-geophysical-union.csl')
+
+shutil.copy('lab_publications.bib','docs/lab_publications.bib')
+
+
+```

@@ -1,5 +1,9 @@
 ---
 title: "Publications"
+format: 
+  markdown:
+    code-fold: true
+
 bibliography: lab_publications.bib
 section-bibs-bibliography: lab_publications.bib
 filters:
@@ -8,7 +12,6 @@ section-bibs-level: 2 # May require edit to line 78 in _extensions/section-bibli
 citeproc: False
 
 csl: american-geophysical-union.csl
-
 ---
 
 ## Peer Reviewed Journal Articles
@@ -137,7 +140,7 @@ csl: american-geophysical-union.csl
 @satriawan_interannual_2022_a
 @satriawan_interannual_2022_b
 @satriawan_interannual_2021
-@russell_increased_2020
+@satriawan_interannual_2020
 @nyberg_impacts_2020
 
 :::

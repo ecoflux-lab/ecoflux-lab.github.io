@@ -1,0 +1,536 @@
+---
+bibliography: lab_publications.bib
+csl: american-geophysical-union.csl
+section-bibs-bibliography: lab_publications.bib
+section-bibs-level: 2
+title: Publications
+toc-title: Table of contents
+website:
+  navbar:
+    background: light
+    left:
+    - href: index.qmd
+      text: Home
+    - href: Documentation.qmd
+      text: Documentation
+    - href: FieldWorkProcedures.qmd
+      text: Site Monitoring & Field Work
+    - href: Data.qmd
+      text: Field Sites & Data
+    - href: OutreachNews.qmd
+      text: Outreach and News
+    right:
+    - aria-label: Quarto GitHub
+      href: "https://github.com/ubc-micromet"
+      icon: github
+  sidebar:
+  - align: left
+    collapse-level: 3
+    contents:
+    - href: index.qmd
+      text: Home
+    - href: Research.qmd
+      text: Research
+    - href: People.qmd
+      text: People
+    - href: Pubs_list.qmd
+      text: Publications
+    - href: Join.qmd
+      text: Join the lab
+    - href: acknowledgement.qmd
+      text: Territorial and Cultural Acknowledgement
+    id: home
+    style: floating
+    title: Home
+  - align: left
+    collapse-level: 3
+    contents:
+    - Documentation.qmd
+    - href: DataWorkflows.qmd
+      text: Data pipeline
+    - href: LabInfo.qmd
+      text: Information for Current Lab Members
+    - href: UsingGit.qmd
+      text: Using Git
+    - href: ReproducibleDataFlow.qmd
+      text: Tips for Reproducible Data Flow
+    id: documentation
+    style: floating
+    title: Documentation
+  - align: left
+    collapse-level: 1
+    contents:
+    - DailyMonitoring.qmd
+    - FieldWorkProcedures.qmd
+    - href: Calibration.qmd
+      text: Calibration
+    - href: Cleaning.qmd
+      text: Cleaning
+    id: field-work
+    style: floating
+    title: Site Monitoring & Field Work
+  title: UBC Micromet
+---
+
+## Peer Reviewed Journal Articles
+
+::: {#refs-0.1 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-russell_increased_2023 .csl-entry}
+Russell, S. J., Windham-Myers, L., Stuart-Haëntjens, E. J., Bergamaschi,
+B. A., Anderson, F., Oikawa, P., & Knox, S. H. (2023). Increased
+salinity decreases annual gross primary productivity at a Northern
+California brackish tidal marsh. *Environmental Research Letters*,
+*18*(3), 034045. <https://doi.org/10.1088/1748-9326/acbbdf>
+:::
+
+::: {#ref-ouyang_paddy_2023 .csl-entry}
+Ouyang, Z., Jackson, R. B., McNicol, G., Fluet-Chouinard, E., Runkle, B.
+R. K., Papale, D., et al. (2023). Paddy rice methane emissions across
+monsoon asia. *Remote Sensing of Environment*, *284*, 113335.
+<https://doi.org/10.1016/j.rse.2022.113335>
+:::
+
+::: {#ref-quan_estimating_2023 .csl-entry}
+Quan, N., Lee, S.-C., Chopra, C., Nesic, Z., Porto, P., Pow, P., et al.
+(2023). Estimating Net Carbon and Greenhouse Gas Balances of Potato and
+Pea Crops on a Conventional Farm in Western Canada. *Journal of
+Geophysical Research: Biogeosciences*, *128*(3), e2022JG007113.
+<https://doi.org/10.1029/2022JG007113>
+:::
+
+::: {#ref-lee_biogeochemical_2022 .csl-entry}
+Lee, S.-C., Knox, S. H., McKendry, I., & Black, T. A. (2022).
+Biogeochemical and biophysical responses to episodes of wildfire smoke
+from natural ecosystems in southwestern British Columbia, Canada.
+*Atmospheric Chemistry and Physics*, *22*(4), 2333--2349.
+<https://doi.org/10.5194/acp-22-2333-2022>
+:::
+
+::: {#ref-nyberg_impacts_2022 .csl-entry}
+Nyberg, M., Black, T. A., Ketler, R., Lee, S.-C., Johnson, M., Merkens,
+M., et al. (2022). Impacts of Active Versus Passive Re-Wetting on the
+Carbon Balance of a Previously Drained Bog. *Journal of Geophysical
+Research: Biogeosciences*, *127*(9), e2022JG006881.
+<https://doi.org/10.1029/2022JG006881>
+:::
+
+::: {#ref-yuan_causality_2022 .csl-entry}
+Yuan, K., Zhu, Q., Li, F., Riley, W. J., Torn, M., Chu, H., et al.
+(2022). Causality guided machine learning model on wetland CH4 emissions
+across global wetlands. *Agricultural and Forest Meteorology*, *324*,
+109115. <https://doi.org/10.1016/j.agrformet.2022.109115>
+:::
+
+::: {#ref-zhang_anthropogenic_2021 .csl-entry}
+Zhang, Z., Poulter, B., Knox, S., Stavert, A., McNicol, G.,
+Fluet-Chouinard, E., et al. (2021). Anthropogenic emission is the main
+contributor to the rise of atmospheric methane during 1993--2017.
+*National Science Review*, *9*(5). <https://doi.org/10.1093/nsr/nwab200>
+:::
+
+::: {#ref-chang_substantial_2021 .csl-entry}
+Chang, K.-Y., Riley, W. J., Knox, S. H., Jackson, R. B., McNicol, G.,
+Poulter, B., et al. (2021). Substantial hysteresis in emergent
+temperature sensitivity of global wetland CH4 emissions. *Nature
+Communications*, *12*(1), 2266.
+<https://doi.org/10.1038/s41467-021-22452-1>
+:::
+
+::: {#ref-fisher_once_2021 .csl-entry}
+Fisher, J. B., Keenan, T. F., Buechner, C., Shirkey, G., Perez-Quezada,
+J. F., Knox, S. H., et al. (2021). Once upon a time, in AmeriFlux.
+*Journal of Geophysical Research: Biogeosciences*, *126*(1),
+e2020JG006148. <https://doi.org/10.1029/2020JG006148>
+:::
+
+::: {#ref-chu_representativeness_2021 .csl-entry}
+Chu, H., Luo, X., Ouyang, Z., Chan, W. S., Dengel, S., Biraud, S. C., et
+al. (2021). Representativeness of eddy-covariance flux footprints for
+areas surrounding AmeriFlux sites. *Agricultural and Forest
+Meteorology*, *301-302*, 108350.
+<https://doi.org/10.1016/j.agrformet.2021.108350>
+:::
+
+::: {#ref-delwiche_fluxnet_2021 .csl-entry}
+Delwiche, K. B., Knox, S. H., Malhotra, A., Fluet-Chouinard, E.,
+McNicol, G., Feron, S., et al. (2021). FLUXNET-CH$_4$: A global,
+multi-ecosystem dataset and analysis of methane seasonality from
+freshwater wetlands. *Earth System Science Data*, *13*(7), 3607--3689.
+<https://doi.org/10.5194/essd-13-3607-2021>
+:::
+
+::: {#ref-dronova_remotely_2021 .csl-entry}
+Dronova, I., Taddeo, S., Hemes, K. S., Knox, S. H., Valach, A., Oikawa,
+P. Y., et al. (2021). Remotely sensed phenological heterogeneity of
+restored wetlands: Linking vegetation structure and function.
+*Agricultural and Forest Meteorology*, *296*, 108215.
+<https://doi.org/10.1016/j.agrformet.2020.108215>
+:::
+
+::: {#ref-irvin_gap_2021 .csl-entry}
+Irvin, J., Zhou, S., McNicol, G., Lu, F., Liu, V., Fluet-Chouinard, E.,
+et al. (2021). Gap-filling eddy covariance methane fluxes: Comparison of
+machine learning model predictions and uncertainties at FLUXNET-CH4
+wetlands. *Agricultural and Forest Meteorology*, *308-309*, 108528.
+<https://doi.org/10.1016/j.agrformet.2021.108528>
+:::
+
+::: {#ref-knox_identifying_2021 .csl-entry}
+Knox, Sara H., Bansal, S., McNicol, G., Schafer, K., Sturtevant, C.,
+Ueyama, M., et al. (2021). Identifying dominant environmental predictors
+of freshwater wetland methane fluxes across diurnal to seasonal time
+scales. *Global Change Biology*, *27*(15), 3582--3604.
+<https://doi.org/10.1111/gcb.15661>
+:::
+
+::: {#ref-lee_biophysical_2021 .csl-entry}
+Lee, S.-C., Black, T. A., Nyberg, M., Merkens, M., Nesic, Z., Ng, D., &
+Knox, S. H. (2021). Biophysical Impacts of Historical Disturbances,
+Restoration Strategies, and Vegetation Types in a Peatland Ecosystem.
+*Journal of Geophysical Research: Biogeosciences*, *126*(10),
+e2021JG006532. <https://doi.org/10.1029/2021JG006532>
+:::
+
+::: {#ref-miller_potential_2021 .csl-entry}
+Miller, G. J., Dronova, I., Oikawa, P. Y., Knox, S. H., Windham-Myers,
+L., Shahan, J., & Stuart-Haëntjens, E. (2021). The potential of
+satellite remote sensing time series to uncover wetland phenology under
+unique challenges of tidal setting. *Remote Sensing*, *13*(18), 3589.
+<https://doi.org/10.3390/rs13183589>
+:::
+
+::: {#ref-bogard_hydrologic_2020 .csl-entry}
+Bogard, M. J., Bergamaschi, B. A., Butman, D. E., Anderson, F., Knox, S.
+H., & Windham-Myers, L. (2020). Hydrologic export is a major component
+of coastal wetland carbon budgets. *Global Biogeochemical Cycles*,
+*34*(8), e2019GB006430. <https://doi.org/10.1029/2019GB006430>
+:::
+
+::: {#ref-feagin_tidal_2020 .csl-entry}
+Feagin, R. A., Forbrich, I., Huff, T. P., Barr, J. G., Ruiz-Plancarte,
+J., Fuentes, J. D., et al. (2020). Tidal wetland gross primary
+production across the continental united states, 2000--2019. *Global
+Biogeochemical Cycles*, *34*(2), e2019GB006349.
+<https://doi.org/10.1029/2019GB006349>
+:::
+
+::: {#ref-pastorello_fluxnet_2020 .csl-entry}
+Pastorello, G., Trotta, C., Canfora, E., Chu, H., Christianson, D.,
+Cheah, Y.-W., et al. (2020). The FLUXNET2015 dataset and the ONEFlux
+processing pipeline for eddy covariance data. *Scientific Data*, *7*(1),
+225. <https://doi.org/10.1038/s41597-020-0534-3>
+:::
+
+::: {#ref-kim_gap-filling_2019 .csl-entry}
+Kim, Y., Johnson, M. S., Knox, S. H., Black, T. A., Dalmagro, H. J.,
+Kang, M., et al. (2019). Gap-filling approaches for eddy covariance
+methane fluxes: A comparison of three machine learning algorithms and a
+traditional method with principal component analysis. *Global Change
+Biology*, *26*(3), 1499--1518. <https://doi.org/10.1111/gcb.14845>
+:::
+
+::: {#ref-knox_fluxnet_2019 .csl-entry}
+Knox, Sara H., Jackson, R. B., Poulter, B., McNicol, G.,
+Fluet-Chouinard, E., Zhang, Z., et al. (2019). FLUXNET-CH4 synthesis
+activity: Objectives, observations, and future directions. *Bulletin of
+the American Meteorological Society*, *100*(12), 2607--2632.
+<https://doi.org/10.1175/BAMS-D-18-0268.1>
+:::
+
+::: {#ref-mcnicol_where_2019 .csl-entry}
+McNicol, G., Knox, S. H., Guilderson, T. P., Baldocchi, D. D., & Silver,
+W. L. (2019). Where old meets new: An ecosystem study of methanogenesis
+in a reflooded agricultural peatland. *Global Change Biology*, *26*(2),
+772--785. <https://doi.org/10.1111/gcb.14916>
+:::
+
+::: {#ref-peltola_monthly_2019 .csl-entry}
+Peltola, O., Vesala, T., Gao, Y., Räty, O., Alekseychik, P., Aurela, M.,
+et al. (2019). Monthly gridded data product of northern wetland methane
+emissions based on upscaling eddy covariance observations. *Earth System
+Science Data*, *11*(3), 1263--1289.
+<https://doi.org/10.5194/essd-11-1263-2019>
+:::
+
+::: {#ref-holmquist_uncertainty_2018 .csl-entry}
+Holmquist, J. R., Windham-Myers, L., Bernal, B., Byrd, K. B., Crooks,
+S., Gonneea, M. E., et al. (2018). Uncertainty in united states coastal
+wetland greenhouse gas inventorying. *Environmental Research Letters*,
+*13*(11), 115005. <https://doi.org/10.1088/1748-9326/aae157>
+:::
+
+::: {#ref-windham_potential_2018 .csl-entry}
+Windham-Myers, L., Bergamaschi, B., Anderson, F., Knox, S., Miller, R.,
+& Fujii, R. (2018). Potential for negative emissions of greenhouse gases
+(CO2, CH4 and N2O) through coastal peatland re-establishment: Novel
+insights from high frequency flux data at meter and kilometer scales.
+*Environmental Research Letters*, *13*(4), 045005.
+<https://doi.org/10.1088/1748-9326/aaae74>
+:::
+
+::: {#ref-deventer_ecosystem_2018 .csl-entry}
+Deventer, M. J., Jiao, Y., Knox, S. H., Anderson, F., Ferner, M. C.,
+Lewis, J. A., & Rhew, R. C. (2018). Ecosystem-scale measurements of
+methyl halide fluxes from a brackish tidal marsh invaded with perennial
+pepperweed (lepidium latifolium). *Journal of Geophysical Research:
+Biogeosciences*, *123*(7), 2104--2120.
+<https://doi.org/10.1029/2018JG004536>
+:::
+
+::: {#ref-eichelman_effect_2018 .csl-entry}
+Eichelmann, E., Hemes, K. S., Knox, S. H., Oikawa, P. Y., Chamberlain,
+S. D., Sturtevant, C., et al. (2018). The effect of land cover type and
+structure on evapotranspiration from agricultural and wetland sites in
+the sacramento--san joaquin river delta, california. *Agricultural and
+Forest Meteorology*, *256-257*, 179--195.
+<https://doi.org/10.1016/j.agrformet.2018.03.007>
+:::
+
+::: {#ref-hemes_biogeochemical_2018 .csl-entry}
+Hemes, K. S., Chamberlain, S. D., Eichelmann, E., Knox, S. H., &
+Baldocchi, D. D. (2018). A biogeochemical compromise: The high methane
+cost of sequestering carbon in restored wetlands. *Geophysical Research
+Letters*, *45*(12), 6081--6091. <https://doi.org/10.1029/2018GL077747>
+:::
+
+::: {#ref-knox_direct_2018 .csl-entry}
+Knox, S. H., Windham-Myers, L., Anderson, F., Sturtevant, C., &
+Bergamaschi, B. (2018). Direct and indirect effects of tides on
+ecosystem-scale CO2 exchange in a brackish tidal marsh in northern
+california. *Journal of Geophysical Research: Biogeosciences*, *123*(3),
+787--806. <https://doi.org/10.1002/2017JG004048>
+:::
+
+::: {#ref-windham_tidal_2018 .csl-entry}
+Windham-Myers, W.-J. C., L., & Watson, E. B. (2018). Tidal wetlands and
+estuaries. *Second State of the Carbon Cycle Report*, 596--648.
+<https://doi.org/10.7930/SOCCR2.2018.Ch15.>
+:::
+
+::: {#ref-knox_using_2017 .csl-entry}
+Knox, Sara H., Dronova, I., Sturtevant, C., Oikawa, P. Y., Matthes, J.
+H., Verfaillie, J., & Baldocchi, D. (2017). Using digital camera and
+landsat imagery with eddy covariance data to model gross primary
+production in restored wetlands. *Agricultural and Forest Meteorology*,
+*237-238*, 233--245. <https://doi.org/10.1016/j.agrformet.2017.02.020>
+:::
+
+::: {#ref-mcnicol_effects_2017 .csl-entry}
+McNicol, G., Sturtevant, C. S., Knox, S. H., Dronova, I., Baldocchi, D.
+D., & Silver, W. L. (2017). Effects of seasonality, transport pathway,
+and spatial structure on greenhouse gas fluxes in a restored wetland.
+*Global Change Biology*, *23*(7), 2768--2782.
+<https://doi.org/10.1111/gcb.13580>
+:::
+
+::: {#ref-oikawa_evaluation_2017 .csl-entry}
+Oikawa, P. Y., Jenerette, G. D., Knox, S. H., Sturtevant, C.,
+Verfaillie, J., Dronova, I., et al. (2017). Evaluation of a hierarchy of
+models reveals importance of substrate limitation for predicting carbon
+dioxide and methane exchange in restored wetlands. *Journal of
+Geophysical Research: Biogeosciences*, *122*(1), 145--167.
+<https://doi.org/10.1002/2016JG003438>
+:::
+
+::: {#ref-oikawa_revisiting_2017 .csl-entry}
+Oikawa, P. Y., Sturtevant, C., Knox, S. H., Verfaillie, J., Huang, Y.
+W., & Baldocchi, D. D. (2017). Revisiting the partitioning of net
+ecosystem exchange of CO2 into photosynthesis and respiration with
+simultaneous flux measurements of 13CO2 and CO2, soil respiration and a
+biophysical model, CANVEG. *Agricultural and Forest Meteorology*,
+*234-235*, 149--163. <https://doi.org/10.1016/j.agrformet.2016.12.016>
+:::
+
+::: {#ref-xin_modeling_2017 .csl-entry}
+Xin, F., Xiao, X., Zhao, B., Miyata, A., Baldocchi, D., Knox, S., et al.
+(2017). Modeling gross primary production of paddy rice cropland through
+analyses of data from CO2 eddy flux tower sites and MODIS images.
+*Remote Sensing of Environment*, *190*, 42--55.
+<https://doi.org/10.1016/j.rse.2016.11.025>
+:::
+
+::: {#ref-anderson_variation_2016 .csl-entry}
+Anderson, F. E., Bergamaschi, B., Sturtevant, C., Knox, S., Hastings,
+L., Windham-Myers, L., et al. (2016). Variation of energy and carbon
+fluxes from a restored temperate freshwater wetland and implications for
+carbon market verification protocols. *Journal of Geophysical Research:
+Biogeosciences*, *121*(3), 777--795.
+<https://doi.org/10.1002/2015JG003083>
+:::
+
+::: {#ref-baldocchi_impact_2016 .csl-entry}
+Baldocchi, D., Knox, S., Dronova, I., Verfaillie, J., Oikawa, P.,
+Sturtevant, C., et al. (2016). The impact of expanding flooded land area
+on the annual evaporation of rice. *Agricultural and Forest
+Meteorology*, *223*, 181--193.
+<https://doi.org/10.1016/j.agrformet.2016.04.001>
+:::
+
+::: {#ref-knox_biophysical_2016 .csl-entry}
+Knox, Sara Helen, Matthes, J. H., Sturtevant, C., Oikawa, P. Y.,
+Verfaillie, J., & Baldocchi, D. (2016). Biophysical controls on
+interannual variability in ecosystem-scale CO2 and CH4 exchange in a
+california rice paddy. *Journal of Geophysical Research:
+Biogeosciences*, *121*(3), 978--1001.
+<https://doi.org/10.1002/2015JG003247>
+:::
+
+::: {#ref-poindexter_contribution_2016 .csl-entry}
+Poindexter, C. M., Baldocchi, D. D., Matthes, J. H., Knox, S. H., &
+Variano, E. A. (2016). The contribution of an overlooked transport
+process to a wetland's methane emissions. *Geophysical Research
+Letters*, *43*(12), 6276--6284. <https://doi.org/10.1002/2016GL068782>
+:::
+
+::: {#ref-sturtevant_identifying_2016 .csl-entry}
+Sturtevant, C., Ruddell, B. L., Knox, S. H., Verfaillie, J., Matthes, J.
+H., Oikawa, P. Y., & Baldocchi, D. (2016). Identifying scale-emergent,
+nonlinear, asynchronous processes of wetland methane exchange. *Journal
+of Geophysical Research: Biogeosciences*, *121*(1), 188--204.
+<https://doi.org/10.1002/2015JG003054>
+:::
+
+::: {#ref-baraer_contribution_2015 .csl-entry}
+Baraer, Michel, McKenzie, J., Mark, B. G., Gordon, R., Bury, J., Condom,
+T., et al. (2015). Contribution of groundwater to the outflow from
+ungauged glacierized catchments: A multi-site study in the tropical
+cordillera blanca, peru. *Hydrological Processes*, *29*(11), 2561--2581.
+<https://doi.org/10.1002/hyp.10386>
+:::
+
+::: {#ref-knox_agricultural_2015 .csl-entry}
+Knox, Sara Helen, Sturtevant, C., Matthes, J. H., Koteen, L.,
+Verfaillie, J., & Baldocchi, D. (2015). Agricultural peatland
+restoration: Effects of land-use change on greenhouse gas (CO2 and CH4)
+fluxes in the sacramento-san joaquin delta. *Global Change Biology*,
+*21*(2), 750--765. <https://doi.org/10.1111/gcb.12745>
+:::
+
+::: {#ref-matthes_predicting_2015 .csl-entry}
+Matthes, J. H., Knox, S. H., Sturtevant, C., Sonnentag, O., Verfaillie,
+J., & Baldocchi, D. (2015). Predicting landscape-scale CO$_{2}$ flux at
+a pasture and rice paddy with long-term hyperspectral canopy reflectance
+measurements. *Biogeosciences*, *12*(15), 4577--4594.
+<https://doi.org/10.5194/bg-12-4577-2015>
+:::
+
+::: {#ref-matthes_parsing_2014 .csl-entry}
+Matthes, Jaclyn Hatala, Sturtevant, C., Verfaillie, J., Knox, S., &
+Baldocchi, D. (2014). Parsing the variability in CH4 flux at a spatially
+heterogeneous wetland: Integrating multiple eddy covariance towers with
+high-resolution flux footprint analysis. *Journal of Geophysical
+Research: Biogeosciences*, *119*(7), 1322--1339.
+<https://doi.org/10.1002/2014JG002642>
+:::
+
+::: {#ref-knox_snow_2012 .csl-entry}
+Knox, Sara H., Carey, S. K., & Humphreys, E. R. (2012). Snow surface
+energy exchanges and snowmelt in a shrub-covered bog in eastern ontario,
+canada. *Hydrological Processes*, *26*(12), 1876--1890.
+<https://doi.org/10.1002/hyp.9289>
+:::
+
+::: {#ref-baraer_characterizing_2009 .csl-entry}
+Baraer, M., McKenzie, J. M., Mark, B. G., Bury, J., & Knox, S. (2009).
+Characterizing contributions of glacier melt and groundwater during the
+dry season in a poorly gauged catchment of the cordillera blanca (peru).
+*Advances in Geosciences*, *22*, 41--49.
+<https://doi.org/10.5194/adgeo-22-41-2009>
+:::
+:::
+
+## Theses
+
+::: {#refs-0.2 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-satriawan_interannual_2022 .csl-entry}
+Satriawan, T. (2022). *Interannual variability of carbon dioxide (CO₂)
+and methane (CH₄) fluxes in a temperate bog over a 5-year period*
+(Master's thesis). University of British Columbia.
+<https://doi.org/10.14288/1.0416306>
+:::
+
+::: {#ref-nyberg_impacts_2021 .csl-entry}
+Nyberg, M. (2021). *Impacts of restoration and climate variability on
+peatland GHG fluxes* (Master's thesis). University of British Columbia.
+<https://doi.org/10.14288/1.0401463>
+:::
+
+::: {#ref-russell_increased_2021 .csl-entry}
+Russell, S. J. (2021). *Increased salinity decreases annual gross
+primary productivity of a Northern California brackish wetland*
+(Master's thesis). University of British Columbia.
+<https://doi.org/10.14288/1.0406272>
+:::
+:::
+
+## Research Talks & Poster Presentations
+
+::: {#refs-0.3 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-skeeter_ongoing_2023 .csl-entry}
+Skeeter, J., & Knox, S. (2023, April). Ongoing and proposed research in
+the burns bog ecological conservancy area. paper-conference, presented
+at the CLASSIC/COHERENT-C Workshop, Victoria, BC.
+:::
+
+::: {#ref-knox_ubc_2023 .csl-entry}
+Knox, S., & Skeeter, J. (2023, March). UBC micrometeorology lab studies
+review. paper-conference, presented at the Burns Bog Ecological
+Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy
+Area Scientific Advisory Panel Meeting, Burnaby, BC.
+:::
+
+::: {#ref-lu_investigating_2022 .csl-entry}
+Lu, T.-Y., Russell, S., Skeeter, J., Lee, S., Oikawa, P., & Knox, S.
+(2022, December). Investigating environmental controls on carbon
+exchange and predicting gaseous carbon fluxes at a salt marsh in british
+columbia. paper-conference, Poster presented at the American Geophysical
+Union Fall Meeting, San Francisco, CA.
+:::
+
+::: {#ref-ng_characterizing_2022 .csl-entry}
+Ng, D., & Knox, S. (2022, December). Characterizing within-footprint
+spatial heterogeneity of CH4 emissions in freshwater wetlands through
+remote sensing and Footprint-weighted Flux Maps. paper-conference,
+presented at the American Geophysical Union Fall Meeting, San Francisco,
+CA.
+:::
+
+::: {#ref-satriawan_interannual_2022_a .csl-entry}
+Satriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson,
+M., & Knox, S. (2022, September). Interannual variability of carbon
+dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over
+a 5-year period. paper-conference, presented at the AsiaFulx Conference,
+Sarawak Malaysia.
+:::
+
+::: {#ref-satriawan_interannual_2022_b .csl-entry}
+Satriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson,
+M., & Knox, S. (2022, June). Interannual variability of carbon dioxide
+(CO2) and methane (CH4) fluxes in a rewetted temperate bog over a 5-year
+period. paper-conference, presented at the Canadian Geophysical Union
+Annual Meeting, Saskatoon, SK.
+:::
+
+::: {#ref-satriawan_interannual_2021 .csl-entry}
+Satriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson,
+M., & Knox, S. (2021, December). Interannual variability of carbon
+dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over
+a 5-year period. paper-conference, presented at the American Geophysical
+Union Annual Meeting, New Orleans, LA.
+:::
+
+::: {#ref-nyberg_impacts_2020 .csl-entry}
+Nyberg, M., S, K., Black, T., Johnson, M., Ketler, R., & Nesic, Z.
+(2020, December). Impacts of restoration and climate variability on
+peatland greenhouse gas fluxes. paper-conference, presented at the
+American Geophysical Union Annual Meeting, \*remote\*.
+:::
+
+::: {#ref-satriawan_interannual_2020 .csl-entry}
+Satriawan, T., Nyberg, M., Lee, S.-C., Nesic, Z., Black, T., Johnson,
+M., & Knox, S. (2020, December). Interannual variability of carbon
+dioxide (CO2) and methane (CH4) fluxes in a rewetted temperate bog over
+a 5-year period. paper-conference, presented at the American Geophysical
+Union Annual Meeting, \*remote\*.
+:::
+:::

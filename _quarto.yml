@@ -34,13 +34,13 @@ website:
           text: Research
         - href: People.qmd
           text: People
-        - href: Publications.qmd
+        - href: Pubs_list.qmd
           text: Publications
         - href: Join.qmd
           text: Join the lab
         - href: acknowledgement.qmd
           text: Territorial and Cultural Acknowledgement
-    - id: docs
+    - id: documentation
       title: "Documentation"
       style: "floating"
       collapse-level: 3
