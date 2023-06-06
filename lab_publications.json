@@ -1,0 +1,5051 @@
+[
+	{"id": "quan_estimating_2023",
+		"type": "article-journal",
+		"abstract": "Quantifying the emissions of the three main biogenic greenhouse gases (GHGs), carbon dioxide (CO2), nitrous oxide (N2O) and methane (CH4), from agroecosystems is crucial. In this study continuous measurements of N2O, and CH4 emissions from potato and pea crops in southwest British Columbia, Canada were made using the eddy-covariance (EC) technique. Flux footprint analysis, coupled with EC and manual nonsteady state chamber measurements, was used to address the spatial heterogeneity resulting from the field edge at the study site. Flux footprint corrections had a larger effect on N2O fluxes than CO2 fluxes because of a more pronounced difference in N2O fluxes between the crop and edge areas. After flux footprint corrections, the potato and pea crops were both weak CO2 sinks with annual net ecosystem exchange values of −57 ± 9 and −97 ± 16 g C m−2 yr−1, respectively. However, after taking carbon (C) export via crop harvest and C import via seeding into account, the potato crop shifted to being a moderate C source of 284 ± 55 g C m−2 yr−1, while the pea crop became near C neutral, sequestering only 30 ± 26 g C m−2 yr−1. Annual GHG balances, quantified by converting N2O and CH4 to CO2 equivalents as pulse emissions using respective global warming potentials on a 100-year timescale, were 417 ± 88 and 152 ± 106 g CO2e m−2 yr−1 for the potato and pea crops, respectively, with N2O contributing the largest proportion to annual total GHG balances and outweighing the CO2 uptake from the atmosphere.",
+		"container-title": "Journal of Geophysical Research: Biogeosciences",
+		"DOI": "10.1029/2022JG007113",
+		"ISSN": "2169-8961",
+		"issue": "3",
+		"language": "en",
+		"page": "e2022JG007113",
+		"title": "Estimating Net Carbon and Greenhouse Gas Balances of Potato and Pea Crops on a Conventional Farm in Western Canada",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2022JG007113",
+		"volume": "128",
+		"author": [
+			{
+				"family": "Quan",
+				"given": "Ningyu"
+			},
+			{
+				"family": "Lee",
+				"given": "Sung-Ching"
+			},
+			{
+				"family": "Chopra",
+				"given": "Chitra"
+			},
+			{
+				"family": "Nesic",
+				"given": "Zoran"
+			},
+			{
+				"family": "Porto",
+				"given": "Paula"
+			},
+			{
+				"family": "Pow",
+				"given": "Patrick"
+			},
+			{
+				"family": "Jassal",
+				"given": "Rachhpal S."
+			},
+			{
+				"family": "Smukler",
+				"given": "Sean"
+			},
+			{
+				"family": "Krzic",
+				"given": "Maja"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara Helen"
+			},
+			{
+				"family": "Black",
+				"given": "Andrew Thomas"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{"id": "nyberg_impacts_2022",
+		"type": "article-journal",
+		"abstract": "Peatland drainage depletes large carbon stocks by increasing carbon dioxide (CO2) emissions from the soil. Restoration via re-wetting could play an important role in climate change mitigation, reducing CO2 emissions and increasing C storage within peatlands. However, re-wetting leads to a biogeochemical compromise between increased CO2 uptake, and enhanced methane (CH4) release. The extent of this compromise in re-wetted ecosystems with differing environmental conditions is uncertain. To assess re-wetting effects, we analyzed eddy-covariance flux measurements from a temperate bog near Vancouver, Canada, from two sites that have undergone different restoration techniques. By the end of the 1-year study period, the actively re-wetted, wetter site, was a weak CO2 sink (−26.1 ± 6.1 g C-CO2 m−2), and the passively re-wetted, drier site, was near CO2 neutral (3.8 ± 3.1 g C-CO2 m−2). Higher CH4 emissions at the wetter site led to a larger radiative balance on 20- and 100-year time horizons, implying that the strong radiative effect of CH4 can offset CO2 sink strength on shorter to medium timeframes. However, long-term radiative forcing (RF) modeling suggests sustained CO2 uptake by the wetter site will eventually lead to a cooling effect on the climate. Furthermore, modeling results emphasize that despite both re-wetted peatland sites having a positive RF over century timescales, the lack of restoration would have resulted in a significantly larger RF beyond the first few decades following restoration. Results highlight the importance of actively re-wetting disturbed peatlands to mitigate climate warming and can be used to inform management decisions.",
+		"container-title": "Journal of Geophysical Research: Biogeosciences",
+		"DOI": "10.1029/2022JG006881",
+		"ISSN": "2169-8961",
+		"issue": "9",
+		"language": "en",
+		"page": "e2022JG006881",
+		"title": "Impacts of Active Versus Passive Re-Wetting on the Carbon Balance of a Previously Drained Bog",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2022JG006881",
+		"volume": "127",
+		"author": [
+			{
+				"family": "Nyberg",
+				"given": "M."
+			},
+			{
+				"family": "Black",
+				"given": "T. A."
+			},
+			{
+				"family": "Ketler",
+				"given": "R."
+			},
+			{
+				"family": "Lee",
+				"given": "S.-C."
+			},
+			{
+				"family": "Johnson",
+				"given": "M."
+			},
+			{
+				"family": "Merkens",
+				"given": "M."
+			},
+			{
+				"family": "Nugent",
+				"given": "K. A."
+			},
+			{
+				"family": "Knox",
+				"given": "S. H."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{"id": "russell_increased_2023",
+		"type": "article-journal",
+		"container-title": "Environmental Research Letters",
+		"DOI": "10.1088/1748-9326/acbbdf",
+		"ISSN": "1748-9326",
+		"issue": "3",
+		"language": "en",
+		"page": "034045",
+		"title": "Increased salinity decreases annual gross primary productivity at a Northern California brackish tidal marsh",
+		"URL": "https://dx.doi.org/10.1088/1748-9326/acbbdf",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Russell",
+				"given": "Sarah J."
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			},
+			{
+				"family": "Stuart-Haëntjens",
+				"given": "Ellen J."
+			},
+			{
+				"family": "Bergamaschi",
+				"given": "Brian A."
+			},
+			{
+				"family": "Anderson",
+				"given": "Frank"
+			},
+			{
+				"family": "Oikawa",
+				"given": "Patty"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{"id": "lee_biogeochemical_2022",
+		"type": "article-journal",
+		"container-title": "Atmospheric Chemistry and Physics",
+		"DOI": "10.5194/acp-22-2333-2022",
+		"ISSN": "1680-7316",
+		"issue": "4",
+		"language": "English",
+		"page": "2333–2349",
+		"title": "Biogeochemical and biophysical responses to episodes of wildfire smoke from natural ecosystems in southwestern British Columbia, Canada",
+		"URL": "https://acp.copernicus.org/articles/22/2333/2022/",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "Sung-Ching"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "McKendry",
+				"given": "Ian"
+			},
+			{
+				"family": "Black",
+				"given": "T. Andrew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2
+				]
+			]
+		}
+	},
+	{"id": "lee_biophysical_2021",
+		"type": "article-journal",
+		"abstract": "Rewetting of disturbed peatlands is an important restoration strategy for climate change mitigation. Previous work primarily focuses on the biogeochemical processes altered by rewetting and few studies have investigated the biophysical impacts, which can diminish or amplify biogeochemical effects beyond the ecosystem scale. We used a paired flux tower approach in a restored peatland to collect year-round eddy covariance data to assess the biophysical impacts of disturbance and management practices. The first site was actively rewetted and is characterized by Sphagnum and white beak-rush with patches of open water. The second site represents a disturbed ecosystem, which underwent natural regeneration and is dominated by scrub pine, Sphagnum, and low shrubs. We found that the actively restored site had higher net radiation compared to the second site due to more surface water ponding and however, the higher aerodynamic conductance at the passively restored site contributed to enhanced daytime turbulent fluxes, and hence, both sites had similar aerodynamic temperatures during the daytime. The actively restored site experienced warmer nighttime and seasonal aerodynamic temperature as much of the excess radiation during the day was stored in the water column and released at night. To achieve restoration goals, higher water tables are now maintained throughout large sections of the bog. The study implies that water table manipulation has the potential to minimize greenhouse gas emissions from the bog, thereby allowing the biophysical impacts of peatland restoration to enhance the biogeochemical benefits. Therefore, it is important to consider both biophysical and biogeochemical changes in peatland restoration management.",
+		"container-title": "Journal of Geophysical Research: Biogeosciences",
+		"DOI": "10.1029/2021JG006532",
+		"ISSN": "2169-8961",
+		"issue": "10",
+		"language": "en",
+		"page": "e2021JG006532",
+		"title": "Biophysical Impacts of Historical Disturbances, Restoration Strategies, and Vegetation Types in a Peatland Ecosystem",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2021JG006532",
+		"volume": "126",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "Sung-Ching"
+			},
+			{
+				"family": "Black",
+				"given": "T. Andrew"
+			},
+			{
+				"family": "Nyberg",
+				"given": "Marion"
+			},
+			{
+				"family": "Merkens",
+				"given": "Markus"
+			},
+			{
+				"family": "Nesic",
+				"given": "Zoran"
+			},
+			{
+				"family": "Ng",
+				"given": "Darian"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "yuan_causality_2022",
+		"type": "article-journal",
+		"abstract": "Wetland CH4 emissions are among the most uncertain components of the global CH4 budget. The complex nature of wetland CH4 processes makes it challenging to identify causal relationships for improving our understanding and predictability of CH4 emissions. In this study, we used the flux measurements of CH4 from eddy covariance towers (30 sites from 4 wetlands types: bog, fen, marsh, and wet tundra) to construct a causality-constrained machine learning (ML) framework to explain the regulative factors and to capture CH4 emissions at sub-seasonal scale. We found that soil temperature is the dominant factor for CH4 emissions in all studied wetland types. Ecosystem respiration (CO2) and gross primary productivity exert controls at bog, fen, and marsh sites with lagged responses of days to weeks. Integrating these asynchronous environmental and biological causal relationships in predictive models significantly improved model performance. More importantly, modeled CH4 emissions differed by up to a factor of 4 under a +1\\,<sup>\\circ</sup>C warming scenario when causality constraints were considered. These results highlight the significant role of causality in modeling wetland CH4 emissions especially under future warming conditions, while traditional data-driven ML models may reproduce observations for the wrong reasons. Our proposed causality-guided model could benefit predictive modeling, large-scale upscaling, data gap-filling, and surrogate modeling of wetland CH4 emissions within earth system land models.",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "10.1016/j.agrformet.2022.109115",
+		"ISSN": "0168-1923",
+		"language": "en",
+		"page": "109115",
+		"title": "Causality guided machine learning model on wetland CH4 emissions across global wetlands",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168192322003021",
+		"volume": "324",
+		"author": [
+			{
+				"family": "Yuan",
+				"given": "Kunxiaojia"
+			},
+			{
+				"family": "Zhu",
+				"given": "Qing"
+			},
+			{
+				"family": "Li",
+				"given": "Fa"
+			},
+			{
+				"family": "Riley",
+				"given": "William J."
+			},
+			{
+				"family": "Torn",
+				"given": "Margaret"
+			},
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Chen",
+				"given": "Min"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Delwiche",
+				"given": "Kyle"
+			},
+			{
+				"family": "Wu",
+				"given": "Huayi"
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Ma",
+				"given": "Hongxu"
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Chen",
+				"given": "Jiquan"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Ueyama",
+				"given": "Masahito"
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Helbig",
+				"given": "Manuel"
+			},
+			{
+				"family": "Tuittila",
+				"given": "Eeva-Stiina"
+			},
+			{
+				"family": "Jurasinski",
+				"given": "Gerald"
+			},
+			{
+				"family": "Koebsch",
+				"given": "Franziska"
+			},
+			{
+				"family": "Campbell",
+				"given": "David"
+			},
+			{
+				"family": "Schmid",
+				"given": "Hans Peter"
+			},
+			{
+				"family": "Lohila",
+				"given": "Annalea"
+			},
+			{
+				"family": "Goeckede",
+				"given": "Mathias"
+			},
+			{
+				"family": "Nilsson",
+				"given": "Mats B."
+			},
+			{
+				"family": "Friborg",
+				"given": "Thomas"
+			},
+			{
+				"family": "Jansen",
+				"given": "Joachim"
+			},
+			{
+				"family": "Zona",
+				"given": "Donatella"
+			},
+			{
+				"family": "Euskirchen",
+				"given": "Eugenie"
+			},
+			{
+				"family": "Ward",
+				"given": "Eric J."
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Jin",
+				"given": "Zhenong"
+			},
+			{
+				"family": "Liu",
+				"given": "Licheng"
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Goodrich",
+				"given": "Jordan"
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{"id": "ouyang_paddy_2023",
+		"type": "article-journal",
+		"container-title": "Remote Sensing of Environment",
+		"DOI": "10.1016/j.rse.2022.113335",
+		"ISSN": "0034-4257",
+		"language": "en",
+		"page": "113335",
+		"title": "Paddy rice methane emissions across Monsoon Asia",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0034425722004412",
+		"volume": "284",
+		"author": [
+			{
+				"family": "Ouyang",
+				"given": "Zutao"
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert B."
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Fluet-Chouinard",
+				"given": "Etienne"
+			},
+			{
+				"family": "Runkle",
+				"given": "Benjamin R. K."
+			},
+			{
+				"family": "Papale",
+				"given": "Dario"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Cooley",
+				"given": "Sarah"
+			},
+			{
+				"family": "Delwiche",
+				"given": "Kyle B."
+			},
+			{
+				"family": "Feron",
+				"given": "Sarah"
+			},
+			{
+				"family": "Irvin",
+				"given": "Jeremy Andrew"
+			},
+			{
+				"family": "Malhotra",
+				"given": "Avni"
+			},
+			{
+				"family": "Muddasir",
+				"given": "Muhammad"
+			},
+			{
+				"family": "Sabbatini",
+				"given": "Simone"
+			},
+			{
+				"family": "Alberto",
+				"given": "Ma Carmelita R."
+			},
+			{
+				"family": "Cescatti",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Chen",
+				"given": "Chi-Ling"
+			},
+			{
+				"family": "Dong",
+				"given": "Jinwei"
+			},
+			{
+				"family": "Fong",
+				"given": "Bryant N."
+			},
+			{
+				"family": "Guo",
+				"given": "Haiqiang"
+			},
+			{
+				"family": "Hao",
+				"given": "Lu"
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Jia",
+				"given": "Qingyu"
+			},
+			{
+				"family": "Ju",
+				"given": "Weimin"
+			},
+			{
+				"family": "Kang",
+				"given": "Minseok"
+			},
+			{
+				"family": "Li",
+				"given": "Hong"
+			},
+			{
+				"family": "Kim",
+				"given": "Joon"
+			},
+			{
+				"family": "Reba",
+				"given": "Michele L."
+			},
+			{
+				"family": "Nayak",
+				"given": "Amaresh Kumar"
+			},
+			{
+				"family": "Roberti",
+				"given": "Debora Regina"
+			},
+			{
+				"family": "Ryu",
+				"given": "Youngryel"
+			},
+			{
+				"family": "Swain",
+				"given": "Chinmaya Kumar"
+			},
+			{
+				"family": "Tsuang",
+				"given": "Benjei"
+			},
+			{
+				"family": "Xiao",
+				"given": "Xiangming"
+			},
+			{
+				"family": "Yuan",
+				"given": "Wenping"
+			},
+			{
+				"family": "Zhang",
+				"given": "Geli"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yongguang"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{"id": "zhang_anthropogenic_2021",
+		"type": "article-journal",
+		"container-title": "National Science Review",
+		"DOI": "10.1093/nsr/nwab200",
+		"ISSN": "2095-5138",
+		"issue": "5",
+		"language": "en",
+		"title": "Anthropogenic emission is the main contributor to the rise of atmospheric methane during 1993–2017",
+		"URL": "https://doi.org/10.1093/nsr/nwab200",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Zhen"
+			},
+			{
+				"family": "Poulter",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Stavert",
+				"given": "Ann"
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Fluet-Chouinard",
+				"given": "Etienne"
+			},
+			{
+				"family": "Feinberg",
+				"given": "Aryeh"
+			},
+			{
+				"family": "Zhao",
+				"given": "Yuanhong"
+			},
+			{
+				"family": "Bousquet",
+				"given": "Philippe"
+			},
+			{
+				"family": "Canadell",
+				"given": "Josep G"
+			},
+			{
+				"family": "Ganesan",
+				"given": "Anita"
+			},
+			{
+				"family": "Hugelius",
+				"given": "Gustaf"
+			},
+			{
+				"family": "Hurtt",
+				"given": "George"
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert B"
+			},
+			{
+				"family": "Patra",
+				"given": "Prabir K"
+			},
+			{
+				"family": "Saunois",
+				"given": "Marielle"
+			},
+			{
+				"family": "Höglund-Isaksson",
+				"given": "Lena"
+			},
+			{
+				"family": "Huang",
+				"given": "Chunlin"
+			},
+			{
+				"family": "Chatterjee",
+				"given": "Abhishek"
+			},
+			{
+				"family": "Li",
+				"given": "Xin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					11
+				]
+			]
+		}
+	},
+	{"id": "miller_potential_2021",
+		"type": "article-journal",
+		"abstract": "While growth history of vegetation within upland systems is well studied, plant phenology within coastal tidal systems is less understood. Landscape-scale, satellite-derived indicators of plant greenness may not adequately represent seasonality of vegetation biomass and productivity within tidal wetlands due to limitations of cloud cover, satellite temporal frequency, and attenuation of plant signals by tidal flooding. However, understanding plant phenology is necessary to gain insight into aboveground biomass, photosynthetic activity, and carbon sequestration. In this study, we use a modeling approach to estimate plant greenness throughout a year in tidal wetlands located within the San Francisco Bay Area, USA. We used variables such as EVI history, temperature, and elevation to predict plant greenness on a 14-day timestep. We found this approach accurately estimated plant greenness, with larger error observed within more dynamic restored wetlands, particularly at early post-restoration stages. We also found modeled EVI can be used as an input variable into greenhouse gas models, allowing for an estimate of carbon sequestration and gross primary production. Our strategy can be further developed in future research by assessing restoration and management effects on wetland phenological dynamics and through incorporating the entire Sentinel-2 time series once it becomes available within Google Earth Engine.",
+		"container-title": "Remote Sensing",
+		"DOI": "10.3390/rs13183589",
+		"ISSN": "2072-4292",
+		"issue": "18",
+		"language": "en",
+		"page": "3589",
+		"title": "The Potential of Satellite Remote Sensing Time Series to Uncover Wetland Phenology under Unique Challenges of Tidal Setting",
+		"URL": "https://www.mdpi.com/2072-4292/13/18/3589",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Miller",
+				"given": "Gwen Joelle"
+			},
+			{
+				"family": "Dronova",
+				"given": "Iryna"
+			},
+			{
+				"family": "Oikawa",
+				"given": "Patricia Y."
+			},
+			{
+				"family": "Knox",
+				"given": "Sara Helen"
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			},
+			{
+				"family": "Shahan",
+				"given": "Julie"
+			},
+			{
+				"family": "Stuart-Haëntjens",
+				"given": "Ellen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "irvin_gap_2021",
+		"type": "article-journal",
+		"abstract": "Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "10.1016/j.agrformet.2021.108528",
+		"ISSN": "0168-1923",
+		"language": "en",
+		"page": "108528",
+		"title": "Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168192321002124",
+		"volume": "308-309",
+		"author": [
+			{
+				"family": "Irvin",
+				"given": "Jeremy"
+			},
+			{
+				"family": "Zhou",
+				"given": "Sharon"
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Lu",
+				"given": "Fred"
+			},
+			{
+				"family": "Liu",
+				"given": "Vincent"
+			},
+			{
+				"family": "Fluet-Chouinard",
+				"given": "Etienne"
+			},
+			{
+				"family": "Ouyang",
+				"given": "Zutao"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara Helen"
+			},
+			{
+				"family": "Lucas-Moffat",
+				"given": "Antje"
+			},
+			{
+				"family": "Trotta",
+				"given": "Carlo"
+			},
+			{
+				"family": "Papale",
+				"given": "Dario"
+			},
+			{
+				"family": "Vitale",
+				"given": "Domenico"
+			},
+			{
+				"family": "Mammarella",
+				"given": "Ivan"
+			},
+			{
+				"family": "Alekseychik",
+				"given": "Pavel"
+			},
+			{
+				"family": "Aurela",
+				"given": "Mika"
+			},
+			{
+				"family": "Avati",
+				"given": "Anand"
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Bansal",
+				"given": "Sheel"
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Campbell",
+				"given": "David I."
+			},
+			{
+				"family": "Chen",
+				"given": "Jiquan"
+			},
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "Dalmagro",
+				"given": "Higo J."
+			},
+			{
+				"family": "Delwiche",
+				"given": "Kyle B."
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Euskirchen",
+				"given": "Eugenie"
+			},
+			{
+				"family": "Feron",
+				"given": "Sarah"
+			},
+			{
+				"family": "Goeckede",
+				"given": "Mathias"
+			},
+			{
+				"family": "Heimann",
+				"given": "Martin"
+			},
+			{
+				"family": "Helbig",
+				"given": "Manuel"
+			},
+			{
+				"family": "Helfter",
+				"given": "Carole"
+			},
+			{
+				"family": "Hemes",
+				"given": "Kyle S."
+			},
+			{
+				"family": "Hirano",
+				"given": "Takashi"
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Jurasinski",
+				"given": "Gerald"
+			},
+			{
+				"family": "Kalhori",
+				"given": "Aram"
+			},
+			{
+				"family": "Kondrich",
+				"given": "Andrew"
+			},
+			{
+				"family": "Lai",
+				"given": "Derrick YF"
+			},
+			{
+				"family": "Lohila",
+				"given": "Annalea"
+			},
+			{
+				"family": "Malhotra",
+				"given": "Avni"
+			},
+			{
+				"family": "Merbold",
+				"given": "Lutz"
+			},
+			{
+				"family": "Mitra",
+				"given": "Bhaskar"
+			},
+			{
+				"family": "Ng",
+				"given": "Andrew"
+			},
+			{
+				"family": "Nilsson",
+				"given": "Mats B."
+			},
+			{
+				"family": "Noormets",
+				"given": "Asko"
+			},
+			{
+				"family": "Peichl",
+				"given": "Matthias"
+			},
+			{
+				"family": "Rey-Sanchez",
+				"given": "A. Camilo"
+			},
+			{
+				"family": "Richardson",
+				"given": "Andrew D."
+			},
+			{
+				"family": "Runkle",
+				"given": "Benjamin RK"
+			},
+			{
+				"family": "Schäfer",
+				"given": "Karina VR"
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Stuart-Haëntjens",
+				"given": "Ellen"
+			},
+			{
+				"family": "Sturtevant",
+				"given": "Cove"
+			},
+			{
+				"family": "Ueyama",
+				"given": "Masahito"
+			},
+			{
+				"family": "Valach",
+				"given": "Alex C."
+			},
+			{
+				"family": "Vargas",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Vourlitis",
+				"given": "George L."
+			},
+			{
+				"family": "Ward",
+				"given": "Eric J."
+			},
+			{
+				"family": "Wong",
+				"given": "Guan Xhuan"
+			},
+			{
+				"family": "Zona",
+				"given": "Donatella"
+			},
+			{
+				"family": "Alberto",
+				"given": "Ma Carmelita R."
+			},
+			{
+				"family": "Billesbach",
+				"given": "David P."
+			},
+			{
+				"family": "Celis",
+				"given": "Gerardo"
+			},
+			{
+				"family": "Dolman",
+				"given": "Han"
+			},
+			{
+				"family": "Friborg",
+				"given": "Thomas"
+			},
+			{
+				"family": "Fuchs",
+				"given": "Kathrin"
+			},
+			{
+				"family": "Gogo",
+				"given": "Sébastien"
+			},
+			{
+				"family": "Gondwe",
+				"given": "Mangaliso J."
+			},
+			{
+				"family": "Goodrich",
+				"given": "Jordan P."
+			},
+			{
+				"family": "Gottschalk",
+				"given": "Pia"
+			},
+			{
+				"family": "Hörtnagl",
+				"given": "Lukas"
+			},
+			{
+				"family": "Jacotot",
+				"given": "Adrien"
+			},
+			{
+				"family": "Koebsch",
+				"given": "Franziska"
+			},
+			{
+				"family": "Kasak",
+				"given": "Kuno"
+			},
+			{
+				"family": "Maier",
+				"given": "Regine"
+			},
+			{
+				"family": "Morin",
+				"given": "Timothy H."
+			},
+			{
+				"family": "Nemitz",
+				"given": "Eiko"
+			},
+			{
+				"family": "Oechel",
+				"given": "Walter C."
+			},
+			{
+				"family": "Oikawa",
+				"given": "Patricia Y."
+			},
+			{
+				"family": "Ono",
+				"given": "Keisuke"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Sakabe",
+				"given": "Ayaka"
+			},
+			{
+				"family": "Schuur",
+				"given": "Edward A."
+			},
+			{
+				"family": "Shortt",
+				"given": "Robert"
+			},
+			{
+				"family": "Sullivan",
+				"given": "Ryan C."
+			},
+			{
+				"family": "Szutu",
+				"given": "Daphne J."
+			},
+			{
+				"family": "Tuittila",
+				"given": "Eeva-Stiina"
+			},
+			{
+				"family": "Varlagin",
+				"given": "Andrej"
+			},
+			{
+				"family": "Verfaillie",
+				"given": "Joeseph G."
+			},
+			{
+				"family": "Wille",
+				"given": "Christian"
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			},
+			{
+				"family": "Poulter",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "knox_identifying_2021",
+		"type": "article-journal",
+		"abstract": "Abstract While wetlands are the largest natural source of methane (CH4) to the atmosphere, they represent a large source of uncertainty in the global CH4 budget due to the complex biogeochemical controls on CH4 dynamics. Here we present, to our knowledge, the first multi-site synthesis of how predictors of CH4 fluxes (FCH4) in freshwater wetlands vary across wetland types at diel, multiday (synoptic), and seasonal time scales. We used several statistical approaches (correlation analysis, generalized additive modeling, mutual information, and random forests) in a wavelet-based multi-resolution framework to assess the importance of environmental predictors, nonlinearities and lags on FCH4 across 23 eddy covariance sites. Seasonally, soil and air temperature were dominant predictors of FCH4 at sites with smaller seasonal variation in water table depth (WTD). In contrast, WTD was the dominant predictor for wetlands with smaller variations in temperature (e.g., seasonal tropical/subtropical wetlands). Changes in seasonal FCH4 lagged fluctuations in WTD by 17 ± 11 days, and lagged air and soil temperature by median values of 8 ± 16 and 5 ± 15 days, respectively. Temperature and WTD were also dominant predictors at the multiday scale. Atmospheric pressure (PA) was another important multiday scale predictor for peat-dominated sites, with drops in PA coinciding with synchronous releases of CH4. At the diel scale, synchronous relationships with latent heat flux and vapor pressure deficit suggest that physical processes controlling evaporation and boundary layer mixing exert similar controls on CH4 volatilization, and suggest the influence of pressurized ventilation in aerenchymatous vegetation. In addition, 1- to 4-h lagged relationships with ecosystem photosynthesis indicate recent carbon substrates, such as root exudates, may also control FCH4. By addressing issues of scale, asynchrony, and nonlinearity, this work improves understanding of the predictors and timing of wetland FCH4 that can inform future studies and models, and help constrain wetland CH4 emissions.",
+		"container-title": "Global Change Biology",
+		"DOI": "10.1111/gcb.15661",
+		"issue": "15",
+		"language": "en",
+		"page": "3582-3604",
+		"title": "Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15661",
+		"volume": "27",
+		"author": [
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Bansal",
+				"given": "Sheel"
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Schafer",
+				"given": "Karina"
+			},
+			{
+				"family": "Sturtevant",
+				"given": "Cove"
+			},
+			{
+				"family": "Ueyama",
+				"given": "Masahito"
+			},
+			{
+				"family": "Valach",
+				"given": "Alex C."
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Delwiche",
+				"given": "Kyle"
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Euskirchen",
+				"given": "Eugenie"
+			},
+			{
+				"family": "Liu",
+				"given": "Jinxun"
+			},
+			{
+				"family": "Lohila",
+				"given": "Annalea"
+			},
+			{
+				"family": "Malhotra",
+				"given": "Avni"
+			},
+			{
+				"family": "Melling",
+				"given": "Lulie"
+			},
+			{
+				"family": "Riley",
+				"given": "William"
+			},
+			{
+				"family": "Runkle",
+				"given": "Benjamin R. K."
+			},
+			{
+				"family": "Turner",
+				"given": "Jessica"
+			},
+			{
+				"family": "Vargas",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Zhu",
+				"given": "Qing"
+			},
+			{
+				"family": "Alto",
+				"given": "Tuula"
+			},
+			{
+				"family": "Fluet-Chouinard",
+				"given": "Etienne"
+			},
+			{
+				"family": "Goeckede",
+				"given": "Mathias"
+			},
+			{
+				"family": "Melton",
+				"given": "Joe R."
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Vesala",
+				"given": "Timo"
+			},
+			{
+				"family": "Ward",
+				"given": "Eric"
+			},
+			{
+				"family": "Zhang",
+				"given": "Zhen"
+			},
+			{
+				"family": "Feron",
+				"given": "Sarah"
+			},
+			{
+				"family": "Ouyang",
+				"given": "Zutao"
+			},
+			{
+				"family": "Alekseychik",
+				"given": "Pavel"
+			},
+			{
+				"family": "Aurela",
+				"given": "Mika"
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Campbell",
+				"given": "David I."
+			},
+			{
+				"family": "Chen",
+				"given": "Jiquan"
+			},
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "Dalmagro",
+				"given": "Higo J."
+			},
+			{
+				"family": "Goodrich",
+				"given": "Jordan P."
+			},
+			{
+				"family": "Gottschalk",
+				"given": "Pia"
+			},
+			{
+				"family": "Hirano",
+				"given": "Takashi"
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Jurasinski",
+				"given": "Gerald"
+			},
+			{
+				"family": "Kang",
+				"given": "Minseok"
+			},
+			{
+				"family": "Koebsch",
+				"given": "Franziska"
+			},
+			{
+				"family": "Mammarella",
+				"given": "Ivan"
+			},
+			{
+				"family": "Nilsson",
+				"given": "Mats B."
+			},
+			{
+				"family": "Ono",
+				"given": "Keisuke"
+			},
+			{
+				"family": "Peichl",
+				"given": "Matthias"
+			},
+			{
+				"family": "Peltola",
+				"given": "Olli"
+			},
+			{
+				"family": "Ryu",
+				"given": "Youngryel"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Sakabe",
+				"given": "Ayaka"
+			},
+			{
+				"family": "Sparks",
+				"given": "Jed P."
+			},
+			{
+				"family": "Tuittila",
+				"given": "Eeva-Stiina"
+			},
+			{
+				"family": "Vourlitis",
+				"given": "George L."
+			},
+			{
+				"family": "Wong",
+				"given": "Guan X."
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			},
+			{
+				"family": "Poulter",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "delwiche_fluxnet_2021",
+		"type": "article-journal",
+		"abstract": "Methane (CH4) emissions from natural landscapes constitute roughly half of global CH4 contributions to the atmosphere, yet large uncertainties remain in the absolute magnitude and the seasonality of emission quantities and drivers. Eddy covariance (EC) measurements of CH4 flux are ideal for constraining ecosystem-scale CH4 emissions due to quasi-continuous and high-temporal-resolution CH4 flux measurements, coincident carbon dioxide, water, and energy flux measurements, lack of ecosystem disturbance, and increased availability of datasets over the last decade. Here, we (1) describe the newly published dataset, FLUXNET-CH4 Version 1.0, the first open-source global dataset of CH4 EC measurements (available at https://fluxnet.org/data/fluxnet-ch4-community-product/, last access: 7 April 2021). FLUXNET-CH4 includes half-hourly and daily gap-filled and non-gap-filled aggregated CH4 fluxes and meteorological data from 79 sites globally: 42 freshwater wetlands, 6 brackish and saline wetlands, 7 formerly drained ecosystems, 7 rice paddy sites, 2 lakes, and 15 uplands. Then, we (2) evaluate FLUXNET-CH4 representativeness for freshwater wetland coverage globally because the majority of sites in FLUXNET-CH4 Version 1.0 are freshwater wetlands which are a substantial source of total atmospheric CH4 emissions; and (3) we provide the first global estimates of the seasonal variability and seasonality predictors of freshwater wetland CH4 fluxes. Our representativeness analysis suggests that the freshwater wetland sites in the dataset cover global wetland bioclimatic attributes (encompassing energy, moisture, and vegetation-related parameters) in arctic, boreal, and temperate regions but only sparsely cover humid tropical regions. Seasonality metrics of wetland CH4 emissions vary considerably across latitudinal bands. In freshwater wetlands (except those between 20∘ S to 20∘ N) the spring onset of elevated CH4 emissions starts 3 d earlier, and the CH4 emission season lasts 4 d longer, for each degree Celsius increase in mean annual air temperature. On average, the spring onset of increasing CH4 emissions lags behind soil warming by 1 month, with very few sites experiencing increased CH4 emissions prior to the onset of soil warming. In contrast, roughly half of these sites experience the spring onset of rising CH4 emissions prior to the spring increase in gross primary productivity (GPP). The timing of peak summer CH4 emissions does not correlate with the timing for either peak summer temperature or peak GPP. Our results provide seasonality parameters for CH4 modeling and highlight seasonality metrics that cannot be predicted by temperature or GPP (i.e., seasonality of CH4 peak). FLUXNET-CH4 is a powerful new resource for diagnosing and understanding the role of terrestrial ecosystems and climate drivers in the global CH4 cycle, and future additions of sites in tropical ecosystems and site years of data collection will provide added value to this database. All seasonality parameters are available at https://doi.org/10.5281/zenodo.4672601 (Delwiche et al., 2021). Additionally, raw FLUXNET-CH4 data used to extract seasonality parameters can be downloaded from https://fluxnet.org/data/fluxnet-ch4-community-product/ (last access: 7 April 2021), and a complete list of the 79 individual site data DOIs is provided in Table 2 of this paper.",
+		"container-title": "Earth System Science Data",
+		"DOI": "10.5194/essd-13-3607-2021",
+		"issue": "7",
+		"language": "en",
+		"page": "3607–3689",
+		"title": "FLUXNET-CH₄: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands",
+		"URL": "https://essd.copernicus.org/articles/13/3607/2021/",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Delwiche",
+				"given": "K. B."
+			},
+			{
+				"family": "Knox",
+				"given": "S. H."
+			},
+			{
+				"family": "Malhotra",
+				"given": "A."
+			},
+			{
+				"family": "Fluet-Chouinard",
+				"given": "E."
+			},
+			{
+				"family": "McNicol",
+				"given": "G."
+			},
+			{
+				"family": "Feron",
+				"given": "S."
+			},
+			{
+				"family": "Ouyang",
+				"given": "Z."
+			},
+			{
+				"family": "Papale",
+				"given": "D."
+			},
+			{
+				"family": "Trotta",
+				"given": "C."
+			},
+			{
+				"family": "Canfora",
+				"given": "E."
+			},
+			{
+				"family": "Cheah",
+				"given": "Y.-W."
+			},
+			{
+				"family": "Christianson",
+				"given": "D."
+			},
+			{
+				"family": "Alberto",
+				"given": "Ma. C. R."
+			},
+			{
+				"family": "Alekseychik",
+				"given": "P."
+			},
+			{
+				"family": "Aurela",
+				"given": "M."
+			},
+			{
+				"family": "Baldocchi",
+				"given": "D."
+			},
+			{
+				"family": "Bansal",
+				"given": "S."
+			},
+			{
+				"family": "Billesbach",
+				"given": "D. P."
+			},
+			{
+				"family": "Bohrer",
+				"given": "G."
+			},
+			{
+				"family": "Bracho",
+				"given": "R."
+			},
+			{
+				"family": "Buchmann",
+				"given": "N."
+			},
+			{
+				"family": "Campbell",
+				"given": "D. I."
+			},
+			{
+				"family": "Celis",
+				"given": "G."
+			},
+			{
+				"family": "Chen",
+				"given": "J."
+			},
+			{
+				"family": "Chen",
+				"given": "W."
+			},
+			{
+				"family": "Chu",
+				"given": "H."
+			},
+			{
+				"family": "Dalmagro",
+				"given": "H. J."
+			},
+			{
+				"family": "Dengel",
+				"given": "S."
+			},
+			{
+				"family": "Desai",
+				"given": "A. R."
+			},
+			{
+				"family": "Detto",
+				"given": "M."
+			},
+			{
+				"family": "Dolman",
+				"given": "H."
+			},
+			{
+				"family": "Eichelmann",
+				"given": "E."
+			},
+			{
+				"family": "Euskirchen",
+				"given": "E."
+			},
+			{
+				"family": "Famulari",
+				"given": "D."
+			},
+			{
+				"family": "Fuchs",
+				"given": "K."
+			},
+			{
+				"family": "Goeckede",
+				"given": "M."
+			},
+			{
+				"family": "Gogo",
+				"given": "S."
+			},
+			{
+				"family": "Gondwe",
+				"given": "M. J."
+			},
+			{
+				"family": "Goodrich",
+				"given": "J. P."
+			},
+			{
+				"family": "Gottschalk",
+				"given": "P."
+			},
+			{
+				"family": "Graham",
+				"given": "S. L."
+			},
+			{
+				"family": "Heimann",
+				"given": "M."
+			},
+			{
+				"family": "Helbig",
+				"given": "M."
+			},
+			{
+				"family": "Helfter",
+				"given": "C."
+			},
+			{
+				"family": "Hemes",
+				"given": "K. S."
+			},
+			{
+				"family": "Hirano",
+				"given": "T."
+			},
+			{
+				"family": "Hollinger",
+				"given": "D."
+			},
+			{
+				"family": "Hörtnagl",
+				"given": "L."
+			},
+			{
+				"family": "Iwata",
+				"given": "H."
+			},
+			{
+				"family": "Jacotot",
+				"given": "A."
+			},
+			{
+				"family": "Jurasinski",
+				"given": "G."
+			},
+			{
+				"family": "Kang",
+				"given": "M."
+			},
+			{
+				"family": "Kasak",
+				"given": "K."
+			},
+			{
+				"family": "King",
+				"given": "J."
+			},
+			{
+				"family": "Klatt",
+				"given": "J."
+			},
+			{
+				"family": "Koebsch",
+				"given": "F."
+			},
+			{
+				"family": "Krauss",
+				"given": "K. W."
+			},
+			{
+				"family": "Lai",
+				"given": "D. Y. F."
+			},
+			{
+				"family": "Lohila",
+				"given": "A."
+			},
+			{
+				"family": "Mammarella",
+				"given": "I."
+			},
+			{
+				"family": "Belelli Marchesini",
+				"given": "L."
+			},
+			{
+				"family": "Manca",
+				"given": "G."
+			},
+			{
+				"family": "Matthes",
+				"given": "J. H."
+			},
+			{
+				"family": "Maximov",
+				"given": "T."
+			},
+			{
+				"family": "Merbold",
+				"given": "L."
+			},
+			{
+				"family": "Mitra",
+				"given": "B."
+			},
+			{
+				"family": "Morin",
+				"given": "T. H."
+			},
+			{
+				"family": "Nemitz",
+				"given": "E."
+			},
+			{
+				"family": "Nilsson",
+				"given": "M. B."
+			},
+			{
+				"family": "Niu",
+				"given": "S."
+			},
+			{
+				"family": "Oechel",
+				"given": "W. C."
+			},
+			{
+				"family": "Oikawa",
+				"given": "P. Y."
+			},
+			{
+				"family": "Ono",
+				"given": "K."
+			},
+			{
+				"family": "Peichl",
+				"given": "M."
+			},
+			{
+				"family": "Peltola",
+				"given": "O."
+			},
+			{
+				"family": "Reba",
+				"given": "M. L."
+			},
+			{
+				"family": "Richardson",
+				"given": "A. D."
+			},
+			{
+				"family": "Riley",
+				"given": "W."
+			},
+			{
+				"family": "Runkle",
+				"given": "B. R. K."
+			},
+			{
+				"family": "Ryu",
+				"given": "Y."
+			},
+			{
+				"family": "Sachs",
+				"given": "T."
+			},
+			{
+				"family": "Sakabe",
+				"given": "A."
+			},
+			{
+				"family": "Sanchez",
+				"given": "C. R."
+			},
+			{
+				"family": "Schuur",
+				"given": "E. A."
+			},
+			{
+				"family": "Schäfer",
+				"given": "K. V. R."
+			},
+			{
+				"family": "Sonnentag",
+				"given": "O."
+			},
+			{
+				"family": "Sparks",
+				"given": "J. P."
+			},
+			{
+				"family": "Stuart-Haëntjens",
+				"given": "E."
+			},
+			{
+				"family": "Sturtevant",
+				"given": "C."
+			},
+			{
+				"family": "Sullivan",
+				"given": "R. C."
+			},
+			{
+				"family": "Szutu",
+				"given": "D. J."
+			},
+			{
+				"family": "Thom",
+				"given": "J. E."
+			},
+			{
+				"family": "Torn",
+				"given": "M. S."
+			},
+			{
+				"family": "Tuittila",
+				"given": "E.-S."
+			},
+			{
+				"family": "Turner",
+				"given": "J."
+			},
+			{
+				"family": "Ueyama",
+				"given": "M."
+			},
+			{
+				"family": "Valach",
+				"given": "A. C."
+			},
+			{
+				"family": "Vargas",
+				"given": "R."
+			},
+			{
+				"family": "Varlagin",
+				"given": "A."
+			},
+			{
+				"family": "Vazquez-Lule",
+				"given": "A."
+			},
+			{
+				"family": "Verfaillie",
+				"given": "J. G."
+			},
+			{
+				"family": "Vesala",
+				"given": "T."
+			},
+			{
+				"family": "Vourlitis",
+				"given": "G. L."
+			},
+			{
+				"family": "Ward",
+				"given": "E. J."
+			},
+			{
+				"family": "Wille",
+				"given": "C."
+			},
+			{
+				"family": "Wohlfahrt",
+				"given": "G."
+			},
+			{
+				"family": "Wong",
+				"given": "G. X."
+			},
+			{
+				"family": "Zhang",
+				"given": "Z."
+			},
+			{
+				"family": "Zona",
+				"given": "D."
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "L."
+			},
+			{
+				"family": "Poulter",
+				"given": "B."
+			},
+			{
+				"family": "Jackson",
+				"given": "R. B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "chang_substantial_2021",
+		"type": "article-journal",
+		"abstract": "Wetland methane (CH4) emissions (}}{F}_{{{CH}}_{4}}}}) are important in global carbon budgets and climate change assessments. Currently, }}{F}_{{{CH}}_{4}}}}projections rely on prescribed static temperature sensitivity that varies among biogeochemical models. Meta-analyses have proposed a consistent }}{F}_{{{CH}}_{4}}}}temperature dependence across spatial scales for use in models; however, site-level studies demonstrate that }}{F}_{{{CH}}_{4}}}}are often controlled by factors beyond temperature. Here, we evaluate the relationship between }}{F}_{{{CH}}_{4}}}}and temperature using observations from the FLUXNET-CH4 database. Measurements collected across the globe show substantial seasonal hysteresis between }}{F}_{{{CH}}_{4}}}}and temperature, suggesting larger }}{F}_{{{CH}}_{4}}}}sensitivity to temperature later in the frost-free season (about 77% of site-years). Results derived from a machine-learning model and several regression models highlight the importance of representing the large spatial and temporal variability within site-years and ecosystem types. Mechanistic advancements in biogeochemical model parameterization and detailed measurements in factors modulating CH4 production are thus needed to improve global CH4 budget assessments.",
+		"container-title": "Nature Communications",
+		"DOI": "10.1038/s41467-021-22452-1",
+		"issue": "1",
+		"language": "en",
+		"page": "2266",
+		"title": "Substantial hysteresis in emergent temperature sensitivity of global wetland CH4 emissions",
+		"URL": "https://www.nature.com/articles/s41467-021-22452-1#citeas",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Chang",
+				"given": "Kuang-Yu"
+			},
+			{
+				"family": "Riley",
+				"given": "William J."
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert B."
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Poulter",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Aurela",
+				"given": "Mika"
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Bansal",
+				"given": "Sheel"
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Campbell",
+				"given": "David I."
+			},
+			{
+				"family": "Cescatti",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "Delwiche",
+				"given": "Kyle B."
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Euskirchen",
+				"given": "Eugenie"
+			},
+			{
+				"family": "Friborg",
+				"given": "Thomas"
+			},
+			{
+				"family": "Goeckede",
+				"given": "Mathias"
+			},
+			{
+				"family": "Helbig",
+				"given": "Manuel"
+			},
+			{
+				"family": "Hemes",
+				"given": "Kyle S."
+			},
+			{
+				"family": "Hirano",
+				"given": "Takashi"
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Kang",
+				"given": "Minseok"
+			},
+			{
+				"family": "Keenan",
+				"given": "Trevor"
+			},
+			{
+				"family": "Krauss",
+				"given": "Ken W."
+			},
+			{
+				"family": "Lohila",
+				"given": "Annalea"
+			},
+			{
+				"family": "Mammarella",
+				"given": "Ivan"
+			},
+			{
+				"family": "Mitra",
+				"given": "Bhaskar"
+			},
+			{
+				"family": "Miyata",
+				"given": "Akira"
+			},
+			{
+				"family": "Nilsson",
+				"given": "Mats B."
+			},
+			{
+				"family": "Noormets",
+				"given": "Asko"
+			},
+			{
+				"family": "Oechel",
+				"given": "Walter C."
+			},
+			{
+				"family": "Papale",
+				"given": "Dario"
+			},
+			{
+				"family": "Peichl",
+				"given": "Matthias"
+			},
+			{
+				"family": "Reba",
+				"given": "Michele L."
+			},
+			{
+				"family": "Rinne",
+				"given": "Janne"
+			},
+			{
+				"family": "Runkle",
+				"given": "Benjamin R. K."
+			},
+			{
+				"family": "Ryu",
+				"given": "Youngryel"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Schäfer",
+				"given": "Karina V. R."
+			},
+			{
+				"family": "Schmid",
+				"given": "Hans Peter"
+			},
+			{
+				"family": "Shurpali",
+				"given": "Narasinha"
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Tang",
+				"given": "Angela C. I."
+			},
+			{
+				"family": "Torn",
+				"given": "Margaret S."
+			},
+			{
+				"family": "Trotta",
+				"given": "Carlo"
+			},
+			{
+				"family": "Tuittila",
+				"given": "Eeva-Stiina"
+			},
+			{
+				"family": "Ueyama",
+				"given": "Masahito"
+			},
+			{
+				"family": "Vargas",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Vesala",
+				"given": "Timo"
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			},
+			{
+				"family": "Zhang",
+				"given": "Zhen"
+			},
+			{
+				"family": "Zona",
+				"given": "Donatella"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4
+				]
+			]
+		}
+	},
+	{"id": "dronova_remotely_2021",
+		"type": "article-journal",
+		"abstract": "Seasonal phenological dynamics of vegetation hold important clues on ecosystem performance towards management goals, such as carbon uptake, and thus should be considered in projections of their targeted services. However, in wetlands spatio-temporal heterogeneity due to mixing of open water, soil, green and dead vegetation makes it difficult to generalize ecosystem functioning across different regions. Remote sensing observations can provide spatially-explicit, cost-effective phenology indicators; however, little is known about their capacity to indicate the links between wetland ecosystem structure and function. Here we assessed this potential by comparing one-year Enhanced Vegetation Index (EVI) from satellite products at high (5m; RapidEye) and low (30m; Landsat) spatial resolutions with eddy covariance time series of net carbon exchange, field digital camera (phenocam) greenness and water temperature among three floristically similar restored wetlands in California, USA. Phenological timing differed by wetland site: depending on satellite, the range in site-median start of greening was up to 28 days, end of greening – up to 73 days, start of senescence – up to 79 days, and end of senescence – up to 10 days. Key transition dates from satellite inputs agreed with seasonal changes in net carbon exchange, phenocam greenness and water temperatures, suggesting that phenological contrasts could result in part from site differences in vegetation configuration and litter affecting the exposure of canopy, soil and water to sunlight and thus sub-canopy microclimate and ecosystem functioning. Yet, the agreement between satellite inputs was non-systematic, with the greatest disparities at the more heterogeneous, less vegetated site. Phenological model fitting uncertainty increased with greater spatial resolution, highlighting the tradeoff between the accuracy of representing vegetation and the complexity of local seasonal variation. These findings highlight the sensitivity of satellite-derived phenology to structural and functional heterogeneity of ecosystems and call for more rigorous spatially-explicit analyses to inform assessments of restoration and management outcomes.",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "10.1016/j.agrformet.2020.108215",
+		"ISSN": "0168-1923",
+		"language": "en",
+		"page": "108215",
+		"title": "Remotely sensed phenological heterogeneity of restored wetlands: linking vegetation structure and function",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168192320303178",
+		"volume": "296",
+		"author": [
+			{
+				"family": "Dronova",
+				"given": "Iryna"
+			},
+			{
+				"family": "Taddeo",
+				"given": "Sophie"
+			},
+			{
+				"family": "Hemes",
+				"given": "Kyle S."
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Valach",
+				"given": "Alex"
+			},
+			{
+				"family": "Oikawa",
+				"given": "Patricia Y."
+			},
+			{
+				"family": "Kasak",
+				"given": "Kuno"
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "fisher_once_2021",
+		"type": "article-journal",
+		"container-title": "Journal of Geophysical Research: Biogeosciences",
+		"DOI": "10.1029/2020JG006148",
+		"issue": "1",
+		"language": "en",
+		"page": "e2020JG006148",
+		"title": "Once Upon a Time, in AmeriFlux",
+		"URL": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JG006148",
+		"volume": "126",
+		"author": [
+			{
+				"family": "Fisher",
+				"given": "Joshua B."
+			},
+			{
+				"family": "Keenan",
+				"given": "Trevor F."
+			},
+			{
+				"family": "Buechner",
+				"given": "Christin"
+			},
+			{
+				"family": "Shirkey",
+				"given": "Gabriela"
+			},
+			{
+				"family": "Perez-Quezada",
+				"given": "Jorge F."
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Frank",
+				"given": "John M."
+			},
+			{
+				"family": "Runkle",
+				"given": "Benjamin R. K."
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3
+				]
+			]
+		}
+	},
+	{"id": "chu_representativeness_2021",
+		"type": "article-journal",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "10.1016/j.agrformet.2021.108350",
+		"ISSN": "0168-1923",
+		"language": "en",
+		"page": "108350",
+		"title": "Representativeness of Eddy-Covariance flux footprints for areas surrounding AmeriFlux sites",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168192321000332",
+		"volume": "301-302",
+		"author": [
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "Luo",
+				"given": "Xiangzhong"
+			},
+			{
+				"family": "Ouyang",
+				"given": "Zutao"
+			},
+			{
+				"family": "Chan",
+				"given": "W. Stephen"
+			},
+			{
+				"family": "Dengel",
+				"given": "Sigrid"
+			},
+			{
+				"family": "Biraud",
+				"given": "Sébastien C."
+			},
+			{
+				"family": "Torn",
+				"given": "Margaret S."
+			},
+			{
+				"family": "Metzger",
+				"given": "Stefan"
+			},
+			{
+				"family": "Kumar",
+				"given": "Jitendra"
+			},
+			{
+				"family": "Arain",
+				"given": "M. Altaf"
+			},
+			{
+				"family": "Arkebauer",
+				"given": "Tim J."
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Bernacchi",
+				"given": "Carl"
+			},
+			{
+				"family": "Billesbach",
+				"given": "Dave"
+			},
+			{
+				"family": "Black",
+				"given": "T. Andrew"
+			},
+			{
+				"family": "Blanken",
+				"given": "Peter D."
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Bracho",
+				"given": "Rosvel"
+			},
+			{
+				"family": "Brown",
+				"given": "Shannon"
+			},
+			{
+				"family": "Brunsell",
+				"given": "Nathaniel A."
+			},
+			{
+				"family": "Chen",
+				"given": "Jiquan"
+			},
+			{
+				"family": "Chen",
+				"given": "Xingyuan"
+			},
+			{
+				"family": "Clark",
+				"given": "Kenneth"
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Duman",
+				"given": "Tomer"
+			},
+			{
+				"family": "Durden",
+				"given": "David"
+			},
+			{
+				"family": "Fares",
+				"given": "Silvano"
+			},
+			{
+				"family": "Forbrich",
+				"given": "Inke"
+			},
+			{
+				"family": "Gamon",
+				"given": "John A."
+			},
+			{
+				"family": "Gough",
+				"given": "Christopher M."
+			},
+			{
+				"family": "Griffis",
+				"given": "Timothy"
+			},
+			{
+				"family": "Helbig",
+				"given": "Manuel"
+			},
+			{
+				"family": "Hollinger",
+				"given": "David"
+			},
+			{
+				"family": "Humphreys",
+				"given": "Elyn"
+			},
+			{
+				"family": "Ikawa",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Ju",
+				"given": "Yang"
+			},
+			{
+				"family": "Knowles",
+				"given": "John F."
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Kobayashi",
+				"given": "Hideki"
+			},
+			{
+				"family": "Kolb",
+				"given": "Thomas"
+			},
+			{
+				"family": "Law",
+				"given": "Beverly"
+			},
+			{
+				"family": "Lee",
+				"given": "Xuhui"
+			},
+			{
+				"family": "Litvak",
+				"given": "Marcy"
+			},
+			{
+				"family": "Liu",
+				"given": "Heping"
+			},
+			{
+				"family": "Munger",
+				"given": "J. William"
+			},
+			{
+				"family": "Noormets",
+				"given": "Asko"
+			},
+			{
+				"family": "Novick",
+				"given": "Kim"
+			},
+			{
+				"family": "Oberbauer",
+				"given": "Steven F."
+			},
+			{
+				"family": "Oechel",
+				"given": "Walter"
+			},
+			{
+				"family": "Oikawa",
+				"given": "Patty"
+			},
+			{
+				"family": "Papuga",
+				"given": "Shirley A."
+			},
+			{
+				"family": "Pendall",
+				"given": "Elise"
+			},
+			{
+				"family": "Prajapati",
+				"given": "Prajaya"
+			},
+			{
+				"family": "Prueger",
+				"given": "John"
+			},
+			{
+				"family": "Quinton",
+				"given": "William L."
+			},
+			{
+				"family": "Richardson",
+				"given": "Andrew D."
+			},
+			{
+				"family": "Russell",
+				"given": "Eric S."
+			},
+			{
+				"family": "Scott",
+				"given": "Russell L."
+			},
+			{
+				"family": "Starr",
+				"given": "Gregory"
+			},
+			{
+				"family": "Staebler",
+				"given": "Ralf"
+			},
+			{
+				"family": "Stoy",
+				"given": "Paul C."
+			},
+			{
+				"family": "Stuart-Haëntjens",
+				"given": "Ellen"
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Sullivan",
+				"given": "Ryan C."
+			},
+			{
+				"family": "Suyker",
+				"given": "Andy"
+			},
+			{
+				"family": "Ueyama",
+				"given": "Masahito"
+			},
+			{
+				"family": "Vargas",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Wood",
+				"given": "Jeffrey D."
+			},
+			{
+				"family": "Zona",
+				"given": "Donatella"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "bogard_hydrologic_2020",
+		"type": "article-journal",
+		"container-title": "Global Biogeochemical Cycles",
+		"DOI": "10.1029/2019GB006430",
+		"issue": "8",
+		"language": "en",
+		"page": "e2019GB006430",
+		"title": "Hydrologic Export Is a Major Component of Coastal Wetland Carbon Budgets",
+		"URL": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GB006430",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Bogard",
+				"given": "Matthew J."
+			},
+			{
+				"family": "Bergamaschi",
+				"given": "Brian A."
+			},
+			{
+				"family": "Butman",
+				"given": "David E."
+			},
+			{
+				"family": "Anderson",
+				"given": "Frank"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{"id": "pastorello_fluxnet_2020",
+		"type": "article-journal",
+		"abstract": "The FLUXNET2015 dataset provides ecosystem-scale data on CO2, water, and energy exchange between the biosphere and the atmosphere, and other meteorological and biological measurements, from 212 sites around the globe (over 1500 site-years, up to and including year 2014). These sites, independently managed and operated, voluntarily contributed their data to create global datasets. Data were quality controlled and processed using uniform methods, to improve consistency and intercomparability across sites. The dataset is already being used in a number of applications, including ecophysiology studies, remote sensing studies, and development of ecosystem and Earth system models. FLUXNET2015 includes derived-data products, such as gap-filled time series, ecosystem respiration and photosynthetic uptake estimates, estimation of uncertainties, and metadata about the measurements, presented for the first time in this paper. In addition, 206 of these sites are for the first time distributed under a Creative Commons (CC-BY 4.0) license. This paper details this enhanced dataset and the processing methods, now made available as open-source codes, making the dataset more accessible, transparent, and reproducible.",
+		"container-title": "Scientific Data",
+		"DOI": "10.1038/s41597-020-0534-3",
+		"issue": "1",
+		"language": "en",
+		"page": "225",
+		"title": "The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data",
+		"URL": "https://www.nature.com/articles/s41597-020-0534-3#citeas",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Pastorello",
+				"given": "Gilberto"
+			},
+			{
+				"family": "Trotta",
+				"given": "Carlo"
+			},
+			{
+				"family": "Canfora",
+				"given": "Eleonora"
+			},
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "Christianson",
+				"given": "Danielle"
+			},
+			{
+				"family": "Cheah",
+				"given": "You-Wei"
+			},
+			{
+				"family": "Poindexter",
+				"given": "Cristina"
+			},
+			{
+				"family": "Chen",
+				"given": "Jiquan"
+			},
+			{
+				"family": "Elbashandy",
+				"given": "Abdelrahman"
+			},
+			{
+				"family": "Humphrey",
+				"given": "Marty"
+			},
+			{
+				"family": "Isaac",
+				"given": "Peter"
+			},
+			{
+				"family": "Polidori",
+				"given": "Diego"
+			},
+			{
+				"family": "Reichstein",
+				"given": "Markus"
+			},
+			{
+				"family": "Ribeca",
+				"given": "Alessio"
+			},
+			{
+				"family": "Ingen",
+				"given": "Catharine",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Vuichard",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Zhang",
+				"given": "Leiming"
+			},
+			{
+				"family": "Amiro",
+				"given": "Brian"
+			},
+			{
+				"family": "Ammann",
+				"given": "Christof"
+			},
+			{
+				"family": "Arain",
+				"given": "M. Altaf"
+			},
+			{
+				"family": "Ardö",
+				"given": "Jonas"
+			},
+			{
+				"family": "Arkebauer",
+				"given": "Timothy"
+			},
+			{
+				"family": "Arndt",
+				"given": "Stefan K."
+			},
+			{
+				"family": "Arriga",
+				"given": "Nicola"
+			},
+			{
+				"family": "Aubinet",
+				"given": "Marc"
+			},
+			{
+				"family": "Aurela",
+				"given": "Mika"
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Barr",
+				"given": "Alan"
+			},
+			{
+				"family": "Beamesderfer",
+				"given": "Eric"
+			},
+			{
+				"family": "Marchesini",
+				"given": "Luca Belelli"
+			},
+			{
+				"family": "Bergeron",
+				"given": "Onil"
+			},
+			{
+				"family": "Beringer",
+				"given": "Jason"
+			},
+			{
+				"family": "Bernhofer",
+				"given": "Christian"
+			},
+			{
+				"family": "Berveiller",
+				"given": "Daniel"
+			},
+			{
+				"family": "Billesbach",
+				"given": "Dave"
+			},
+			{
+				"family": "Black",
+				"given": "Thomas Andrew"
+			},
+			{
+				"family": "Blanken",
+				"given": "Peter D."
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Boike",
+				"given": "Julia"
+			},
+			{
+				"family": "Bolstad",
+				"given": "Paul V."
+			},
+			{
+				"family": "Bonal",
+				"given": "Damien"
+			},
+			{
+				"family": "Bonnefond",
+				"given": "Jean-Marc"
+			},
+			{
+				"family": "Bowling",
+				"given": "David R."
+			},
+			{
+				"family": "Bracho",
+				"given": "Rosvel"
+			},
+			{
+				"family": "Brodeur",
+				"given": "Jason"
+			},
+			{
+				"family": "Brümmer",
+				"given": "Christian"
+			},
+			{
+				"family": "Buchmann",
+				"given": "Nina"
+			},
+			{
+				"family": "Burban",
+				"given": "Benoit"
+			},
+			{
+				"family": "Burns",
+				"given": "Sean P."
+			},
+			{
+				"family": "Buysse",
+				"given": "Pauline"
+			},
+			{
+				"family": "Cale",
+				"given": "Peter"
+			},
+			{
+				"family": "Cavagna",
+				"given": "Mauro"
+			},
+			{
+				"family": "Cellier",
+				"given": "Pierre"
+			},
+			{
+				"family": "Chen",
+				"given": "Shiping"
+			},
+			{
+				"family": "Chini",
+				"given": "Isaac"
+			},
+			{
+				"family": "Christensen",
+				"given": "Torben R."
+			},
+			{
+				"family": "Cleverly",
+				"given": "James"
+			},
+			{
+				"family": "Collalti",
+				"given": "Alessio"
+			},
+			{
+				"family": "Consalvo",
+				"given": "Claudia"
+			},
+			{
+				"family": "Cook",
+				"given": "Bruce D."
+			},
+			{
+				"family": "Cook",
+				"given": "David"
+			},
+			{
+				"family": "Coursolle",
+				"given": "Carole"
+			},
+			{
+				"family": "Cremonese",
+				"given": "Edoardo"
+			},
+			{
+				"family": "Curtis",
+				"given": "Peter S."
+			},
+			{
+				"family": "D’Andrea",
+				"given": "Ettore"
+			},
+			{
+				"family": "Rocha",
+				"given": "Humberto",
+				"non-dropping-particle": "da"
+			},
+			{
+				"family": "Dai",
+				"given": "Xiaoqin"
+			},
+			{
+				"family": "Davis",
+				"given": "Kenneth J."
+			},
+			{
+				"family": "Cinti",
+				"given": "Bruno De"
+			},
+			{
+				"family": "Grandcourt",
+				"given": "Agnes",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Ligne",
+				"given": "Anne De"
+			},
+			{
+				"family": "De Oliveira",
+				"given": "Raimundo C."
+			},
+			{
+				"family": "Delpierre",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Di Bella",
+				"given": "Carlos Marcelo"
+			},
+			{
+				"family": "Tommasi",
+				"given": "Paul",
+				"dropping-particle": "di"
+			},
+			{
+				"family": "Dolman",
+				"given": "Han"
+			},
+			{
+				"family": "Domingo",
+				"given": "Francisco"
+			},
+			{
+				"family": "Dong",
+				"given": "Gang"
+			},
+			{
+				"family": "Dore",
+				"given": "Sabina"
+			},
+			{
+				"family": "Duce",
+				"given": "Pierpaolo"
+			},
+			{
+				"family": "Dufrêne",
+				"given": "Eric"
+			},
+			{
+				"family": "Dunn",
+				"given": "Allison"
+			},
+			{
+				"family": "Dušek",
+				"given": "Jiří"
+			},
+			{
+				"family": "Eamus",
+				"given": "Derek"
+			},
+			{
+				"family": "Eichelmann",
+				"given": "Uwe"
+			},
+			{
+				"family": "ElKhidir",
+				"given": "Hatim Abdalla M."
+			},
+			{
+				"family": "Eugster",
+				"given": "Werner"
+			},
+			{
+				"family": "Ewenz",
+				"given": "Cacilia M."
+			},
+			{
+				"family": "Ewers",
+				"given": "Brent"
+			},
+			{
+				"family": "Famulari",
+				"given": "Daniela"
+			},
+			{
+				"family": "Fares",
+				"given": "Silvano"
+			},
+			{
+				"family": "Feigenwinter",
+				"given": "Iris"
+			},
+			{
+				"family": "Feitz",
+				"given": "Andrew"
+			},
+			{
+				"family": "Fensholt",
+				"given": "Rasmus"
+			},
+			{
+				"family": "Filippa",
+				"given": "Gianluca"
+			},
+			{
+				"family": "Fischer",
+				"given": "Marc"
+			},
+			{
+				"family": "Frank",
+				"given": "John"
+			},
+			{
+				"family": "Galvagno",
+				"given": "Marta"
+			},
+			{
+				"family": "Gharun",
+				"given": "Mana"
+			},
+			{
+				"family": "Gianelle",
+				"given": "Damiano"
+			},
+			{
+				"family": "Gielen",
+				"given": "Bert"
+			},
+			{
+				"family": "Gioli",
+				"given": "Beniamino"
+			},
+			{
+				"family": "Gitelson",
+				"given": "Anatoly"
+			},
+			{
+				"family": "Goded",
+				"given": "Ignacio"
+			},
+			{
+				"family": "Goeckede",
+				"given": "Mathias"
+			},
+			{
+				"family": "Goldstein",
+				"given": "Allen H."
+			},
+			{
+				"family": "Gough",
+				"given": "Christopher M."
+			},
+			{
+				"family": "Goulden",
+				"given": "Michael L."
+			},
+			{
+				"family": "Graf",
+				"given": "Alexander"
+			},
+			{
+				"family": "Griebel",
+				"given": "Anne"
+			},
+			{
+				"family": "Gruening",
+				"given": "Carsten"
+			},
+			{
+				"family": "Grünwald",
+				"given": "Thomas"
+			},
+			{
+				"family": "Hammerle",
+				"given": "Albin"
+			},
+			{
+				"family": "Han",
+				"given": "Shijie"
+			},
+			{
+				"family": "Han",
+				"given": "Xingguo"
+			},
+			{
+				"family": "Hansen",
+				"given": "Birger Ulf"
+			},
+			{
+				"family": "Hanson",
+				"given": "Chad"
+			},
+			{
+				"family": "Hatakka",
+				"given": "Juha"
+			},
+			{
+				"family": "He",
+				"given": "Yongtao"
+			},
+			{
+				"family": "Hehn",
+				"given": "Markus"
+			},
+			{
+				"family": "Heinesch",
+				"given": "Bernard"
+			},
+			{
+				"family": "Hinko-Najera",
+				"given": "Nina"
+			},
+			{
+				"family": "Hörtnagl",
+				"given": "Lukas"
+			},
+			{
+				"family": "Hutley",
+				"given": "Lindsay"
+			},
+			{
+				"family": "Ibrom",
+				"given": "Andreas"
+			},
+			{
+				"family": "Ikawa",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Jackowicz-Korczynski",
+				"given": "Marcin"
+			},
+			{
+				"family": "Janouš",
+				"given": "Dalibor"
+			},
+			{
+				"family": "Jans",
+				"given": "Wilma"
+			},
+			{
+				"family": "Jassal",
+				"given": "Rachhpal"
+			},
+			{
+				"family": "Jiang",
+				"given": "Shicheng"
+			},
+			{
+				"family": "Kato",
+				"given": "Tomomichi"
+			},
+			{
+				"family": "Khomik",
+				"given": "Myroslava"
+			},
+			{
+				"family": "Klatt",
+				"given": "Janina"
+			},
+			{
+				"family": "Knohl",
+				"given": "Alexander"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Kobayashi",
+				"given": "Hideki"
+			},
+			{
+				"family": "Koerber",
+				"given": "Georgia"
+			},
+			{
+				"family": "Kolle",
+				"given": "Olaf"
+			},
+			{
+				"family": "Kosugi",
+				"given": "Yoshiko"
+			},
+			{
+				"family": "Kotani",
+				"given": "Ayumi"
+			},
+			{
+				"family": "Kowalski",
+				"given": "Andrew"
+			},
+			{
+				"family": "Kruijt",
+				"given": "Bart"
+			},
+			{
+				"family": "Kurbatova",
+				"given": "Julia"
+			},
+			{
+				"family": "Kutsch",
+				"given": "Werner L."
+			},
+			{
+				"family": "Kwon",
+				"given": "Hyojung"
+			},
+			{
+				"family": "Launiainen",
+				"given": "Samuli"
+			},
+			{
+				"family": "Laurila",
+				"given": "Tuomas"
+			},
+			{
+				"family": "Law",
+				"given": "Bev"
+			},
+			{
+				"family": "Leuning",
+				"given": "Ray"
+			},
+			{
+				"family": "Li",
+				"given": "Yingnian"
+			},
+			{
+				"family": "Liddell",
+				"given": "Michael"
+			},
+			{
+				"family": "Limousin",
+				"given": "Jean-Marc"
+			},
+			{
+				"family": "Lion",
+				"given": "Marryanna"
+			},
+			{
+				"family": "Liska",
+				"given": "Adam J."
+			},
+			{
+				"family": "Lohila",
+				"given": "Annalea"
+			},
+			{
+				"family": "López-Ballesteros",
+				"given": "Ana"
+			},
+			{
+				"family": "López-Blanco",
+				"given": "Efrén"
+			},
+			{
+				"family": "Loubet",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Loustau",
+				"given": "Denis"
+			},
+			{
+				"family": "Lucas-Moffat",
+				"given": "Antje"
+			},
+			{
+				"family": "Lüers",
+				"given": "Johannes"
+			},
+			{
+				"family": "Ma",
+				"given": "Siyan"
+			},
+			{
+				"family": "Macfarlane",
+				"given": "Craig"
+			},
+			{
+				"family": "Magliulo",
+				"given": "Vincenzo"
+			},
+			{
+				"family": "Maier",
+				"given": "Regine"
+			},
+			{
+				"family": "Mammarella",
+				"given": "Ivan"
+			},
+			{
+				"family": "Manca",
+				"given": "Giovanni"
+			},
+			{
+				"family": "Marcolla",
+				"given": "Barbara"
+			},
+			{
+				"family": "Margolis",
+				"given": "Hank A."
+			},
+			{
+				"family": "Marras",
+				"given": "Serena"
+			},
+			{
+				"family": "Massman",
+				"given": "William"
+			},
+			{
+				"family": "Mastepanov",
+				"given": "Mikhail"
+			},
+			{
+				"family": "Matamala",
+				"given": "Roser"
+			},
+			{
+				"family": "Matthes",
+				"given": "Jaclyn Hatala"
+			},
+			{
+				"family": "Mazzenga",
+				"given": "Francesco"
+			},
+			{
+				"family": "McCaughey",
+				"given": "Harry"
+			},
+			{
+				"family": "McHugh",
+				"given": "Ian"
+			},
+			{
+				"family": "McMillan",
+				"given": "Andrew M. S."
+			},
+			{
+				"family": "Merbold",
+				"given": "Lutz"
+			},
+			{
+				"family": "Meyer",
+				"given": "Wayne"
+			},
+			{
+				"family": "Meyers",
+				"given": "Tilden"
+			},
+			{
+				"family": "Miller",
+				"given": "Scott D."
+			},
+			{
+				"family": "Minerbi",
+				"given": "Stefano"
+			},
+			{
+				"family": "Moderow",
+				"given": "Uta"
+			},
+			{
+				"family": "Monson",
+				"given": "Russell K."
+			},
+			{
+				"family": "Montagnani",
+				"given": "Leonardo"
+			},
+			{
+				"family": "Moore",
+				"given": "Caitlin E."
+			},
+			{
+				"family": "Moors",
+				"given": "Eddy"
+			},
+			{
+				"family": "Moreaux",
+				"given": "Virginie"
+			},
+			{
+				"family": "Moureaux",
+				"given": "Christine"
+			},
+			{
+				"family": "Munger",
+				"given": "J. William"
+			},
+			{
+				"family": "Nakai",
+				"given": "Taro"
+			},
+			{
+				"family": "Neirynck",
+				"given": "Johan"
+			},
+			{
+				"family": "Nesic",
+				"given": "Zoran"
+			},
+			{
+				"family": "Nicolini",
+				"given": "Giacomo"
+			},
+			{
+				"family": "Noormets",
+				"given": "Asko"
+			},
+			{
+				"family": "Northwood",
+				"given": "Matthew"
+			},
+			{
+				"family": "Nosetto",
+				"given": "Marcelo"
+			},
+			{
+				"family": "Nouvellon",
+				"given": "Yann"
+			},
+			{
+				"family": "Novick",
+				"given": "Kimberly"
+			},
+			{
+				"family": "Oechel",
+				"given": "Walter"
+			},
+			{
+				"family": "Olesen",
+				"given": "Jørgen Eivind"
+			},
+			{
+				"family": "Ourcival",
+				"given": "Jean-Marc"
+			},
+			{
+				"family": "Papuga",
+				"given": "Shirley A."
+			},
+			{
+				"family": "Parmentier",
+				"given": "Frans-Jan"
+			},
+			{
+				"family": "Paul-Limoges",
+				"given": "Eugenie"
+			},
+			{
+				"family": "Pavelka",
+				"given": "Marian"
+			},
+			{
+				"family": "Peichl",
+				"given": "Matthias"
+			},
+			{
+				"family": "Pendall",
+				"given": "Elise"
+			},
+			{
+				"family": "Phillips",
+				"given": "Richard P."
+			},
+			{
+				"family": "Pilegaard",
+				"given": "Kim"
+			},
+			{
+				"family": "Pirk",
+				"given": "Norbert"
+			},
+			{
+				"family": "Posse",
+				"given": "Gabriela"
+			},
+			{
+				"family": "Powell",
+				"given": "Thomas"
+			},
+			{
+				"family": "Prasse",
+				"given": "Heiko"
+			},
+			{
+				"family": "Prober",
+				"given": "Suzanne M."
+			},
+			{
+				"family": "Rambal",
+				"given": "Serge"
+			},
+			{
+				"family": "Rannik",
+				"given": "Üllar"
+			},
+			{
+				"family": "Raz-Yaseef",
+				"given": "Naama"
+			},
+			{
+				"family": "Rebmann",
+				"given": "Corinna"
+			},
+			{
+				"family": "Reed",
+				"given": "David"
+			},
+			{
+				"family": "Dios",
+				"given": "Victor Resco",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Restrepo-Coupe",
+				"given": "Natalia"
+			},
+			{
+				"family": "Reverter",
+				"given": "Borja R."
+			},
+			{
+				"family": "Roland",
+				"given": "Marilyn"
+			},
+			{
+				"family": "Sabbatini",
+				"given": "Simone"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Saleska",
+				"given": "Scott R."
+			},
+			{
+				"family": "Sánchez-Cañete",
+				"given": "Enrique P."
+			},
+			{
+				"family": "Sanchez-Mejia",
+				"given": "Zulia M."
+			},
+			{
+				"family": "Schmid",
+				"given": "Hans Peter"
+			},
+			{
+				"family": "Schmidt",
+				"given": "Marius"
+			},
+			{
+				"family": "Schneider",
+				"given": "Karl"
+			},
+			{
+				"family": "Schrader",
+				"given": "Frederik"
+			},
+			{
+				"family": "Schroder",
+				"given": "Ivan"
+			},
+			{
+				"family": "Scott",
+				"given": "Russell L."
+			},
+			{
+				"family": "Sedlák",
+				"given": "Pavel"
+			},
+			{
+				"family": "Serrano-Ortíz",
+				"given": "Penélope"
+			},
+			{
+				"family": "Shao",
+				"given": "Changliang"
+			},
+			{
+				"family": "Shi",
+				"given": "Peili"
+			},
+			{
+				"family": "Shironya",
+				"given": "Ivan"
+			},
+			{
+				"family": "Siebicke",
+				"given": "Lukas"
+			},
+			{
+				"family": "Šigut",
+				"given": "Ladislav"
+			},
+			{
+				"family": "Silberstein",
+				"given": "Richard"
+			},
+			{
+				"family": "Sirca",
+				"given": "Costantino"
+			},
+			{
+				"family": "Spano",
+				"given": "Donatella"
+			},
+			{
+				"family": "Steinbrecher",
+				"given": "Rainer"
+			},
+			{
+				"family": "Stevens",
+				"given": "Robert M."
+			},
+			{
+				"family": "Sturtevant",
+				"given": "Cove"
+			},
+			{
+				"family": "Suyker",
+				"given": "Andy"
+			},
+			{
+				"family": "Tagesson",
+				"given": "Torbern"
+			},
+			{
+				"family": "Takanashi",
+				"given": "Satoru"
+			},
+			{
+				"family": "Tang",
+				"given": "Yanhong"
+			},
+			{
+				"family": "Tapper",
+				"given": "Nigel"
+			},
+			{
+				"family": "Thom",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Tomassucci",
+				"given": "Michele"
+			},
+			{
+				"family": "Tuovinen",
+				"given": "Juha-Pekka"
+			},
+			{
+				"family": "Urbanski",
+				"given": "Shawn"
+			},
+			{
+				"family": "Valentini",
+				"given": "Riccardo"
+			},
+			{
+				"family": "Molen",
+				"given": "Michiel",
+				"non-dropping-particle": "van der"
+			},
+			{
+				"family": "Gorsel",
+				"given": "Eva",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Huissteden",
+				"given": "Ko",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Varlagin",
+				"given": "Andrej"
+			},
+			{
+				"family": "Verfaillie",
+				"given": "Joseph"
+			},
+			{
+				"family": "Vesala",
+				"given": "Timo"
+			},
+			{
+				"family": "Vincke",
+				"given": "Caroline"
+			},
+			{
+				"family": "Vitale",
+				"given": "Domenico"
+			},
+			{
+				"family": "Vygodskaya",
+				"given": "Natalia"
+			},
+			{
+				"family": "Walker",
+				"given": "Jeffrey P."
+			},
+			{
+				"family": "Walter-Shea",
+				"given": "Elizabeth"
+			},
+			{
+				"family": "Wang",
+				"given": "Huimin"
+			},
+			{
+				"family": "Weber",
+				"given": "Robin"
+			},
+			{
+				"family": "Westermann",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Wille",
+				"given": "Christian"
+			},
+			{
+				"family": "Wofsy",
+				"given": "Steven"
+			},
+			{
+				"family": "Wohlfahrt",
+				"given": "Georg"
+			},
+			{
+				"family": "Wolf",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Woodgate",
+				"given": "William"
+			},
+			{
+				"family": "Li",
+				"given": "Yuelin"
+			},
+			{
+				"family": "Zampedri",
+				"given": "Roberto"
+			},
+			{
+				"family": "Zhang",
+				"given": "Junhui"
+			},
+			{
+				"family": "Zhou",
+				"given": "Guoyi"
+			},
+			{
+				"family": "Zona",
+				"given": "Donatella"
+			},
+			{
+				"family": "Agarwal",
+				"given": "Deb"
+			},
+			{
+				"family": "Biraud",
+				"given": "Sebastien"
+			},
+			{
+				"family": "Torn",
+				"given": "Margaret"
+			},
+			{
+				"family": "Papale",
+				"given": "Dario"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{"id": "feagin_tidal_2020",
+		"type": "article-journal",
+		"container-title": "Global Biogeochemical Cycles",
+		"DOI": "10.1029/2019GB006349",
+		"issue": "2",
+		"language": "en",
+		"page": "e2019GB006349",
+		"title": "Tidal Wetland Gross Primary Production Across the Continental United States, 2000–2019",
+		"URL": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GB006349",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Feagin",
+				"given": "R. A."
+			},
+			{
+				"family": "Forbrich",
+				"given": "I."
+			},
+			{
+				"family": "Huff",
+				"given": "T. P."
+			},
+			{
+				"family": "Barr",
+				"given": "J. G."
+			},
+			{
+				"family": "Ruiz-Plancarte",
+				"given": "J."
+			},
+			{
+				"family": "Fuentes",
+				"given": "J. D."
+			},
+			{
+				"family": "Najjar",
+				"given": "R. G."
+			},
+			{
+				"family": "Vargas",
+				"given": "R."
+			},
+			{
+				"family": "Vázquez-Lule",
+				"given": "A."
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "L."
+			},
+			{
+				"family": "Kroeger",
+				"given": "K. D."
+			},
+			{
+				"family": "Ward",
+				"given": "E. J."
+			},
+			{
+				"family": "Moore",
+				"given": "G. W."
+			},
+			{
+				"family": "Leclerc",
+				"given": "M."
+			},
+			{
+				"family": "Krauss",
+				"given": "K. W."
+			},
+			{
+				"family": "Stagg",
+				"given": "C. L."
+			},
+			{
+				"family": "Alber",
+				"given": "M."
+			},
+			{
+				"family": "Knox",
+				"given": "S. H."
+			},
+			{
+				"family": "Schäfer",
+				"given": "K. V. R."
+			},
+			{
+				"family": "Bianchi",
+				"given": "T. S."
+			},
+			{
+				"family": "Hutchings",
+				"given": "J. A."
+			},
+			{
+				"family": "Nahrawi",
+				"given": "H."
+			},
+			{
+				"family": "Noormets",
+				"given": "A."
+			},
+			{
+				"family": "Mitra",
+				"given": "B."
+			},
+			{
+				"family": "Jaimes",
+				"given": "A."
+			},
+			{
+				"family": "Hinson",
+				"given": "A. L."
+			},
+			{
+				"family": "Bergamaschi",
+				"given": "B."
+			},
+			{
+				"family": "King",
+				"given": "J. S."
+			},
+			{
+				"family": "Miao",
+				"given": "G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{"id": "knox_fluxnet_2019",
+		"type": "article-journal",
+		"container-title": "Bulletin of the American Meteorological Society",
+		"DOI": "10.1175/BAMS-D-18-0268.1",
+		"issue": "12",
+		"language": "en",
+		"page": "2607 - 2632",
+		"title": "FLUXNET-CH4 Synthesis Activity: Objectives, Observations, and Future Directions",
+		"URL": "https://journals.ametsoc.org/view/journals/bams/100/12/bams-d-18-0268.1.xml",
+		"volume": "100",
+		"author": [
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Jackson",
+				"given": "Robert B."
+			},
+			{
+				"family": "Poulter",
+				"given": "Benjamin"
+			},
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Fluet-Chouinard",
+				"given": "Etienne"
+			},
+			{
+				"family": "Zhang",
+				"given": "Zhen"
+			},
+			{
+				"family": "Hugelius",
+				"given": "Gustaf"
+			},
+			{
+				"family": "Bousquet",
+				"given": "Philippe"
+			},
+			{
+				"family": "Canadell",
+				"given": "Josep G."
+			},
+			{
+				"family": "Saunois",
+				"given": "Marielle"
+			},
+			{
+				"family": "Papale",
+				"given": "Dario"
+			},
+			{
+				"family": "Chu",
+				"given": "Housen"
+			},
+			{
+				"family": "Keenan",
+				"given": "Trevor F."
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			},
+			{
+				"family": "Torn",
+				"given": "Margaret S."
+			},
+			{
+				"family": "Mammarella",
+				"given": "Ivan"
+			},
+			{
+				"family": "Trotta",
+				"given": "Carlo"
+			},
+			{
+				"family": "Aurela",
+				"given": "Mika"
+			},
+			{
+				"family": "Bohrer",
+				"given": "Gil"
+			},
+			{
+				"family": "Campbell",
+				"given": "David I."
+			},
+			{
+				"family": "Cescatti",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Chamberlain",
+				"given": "Samuel"
+			},
+			{
+				"family": "Chen",
+				"given": "Jiquan"
+			},
+			{
+				"family": "Chen",
+				"given": "Weinan"
+			},
+			{
+				"family": "Dengel",
+				"given": "Sigrid"
+			},
+			{
+				"family": "Desai",
+				"given": "Ankur R."
+			},
+			{
+				"family": "Euskirchen",
+				"given": "Eugenie"
+			},
+			{
+				"family": "Friborg",
+				"given": "Thomas"
+			},
+			{
+				"family": "Gasbarra",
+				"given": "Daniele"
+			},
+			{
+				"family": "Goded",
+				"given": "Ignacio"
+			},
+			{
+				"family": "Goeckede",
+				"given": "Mathias"
+			},
+			{
+				"family": "Heimann",
+				"given": "Martin"
+			},
+			{
+				"family": "Helbig",
+				"given": "Manuel"
+			},
+			{
+				"family": "Hirano",
+				"given": "Takashi"
+			},
+			{
+				"family": "Hollinger",
+				"given": "David Y."
+			},
+			{
+				"family": "Iwata",
+				"given": "Hiroki"
+			},
+			{
+				"family": "Kang",
+				"given": "Minseok"
+			},
+			{
+				"family": "Klatt",
+				"given": "Janina"
+			},
+			{
+				"family": "Krauss",
+				"given": "Ken W."
+			},
+			{
+				"family": "Kutzbach",
+				"given": "Lars"
+			},
+			{
+				"family": "Lohila",
+				"given": "Annalea"
+			},
+			{
+				"family": "Mitra",
+				"given": "Bhaskar"
+			},
+			{
+				"family": "Morin",
+				"given": "Timothy H."
+			},
+			{
+				"family": "Nilsson",
+				"given": "Mats B."
+			},
+			{
+				"family": "Niu",
+				"given": "Shuli"
+			},
+			{
+				"family": "Noormets",
+				"given": "Asko"
+			},
+			{
+				"family": "Oechel",
+				"given": "Walter C."
+			},
+			{
+				"family": "Peichl",
+				"given": "Matthias"
+			},
+			{
+				"family": "Peltola",
+				"given": "Olli"
+			},
+			{
+				"family": "Reba",
+				"given": "Michele L."
+			},
+			{
+				"family": "Richardson",
+				"given": "Andrew D."
+			},
+			{
+				"family": "Runkle",
+				"given": "Benjamin R. K."
+			},
+			{
+				"family": "Ryu",
+				"given": "Youngryel"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Schäfer",
+				"given": "Karina V. R."
+			},
+			{
+				"family": "Schmid",
+				"given": "Hans Peter"
+			},
+			{
+				"family": "Shurpali",
+				"given": "Narasinha"
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Tang",
+				"given": "Angela C. I."
+			},
+			{
+				"family": "Ueyama",
+				"given": "Masahito"
+			},
+			{
+				"family": "Vargas",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Vesala",
+				"given": "Timo"
+			},
+			{
+				"family": "Ward",
+				"given": "Eric J."
+			},
+			{
+				"family": "Windham-Myers",
+				"given": "Lisamarie"
+			},
+			{
+				"family": "Wohlfahrt",
+				"given": "Georg"
+			},
+			{
+				"family": "Zona",
+				"given": "Donatella"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{"id": "peltola_monthly_2019",
+		"type": "article-journal",
+		"container-title": "Earth System Science Data",
+		"DOI": "10.5194/essd-11-1263-2019",
+		"issue": "3",
+		"language": "en",
+		"page": "1263–1289",
+		"title": "Monthly gridded data product of northern wetland methane emissions based on upscaling eddy covariance observations",
+		"URL": "https://essd.copernicus.org/articles/11/1263/2019/",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Peltola",
+				"given": "O."
+			},
+			{
+				"family": "Vesala",
+				"given": "T."
+			},
+			{
+				"family": "Gao",
+				"given": "Y."
+			},
+			{
+				"family": "Räty",
+				"given": "O."
+			},
+			{
+				"family": "Alekseychik",
+				"given": "P."
+			},
+			{
+				"family": "Aurela",
+				"given": "M."
+			},
+			{
+				"family": "Chojnicki",
+				"given": "B."
+			},
+			{
+				"family": "Desai",
+				"given": "A. R."
+			},
+			{
+				"family": "Dolman",
+				"given": "A. J."
+			},
+			{
+				"family": "Euskirchen",
+				"given": "E. S."
+			},
+			{
+				"family": "Friborg",
+				"given": "T."
+			},
+			{
+				"family": "Göckede",
+				"given": "M."
+			},
+			{
+				"family": "Helbig",
+				"given": "M."
+			},
+			{
+				"family": "Humphreys",
+				"given": "E."
+			},
+			{
+				"family": "Jackson",
+				"given": "R. B."
+			},
+			{
+				"family": "Jocher",
+				"given": "G."
+			},
+			{
+				"family": "Joos",
+				"given": "F."
+			},
+			{
+				"family": "Klatt",
+				"given": "J."
+			},
+			{
+				"family": "Knox",
+				"given": "S. H."
+			},
+			{
+				"family": "Kowalska",
+				"given": "N."
+			},
+			{
+				"family": "Kutzbach",
+				"given": "L."
+			},
+			{
+				"family": "Lienert",
+				"given": "S."
+			},
+			{
+				"family": "Lohila",
+				"given": "A."
+			},
+			{
+				"family": "Mammarella",
+				"given": "I."
+			},
+			{
+				"family": "Nadeau",
+				"given": "D. F."
+			},
+			{
+				"family": "Nilsson",
+				"given": "M. B."
+			},
+			{
+				"family": "Oechel",
+				"given": "W. C."
+			},
+			{
+				"family": "Peichl",
+				"given": "M."
+			},
+			{
+				"family": "Pypker",
+				"given": "T."
+			},
+			{
+				"family": "Quinton",
+				"given": "W."
+			},
+			{
+				"family": "Rinne",
+				"given": "J."
+			},
+			{
+				"family": "Sachs",
+				"given": "T."
+			},
+			{
+				"family": "Samson",
+				"given": "M."
+			},
+			{
+				"family": "Schmid",
+				"given": "H. P."
+			},
+			{
+				"family": "Sonnentag",
+				"given": "O."
+			},
+			{
+				"family": "Wille",
+				"given": "C."
+			},
+			{
+				"family": "Zona",
+				"given": "D."
+			},
+			{
+				"family": "Aalto",
+				"given": "T."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{"id": "kim_gap-filling_2019",
+		"type": "article-journal",
+		"abstract": "Abstract Methane flux (FCH4) measurements using the eddy covariance technique have increased over the past decade. FCH4 measurements commonly include data gaps, as is the case with CO2 and energy fluxes. However, gap-filling FCH4 data are more challenging than other fluxes due to its unique characteristics including multidriver dependency, variabilities across multiple timescales, nonstationarity, spatial heterogeneity of flux footprints, and lagged influence of biophysical drivers. Some researchers have applied a marginal distribution sampling (MDS) algorithm, a standard gap-filling method for other fluxes, to FCH4 datasets, and others have applied artificial neural networks (ANN) to resolve the challenging characteristics of FCH4. However, there is still no consensus regarding FCH4 gap-filling methods due to limited comparative research. We are not aware of the applications of machine learning (ML) algorithms beyond ANN to FCH4 datasets. Here, we compare the performance of MDS and three ML algorithms (ANN, random forest [RF], and support vector machine [SVM]) using multiple combinations of ancillary variables. In addition, we applied principal component analysis (PCA) as an input to the algorithms to address multidriver dependency of FCH4 and reduce the internal complexity of the algorithmic structures. We applied this approach to five benchmark FCH4 datasets from both natural and managed systems located in temperate and tropical wetlands and rice paddies. Results indicate that PCA improved the performance of MDS compared to traditional inputs. ML algorithms performed better when using all available biophysical variables compared to using PCA-derived inputs. Overall, RF was found to outperform other techniques for all sites. We found gap-filling uncertainty is much larger than measurement uncertainty in accumulated CH4 budget. Therefore, the approach used for FCH4 gap filling can have important implications for characterizing annual ecosystem-scale methane budgets, the accuracy of which is important for evaluating natural and managed systems and their interactions with global change processes.",
+		"container-title": "Global Change Biology",
+		"DOI": "10.1111/gcb.14845",
+		"issue": "3",
+		"language": "en",
+		"page": "1499-1518",
+		"title": "Gap-filling approaches for eddy covariance methane fluxes: A comparison of three machine learning algorithms and a traditional method with principal component analysis",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14845",
+		"volume": "26",
+		"author": [
+			{
+				"family": "Kim",
+				"given": "Yeonuk"
+			},
+			{
+				"family": "Johnson",
+				"given": "Mark S."
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Black",
+				"given": "T. Andrew"
+			},
+			{
+				"family": "Dalmagro",
+				"given": "Higo J."
+			},
+			{
+				"family": "Kang",
+				"given": "Minseok"
+			},
+			{
+				"family": "Kim",
+				"given": "Joon"
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{"id": "mcnicol_where_2019",
+		"type": "article-journal",
+		"container-title": "Global Change Biology",
+		"DOI": "10.1111/gcb.14916",
+		"issue": "2",
+		"language": "en",
+		"page": "772-785",
+		"title": "Where old meets new: An ecosystem study of methanogenesis in a reflooded agricultural peatland",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14916",
+		"volume": "26",
+		"author": [
+			{
+				"family": "McNicol",
+				"given": "Gavin"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Guilderson",
+				"given": "Thomas P."
+			},
+			{
+				"family": "Baldocchi",
+				"given": "Dennis D."
+			},
+			{
+				"family": "Silver",
+				"given": "Whendee L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{"id": "satriawan_interannual_2022",
+		"type": "thesis",
+		"abstract": "Peatland rewetting, which is a management effort to restore water levels in previously drained peatlands, is important for re-establishing the role of peatlands as carbon (C) sinks. Since rewetted peatlands often have a highly variable response to year-to-year changes in climatic",
+		"genre": "Master's Thesis",
+		"language": "eng",
+		"note": "DOI: 10.14288/1.0416306",
+		"publisher": "University of British Columbia",
+		"title": "Interannual variability of carbon dioxide (CO₂) and methane (CH₄) fluxes in a temperate bog over a 5-year period",
+		"URL": "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0416306",
+		"author": [
+			{
+				"family": "Satriawan",
+				"given": "Tin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{"id": "russell_increased_2021",
+		"type": "thesis",
+		"abstract": "Brackish wetland plant and microbial communities are a diverse mix of freshwater- and saltwater-adapted species in competition with each other. This has led researchers to predict that carbon cycling in brackish wetlands may be more resilient to changes in salinity than in fresh-",
+		"genre": "Master's Thesis",
+		"language": "eng",
+		"note": "DOI: 10.14288/1.0406272",
+		"publisher": "University of British Columbia",
+		"title": "Increased salinity decreases annual gross primary productivity of a Northern California brackish wetland",
+		"URL": "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0406272",
+		"author": [
+			{
+				"family": "Russell",
+				"given": "Sarah J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "nyberg_impacts_2021",
+		"type": "thesis",
+		"abstract": "Peatland disturbance through drainage threatens to liberate large amounts of C stocks by increasing emissions of carbon dioxide (CO₂) from the soil. Restoration through re-wetting, on the other hand, could play an important role in climate change mitigation or adaptation by reduc",
+		"genre": "Master's Thesis",
+		"language": "eng",
+		"note": "DOI: 10.14288/1.0401463",
+		"publisher": "University of British Columbia",
+		"title": "Impacts of restoration and climate variability on peatland GHG fluxes",
+		"URL": "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0401463",
+		"author": [
+			{
+				"family": "Nyberg",
+				"given": "Marion"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{"id": "skeeter_ongoing_2023",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC",
+		"title": "Ongoing and Proposed Research in the Burns Bog Ecological Conservancy Area",
+		"author": [
+			{
+				"family": "Skeeter",
+				"given": "J"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					4
+				]
+			]
+		}
+	},
+	{"id": "knox_ubc_2023",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the Burns Bog Ecological Conservancy Area Scientific Advisory Panel MeetingEcological Conservancy Area Scientific Advisory Panel Meeting, Burnaby, BC",
+		"title": "UBC Micrometeorology Lab Studies Review",
+		"author": [
+			{
+				"family": "Knox",
+				"given": "S"
+			},
+			{
+				"family": "Skeeter",
+				"given": "J"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{"id": "ng_characterizing_2022",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the American Geophysical Union Fall Meeting, San Francisco, CA",
+		"title": "Characterizing within-footprint spatial heterogeneity of CH4 emissions in freshwater wetlands through remote sensing and Footprint-weighted Flux Maps",
+		"author": [
+			{
+				"family": "Ng",
+				"given": "D"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12
+				]
+			]
+		}
+	},
+	{"id": "satriawan_interannual_2022_b",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the AsiaFulx Conference, Sarawak Malaysia",
+		"title": "Interannual Variability of Carbon Dioxide (CO2) and Methane (CH4) Fluxes in a Rewetted Temperate Bog over a 5-Year Period.",
+		"author": [
+			{
+				"family": "Satriawan",
+				"given": "T*"
+			},
+			{
+				"family": "Nyberg",
+				"given": "M*"
+			},
+			{
+				"family": "Lee",
+				"given": "S-C*"
+			},
+			{
+				"family": "Nesic",
+				"given": "Z"
+			},
+			{
+				"family": "Black",
+				"given": "TA"
+			},
+			{
+				"family": "Johnson",
+				"given": "M"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					9
+				]
+			]
+		}
+	},
+	{"id": "satriawan_interannual_2022_a",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the Canadian Geophysical Union Annual Meeting, Saskatoon, SK",
+		"title": "Interannual Variability of Carbon Dioxide (CO2) and Methane (CH4) Fluxes in a Rewetted Temperate Bog over a 5-Year Period.",
+		"author": [
+			{
+				"family": "Satriawan",
+				"given": "T*"
+			},
+			{
+				"family": "Nyberg",
+				"given": "M*"
+			},
+			{
+				"family": "Lee",
+				"given": "S-C*"
+			},
+			{
+				"family": "Nesic",
+				"given": "Z"
+			},
+			{
+				"family": "Black",
+				"given": "TA"
+			},
+			{
+				"family": "Johnson",
+				"given": "M"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6
+				]
+			]
+		}
+	},
+	{"id": "satriawan_interannual_2021",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the American Geophysical Union Annual Meeting, New Orleans, LA",
+		"title": "Interannual Variability of Carbon Dioxide (CO2) and Methane (CH4) Fluxes in a Rewetted Temperate Bog over a 5-Year Period.",
+		"author": [
+			{
+				"family": "Satriawan",
+				"given": "T*"
+			},
+			{
+				"family": "Nyberg",
+				"given": "M*"
+			},
+			{
+				"family": "Lee",
+				"given": "S-C*"
+			},
+			{
+				"family": "Nesic",
+				"given": "Z"
+			},
+			{
+				"family": "Black",
+				"given": "TA"
+			},
+			{
+				"family": "Johnson",
+				"given": "M"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					12
+				]
+			]
+		}
+	},
+	{"id": "satriawan_interannual_2020",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the American Geophysical Union Annual Meeting, *remote*",
+		"title": "Interannual Variability of Carbon Dioxide (CO2) and Methane (CH4) Fluxes in a Rewetted Temperate Bog over a 5-Year Period.",
+		"author": [
+			{
+				"family": "Satriawan",
+				"given": "T*"
+			},
+			{
+				"family": "Nyberg",
+				"given": "M*"
+			},
+			{
+				"family": "Lee",
+				"given": "S-C*"
+			},
+			{
+				"family": "Nesic",
+				"given": "Z"
+			},
+			{
+				"family": "Black",
+				"given": "TA"
+			},
+			{
+				"family": "Johnson",
+				"given": "M"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12
+				]
+			]
+		}
+	},
+	{"id": "nyberg_impacts_2020",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: presented at the American Geophysical Union Annual Meeting, *remote*",
+		"title": "Impacts of restoration and climate variability on peatland greenhouse gas fluxes",
+		"author": [
+			{
+				"family": "Nyberg",
+				"given": "M*"
+			},
+			{
+				"family": "S",
+				"given": "Knox"
+			},
+			{
+				"family": "Black",
+				"given": "T"
+			},
+			{
+				"family": "Johnson",
+				"given": "M"
+			},
+			{
+				"family": "Ketler",
+				"given": "R"
+			},
+			{
+				"family": "Nesic",
+				"given": "Z"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12
+				]
+			]
+		}
+	},
+	{"id": "lu_investigating_2022",
+		"type": "document",
+		"note": "type: paper-conference\nPublished: Poster presented at the American Geophysical Union Fall Meeting, San Francisco, CA",
+		"title": "Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in British Columbia",
+		"author": [
+			{
+				"family": "Lu",
+				"given": "T-Y*"
+			},
+			{
+				"family": "Russell",
+				"given": "S*"
+			},
+			{
+				"family": "Skeeter",
+				"given": "J*"
+			},
+			{
+				"family": "Lee",
+				"given": "S*"
+			},
+			{
+				"family": "Oikawa",
+				"given": "P"
+			},
+			{
+				"family": "Knox",
+				"given": "S"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12
+				]
+			]
+		}
+	}
+]

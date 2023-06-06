@@ -36,7 +36,7 @@ with open(f"{updated_doc}.qmd", "w+") as f:
 
 shutil.copy('american-geophysical-union.csl','docs/american-geophysical-union.csl')
 
-shutil.copy('lab_publications.bib','docs/lab_publications.bib')
+shutil.copy('lab_publications.json','docs/lab_publications.json')
 
 
 ```

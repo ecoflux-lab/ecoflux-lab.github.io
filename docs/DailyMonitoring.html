@@ -155,8 +155,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#site-monitoring" id="toc-site-monitoring" class="nav-link active" data-scroll-target="#site-monitoring">Site Monitoring</a></li>
-  <li><a href="#remote-login-to-li-7200li-7700" id="toc-remote-login-to-li-7200li-7700" class="nav-link" data-scroll-target="#remote-login-to-li-7200li-7700">Remote Login to Li-7200/LI-7700</a></li>
+  <li><a href="#check-critical-variables" id="toc-check-critical-variables" class="nav-link active" data-scroll-target="#check-critical-variables">Check Critical Variables</a>
+  <ul class="collapse">
+  <li><a href="#motor-power-flow-fate-for-li-7200-pump" id="toc-motor-power-flow-fate-for-li-7200-pump" class="nav-link" data-scroll-target="#motor-power-flow-fate-for-li-7200-pump">Motor Power (%) &amp; Flow Fate for LI-7200 pump</a></li>
+  <li><a href="#thermocouples" id="toc-thermocouples" class="nav-link" data-scroll-target="#thermocouples">Thermocouples</a></li>
+  <li><a href="#climate-data" id="toc-climate-data" class="nav-link" data-scroll-target="#climate-data">Climate Data</a></li>
+  <li><a href="#flux-data" id="toc-flux-data" class="nav-link" data-scroll-target="#flux-data">Flux Data</a></li>
+  </ul></li>
+  <li><a href="#remote-login-procedures" id="toc-remote-login-procedures" class="nav-link" data-scroll-target="#remote-login-procedures">Remote Login Procedures</a>
+  <ul class="collapse">
+  <li><a href="#li-7200" id="toc-li-7200" class="nav-link" data-scroll-target="#li-7200">LI 7200</a></li>
+  <li><a href="#li-7700" id="toc-li-7700" class="nav-link" data-scroll-target="#li-7700">LI 7700</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -180,34 +190,46 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Below are instructions for visual checks of the data that should be done every day.</p>
-<section id="site-monitoring" class="level2">
-<h2 class="anchored" data-anchor-id="site-monitoring">Site Monitoring</h2>
-<ol type="1">
-<li>Check web plots by going to:
+<p>Below are instructions for visual checks of the data that should be done every day. Web plots for each site can be found by going to:</p>
 <ul>
-<li><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#">BB1</a></li>
-<li><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog2">BB2</a></li>
-<li><a href="https://ibis.geog.ubc.ca/~micromet/data/basic_sync5#">BB2 w. 2 plots</a></li>
-<li><a href="https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#">DSM</a></li>
-<li><a href="https://app1.fluxsuite.com/login?next=%2Fmap%2F">Hogg and Young</a> (see ‘Micromet sites remote access’ file for login information.)</li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#">BB1</a></p></li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog2">BB2</a></p></li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/basic_sync5#">BB2 w. 2 plots</a></p></li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#">DSM</a></p></li>
+<li><p><a href="https://app1.fluxsuite.com/login?next=%2Fmap%2F">Hogg and Young</a></p></li>
+<li><p>You also view data plot on vinimet (or your local computer if it’s set up) using ‘view_micromet’ in Matlab.</p></li>
+</ul>
+<section id="check-critical-variables" class="level2">
+<h2 class="anchored" data-anchor-id="check-critical-variables">Check Critical Variables</h2>
+<section id="motor-power-flow-fate-for-li-7200-pump" class="level3">
+<h3 class="anchored" data-anchor-id="motor-power-flow-fate-for-li-7200-pump">Motor Power (%) &amp; Flow Fate for LI-7200 pump</h3>
+<ul>
+<li>Keep checking if this one changes over time (over weeks).
+<ul>
+<li>Flow drive % should be 50 - 90%</li>
+<li>Higher power means more air-flow resistance in the tubing indicating either clogged up filter (if we use those), dirty rain cap wire-mesh or damaged tubing</li>
 </ul></li>
-</ol>
-<p><em>Note can also view data plot on vinimet (or your local computer if it’s set up) using ‘view_micromet’ in Matlab.</em></p>
-<ol start="2" type="1">
-<li>Check critical variables:
+<li>We aim for 30-min averages flow rate of slpm = 15 L/min;
 <ul>
-<li>Motor Power (%) for LI-7200 pump
-<ul>
-<li>Keep checking if this one changes over time (over weeks). Higher power means more air-flow resistance in the tubing indicating either clogged up filter (if we use those), dirty rain cap wire-mesh or damaged tubing (<em>insert image <img src=".png" class="img-fluid"></em>)</li>
+<li>Below 13 L/min we begin to worry, (data quality drops);</li>
+<li>Below 10 L/min we need to fix it ASAP (data quality questionable or data missing) by cleaning up the intake tube cap</li>
 </ul></li>
-<li>Pump Flow rate:
-<ul>
-<li>we aim for 30-min averages of slpm = 15 L/min;</li>
-<li>below 13 L/min we begin to worry, (data quality drops);</li>
-<li>below 10 L/min we need to fix it ASAP (data quality questionable or data missing) by cleaning up the intake tube cap</li>
-</ul></li>
-<li>Thermocouples
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BB1_Flow_Rate.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Good Flow at BB1</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BB2_Flow_Rate.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Bad Flow at BB2</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="thermocouples" class="level3">
+<h3 class="anchored" data-anchor-id="thermocouples">Thermocouples</h3>
 <ul>
 <li>LI-7200: these two values should be very close to each other (&lt;1 C difference)
 <ul>
@@ -218,66 +240,111 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Air temperature</li>
 </ul></li>
-</ul></li>
-<li>Diagnostic flags for all instruments</li>
-</ul></li>
-<li>Climate variables
-<ul>
-<li>click on “last day” (for <a href="https://ibis.geog.ubc.ca/~micromet/">https://ibis.geog.ubc.ca/~micromet/</a> webplots; for Hogg and Young make sure ‘Number of Days to Display’ include the last day)</li>
-<li>check if there are new data &amp; if the values are reasonable (for all sites)</li>
-</ul></li>
-<li>Check fluxes
-<ul>
-<li>For latent heat, CO2, CH4, etc. for the current day check if there are new data &amp; if the values are reasonable</li>
-<li>Gas analyzer signal strength - view data over a longer period to check for any trends (e.g., over a month). Might need to go to the field if it’s decreasing rapidly (&lt;10%). It’s normal for 7700’s signal strength to drop during rainy periods, but it’s not normal for 7200’s to drop that frequently (if it does, check the 7200 head’s o-ring).</li>
-<li>Voltage - look at data over the past month and tell June or Rick if the battery voltage goes below 24 V at midnight. This usually happens in the winter when we have a few days of clouds &amp; rain.</li>
-</ul></li>
-<li>Notes: if you see <strong>BB1</strong> and <strong>BB2</strong> precip data don’t align with each other, there’s a possibility that the tipping bucket is clogged.</li>
-</ol>
+</ul>
 </section>
-<section id="remote-login-to-li-7200li-7700" class="level2">
-<h2 class="anchored" data-anchor-id="remote-login-to-li-7200li-7700">Remote Login to Li-7200/LI-7700</h2>
-<ol type="1">
-<li><p>Connect to VPN, go to Remote Desktop &amp; connect to vinimet.geog.ubc.ca (or it’s better to do this from your personal computer so you won’t kick off or get kicked off by other people using Vinimet). Note that doing this on your personal computer requires a PC.</p></li>
-<li><p>Open the LI-7x00 software on desktop:</p>
+<section id="climate-data" class="level3">
+<h3 class="anchored" data-anchor-id="climate-data">Climate Data</h3>
 <ul>
-<li>(<em>insert image <img src=".png" class="img-fluid"></em>)</li>
-</ul></li>
-<li><p>Connect using the right <a href="https://docs.google.com/document/d/1JyEQ7OyvLmtzWhKl5TsjZ7FiPcd_f-K0ewoyx3xSmH4/edit">IP Address</a></p></li>
-<li><p>Once on the main page check:</p>
+<li>Check if there are new data &amp; if the values are reasonable (for all sites)
 <ul>
-<li>The logger status → should be logging</li>
-<li>USB Free Space → make sure there’s still enough space in the USB (usually the USB stick can handle 6-weeks data)</li>
-<li>The SmartFlux module has to be connected to the system, make sure it’s not “none”</li>
-<li>CO2 dry - during daytime should be around 380-420 ppm, during night time it can be quite high depending on the site (sometimes &gt;600 ppm)</li>
-<li>CH4 - should be around 2 ppm</li>
-<li>Temperature in and out → these two values should be very close to each other (&lt;1 C difference)</li>
-<li>Head pressure - should be between -0.8 to -3.8 kPa</li>
-<li>Flow drive - should be around 50% to 90%</li>
-<li>Flow rate - should be around 13-15 l/m</li>
+<li>Click on “last day” / “last week” to filter the time series</li>
+<li>If you see <strong>BB1</strong> and <strong>BB2</strong> precip data don’t align with each other, there’s a possibility that the tipping bucket is clogged.</li>
 </ul></li>
-</ol>
-<p><em>insert image <img src=".png" class="img-fluid"></em></p>
-<p>You can change the displayed variables by clicking on the values. The recommended default setup for the variables along with the variables’ normal values are as follows:</p>
-<p><em>insert image <img src=".png" class="img-fluid"></em></p>
-<ol start="5" type="1">
-<li>Click on the “Diagnostics” tab - check if all parameters are “OK”</li>
-</ol>
-<p><em>insert image <img src=".png" class="img-fluid"></em></p>
-<ol start="6" type="1">
-<li>Also check 7700 Optics RH. If it’s &gt;15%, we should replace the internal chemicals.</li>
-</ol>
-<p><em>insert image <img src=".png" class="img-fluid"></em></p>
-<ol start="7" type="1">
+</ul>
+</section>
+<section id="flux-data" class="level3">
+<h3 class="anchored" data-anchor-id="flux-data">Flux Data</h3>
+<p>For <strong>Fluxes and Gas Concentrations</strong> check if there are new data &amp; if the values are reasonable. These will only be calculated if smart flux is running properly.</p>
+<p><strong>Gas Concentrations</strong>:</p>
+<ul>
+<li>CO2 mixing ratio (dry) - during daytime should be around 380-420 ppm (umol/mol), during night time it can be quite high depending on the site (sometimes &gt; 600 ppm)</li>
+<li>CH4 mixing ratio (dry) - should be around 2 ppm</li>
+</ul>
+<p><strong>Fluxes</strong>:</p>
+<ul>
+<li>Sensible &amp; Latent heat - Typically between -100 and + 450 w m<sup>-2</sup>
+<ul>
+<li>Should generally sum ~ 70%-80% of net radiation</li>
+</ul></li>
+<li>FCO2 &amp; FCH4 - site dependent, but look for gaps, extreme spikes, systematic jumps</li>
+</ul>
+<p><strong>Signal strength</strong></p>
+<ul>
+<li>View over a longer period to check for any trends. Schedule a site visit if it’s decreasing rapidly (&lt;10%). It’s normal for 7700’s signal strength to drop during rainy periods, but it’s not normal for 7200’s to drop that frequently (if it does, check the 7200 head’s o-ring).</li>
+</ul>
+<p><strong>Voltage</strong></p>
+<ul>
+<li>Look at data over the past month and tell June or Rick if the battery voltage goes below 24 V at midnight.
+<ul>
+<li>This usually happens in the winter when we have a few days of clouds &amp; rain.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="remote-login-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="remote-login-procedures">Remote Login Procedures</h2>
+<p>Connect to VPN, go to Remote Desktop &amp; connect to vinimet.geog.ubc.ca (or it’s better to do this from your personal computer so you won’t kick off or get kicked off by other people using Vinimet). Note that doing this on your personal computer requires a PC.</p>
+<section id="li-7200" class="level3">
+<h3 class="anchored" data-anchor-id="li-7200">LI 7200</h3>
+<p>Open the LI-7x00 software on desktop and connect using the right <a href="https://docs.google.com/document/d/1JyEQ7OyvLmtzWhKl5TsjZ7FiPcd_f-K0ewoyx3xSmH4/edit">IP Address</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Connection_BB1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Connecting to the BB1 7200</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li>Once on the main page check:
+<ul>
+<li><p>The logger status → should be logging</p></li>
+<li><p>USB Free Space → make sure there’s still enough space in the USB (usually the USB stick can handle 6-weeks data)</p></li>
+<li><p>The SmartFlux module has to be connected to the system, make sure it’s not “none”</p></li>
+<li><p>Head pressure - should be between -0.8 to -3.8 kPa</p></li>
+<li><p>Flow drive - should be around 50% to 90%</p></li>
+<li><p>Flow rate - should be around 13-15 l/m</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Software.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Checking the BB1 7200</figcaption><p></p>
+</figure>
+</div>
+<p>Click on the “Diagnostics” tab - check if all parameters are “OK”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Diagnostics.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Checking the BB1 7200 Diagnostics</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="li-7700" class="level3">
+<h3 class="anchored" data-anchor-id="li-7700">LI 7700</h3>
+<p>Open the LI-7700 software on desktop and use the same IP address as for the 7200</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Connection_BB1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Connecting to the BB1 7200</figcaption><p></p>
+</figure>
+</div>
+<p>Check 7700 Optics RH. If it’s &gt;15%, we should replace the internal chemicals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7700_Software.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Checking the BB1 7700</figcaption><p></p>
+</figure>
+</div>
+<ul>
 <li>Check SmartFlux internal memory every 2-3 months
 <ul>
 <li>Instructions to check memory are under <code>Note_SmartFlux internal memory_ssh connection.docx</code></li>
 <li>Instructions to clear memory are under <code>Note_SmartFlux internal memory_updater.docx</code></li>
 </ul></li>
-</ol>
-<p>Adding info from <a href="https://docs.google.com/document/d/1hM0ZpYF6znLv-90TAyof2EEdsJ6oyaizvdwNYeMugyM/edit?usp=sharing">here</a></p>
+</ul>
+<p>Info from <a href="https://docs.google.com/document/d/1hM0ZpYF6znLv-90TAyof2EEdsJ6oyaizvdwNYeMugyM/edit?usp=sharing">here</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
