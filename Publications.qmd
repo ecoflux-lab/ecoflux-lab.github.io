@@ -1,17 +1,41 @@
 ---
 title: "Publications"
 format: 
-  markdown:
+  html:
     code-fold: true
 
 bibliography: lab_publications.json
 section-bibs-bibliography: lab_publications.json
-filters:
-  - section-bibliographies
 section-bibs-level: 2 # May require edit to line 78 in _extensions/section-bibliographies.lua - have submitted issue
 citeproc: False
-
 csl: american-geophysical-union.csl
+
+filters:
+  - section-bibliographies
+  - bold-author.lua
+bold-auth-name:
+  - family: Knox
+    given: S. H.
+  - family: Skeeter
+    given: J.
+  - family: Lee
+    given: S.-C.
+  - family: Nesic
+    given: Z.
+  - family: Ketler
+    given: R.
+  - family: Lu
+    given: T.-Y.  
+  - family: Russell
+    given: S. J.
+  - family: Katrina
+    given: P.
+  - family: Ng
+    given: D.
+  - family: Nyberg
+    given: M.
+  - family: Satriawan
+    given: T.
 ---
 
 ## Peer Reviewed Journal Articles

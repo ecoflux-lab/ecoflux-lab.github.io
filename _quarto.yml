@@ -34,7 +34,7 @@ website:
           text: Research
         - href: People.qmd
           text: People
-        - href: Pubs_list.qmd
+        - href: Publications.qmd
           text: Publications
         - href: Join.qmd
           text: Join the lab
