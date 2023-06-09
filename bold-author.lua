@@ -9,7 +9,6 @@ local function highlight_author_filter(auths)
         for k,_ in ipairs(el.content) do
           for key, val in ipairs(auths) do
             local first_part = val.family .. ","
-            local second_part = "^" .. val.given
             local full = val.family .. ", " .. val.given
 
             given_initials = {}
@@ -36,7 +35,8 @@ local function highlight_author_filter(auths)
                 local rest = el.content[k+4].text:sub(e+1) 
                 el.content[k] = pandoc.Strong { pandoc.Str(full) }
                 el.content[k+1] = pandoc.Str(rest)
-                print(el.content[k])
+                table.remove(el.content, k+4)
+                table.remove(el.content, k+3)
                 table.remove(el.content, k+2)
               end
             end
