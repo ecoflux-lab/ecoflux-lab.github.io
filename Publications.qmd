@@ -28,8 +28,8 @@ bold-auth-name:
     given: T.-Y.  
   - family: Russell
     given: S. J.
-  - family: Poppe
-    given: K.
+  - family: Katrina
+    given: P.
   - family: Ng
     given: D.
   - family: Nyberg
@@ -53,33 +53,33 @@ bold-auth-name:
 
 @lee_biophysical_2021
 
-# @yuan_causality_2022
+<!-- @yuan_causality_2022 -->
 
-# @ouyang_paddy_2023
+<!-- @ouyang_paddy_2023 -->
 
 @zhang_anthropogenic_2021
 
 @miller_potential_2021
 
-# @irvin_gap_2021
+<!-- @irvin_gap_2021 -->
 
 @knox_identifying_2021
 
 @delwiche_fluxnet_2021
 
-@chang_substantial_2021
+<!-- @chang_substantial_2021 -->
 
 @dronova_remotely_2021
 
 @fisher_once_2021
 
-# @chu_representativeness_2021
+<!-- @chu_representativeness_2021 -->
 
 @bogard_hydrologic_2020
 
-# @pastorello_fluxnet_2020
+<!-- @pastorello_fluxnet_2020 -->
 
-# @feagin_tidal_2020
+<!-- @feagin_tidal_2020 -->
 
 @kim_gap-filling_2019
 
@@ -87,7 +87,7 @@ bold-auth-name:
 
 @knox_fluxnet_2019
 
-# @peltola_monthly_2019
+<!-- @peltola_monthly_2019 -->
 
 :::
 :::
