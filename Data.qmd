@@ -91,7 +91,6 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 :::: {.columns}
 
 ::: {.column width="65%"}
-*broken url for the site photos (don't think that big of an issue since we want to replace w. the google photos link anyways)*
 
 * [Data Preview Graph](https://ibis.geog.ubc.ca/~micromet/data/RichmondBrackishMarsh.html#) (CA-RBM) (2021 - *, Richmond, BC, Canada)
 * Data from CA-RBM will soon be available on AmeriFlux.

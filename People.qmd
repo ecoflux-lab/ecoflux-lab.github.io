@@ -54,6 +54,13 @@ I am a non-binary geographer, researcher, and educator and my pronouns are they/
 
 <br>
 
+**Dr. Ted Scott, Ph.D Student**
+
+<img src="images/headshots/Ted_headshot2.jpg" style="float: left; border-radius: 50%; padding-left: 12px; padding-right: 12px; margin-right: 12px" width="250" height="300"/>
+
+Prior to UBC, while at the University of Minnesota, I earned a BS in Computer Science (1997), then a MS (2000) and PhD in Geophysics (2006) under David Kohlstedt, investigating the dynamic properties of partially molten peridotites. My work helped constrain the composition and behavior of highly molten planetary interiors such as Juipter’s moon Io. I then worked at Microsoft for several years as a data scientist and engineer, and more recently as a high-school science and math teacher. My current research interests include studying greenhouse gas fluxes in wetland environments. I then synthesize the data collected across multiple sites in various environments to better understand how individually and collectively they can contribute as a natural climate solution. As in my prior PhD, I hope my work can be used to better constrain climate models and lead to sound policy as we address climate change. In my free time, I enjoy trail running and rock climbing.
+<br>
+
 **Tzu-Yi Lu, Ph.D Student**
 
 <img src="images/headshots/tzu-yi-oval.png" style="float: left; padding-left: 12px; padding-right: 12px; margin-right: 12px" width="250" height="300"/>
