@@ -13,7 +13,7 @@ title: "People"
  |
 -----|:-----
 Name| Dr. Sara Helen Knox
-Pronouns| / /
+Pronouns| She/Her/Hers
 Email| sara.knox\@ubc.ca
 GitHub| [https://github.com/sknox01](https://github.com/sknox01)
 
@@ -131,7 +131,7 @@ I received my MS in Geography from National Taiwan University in 2017. I am inte
  |
 -----|:-----
 Name| Katrina Poppe
-Pronouns| / /
+Pronouns| She/Her/Hers
 Level of Study| Ph.D. Student
 Email| poppek\@student.ubc.ca
 
@@ -173,9 +173,9 @@ I received a BS in Biological Sciences from Wellesley College in 2017, then work
  |
 -----|:-----
 Name| Ted Scott
-Pronouns| / / 
+Pronouns| He/Him/His
 Level of Study| Ph.D. Student
-Email| ?
+Email| tedjs\@student.ubc.ca
 
 ::: 
 ::::
@@ -215,9 +215,9 @@ I received a BSc in Atmospheric Science from the University of British Columbia 
  |
 -----|:-----
 Name| Hehan (Zoe) Zhang
-Pronouns| / / 
+Pronouns| She/Her/Hers
 Level of Study| M.Sc. Student
-Email| ?
+Email| hehanzha\@student.ubc.ca
 
 ::: 
 ::::
