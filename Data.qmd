@@ -24,8 +24,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
  <a href="https://ubc-micromet.github.io/FieldSiteMaps/">View map in separate window</a> 
 
-## Currently Operational Sites
-### Burns Bog 1
+### Burns Bog 1 (BB)
 :::: {.columns}
 
 :::{.column width="65%"}
@@ -46,7 +45,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Burns Bog 2
+### Burns Bog 2 (BB2)
 
 :::: {.columns}
 
@@ -68,13 +67,15 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Burns Bog Seedling
+### Burns Bog Seedling (BBS)
 
 :::: {.columns}
 
 ::: {.column width="65%"}
 
-* Newly established flux tower and chamber sites in spring 2023 - more info to come
+* Flux chambers were installed in spring 2023
+* A temporary flux tower was installed in summer 2023
+  - more info to come
 
 ::: 
 
@@ -86,7 +87,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Delta Salt Marsh
+### Delta Salt Marsh (DSM)
 :::: {.columns}
 
 ::: {.column width="65%"}
@@ -107,7 +108,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Richmond Brackish Marsh
+### Richmond Brackish Marsh (RBM)
 
 :::: {.columns}
 
