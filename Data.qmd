@@ -22,17 +22,17 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
  </iframe>
 </div>
 
- <a href="https://ubc-micromet.github.io/FieldSiteMaps/">View site in separate window</a> 
+ <a href="https://ubc-micromet.github.io/FieldSiteMaps/">View map in separate window</a> 
 
-## Currently Operational Sites
-### Burns Bog 1
+### Burns Bog 1 (BB)
 :::: {.columns}
 
 :::{.column width="65%"}
 
 * [Data Preview Graph](https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#) (CA-DBB) (2014 - *, Delta, BC, Canada)
 * Download Data for [CA-DBB](https://ameriflux.lbl.gov/sites/siteinfo/CA-DBB) from Ameriflux.
-* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) (prefix BB. note that this is raw data – no filtering or QCQA. Database codes are available [here](https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html).
+* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) 
+  * prefix  BB. note that this is raw data – no filtering or QCQA. Database codes are available [here](https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html).
 * [BB1 Site Photos](https://www.flickr.com/gp/188943790@N03/22bQJ7) (also see [Dr. Andreas Christen's](https://ibis.geog.ubc.ca/~achristn/projects.html) previous [photos](https://www.flickr.com/photos/140969380@N07/albums/72157666939177185/with/26139296480) from when he held his position at UBC)
 
 ::: 
@@ -45,7 +45,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Burns Bog 2
+### Burns Bog 2 (BB2)
 
 :::: {.columns}
 
@@ -53,7 +53,8 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 * [Data Preview Graph](https://ibis.geog.ubc.ca/~micromet/data/burnsbog2.html#) (CA-DB2) (2019 - *, Delta, BC, Canada)
 * Download Data for [CA-DB2](https://ameriflux.lbl.gov/sites/siteinfo/CA-DB2) will soon be available from Ameriflux.
-* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) (prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available [here](https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html).
+* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) 
+  * prefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available [here](https://ibis.geog.ubc.ca/~micromet/research/Burns-Bog/Database/BB.html).
 * [BB2 Site Photos](https://www.flickr.com/gp/188943790@N03/ny9Pa3)
 
 ::: 
@@ -66,14 +67,35 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Delta Salt Marsh
+### Burns Bog Seedling (BBS)
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+* Flux chambers were installed in spring 2023
+* A temporary flux tower was installed in summer 2023
+  - more info to come
+
+::: 
+
+::: {.column width="35%"}
+
+![](images/site-images/bbs-tower.jpg){fig-align="right" width=90%}
+
+:::
+
+::::
+
+### Delta Salt Marsh (DSM)
 :::: {.columns}
 
 ::: {.column width="65%"}
 
 * [Data Preview Graph](https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#) (CA-DSM) (2021 - *, Delta, BC, Canada)
 * Data from CA-DSM will soon be available on AmeriFlux.
-* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) (prefix DSM. note that this is raw data – no filtering or QCQA.
+* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) 
+  * prefix  DSM. note that this is raw data – no filtering or QCQA.
 * [DSM Site Photos](https://www.flickr.com/gp/188943790@N03/J010Wq)
 
 ::: 
@@ -86,7 +108,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Richmond Brackish Marsh
+### Richmond Brackish Marsh (RBM)
 
 :::: {.columns}
 
@@ -94,7 +116,8 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 * [Data Preview Graph](https://ibis.geog.ubc.ca/~micromet/data/RichmondBrackishMarsh.html#) (CA-RBM) (2021 - *, Richmond, BC, Canada)
 * Data from CA-RBM will soon be available on AmeriFlux.
-* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/) (prefix RBM. note that this is raw data – no filtering or QCQA.)
+* Data from the web plots are available [here](https://ibis.geog.ubc.ca/~micromet/webdata/resources/csv/") 
+  * prefix  RBM. note that this is raw data – no filtering or QCQA.
 * [RBM Site Photos](https://www.flickr.com/photos/188943790@N03/albums/72177720306622844)
 
 ::: 
