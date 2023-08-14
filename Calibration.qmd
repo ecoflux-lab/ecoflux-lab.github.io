@@ -35,7 +35,7 @@ RBM     |  ...   |
 
 3. Check the head serial number information in “LI-7200” > “Calibration” > “Coefficients”.  Make sure the head serial number on the sensor matches that in the software (see table above).
 
-![](images/7200_Calibration1.png){width=75% fig-align="centre"}
+![](images/7200_Calibration1.png){width=75% fig-align="center"}
 
 4. Connect the calibration flow tube to the 7200 head.  At BB2, DSM & RMB - there is a special intake novel that is always connected to the intake tube? At BB1 you need to do manually disconnect the intake tube first? 
 
@@ -92,7 +92,7 @@ H<sub>2</sub>O Zero | 0.9 ~ 1.2    | Set in lab (dobule check frequency?)
 H<sub>2</sub>O Span | 0.9 ~ 1.1    | Set in lab (dobule check frequency?)
 : {tbl-colwidths="[20,20,60]"}
 
-![](images/7200_Calibration2.png){width=75% fig-align="centre"}
+![](images/7200_Calibration2.png){width=75% fig-align="center"}
 
 12. Save the after calibration coefficients. Click “Config Files” tab >>  “Save Configuration” >> check all and “continue”.  Use same naming/saving convention as above.
 
