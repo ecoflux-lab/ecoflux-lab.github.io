@@ -1,0 +1,41 @@
+---
+title: "Data Entry"
+---
+
+This page features links to various spots to input the hand-collected data when out in the field (e.g., Water Table Depths). The sheets are all hosted on the [Lab's Google Drive](https://drive.google.com/drive/folders/1e9hpoHgTaQ2eYT5PBY6KUfxiVvPr0o6b?usp=share_link) under the **Project's** tab. 
+
+## Sites
+
+### Burns Bog 1
+
+:::: {.columns}
+::: {.column width=50%}
+
+![](images/BB1_WTH.jpeg){width=70% fig-align="left" fig-margin=TRUE}
+
+[Water Table Height](https://docs.google.com/spreadsheets/d/1RhvyM41GKP_6CTKsQPLCu5TCIeQ4HDtnW9MHw8Iof70/edit?usp=share_link)
+
+:::
+::: {.column width=50%}
+
+*Another Link?*
+
+:::
+::::
+
+### Burns Bog 2
+
+:::: {.columns}
+::: {.column width=50%}
+
+![](images/BB1_WTH.jpeg){width=70% fig-align="left" fig-margin=TRUE}
+
+[Water Table Height](https://drive.google.com/file/d/1fJLsxMR_qJRs8F_v0SV6sYmdG-TmwAmn/view?usp=share_link)
+
+:::
+::: {.column width=50%}
+
+*Another Link?*
+
+:::
+::::

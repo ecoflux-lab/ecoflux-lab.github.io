@@ -4,8 +4,6 @@ title: "Cleaning Procedures"
 
 This page details the steps for cleaning the 7700 and 7200.  Always do the 7700 first, followed by the 7200.  You **must** clean the sensors before calibration.
 
----
-
 ## Getting Started
 
 1. Connect the laptop to the site system using the ethernet cable and dongle to the top box on the outside of the scaffolding. 

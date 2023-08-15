@@ -329,20 +329,6 @@
     "text": "This page details the steps for cleaning the 7700 and 7200. Always do the 7700 first, followed by the 7200. You must clean the sensors before calibration."
   },
   {
-    "objectID": "Data.html#field-sites",
-    "href": "Data.html#field-sites",
-    "title": "Field Sites & Data",
-    "section": "Field Sites",
-    "text": "Field Sites\nThis web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.\n\nClick the points to sites to see more information.\n\n\n\n&lt;p&gt;\nYour browser does not support iframes.\n&lt;/p&gt;\n&lt;p&gt;\n\nView map in separate window\n\nBurns Bog 1 (BB)\n\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\nDownload Data for CA-DBB from Ameriflux.\nData from the web plots are available here\n\nprefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog 2 (BB2)\n\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\nDownload Data for CA-DB2 will soon be available from Ameriflux.\nData from the web plots are available here\n\nprefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB2 Site Photos\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog Seedling (BBS)\n\n\n\nFlux chambers were installed in spring 2023\nA temporary flux tower was installed in summer 2023\n\nmore info to come\n\n\n\n\n\n\n\n\n\n\n\n\nDelta Salt Marsh (DSM)\n\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\nData from CA-DSM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix DSM. note that this is raw data – no filtering or QCQA.\n\nDSM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nRichmond Brackish Marsh (RBM)\n\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\nData from CA-RBM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix RBM. note that this is raw data – no filtering or QCQA.\n\nRBM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nUBC Climate Station on Totem Field\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
-  },
-  {
-    "objectID": "Data.html#code-and-documentation",
-    "href": "Data.html#code-and-documentation",
-    "title": "Field Sites & Data",
-    "section": "Code and Documentation",
-    "text": "Code and Documentation\nOur lab github hosts code for flux processing, README docs for our lab, and various other bits of information.\nMore documentation related to maintenance procedures for our sites can be found here."
-  },
-  {
     "objectID": "Cleaning.html#getting-started",
     "href": "Cleaning.html#getting-started",
     "title": "Cleaning Procedures",
@@ -362,5 +348,33 @@
     "title": "Cleaning Procedures",
     "section": "Cleaning the LI 7200",
     "text": "Cleaning the LI 7200\n\nPower down the flux system. Inside the power box, flip the 3 switches as shown in the table below. The power is off when the red light is on.\n\n\nEC Sensor Power Channels\n\n\n\nSite\nLI-7200 flow module (pump)\nLI-7700\nLI-7550\n\n\n\n\nBB1\n12\n7\n2\n\n\nBB2\n3\n4\n5\n\n\nDMS\n3\n4\n5\n\n\nRBM\nTBD\nTBD\nTBD\n\n\n\n\nTake the intake tube off by loosening the nut with a wrench. The tube can then just hang loosely from the tower, disconnected from the 7200. Then loosen the knobs on top of 7200 to release the top and take side part off to open the 7200 sensor head. This can can hang next to the instrument while cleaning.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWipe top and bottom windows with windshield cleaner (wet then dry cloth). Then clean intake filter with a wipe.\n\nYou may need to replace with a spare clean cap intake. If so: remove the foil wrap, loosen the metal ring with pliers and push it all the way to the tube, remove and replace the cap, use pliers to put the metal ring back on the cap\n\nPower system back up using switches listed in the table above.\n\nNOTE: The start up sequence is: 1) LI-7200 pump, 2) LI-7700, 3) LI-7550. Allow 90 seconds between each sensor when powering up. This order is important for proper start up.\nInside the Li-7550 box, the USB logging light should be flashing\n\nOn the laptop open the LI 7x00 program and connect the the 7500 to check that the signal strength is sufficient:\n\n\n\nDesired LI 7200 Signal Strength by Site\n\n\n\nSite\nValue\n\n\n\n\nBB1\nAbout 100\n\n\nBB2\nAbout 103\n\n\nDMS\nAbout 102\n\n\nRBM\n…"
+  },
+  {
+    "objectID": "Data.html#field-sites",
+    "href": "Data.html#field-sites",
+    "title": "Field Sites & Data",
+    "section": "Field Sites",
+    "text": "Field Sites\nThis web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.\n\nClick the points to sites to see more information.\n\n\n\n&lt;p&gt;\nYour browser does not support iframes.\n&lt;/p&gt;\n&lt;p&gt;\n\nView map in separate window\n\nBurns Bog 1 (BB)\n\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\nDownload Data for CA-DBB from Ameriflux.\nData from the web plots are available here\n\nprefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog 2 (BB2)\n\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\nDownload Data for CA-DB2 will soon be available from Ameriflux.\nData from the web plots are available here\n\nprefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB2 Site Photos\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog Seedling (BBS)\n\n\n\nFlux chambers were installed in spring 2023\nA temporary flux tower was installed in summer 2023\n\nmore info to come\n\n\n\n\n\n\n\n\n\n\n\n\nDelta Salt Marsh (DSM)\n\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\nData from CA-DSM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix DSM. note that this is raw data – no filtering or QCQA.\n\nDSM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nRichmond Brackish Marsh (RBM)\n\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\nData from CA-RBM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix RBM. note that this is raw data – no filtering or QCQA.\n\nRBM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nUBC Climate Station on Totem Field\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
+  },
+  {
+    "objectID": "Data.html#code-and-documentation",
+    "href": "Data.html#code-and-documentation",
+    "title": "Field Sites & Data",
+    "section": "Code and Documentation",
+    "text": "Code and Documentation\nOur lab github hosts code for flux processing, README docs for our lab, and various other bits of information.\nMore documentation related to maintenance procedures for our sites can be found here."
+  },
+  {
+    "objectID": "DataEntry.html",
+    "href": "DataEntry.html",
+    "title": "Data Entry",
+    "section": "",
+    "text": "This page features links to various spots to input the hand-collected data when out in the field (e.g., Water Table Depths). The sheets are all hosted on the Lab’s Google Drive under the Project’s tab."
+  },
+  {
+    "objectID": "DataEntry.html#sites",
+    "href": "DataEntry.html#sites",
+    "title": "Data Entry",
+    "section": "Sites",
+    "text": "Sites\n\nBurns Bog 1\n\n\n\n\n\n\n\nWater Table Height\n\nAnother Link?\n\n\n\n\nBurns Bog 2\n\n\n\n\n\n\n\nWater Table Height\n\nAnother Link?"
   }
 ]

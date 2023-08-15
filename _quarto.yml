@@ -67,6 +67,8 @@ website:
           text: Calibration
         - href: Cleaning.qmd
           text: Cleaning
+        - href: DataEntry.qmd
+          text: Field Data Entry
         # - href: Checklists_and_logs/Checklists.qmd
         #   text: Checklists
   # page-footer:
