@@ -66,8 +66,8 @@ Currently Research Projects Manager for UBC Geography Physical Labs. I have desi
 -----|:-----
 Name| Zoran Nesic - Senior Research Engineer
 Pronouns| / /
-Email| ?
-Office| ?
+Email| zoran.nesic\@ubc.ca
+Office| MCML 137
 
 ::: 
 ::::
