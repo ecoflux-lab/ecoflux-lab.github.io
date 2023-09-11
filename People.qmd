@@ -41,7 +41,7 @@ I am broadly interested in the impacts of climate variability and land-use chang
 |
 -----|:-----
 Name| Rick Ketler - Project Manager (Geography)
-Email| rick.ketler\@ubc.ca
+Email| rick.ketler@ubc.ca
 Office| PCMH B1100
 
 ::: 
@@ -64,7 +64,6 @@ Currently Research Projects Manager for UBC Geography Physical Labs. I have desi
  |
 -----|:-----
 Name| Zoran Nesic - Senior Research Engineer
-Pronouns| / /
 Email| zoran.nesic\@ubc.ca
 Office| MCML 137
 
@@ -95,11 +94,12 @@ Position | Postdoctoral Scholar
 Pronouns| They/Them/Theirs
 Email| june.skeeter@ubc.ca
 Office| Geography Room 127
+GitHub| [https://github.com/June-Skeeter](https://github.com/June-Skeeter)
 
 ::: 
 ::::
 
-I am a non-binary geographer, researcher, and educator and my pronouns are they/them/theirs. I have been living as an uninvited guest on unceded Coast Salish Territory since 2015.  I received a PhD in Geography from the University of British Columbia in 2022. My research focuses on using micrometeorology, remote sensing, spatial analysis, and machine learning to understand ecosystem-scale carbon fluxes. I am particularly interested in climate feedback mechanisms which either exacerbate or can help mitigate climate change. 
+My name is June.  I am a geographer, researcher, and educator who has been living as an uninvited guest on unceded Coast Salish Territory since 2015.  I received a PhD in geography from UBC in 2022 and am now working as a postdoctoral researcher for the UBC Micrometeorology group.  I study greenhouse gas exchange in wetland ecosystems and associated feedback mechanisms that influence the earth's climate system.  My research employs a variety of methods from different fields, including: micrometeorology, remote sensing, spatial analysis, and machine learning.
 
 ---
 
@@ -166,7 +166,7 @@ I received a BS in Biological Sciences from Wellesley College in 2017, then work
 :::: {.columns}
 :::{.column width="30%"}
 
-![](images/headshots/ted-oval.png){width=85%}
+![](images/headshots/Ted-oval.png){width=85%}
 :::
 ::: {.column width="70%"}
 
