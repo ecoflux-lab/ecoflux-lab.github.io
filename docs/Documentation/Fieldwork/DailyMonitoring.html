@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>UBC Micromet - Daily Site Monitoring</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">UBC Micromet</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../Documentation/index.html" aria-current="page">
+ <span class="menu-text">Documentation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Data.html">
+ <span class="menu-text">Field Sites &amp; Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../OutreachNews.html">
+ <span class="menu-text">Outreach and News</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ubc-micromet"><i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Daily Site Monitoring</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Documentation/index.html" class="sidebar-item-text sidebar-link">Documentation</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/DataWorkflows.html" class="sidebar-item-text sidebar-link">Data Pipeline</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/LabInfo.html" class="sidebar-item-text sidebar-link">Information for Current Lab Members</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/ReproducibleDataFlow.html" class="sidebar-item-text sidebar-link">Tips for Reproducible Data Flow</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/UsingGit.html" class="sidebar-item-text sidebar-link">Using Git</a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Documentation/Fieldwork/index.html" class="sidebar-item-text sidebar-link">Fieldwork &amp; Maintenance Procedures</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/Fieldwork/DailyMonitoring.html" class="sidebar-item-text sidebar-link active">Daily Site Monitoring</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/Fieldwork/Calibration.html" class="sidebar-item-text sidebar-link">Calibration Procedures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/Fieldwork/Cleaning.html" class="sidebar-item-text sidebar-link">Cleaning Procedures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/Fieldwork/DataEntry.html" class="sidebar-item-text sidebar-link">Data Entry</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Documentation/Fieldwork/FieldworkProcedures.html" class="sidebar-item-text sidebar-link">Fieldwork Protocol &amp; Procedures</a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#check-critical-variables" id="toc-check-critical-variables" class="nav-link active" data-scroll-target="#check-critical-variables">Check Critical Variables</a>
+  <ul class="collapse">
+  <li><a href="#motor-power-flow-fate-for-li-7200-pump" id="toc-motor-power-flow-fate-for-li-7200-pump" class="nav-link" data-scroll-target="#motor-power-flow-fate-for-li-7200-pump">Motor Power (%) &amp; Flow Fate for LI-7200 pump</a></li>
+  <li><a href="#thermocouples" id="toc-thermocouples" class="nav-link" data-scroll-target="#thermocouples">Thermocouples</a></li>
+  <li><a href="#climate-data" id="toc-climate-data" class="nav-link" data-scroll-target="#climate-data">Climate Data</a></li>
+  <li><a href="#flux-data" id="toc-flux-data" class="nav-link" data-scroll-target="#flux-data">Flux Data</a></li>
+  </ul></li>
+  <li><a href="#remote-login-procedures" id="toc-remote-login-procedures" class="nav-link" data-scroll-target="#remote-login-procedures">Remote Login Procedures</a>
+  <ul class="collapse">
+  <li><a href="#li-7200" id="toc-li-7200" class="nav-link" data-scroll-target="#li-7200">LI 7200</a></li>
+  <li><a href="#li-7700" id="toc-li-7700" class="nav-link" data-scroll-target="#li-7700">LI 7700</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Daily Site Monitoring</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Below are instructions for visual checks of the data that should be done every day. Web plots for each site can be found by going to:</p>
+<ul>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog.html#">BB1</a></p></li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/burnsbog2">BB2</a></p></li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/basic_sync5#">BB2 w. 2 plots</a></p></li>
+<li><p><a href="https://ibis.geog.ubc.ca/~micromet/data/DeltaSaltMarsh.html#">DSM</a></p></li>
+<li><p><a href="https://app1.fluxsuite.com/login?next=%2Fmap%2F">Hogg and Young</a></p></li>
+<li><p>You also view data plot on vinimet (or your local computer if it’s set up) using ‘view_micromet’ in Matlab.</p></li>
+</ul>
+<section id="check-critical-variables" class="level2">
+<h2 class="anchored" data-anchor-id="check-critical-variables">Check Critical Variables</h2>
+<section id="motor-power-flow-fate-for-li-7200-pump" class="level3">
+<h3 class="anchored" data-anchor-id="motor-power-flow-fate-for-li-7200-pump">Motor Power (%) &amp; Flow Fate for LI-7200 pump</h3>
+<ul>
+<li>Keep checking if this one changes over time (over weeks).
+<ul>
+<li>Flow drive % should be 50 - 90%</li>
+<li>Higher power means more air-flow resistance in the tubing indicating either clogged up filter (if we use those), dirty rain cap wire-mesh or damaged tubing</li>
+</ul></li>
+<li>We aim for 30-min averages flow rate of slpm = 15 L/min;
+<ul>
+<li>Below 13 L/min we begin to worry, (data quality drops);</li>
+<li>Below 10 L/min we need to fix it ASAP (data quality questionable or data missing) by cleaning up the intake tube cap</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BB1_Flow_Rate.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Good Flow at BB1</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BB2_Flow_Rate.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Bad Flow at BB2</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="thermocouples" class="level3">
+<h3 class="anchored" data-anchor-id="thermocouples">Thermocouples</h3>
+<ul>
+<li>LI-7200: these two values should be very close to each other (&lt;1 C difference)
+<ul>
+<li>In (t_in_LI_7200)</li>
+<li>Out (t_out_LI_7200)</li>
+</ul></li>
+<li>LI-7700
+<ul>
+<li>Air temperature</li>
+</ul></li>
+</ul>
+</section>
+<section id="climate-data" class="level3">
+<h3 class="anchored" data-anchor-id="climate-data">Climate Data</h3>
+<ul>
+<li>Check if there are new data &amp; if the values are reasonable (for all sites)
+<ul>
+<li>Click on “last day” / “last week” to filter the time series</li>
+<li>If you see <strong>BB1</strong> and <strong>BB2</strong> precip data don’t align with each other, there’s a possibility that the tipping bucket is clogged.</li>
+</ul></li>
+</ul>
+</section>
+<section id="flux-data" class="level3">
+<h3 class="anchored" data-anchor-id="flux-data">Flux Data</h3>
+<p>For <strong>Fluxes and Gas Concentrations</strong> check if there are new data &amp; if the values are reasonable. These will only be calculated if smart flux is running properly.</p>
+<p><strong>Gas Concentrations</strong>:</p>
+<ul>
+<li>CO2 mixing ratio (dry) - during daytime should be around 380-420 ppm (umol/mol), during night time it can be quite high depending on the site (sometimes &gt; 600 ppm)</li>
+<li>CH4 mixing ratio (dry) - should be around 2 ppm</li>
+</ul>
+<p><strong>Fluxes</strong>:</p>
+<ul>
+<li>Sensible &amp; Latent heat - Typically between -100 and + 450 w m<sup>-2</sup>
+<ul>
+<li>Should generally sum ~ 70%-80% of net radiation</li>
+</ul></li>
+<li>FCO2 &amp; FCH4 - site dependent, but look for gaps, extreme spikes, systematic jumps</li>
+</ul>
+<p><strong>Signal strength</strong></p>
+<ul>
+<li>View over a longer period to check for any trends. Schedule a site visit if it’s decreasing rapidly (&lt;10%). It’s normal for 7700’s signal strength to drop during rainy periods, but it’s not normal for 7200’s to drop that frequently (if it does, check the 7200 head’s o-ring).</li>
+</ul>
+<p><strong>Voltage</strong></p>
+<ul>
+<li>Look at data over the past month and tell June or Rick if the battery voltage goes below 24 V at midnight.
+<ul>
+<li>This usually happens in the winter when we have a few days of clouds &amp; rain.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="remote-login-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="remote-login-procedures">Remote Login Procedures</h2>
+<p>Connect to VPN, go to Remote Desktop &amp; connect to vinimet.geog.ubc.ca (or it’s better to do this from your personal computer so you won’t kick off or get kicked off by other people using Vinimet). Note that doing this on your personal computer requires a PC.</p>
+<section id="li-7200" class="level3">
+<h3 class="anchored" data-anchor-id="li-7200">LI 7200</h3>
+<p>Open the LI-7x00 software on desktop and connect using the right <a href="https://docs.google.com/document/d/1JyEQ7OyvLmtzWhKl5TsjZ7FiPcd_f-K0ewoyx3xSmH4/edit">IP Address</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Connection_BB1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Connecting to the BB1 7200</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li>Once on the main page check:
+<ul>
+<li><p>The logger status → should be logging</p></li>
+<li><p>USB Free Space → make sure there’s still enough space in the USB (usually the USB stick can handle 6-weeks data)</p></li>
+<li><p>The SmartFlux module has to be connected to the system, make sure it’s not “none”</p></li>
+<li><p>Head pressure - should be between -0.8 to -3.8 kPa</p></li>
+<li><p>Flow drive - should be around 50% to 90%</p></li>
+<li><p>Flow rate - should be around 13-15 l/m</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Software.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Checking the BB1 7200</figcaption><p></p>
+</figure>
+</div>
+<p>Click on the “Diagnostics” tab - check if all parameters are “OK”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Diagnostics.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Checking the BB1 7200 Diagnostics</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="li-7700" class="level3">
+<h3 class="anchored" data-anchor-id="li-7700">LI 7700</h3>
+<p>Open the LI-7700 software on desktop and use the same IP address as for the 7200</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7200_Connection_BB1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Connecting to the BB1 7200</figcaption><p></p>
+</figure>
+</div>
+<p>Check 7700 Optics RH. If it’s &gt;15%, we should replace the internal chemicals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/7700_Software.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Checking the BB1 7700</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li>Check SmartFlux internal memory every 2-3 months
+<ul>
+<li>Instructions to check memory are under <code>Note_SmartFlux internal memory_ssh connection.docx</code></li>
+<li>Instructions to clear memory are under <code>Note_SmartFlux internal memory_updater.docx</code></li>
+</ul></li>
+</ul>
+<p>Info from <a href="https://docs.google.com/document/d/1hM0ZpYF6znLv-90TAyof2EEdsJ6oyaizvdwNYeMugyM/edit?usp=sharing">here</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

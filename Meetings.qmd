@@ -1,0 +1,22 @@
+---
+title: Lab Meetings
+---
+```{r include=FALSE}
+library(knitr)
+
+if (!require(gsheet)){
+  install.packages("gsheet",repos = "http://cran.us.r-project.org")
+}
+
+
+```
+
+The schedule for Fall 2023
+
+
+```{R}
+#| label: tbl-times
+#| tbl-cap: "Schedule for Fall 2023 Lab meetings."
+Sheet <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1SmwgQ_sx9U-v4zq8rAfTRtXK16aA-lIQZU5wqiTdusg/edit?usp=sharing')
+kable(Sheet, col.names = gsub("[.]", " ", names(Sheet)))
+```

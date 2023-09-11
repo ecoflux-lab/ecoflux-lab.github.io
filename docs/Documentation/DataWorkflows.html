@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>UBC Micromet - Data Pipeline</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">UBC Micromet</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../Documentation/index.html" aria-current="page">
+ <span class="menu-text">Documentation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../Data.html">
+ <span class="menu-text">Field Sites &amp; Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../OutreachNews.html">
+ <span class="menu-text">Outreach and News</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ubc-micromet"><i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Data Pipeline</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../Documentation/index.html" class="sidebar-item-text sidebar-link">Documentation</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/DataWorkflows.html" class="sidebar-item-text sidebar-link active">Data Pipeline</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/LabInfo.html" class="sidebar-item-text sidebar-link">Information for Current Lab Members</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/ReproducibleDataFlow.html" class="sidebar-item-text sidebar-link">Tips for Reproducible Data Flow</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/UsingGit.html" class="sidebar-item-text sidebar-link">Using Git</a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../Documentation/Fieldwork/index.html" class="sidebar-item-text sidebar-link">Fieldwork &amp; Maintenance Procedures</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/Fieldwork/DailyMonitoring.html" class="sidebar-item-text sidebar-link">Daily Site Monitoring</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/Fieldwork/Calibration.html" class="sidebar-item-text sidebar-link">Calibration Procedures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/Fieldwork/Cleaning.html" class="sidebar-item-text sidebar-link">Cleaning Procedures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/Fieldwork/DataEntry.html" class="sidebar-item-text sidebar-link">Data Entry</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Documentation/Fieldwork/FieldworkProcedures.html" class="sidebar-item-text sidebar-link">Fieldwork Protocol &amp; Procedures</a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-flow-schematic" id="toc-data-flow-schematic" class="nav-link active" data-scroll-target="#data-flow-schematic">Data flow schematic</a></li>
+  <li><a href="#drivefolder-structure-on-vinimet" id="toc-drivefolder-structure-on-vinimet" class="nav-link" data-scroll-target="#drivefolder-structure-on-vinimet">Drive/Folder structure on vinimet</a></li>
+  <li><a href="#data-stream-notes" id="toc-data-stream-notes" class="nav-link" data-scroll-target="#data-stream-notes">Data stream notes</a></li>
+  <li><a href="#web-plotting-pipeline" id="toc-web-plotting-pipeline" class="nav-link" data-scroll-target="#web-plotting-pipeline">Web-plotting pipeline</a></li>
+  <li><a href="#other-documentation-tasks" id="toc-other-documentation-tasks" class="nav-link" data-scroll-target="#other-documentation-tasks">Other Documentation &amp; Tasks</a></li>
+  <li><a href="#creating-a-local-copy-of-the-database" id="toc-creating-a-local-copy-of-the-database" class="nav-link" data-scroll-target="#creating-a-local-copy-of-the-database">Creating a local copy of the database</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Data Pipeline</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="data-flow-schematic" class="level1">
+<h1>Data flow schematic</h1>
+<p>Micromet Data Flow (currently for BB1, BB2, DSM, and RBM) <br> Note: Manitoba sites have SmartFlux stream only</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/data flow.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="drivefolder-structure-on-vinimet" class="level1">
+<h1>Drive/Folder structure on vinimet</h1>
+<ul>
+<li><p><code>P:\Sites\Site</code> (data as received from the sites)</p>
+<pre><code>              \Met
+                  \5min (for BB only)
+              \Flux
+              \HighFrequencyData</code></pre></li>
+<li><p><code>P:\Database</code> (everything in read_bor format)</p>
+<pre><code>            \yyyy\Sites
+                       \Met (straight from CRBasic -&gt; read_bor)
+                           \Clean (First stage clean)
+                       \Flux (from EddyPro summary, site files -&gt; read_bor &amp; then overwrite with EddyPro recalculated output) 
+                           \Clean (First stage clean)
+                       \Clean\SecondStage 
+                             \ThirdStage
+                             \Ameriflux
+                             \ThirdStage_REddyProc_RF_Fast (simple uncertainty analysis)
+                             \ThirdStage_REddyProc_RF_Full (full uncertainty analysis)</code></pre></li>
+<li><p><code>P:\Micromet_web</code> (note that this mirrors what’s on host remote.geog.ubc.ca)</p>
+<pre><code>                \www 
+                    \data (html &amp; javascript for site level web plotting)
+                    \webdata\resources\csv (csv files for web plotting)</code></pre></li>
+<li><p><code>Google drive</code> contains:</p>
+<ul>
+<li>Pictures (to remove and host on google photos)</li>
+<li>Documents</li>
+</ul></li>
+</ul>
+</section>
+<section id="data-stream-notes" class="level1">
+<h1>Data stream notes</h1>
+<p>The data processing is run from LoggerNet Task manager through batch files stored under <code>c:\UBC_Flux\BiometFTPsite</code>. The batch files are named: Site_automatic_processing.bat. The generic Matlab scripts that’s called from these batch files is: run_BB_db_update([],{‘Site’},0)</p>
+<p><strong>More Details</strong></p>
+<ul>
+<li><p>MET Files</p>
+<ul>
+<li>Every 4 hrs (e.g., BB1 4:20, BB2 4:10) Loggernet Task Master downloads MET data to <code>P:\Sites\Site\Met\Site_MET.dat</code> (or Site_biomet.dat)</li>
+</ul>
+<p><em>Note</em> Site <em>is used generically to refer to each site (e.g., BB, BB2, DSM, RBM, Hogg, Young)</em></p></li>
+<li><p>Once per day 1:10 am</p>
+<ul>
+<li>‘Rename files for all sites’ - Called from Loggernet Task Master
+<ul>
+<li>Renames Site_MET.dat to Site_MET.yyyyddd</li>
+<li>-nosplash /r “renam_csi_dat_files”(<code>'P:Sites\Site\Met'</code>);…for each site; exit;”</li>
+</ul></li>
+<li>Site_Process_CSI_to_database - Called from Loggernet Task Master
+<ul>
+<li><p>-nosplash -minimize /r “run_BB_db_update([],{‘Site’});”</p>
+<pre><code>  function run_BB_db_update(yearln)
+    dv = datevec(now);
+    arg_defualt('yearln', dv(1));
+    sites = {'Site'};
+    db_update_BB_site(yearln, sites);
+    exit</code></pre></li>
+</ul></li>
+<li>db_update_BB_site
+<ul>
+<li>Update Site matlab database with new logger files to <code>P:\Database\yyyy\Site\Met</code></li>
+<li>Call <code>C:\UBC_PC_Setup\PC_specific\BB_webupdate</code> to create .csv files used by webplots -&gt; `P:_web</li>
+<li>Call <code>C:\Ubc_flux\BiometFTPsite\BB_Web_Update.bat</code> to move csv files to webserver</li>
+</ul></li>
+</ul></li>
+<li><p>Location of data</p>
+<ul>
+<li><code>P:</code> - local drive on vinimet</li>
+<li><code>P:\Micromet_web\www\webdata\resources\csv</code> - location of CSV files</li>
+<li><code>P:\Micromet_web\www\data</code> - local versions of js, html files</li>
+<li><code>P:\Sites\Sites</code> - raw data</li>
+</ul></li>
+</ul>
+</section>
+<section id="web-plotting-pipeline" class="level1">
+<h1>Web-plotting pipeline</h1>
+<p>First, go from the bottom of the chart in the first page upwards, find out which step stopped working then use the followiwng instructions to troubleshoot.</p>
+<p><strong>EC Data</strong></p>
+<ol type="1">
+<li>SmartFlux files (*_EP-Summary.txt) arrive in the folders as below: <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB\Flux</code> <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB2\Flux</code></li>
+</ol>
+<p><em>insert image <img src=".png" class="img-fluid"></em></p>
+<ul>
+<li>Troubleshooting for <strong>Step 1</strong>:
+<ul>
+<li><p>If there is <strong>NO</strong> recent data files (<em>.zip or </em>.txt) at all, then:</p>
+<ul>
+<li>Check if you can still connect to LI-7200 to determine if it is an Internet issue or not.</li>
+<li>Check if the LoggerNet task for data downloads failed. When all tasks are executed properly, the status of the tasks should be shown like this:</li>
+</ul>
+<p><em>insert image <img src=".png" class="img-fluid"></em></p>
+<ul>
+<li>Check if the SmartFlux system at site skips processing or not by using WinSCP connecting to it (e.g., BB_site or BB2_site). The second figure below shows the BB2 SmartFlux have skipped processing of Feb.&nbsp;1 (there is no summary file for that day):</li>
+</ul>
+<p><em>insert images <img src=".png" class="img-fluid"></em></p></li>
+</ul></li>
+</ul>
+<ol start="2" type="1">
+<li><p>If SmartFlux files arrive, the task “XX_automatic_processing” (as shown in the figure above) that runs Matlab program will process all data (CSI and SmartFlux) and update the web files too.</p>
+<ul>
+<li>Troubleshooting for <strong>Step 2</strong>:
+<ul>
+<li>If you suspect that this task failed, then:
+<ul>
+<li>Check the dates of the last updated web csv files (<code>\\VINIMET.GEOG.UBC.CA\Micromet_web\www\webdata\resources\csv</code>).</li>
+<li>Check a few flux-related csv files to see if the last datestamps are less than 6 hours old.</li>
+<li>If the files are <strong>NOT</strong> up-to-date, manually rerun the Matlab program by using <code>run_BB_db_update([]{'BB2},0)</code></li>
+</ul></li>
+<li>If you confirm the task is working fine or you’ve re-run the Matlab program, then:
+<ul>
+<li>Check if those files were uploaded to the web server by starting WinSCP to connect to ‘remote.geog.ubc.ca’ and see if the files are there.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ol>
+<p><strong>Met Data</strong></p>
+<p>Data from dataloggers goes to <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB\Met\</code> or <code>\\vinimet.geog.ubc.ca\Projects\Sites\BB2\Met\</code>.</p>
+<ul>
+<li>Troubleshooting:
+<ol type="1">
+<li>Check if the files have arrived or not.</li>
+<li>Check the LoggerNet task for data downloads.</li>
+<li>Check connection to the logger</li>
+<li>Check the data of the last updates Biomet database files (<code>\\VINIMET.GEOG.UBC.CA\Database</code>)</li>
+<li>Check a few MET-related csv files to see if the last datestamps are less than 6 hours old.</li>
+<li>Manually re-run the task in Matlab by using <code>run_BB_db_update([]{'BB2},0)</code>.</li>
+<li>Check if those csv files were uploaded to the web server.</li>
+</ol></li>
+</ul>
+<p>Continue adding info from <a href="https://docs.google.com/document/d/1kVtfDBTvuR87whcWRWn6p2re3najnij5c0284XPRqWA/edit?usp=sharing">here</a></p>
+</section>
+<section id="other-documentation-tasks" class="level1">
+<h1>Other Documentation &amp; Tasks</h1>
+<p>The following documents in the <code>General procedures, settings and protocols</code> folder in Google Drive may also be of use:</p>
+<ul>
+<li>Updating webplots → <code>Micromet web plotting.docx</code></li>
+<li>Documents for dealing with full internal memory for SmartFlux → <code>Note_SmartFlux internal memory_ssh connection.docx &amp; Note_SmartFlux internal memory_updater.docx</code></li>
+<li>7200 lab calibration → <code>Note_LI-7200 Lab calibration procedure.docx</code></li>
+<li>Gas tank calibration → <code>Report_Gas tank calibration.docx</code></li>
+</ul>
+<p><strong>NOTE</strong>: Note that the <code>troubleshooting reports</code> folder contains documentation on troubleshooting that is relevant to all sites.</p>
+</section>
+<section id="creating-a-local-copy-of-the-database" class="level1">
+<h1>Creating a local copy of the database</h1>
+<p>To create a local copy of the Micromet Lab database or create your own database following the Micromet Lab database structure, following the instructions provided <a href="https://github.com/ubc-micromet/Biomet.net">here</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

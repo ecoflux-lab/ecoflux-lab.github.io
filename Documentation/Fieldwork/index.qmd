@@ -1,0 +1,28 @@
+---
+title: "Fieldwork & Maintenance Procedures"
+echo: false
+order: 2
+---
+
+This page covers general procedures for daily monitoring and field site maintenance/calibration.  If you need to sechedule a field visit - the availability of lab members by day is shown below in @tbl-times.
+
+*  Under normal operating conditions, maintenance trips should occur every 4-6 weeks for each site.  Further trips can be scheduled as needed.  Ensure you are review the key information before commencing field work.  You can checklists below to help prepare for field visits and ensure you are following standard procedures while in the field.
+
+
+```{r include=FALSE}
+library(knitr)
+
+if (!require(gsheet)){
+  install.packages("gsheet",repos = "http://cran.us.r-project.org")
+}
+
+
+```
+
+
+```{R}
+#| label: tbl-times
+#| tbl-cap: "Availability of Lab Members for Fieldwork."
+Sheet <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1JECwPtaZ1xqfLQEHL38-5nwb94mn0Jt5V83zR-DyN1g/edit#gid=0')
+kable(Sheet, col.names = gsub("[.]", " ", names(Sheet)))
+```

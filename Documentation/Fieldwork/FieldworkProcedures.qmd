@@ -1,0 +1,105 @@
+---
+title: "Fieldwork Protocol & Procedures"
+echo: false
+---
+
+This page covers general procedures for doing maintenance and calibration at our flux sites.  Under normal operating conditions, maintenance trips should occur every 4-6 weeks for each site.  Further trips can be scheduled as needed.  Ensure you are review the key information before commencing field work.  You can checklists below to help prepare for field visits and ensure you are following standard procedures while in the field.
+
+# Key Information
+
+## Planning a Trip
+
+Make a clear list of tasks & goals.  If you are going to one of the one of the flux stations you can
+check the field logs.  See what was done on the last visit and check for notes to see if there is anything that needs to be done.
+
+* [BB1&2](https://docs.google.com/spreadsheets/d/1phokxNzc-gJkWIO1zGLUFsSeRgjsq0HE8QAfLlrlNyI/edit#gid=0)
+* [DSM](https://docs.google.com/spreadsheets/d/1USa7IDpj0D79C8OfFDEoDFKIwjKt0LdVh5fMt04BgpI/edit#gid=0)
+* [RBM](https://docs.google.com/spreadsheets/d/114pSwgLBPEeqIezTTIJ4a4Z3kaJhgRvSJZAls8mEOrI?authuser=thruhikerflash%40gmail.com&usp=drive_fs)
+* Use the checklists below to make sure you have all the supplies you need and complete all crucial tasks
+
+## Scheduling & Communication
+
+Let the lab know when you will be going into the field and make sure you have at least one person joining you.
+
+* You can use the fieldwork slack channel to discuss scheduling
+* Book the Micromet Truck using the [google calendar](https://calendar.google.com/calendar/embed?src=3emm9ku32c1gddkcv6ok3s498g%40group.calendar.google.com&ctz=America%2FVancouver)
+  * Contact Rick for calendar access or to request alternative vehicle options.
+* If you are going into Burns Bog:
+  * Both participants must be permit holders
+  * You must also call Metro Vancouver to check in and check out: **604-520-6442**
+
+## Safety
+
+Ensure that you are familiar with the lab's [Safety Plan](https://docs.google.com/document/d/10oR-eGiVsKmVsdubLDZIrw4zpO6-J2H0/edit?usp=sharing&ouid=101091249538878226246&rtpof=true&sd=true) 
+
+* **In Summer**: Be cautions of fire safety:
+  * Don't park on gras, bring water sprayer spray and fire extinguisher.
+* **In Winter**: Be mindful of the weather forecasts:
+  * Dress appropriately, bring extra socks, a head lamp, gloves, etc.
+  * Check the tides when going to [RBM](https://www.tide-forecast.com/locations/Steveston-British-Columbia/tides/latest) or [DSM](https://www.tide-forecast.com/locations/White-Rock-British-Columbia/tides/latest)
+
+# Checklists
+
+Use these checklists to help plan and conduct your site visits.
+
+### Pre-Departure
+
+@tbl-packing is best completed the afternoon/evening before a site visit.  Although you many not be able to pack the truck until the morning depending on scheduling, you can still gather supplies.  
+
+```{r include=FALSE}
+library(knitr)
+```
+
+```{r}
+#| label: tbl-packing
+#| tbl-cap: "Packing List for EC Site Visits"
+#| tbl-colwidths: [5,35,60]
+
+Checklist <- read.csv(file = 'Checklists_and_logs/Packing_for_FluxSites.csv')
+kable(Checklist)
+
+```
+
+### On Site
+
+To connect to the EC system on site with the laptop, use ethernet port on com box or Wifi if the site has a network connection.
+  * You can also connect via mobile/hotspot using Vinimet if you encounter connectivity issues.
+
+
+```{r}
+#| label: tbl-on-site
+#| tbl-cap: "Tasks on EC Site Visits"
+#| tbl-colwidths: [5,35,60]
+
+Checklist <- read.csv(file = 'Checklists_and_logs/Tasks_at_FluxSites.csv')
+
+
+kable(Checklist)
+```
+
+### After trip
+
+```{r}
+#| label: tbl-post-visit
+#| tbl-cap: "Tasks after Returning to Lab"
+#| tbl-colwidths: [5,35,60]
+
+Checklist <- read.csv(file = 'Checklists_and_logs/Tasks_after_SiteVisits.csv')
+
+
+kable(Checklist)
+```
+
+#  Semi-Annual Maintenance & Calibration
+
+
+These need to be made into a list/schedule:
+
+* Calibrate 7200 H20 Span (requires sensor be brought back to the lab)
+* Li-7200 internal chemical has to be replaced once per year (and update on Google Calendar and provide dates & details in field site Log > EC Log) 
+	* Last replacement for BB1 & BB2  was on 2022/02/09
+	* Last replacement for DSM was on 2022/06/22
+* Li-7700 internal chemical has to be replaced if the optics RH exceeds 15% (and update on Google Calendar and provide dates & details in field site Log > EC Log): (project/site/photos/yyyymmdd)
+	* last replacement was on 2022/06/09 for BB2
+	* Last replacement for DSM was on 2022/06/22
+ 

@@ -1,0 +1,12 @@
+---
+title: "Tips for Reproducible Data Flow"
+order: 4
+---
+
+# R resources
+Here is some helpful info on setting up a <a href="https://www.r-bloggers.com/2020/01/rstudio-projects-and-working-directories-a-beginners-guide/">project in R</a>. I've adapted the figure from that link to better suit the needs of our research group (see below).
+
+![](./images/ReproducibleFlow.png){fig-align="center"}
+
+Other helpful resources can be found in the 'R_dynamic_document_overview_html.html' and '0_set_up_workspace.html' doc in the 'Coding resources/R resources' in the Google Drive. These were written by Dan Moore, but are not meant to be distributed publicly. 
+

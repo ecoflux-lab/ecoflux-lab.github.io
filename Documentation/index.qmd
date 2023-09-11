@@ -1,0 +1,13 @@
+---
+title: "Documentation"
+---
+
+
+This page is intended to serve as a catchall with general information for the lab.
+
+* Resources for current members of the lab.
+* Tips and tricks for coding and using github.
+* Links to relevant information.
+* Overview of the data pipeline and database.
+
+
