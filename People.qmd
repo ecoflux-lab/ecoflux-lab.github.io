@@ -41,7 +41,6 @@ I am broadly interested in the impacts of climate variability and land-use chang
 |
 -----|:-----
 Name| Rick Ketler - Project Manager (Geography)
-Pronouns| / / 
 Email| rick.ketler\@ubc.ca
 Office| PCMH B1100
 
@@ -91,7 +90,8 @@ I am responsible for management of numerous research and equipment design projec
 
  |
 -----|:-----
-Name| Dr. June Skeeter - Postdoctoral Scholar
+Name| Dr. June Skeeter
+Position | Postdoctoral Scholar
 Pronouns| They/Them/Theirs
 Email| june.skeeter@ubc.ca
 Office| Geography Room 127
@@ -112,9 +112,7 @@ I am a non-binary geographer, researcher, and educator and my pronouns are they/
  |
 -----|:-----
 Name| Tzu-Yi Lu
-Pronouns| / /
 Level of Study| Ph.D. Candidate
-Email| ?
 
 :::
 ::::
@@ -156,9 +154,7 @@ I earned an MS in Environmental Science from Western Washington University in 20
  |
 -----|:-----
 Name| Sarah Russell
-Pronouns| / /
 Level of Study| Ph.D. Student
-Email| ?
 
 ::: 
 ::::
@@ -185,27 +181,6 @@ Email| tedjs\@student.ubc.ca
 ::::
 
 Prior to UBC, while at the University of Minnesota, I earned a BS in Computer Science (1997), then a MS (2000) and PhD in Geophysics (2006) under David Kohlstedt, investigating the dynamic properties of partially molten peridotites. My work helped constrain the composition and behavior of highly molten planetary interiors such as Jupiter’s moon Io. I then worked at Microsoft for several years as a data scientist and engineer, and more recently as a high-school science and math teacher. My current research interests include studying greenhouse gas fluxes in wetland environments. I then synthesize the data collected across multiple sites in various environments to better understand how individually and collectively they can contribute as a natural climate solution. As in my prior PhD, I hope my work can be used to better constrain climate models and lead to sound policy as we address climate change. In my free time, I enjoy trail running and rock climbing.
-
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/darian-oval.png){width=85%}
-:::
-::: {.column width="70%"}
-
- |
------|:-----
-Name| Darian Ng
-Pronouns| / / 
-Level of Study| M.Sc. Student
-Email| ?
-
-::: 
-::::
-
-I received a BSc in Atmospheric Science from the University of British Columbia in 2021. I have spent research terms at UBC studying effects of climate change on intertidal ecology, cloud microphysics and precipitation modelling, and methane emission hotspots in wetlands. I'm interested in investigating environmental drivers of land-atmosphere greenhouse gas exchange and how they might respond to changing climate conditions. During my MSc, I plan to further examine the controls of wetland methane emissions and better understand how we can effectively manage wetlands as natural climate solutions. 
 
 ---
 
@@ -242,9 +217,7 @@ I received a BSc in Environmental Science from the University of British Columbi
 |
 -----|:-----
 Name| Vanessa Valenti
-Pronouns| ?
 Level of Study| M.Sc. Student
-Email| ?
 
 ::: 
 ::::
@@ -299,22 +272,31 @@ I am an undergraduate student at UBC majoring in Geographical Sciences with a co
 :::: {.columns}
 ::: {.column width="50%}
 
+**Darian Ng**
+: *(M.Sc. Student)*
+
+![](images/headshots/darian-oval.png){width=45%}
+
+:::
+::: {.column width="50%"}
+
 **Adin Litman**
 : *(B.Sc. Student)*
 
 ![](images/headshots/litman-oval.png){width=45%}
 
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 **Tin Satriawan**
 : *(M.Sc. Student)*
 
 ![](images/headshots/satriawan-oval.png){width=45%}
-:::
-::::
 
-:::: {.columns}
+:::
 ::: {.column width="50%"}
 
 **Dr. Sung-Ching (Nick) Lee**
@@ -323,16 +305,17 @@ I am an undergraduate student at UBC majoring in Geographical Sciences with a co
 ![](images/headshots/sung-ching-oval.png){width=45%}
 
 :::
-::: {.column width="50%"}
+::::
+
+:::: {.columns}
+:::{.column width="50%"}
 
 **Marion Nyberg**
 : *(M.Sc. Student)*
 
 ![](images/headshots/nyberg-oval.png){width=45%}
-:::
-::::
 
-:::: {.columns}
+:::
 :::{.column width="50%"}
 
 **Aylin Barreras-Apodaca**
@@ -341,7 +324,10 @@ I am an undergraduate student at UBC majoring in Geographical Sciences with a co
 ![](images/headshots/aylin-ba-oval.png){width=45%}
 
 :::
-:::{.column width="50%"}
+::::
+
+::::{.columns}
+::: {.column width="50%"}
 
 **Nicole Choi**
 : *(B.Sc. Student)*
@@ -349,23 +335,12 @@ I am an undergraduate student at UBC majoring in Geographical Sciences with a co
 ![](images/headshots/choi-oval.png){width=45%}
 
 :::
-::::
-
-::::{.columns}
-::: {.column width="50%"}
+:::{.column width="50%"}
 
 **Cristina Mace**
 : *(B.Sc. Student)*
 
 ![](images/headshots/mace-oval.png){width=45%}
-
-:::
-:::{.column width="50%"}
-
-**Azumi Konaka**
-: *(B.Sc. Student)*
-
-![](images/headshots/konaka-oval.png){width=45%}
 
 ::: 
 ::::
@@ -373,13 +348,18 @@ I am an undergraduate student at UBC majoring in Geographical Sciences with a co
 ::::{.columns}
 ::: {.column width="50%"}
 
+**Azumi Konaka**
+: *(B.Sc. Student)*
+
+![](images/headshots/konaka-oval.png){width=45%}
+
+:::
+:::{.column width="50%"}
+
 **Weiwen Fu**
 : *(B.Sc. Student)*
 
 ![](images/headshots/weiwen-oval.png){width=45%}
-
-:::
-:::{.column width="50%"}
 
 :::
 ::::
