@@ -8,7 +8,7 @@ This page provides information and links to documentation that are relevant to c
 ## Information for new lab members
 
 1) Add your info to the 'Lab contact information' doc in Google Drive
-2) Review the <a href=./files/grad_expectations_MicrometLab_20220114.pdf>Grad Expectations document </a>
+2) Review the <a href=../files/grad_expectations_MicrometLab_20220114.pdf>Grad Expectations document </a>
 3) Coordinate a day/time for your bi-weekly lab meeting with Sara
 4) Make sure you’ve been added to the Google Drive account and Slack Workspace
 5) Send bio and picture to Sara so that she can add you to the lab website
@@ -18,54 +18,54 @@ This page provides information and links to documentation that are relevant to c
 ### [PhD](https://geog.ubc.ca/graduate/phd-program/) (typical timeline)
 
 * Fall term Year 1
-  * Complete <a href=./files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
+  * Complete <a href=../files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
   * Courses
   * GEOS 500 - develop literature Review and preliminary proposal
 
 * Spring term Year 1
   * Courses
   * Work with supervisor to refine preliminary proposal/research gap. Identify committee members 
-  * Complete <a href=./files/spring-review-2.docx>**spring review**</a> - present preliminary proposal, assess progress, discuss timeline for comprehensive exams, set tentative topics, confirm committee, confirm any further coursework
+  * Complete <a href=../files/spring-review-2.docx>**spring review**</a> - present preliminary proposal, assess progress, discuss timeline for comprehensive exams, set tentative topics, confirm committee, confirm any further coursework
   
 * Summer Year 1
   * Fieldwork/research
-  * Formalise comps reading lists and topics. More details on the **comps policy** can be found <a href=./files/GEOSCompsPolicy.docx>here</a>.
+  * Formalise comps reading lists and topics. More details on the **comps policy** can be found <a href=../files/GEOSCompsPolicy.docx>here</a>.
 
 * Fall term Year 2
-  * Complete <a href=./files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
+  * Complete <a href=../files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
   * Fieldwork/research
   * Prepare and distribute proposal
 
 * Spring term Year 2
   * Fieldwork/research
   * **Comprehensive Exam** (written exam followed by oral examination two weeks later)
-    * Complete <a href=./files/annual-review.docx>annual review</a> by **end of spring/early summer**
+    * Complete <a href=../files/annual-review.docx>annual review</a> by **end of spring/early summer**
 
 * Summer Year 2
   * Fieldwork/research
   * Formal meeting to approve Proposal (or previous spring)	
 
 * Fall term Year 3
-  * Complete <a href=./files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
+  * Complete <a href=../files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
   * Fieldwork/research
   
 * Spring term Year 3
   * Complete memo of expectations by end of May
-  * Complete <a href=./files/annual-review.docx>annual review</a> by **end of spring/early summer**
+  * Complete <a href=../files/annual-review.docx>annual review</a> by **end of spring/early summer**
   * Fieldwork/research
 
 * Summer term Year 3
   * Fieldwork/research
   
 * Fall term Year 4
-  * Complete <a href=./files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
+  * Complete <a href=../files/Memo_of_Expectations_PhD.pdf>**memo of expectations** </a> in September. 
   * Research
   * Check [doctoral deadlines](https://www.grad.ubc.ca/current-students/final-doctoral-exam/doctoral-deadlines) to plan out timing of defense 
     * Be mindful of the [time required to complete the examination process](https://www.grad.ubc.ca/current-students/final-doctoral-exam/examination-timeline ) 
     * The External **Examiner nomination** form needs to be submitted ~5 months before the expected  defense date.  Nomination is the supervisor's responsibility.  Candidates should keep tabs on the process to ensure timely submission, but are not allowed to know who the examiner is.
 
 * Spring term Year 4
-  * Complete <a href=./files/annual-review.docx>annual review</a> by **end of spring/early summer**
+  * Complete <a href=../files/annual-review.docx>annual review</a> by **end of spring/early summer**
   * Research
   * Share thesis with Supervisory Committee
     * Committee may take a while read/approve document
@@ -85,25 +85,25 @@ This page provides information and links to documentation that are relevant to c
 ### [MSc](https://geog.ubc.ca/graduate/masters-programs/msc-geography/) (typical timeline)
 
 * Fall term Year 1
-  * Complete <a href=./files/Memo_of_Expectations_MSc.pdf>**memo of expectations** </a> in September. 
+  * Complete <a href=../files/Memo_of_Expectations_MSc.pdf>**memo of expectations** </a> in September. 
   * Courses
   * GEOS 500 - develop literature Review and preliminary proposal
 
 * Spring term Year 1
   * Courses
   * Work with supervisor to refine preliminary proposal/research gap. Identify committee members 
-  * Complete <a href=./files/spring-review-2.docx>**spring review**</a> - present preliminary proposal, assess progress
+  * Complete <a href=../files/spring-review-2.docx>**spring review**</a> - present preliminary proposal, assess progress
   
 * Summer Year 1
   * Fieldwork/research
 
 * Fall term Year 2
-  * Complete <a href=./files/Memo_of_Expectations_MSc.pdf>**memo of expectations** </a> in September. 
+  * Complete <a href=../files/Memo_of_Expectations_MSc.pdf>**memo of expectations** </a> in September. 
   * Fieldwork/research
 
 * Spring term Year 2
   * Fieldwork/research
-  * Complete <a href=./files/annual-review.docx>annual review</a> by **end of spring/early summer**
+  * Complete <a href=../files/annual-review.docx>annual review</a> by **end of spring/early summer**
   * Present thesis at **Spring Symposium**
 
 * Summer Year 2
