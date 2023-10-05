@@ -3,13 +3,31 @@ title: "Outreach and News"
 ---
 ## 2023
 
+### June
+
+A new short-term flux tower was installed at the Burns Bog Seedling site to monitor CO<sub>2</sub> fluxes from a 7-year old lodge-pole pine stand that sprouted following a fire in Burns Bog.
+
+::: {layout-nrow=2}
+
+![](images/BBS_Install/PXL_20230615_002320381.jpg)
+
+![](images/BBS_Install/IMG_6919.jpg)
+
+![](images/BBS_Install/20230614_104903.jpg)
+
+![](images/BBS_Install/IMG_8978.jpg)
+:::
+
+
 ### May
+
 June and I presented at the CGU Annual meeting which was held in Banff this year. 
 ![](images/Skeeter_Knox_Banff_2023.jpg){width=300}
 ![](images/Skeeter_Banff_2023.jpg){width=300}
 
 ## 2022
 ### December
+
 A recent talk I gave during the [UBC IRES Seminar Series](https://ires.ubc.ca/december-1-2022-ires-faculty-seminar-with-sara-knox/") on ['Wetlands in a changing world: processes, feedbacks, and the climate benefits of wetlands'](https://ubc.zoom.us/rec/play/ahDxx5K-scupDWdurMm9QuPAY8GvnOddvGk96Zdi83Ry4WsX4VUoTF2LbF6xbYCfTJ-pmpA1XUBcGht5.qRj2HFxNL3N3bbMd?continueMode=true)
 
 ### November

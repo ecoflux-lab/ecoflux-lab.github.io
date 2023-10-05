@@ -42,14 +42,14 @@ website:
           text: Lab Meetings
         - href: acknowledgement.qmd
           text: Territorial and Cultural Acknowledgement
-    - section: Documentation
-      contents: Documentation
-    # - id: documentation
-    #   title: "Documentation"
-    #   style: "floating"
-    #   collapse-level: 3
-    #   align: left
-    #   contents:
+    - id: documentation
+      title: "Documentation"
+      style: "floating"
+      collapse-level: 3
+      align: left
+      contents:
+        - section: Documentation
+          contents: Documentation
     #     - Documentation.qmd
     #     - href: DataWorkflows.qmd
     #       text: Data pipeline
