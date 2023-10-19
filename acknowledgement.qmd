@@ -56,7 +56,7 @@ A land acknowledgement is meant to convey a deep rooted cultural connection to t
 
 :::{.column width="65%"}
 
-**Traditional** and **Ancestral** Recognize by whom the lands were traditionally used and/or occupied and the cultures have been handed down from generation to generation.  The area around UBC was used by many different people, including the [xʷməθkʷəy̓əm](https://native-land.ca/maps/territories/x%ca%b7m%c9%99%ce%b8k%ca%b7%c9%99y%cc%93%c9%99m/), [əl̓ilwətaɁɬ](https://native-land.ca/maps/territories/tsleil-waututh-s%c9%99l%cc%93ilw%c9%99ta%c9%82%c9%ac/), and [Skwxwú7mesh-ulh](https://native-land.ca/maps/territories/skwxwu7mesh-uxwumixw/) Nations.  
+**Traditional** and **Ancestral** Recognize by whom the lands were traditionally used and/or occupied and the cultures have been handed down from generation to generation.  The area around UBC was used by many different people, including the [xʷməθkʷəy̓əm](https://native-land.ca/maps/territories/x%ca%b7m%c9%99%ce%b8k%ca%b7%c9%99y%cc%93%c9%99m/), [əl̓ilwətaɁɬ](https://native-land.ca/maps/territories/tsleil-waututh-s%c9%99l%cc%93ilw%c9%99ta%c9%82%c9%ac/), and [Skwxwú7mesh-ulh](https://native-land.ca/maps/territories/skwxwu7mesh-uxwumixw/) Nations.  The map to the left shows the overlapping territories of these nations, along with others in the region.
 
 These people are are part of a broader linguistic / cultural group of Coast Salish speaking people.  The xʷməθkʷəy̓əm and əl̓ilwətaɁɬ speak dialects of [Hul’q’umi’num’ / Halq’eméylem / hən̓q̓əmin̓əm̓](https://native-land.ca/maps/languages/hulquminum-halqemeylem-h%c9%99n%cc%93q%cc%93%c9%99min%cc%93%c9%99m%cc%93/) and the Skwxwú7mesh-ulh speak [Sḵwx̱wú7mesh sníchim](https://native-land.ca/maps/languages/s%e1%b8%b5wx%cc%b1wu7mesh-snichim/).
 
@@ -64,9 +64,7 @@ These people are are part of a broader linguistic / cultural group of Coast Sali
 
 :::{.column width="35%"}
 
-
-<iframe src="https://native-land.ca/api/embed/embed.html?maps=languages&&name=coast-salish" style="height:300px; border:none;"></iframe>
-
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&name=stolo-treaty-association,qayqayt,hulquminum-treaty-group,tsleil-waututh-s%c9%99l%cc%93ilw%c9%99ta%c9%82%c9%ac,x%ca%b7m%c9%99%ce%b8k%ca%b7%c9%99y%cc%93%c9%99m,stzuminus" style="height:300px; border:none;"></iframe>
 
 :::
 
