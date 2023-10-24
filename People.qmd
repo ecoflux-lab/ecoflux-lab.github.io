@@ -15,7 +15,7 @@ title: "People"
 -----|:-----
 Name| Dr. Sara Helen Knox
 Pronouns| She/Her/Hers
-Email| sara.knox\@ubc.ca
+Email| sara.knox\@mcgill.ca
 GitHub| [https://github.com/sknox01](https://github.com/sknox01)
 
 ::: 

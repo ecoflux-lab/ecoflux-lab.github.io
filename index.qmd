@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the UBC Micrometeorology Lab!"
+title: "Welcome to the Micrometeorology Lab!"
 ---
 
 ::: {.column-margin}
@@ -10,6 +10,9 @@ title: "Welcome to the UBC Micrometeorology Lab!"
 * Link to Publications?
 
 **Contact Information**
+Dr. Sara Knox
+sara.knox@mcgill.ca
+
 :::
 
 ![](./images/Lab_April_2022.jpg){fig-align="center"}
