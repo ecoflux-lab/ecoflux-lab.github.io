@@ -12,7 +12,8 @@ csl: american-geophysical-union.csl
 
 filters:
   - section-bibliographies
-  - bold-author.lua
+  - _extensions/bold-author.lua
+  - _extensions/hide-me.lua
 bold-auth-name:
   - family: Knox
     given: S. H.
@@ -40,8 +41,7 @@ bold-auth-name:
 
 ## Peer Reviewed Journal Articles
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+::: hide-me
 
 @quan_estimating_2023
 
@@ -90,12 +90,10 @@ bold-auth-name:
 <!-- @peltola_monthly_2019 -->
 
 :::
-:::
 
 ## Theses
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+::: hide-me
 
 @satriawan_interannual_2022
 
@@ -104,12 +102,10 @@ bold-auth-name:
 @nyberg_impacts_2021
 
 :::
-:::
 
 ## Research Talks & Poster Presentations
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+::: hide-me
 
 @skeeter_ongoing_2023
 @knox_ubc_2023
@@ -121,6 +117,5 @@ bold-auth-name:
 @satriawan_interannual_2020
 @nyberg_impacts_2020
 
-:::
 :::
 
