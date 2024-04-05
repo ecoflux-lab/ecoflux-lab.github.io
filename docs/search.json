@@ -202,11 +202,11 @@
     ]
   },
   {
-    "objectID": "Documentation/UsingGit.html#helpful-resources",
-    "href": "Documentation/UsingGit.html#helpful-resources",
+    "objectID": "Documentation/UsingGit.html#i-broke-something",
+    "href": "Documentation/UsingGit.html#i-broke-something",
     "title": "Using Git",
-    "section": "Helpful Resources",
-    "text": "Helpful Resources\nNice video tutorial\n\n\nThese guidelines will inform how we approach collaborating on a project.\nAdd Git Branch Name to Terminal Prompt (Linux/Mac)\n\n\n\n\nI broke something :(\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource.",
+    "section": "I broke something",
+    "text": "I broke something\nSometimes you break something and need to know how to fix it. Pardon the profanity … but Oh Shit, Git is a really helpful resource.",
     "crumbs": [
       "Documentation",
       "Documentation",

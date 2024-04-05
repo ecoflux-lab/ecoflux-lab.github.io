@@ -162,7 +162,7 @@ git revert HEAD~n
 **GitHub Pages**: GitHub can be used to render static sites (like this one).  Its a super useful skill/resource.  But that's a whole separate tutorial for another time!
 
 
-## Helpful Resources
+# Other Helpful Resources
 
 Nice video tutorial
 
@@ -170,12 +170,7 @@ Nice video tutorial
 
 [These guidelines](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67) will inform how we approach collaborating on a project.
 
-Add Git Branch Name to Terminal Prompt [(Linux/Mac)](https://gist.github.com/joseluisq/1e96c54fa4e1e5647940)
 
-<p align = 'center'>
-	<img src="images/AddBranch_Bash.png" width = 600>
-</p>
-
-### I broke something :(
+## I broke something
 
 Sometimes you break something and need to know how to fix it.  Pardon the profanity ... but [Oh Shit, Git](https://ohshitgit.com/) is a really helpful resource.
