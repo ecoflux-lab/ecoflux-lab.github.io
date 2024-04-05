@@ -106,6 +106,34 @@ My name is June.  I am a geographer, researcher, and educator who has been livin
 :::: {.columns}
 :::{.column width="30%"}
 
+![](images/headshots/joyson-oval.png){width=85%}
+:::
+::: {.column width="70%"}
+
+ |
+-----|:-----
+Name| Dr. Joyson Ahongshangbam
+Position | Postdoctoral Scholar
+Email| joyson.ahongshangbam@mcgill.ca
+Orcid| https://orcid.org/0000-0002-2678-6879
+
+::: 
+::::
+
+I am interested in studying the carbon and water cycle in different ecosystems (forest, urban vegetation and wetlands) using observations such as eddy covariance, sap flow and remote sensing techniques. My research includes understanding the responses of carbon and water dynamics with the land cover change, management activities and climate change (drought and heatwave).
+
+**Previous experience**
+: University of Helsinki, Finland, Postdoctoral researcher
+
+**Education**
+: University of Göttingen, Germany, PhD
+: Indian Institute of Remote sensing, India, Masters
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
 ![](images/headshots/tzu-yi-oval.png){width=85%}
 :::
 ::: {.column width="70%"}
