@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;June Skeeter">
 
 <title>Micromet Lab - Using Git</title>
 <style>
@@ -19,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -45,7 +80,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +95,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,9 +110,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Micromet Lab</span>
     </a>
@@ -82,49 +124,49 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../Documentation/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Documentation</span></a>
+    <a class="nav-link active" href="../Documentation/index.html" aria-current="page"> 
+<span class="menu-text">Documentation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Data.html" rel="" target="">
- <span class="menu-text">Field Sites &amp; Data</span></a>
+    <a class="nav-link" href="../Data.html"> 
+<span class="menu-text">Field Sites &amp; Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../OutreachNews.html" rel="" target="">
- <span class="menu-text">Outreach and News</span></a>
+    <a class="nav-link" href="../OutreachNews.html"> 
+<span class="menu-text">Outreach and News</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/ubc-micromet" rel="" target=""><i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+    <a class="nav-link" href="https://github.com/ubc-micromet"> <i class="bi bi-github" role="img" aria-label="Quarto GitHub">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Documentation/index.html">Documentation</a></li><li class="breadcrumb-item"><a href="../Documentation/index.html">Documentation</a></li><li class="breadcrumb-item"><a href="../Documentation/UsingGit.html">Using Git</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Documentation/index.html">Documentation</a></li><li class="breadcrumb-item"><a href="../Documentation/index.html">Documentation</a></li><li class="breadcrumb-item"><a href="../Documentation/UsingGit.html">Using Git</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -217,30 +259,43 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#git-vs-github-whats-the-difference" id="toc-git-vs-github-whats-the-difference" class="nav-link active" data-scroll-target="#git-vs-github-whats-the-difference">Git vs Github … whats the difference?</a>
+  <li><a href="#git-vs-github-whats-the-difference" id="toc-git-vs-github-whats-the-difference" class="nav-link active" data-scroll-target="#git-vs-github-whats-the-difference">Git vs Github … whats the difference?</a></li>
+  <li><a href="#how-do-we-use-git" id="toc-how-do-we-use-git" class="nav-link" data-scroll-target="#how-do-we-use-git">How Do We Use Git?</a>
   <ul class="collapse">
-  <li><a href="#whats-a-repository" id="toc-whats-a-repository" class="nav-link" data-scroll-target="#whats-a-repository">Whats a Repository?</a></li>
-  <li><a href="#common-git-commands" id="toc-common-git-commands" class="nav-link" data-scroll-target="#common-git-commands">Common Git Commands</a></li>
+  <li><a href="#what-is-a-repository" id="toc-what-is-a-repository" class="nav-link" data-scroll-target="#what-is-a-repository">What is a Repository?</a></li>
+  <li><a href="#what-is-a-branch" id="toc-what-is-a-branch" class="nav-link" data-scroll-target="#what-is-a-branch">What is a Branch?</a>
+  <ul class="collapse">
+  <li><a href="#branch-protection-rules" id="toc-branch-protection-rules" class="nav-link" data-scroll-target="#branch-protection-rules">Branch Protection Rules</a></li>
+  </ul></li>
+  <li><a href="#common-git-tasks" id="toc-common-git-tasks" class="nav-link" data-scroll-target="#common-git-tasks">Common Git Tasks</a>
+  <ul class="collapse">
+  <li><a href="#creating-a-repo-from-scratch" id="toc-creating-a-repo-from-scratch" class="nav-link" data-scroll-target="#creating-a-repo-from-scratch">Creating a Repo From Scratch</a></li>
+  </ul></li>
+  <li><a href="#working-with-an-existing-repository" id="toc-working-with-an-existing-repository" class="nav-link" data-scroll-target="#working-with-an-existing-repository">Working With an Existing Repository</a>
+  <ul class="collapse">
+  <li><a href="#contributing-your-changes" id="toc-contributing-your-changes" class="nav-link" data-scroll-target="#contributing-your-changes">Contributing your Changes</a></li>
+  <li><a href="#pulling-remote-changes" id="toc-pulling-remote-changes" class="nav-link" data-scroll-target="#pulling-remote-changes">Pulling Remote Changes</a></li>
+  </ul></li>
+  <li><a href="#other-useful-commands-and-features" id="toc-other-useful-commands-and-features" class="nav-link" data-scroll-target="#other-useful-commands-and-features">Other Useful Commands and Features</a></li>
   <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a>
   <ul class="collapse">
   <li><a href="#i-broke-something" id="toc-i-broke-something" class="nav-link" data-scroll-target="#i-broke-something">I broke something :(</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#more-tasks-features" id="toc-more-tasks-features" class="nav-link" data-scroll-target="#more-tasks-features">More Tasks &amp; Features</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Documentation/index.html">Documentation</a></li><li class="breadcrumb-item"><a href="../Documentation/index.html">Documentation</a></li><li class="breadcrumb-item"><a href="../Documentation/UsingGit.html">Using Git</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Using Git</h1>
 </div>
@@ -249,34 +304,149 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;June Skeeter </p>
+          </div>
+  </div>
     
   
     
   </div>
   
 
+
 </header>
 
+
+<p>We use git/github to manage our codebase. Version control is an essential to successfully managing of any project with multiple contributors! There can be a steep learning curve when you are first getting started with Git, but the time and hassle you will save your future self by learning will be enormous!</p>
 <section id="git-vs-github-whats-the-difference" class="level1">
 <h1>Git vs Github … whats the difference?</h1>
-<p>Git and Github are incredibly powerful and useful tools. Unfortunately, they’re also pretty confusing and there is a steep learning curve.</p>
-<p><strong>Git</strong> is a version control system. It lets you manage and track of code, keeping a history of changes each time you make a “commit”.</p>
-<p><strong>GitHub</strong> is a cloud-based service that hosts Git repositories. It makes it easier for to share code and work with collaborators.</p>
-<section id="whats-a-repository" class="level2">
-<h2 class="anchored" data-anchor-id="whats-a-repository">Whats a Repository?</h2>
-<p>A repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git.</p>
+<p>Git and Github are both incredibly powerful and useful tools. They can be used together to work towards a common end, but there are some important distinctions to highlight:</p>
+<p><strong>Git</strong> is an open source version control system. It lets you manage and track your code in “repositories”, keeping a history of changes each time you make a “commit”. You can run git locally on your personal computer and we also run it on our lab’s servers. If you want to install git, you can get started using <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">these docs</a>.</p>
+<p><strong>GitHub</strong> is a cloud-based service that hosts Git repositories. GitHub facilitates calibration between users and within organizations. <a href="https://github.com/ubc-micromet/">UBC Micromet</a> is a git “organization” that we use to host our operational codebase along with some important documentation. Github also provides a venue for hosting open source projects so that they can be viewed and accessed by the general public and provides free non-commercial web hosting services which can be used to make documentation pages (like this one!) and <a href="https://june-skeeter.github.io/">personal websites</a>. Github is not the only option for hosting git repositories; GitLab, Bitbucket, SourceForge, and many other platforms provide similar services.</p>
 </section>
-<section id="common-git-commands" class="level2">
-<h2 class="anchored" data-anchor-id="common-git-commands">Common Git Commands</h2>
-<p><strong>init</strong>: Creates an empty repository</p>
-<p><strong>commit</strong>: Tells git to “save” a repository in its current state.</p>
-<p><strong>status</strong>: Checks to see if there are any “untracked” files in your workspace.</p>
-<p><strong>clone:</strong>: Tells git to “copy” a repository from a remote location (i.e.&nbsp;a github URL) to a local directory on you computer</p>
-<p><strong>pull:</strong>: Tells git to “download” any changes from a remote repository (i.e.&nbsp;a github URL you previously cloned) to your local copy</p>
-<p><strong>push</strong>: Tells git to “upload” any changes from a local (your computer) copy of a repository to a remote repository (i.e.&nbsp;a github URL you previously cloned)</p>
-<p align="center">
-<img src="images/Git_workflow.png" width="600">
-</p>
+<section id="how-do-we-use-git" class="level1">
+<h1>How Do We Use Git?</h1>
+<p>Our organization’s codebase is grouped into repositories, some are operation code that we are actively managing, while others are archived projects that are no longer in use, but still publicly visible.</p>
+<section id="what-is-a-repository" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-repository">What is a Repository?</h2>
+<p>A repository (or repo) is just a collection of code, files, data, etc. that are being tracked by Git. Generally, all components of a repo should work towards a common end, whether that is an expansive goal such as managing all code used in our <a href="https://github.com/ubc-micromet/Biomet.net">processing pipeline</a>, maintaining the versions of code running on our <a href="https://github.com/ubc-micromet/DataLogger_Programs">data loggers</a>, or the backend of <a href="https://github.com/ubc-micromet/ubc-micromet.github.io">our organizations website</a></p>
+</section>
+<section id="what-is-a-branch" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-branch">What is a Branch?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Branches can be thought of like limbs on a tree, or perhaps a more accurate analogy can be taken from hydrology, by comparing them to an anbranching river channel.</p>
+<ul>
+<li>Branches are separate “streams” of code that break off of the main “channel”. Some branches may be dead ends that don’t end up going anywhere. While some branches may lead lead to improvements that can be incorporated back into the main branch of the codebase. Others may break off from the main project entirely.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="img-fluid quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Branches.png" class="img-fluid figure-img"></p>
+<figcaption>An anabranching section of the Mackenzie River Delta.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="branch-protection-rules" class="level3">
+<h3 class="anchored" data-anchor-id="branch-protection-rules">Branch Protection Rules</h3>
+<p>We use branch protection rules to protect the main codebase. All changes to the main branch of a protected repository, must be submitted via a “pull request” using a separate branch. This allows for review of the changes by other users before changes are incorporated. It adds an extra level of security by protecting the main branch of code from the erroneous keystrokes of novice and expert users alike! These rules are act as a “gate” that helps ensure any changes to operational code are intentional and agreed upon by relevant parties. If you try to push (force) a change to the main branch of a protected repository on our GitHub, you’ll be given an error message and told to submit a pull request instead! More info can be found <a href="https://www.atlassian.com/git/tutorials/using-branches">here</a></p>
+</section>
+</section>
+<section id="common-git-tasks" class="level2">
+<h2 class="anchored" data-anchor-id="common-git-tasks">Common Git Tasks</h2>
+<section id="creating-a-repo-from-scratch" class="level3">
+<h3 class="anchored" data-anchor-id="creating-a-repo-from-scratch">Creating a Repo From Scratch</h3>
+<p>Say you have a collection of code that you want to add to a local repository. The syntax would be as follows:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init <span class="at">-b</span> main</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add some_program.py</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-am</span> <span class="st">"First Commit: Adding my initial code to repo"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>What is happening here?</p>
+<p><strong>init</strong>: Creates an empty repository with a “branch” (-b) named “main”</p>
+<p><strong>add</strong>: indicates that “some_program.py” will be tracked within the repo. Other files in the repo will <strong>not</strong> be tracked unless you explicitly add them. Alternatively <code>bash git add .</code> would all <strong>all</strong> files within the repo. There are more complex patterns that can be setup to explicitly exclude/include some files using “.gitignore” files, but that’s a topic for another day.</p>
+<p><strong>commit</strong>: Tells git to “save” a permanent copy of <strong>all</strong> (-a) tracked files in the repo in there current state and leave a commit <strong>message</strong> (-m) to leave important notes about the commit. Commit messages are <strong>extremely</strong> helpful, both for reminding yourself what happened, and indicating to collaborators what’s included in a commit.</p>
+<ul>
+<li>You should avoid leaving short/nondescript commit messages such as “updated code”, because that doesn’t help anyone</li>
+<li>It is good practice to make a commit any time you make an important change to your project!</li>
+</ul>
+<section id="adding-your-new-repository-to-github" class="level4">
+<h4 class="anchored" data-anchor-id="adding-your-new-repository-to-github">Adding Your New Repository to GitHub</h4>
+<p>Go to github.com and follow the steps outlined in the images bellow:</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="img-fluid quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/newRepo.png" class="img-fluid figure-img"></p>
+<figcaption>1. Create a new repository</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="img-fluid quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/newRepo2.png" class="img-fluid figure-img"></p>
+<figcaption>2. Give it the same name as your local repo. Accept all defaults then click create.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="img-fluid quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/newRepo3.png" class="img-fluid figure-img"></p>
+<figcaption>3. The next window will open an empty repo. Copy the url go back to your local git repo and execute the commands listed bellow.</figcaption>
+</figure>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/June-Skeeter/SomeTest.git</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">--set-upstream</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>These commands will tell your local git where the remote (on the cloud) version of your repository is located and then “push” your local copy to the cloud. If you go back to the github repo and refresh the webpage, you’ll see that whatever files were in your local copy are now visible remotely!</p>
+</section>
+</section>
+</section>
+<section id="working-with-an-existing-repository" class="level2">
+<h2 class="anchored" data-anchor-id="working-with-an-existing-repository">Working With an Existing Repository</h2>
+<p>More often than not, you’ll end up working with an existing repository. You may need to make some changes, which can be added back to the main branch (following the branch protection rules!) or you may just need to run some fully developed code locally on your computer. For example, maybe you need to do some processing for the HOGG site in Manitoba. You can “download” a local copy of the repo and create a branch for your local changes as follows:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/ubc-micromet/Calculation_Procedures.git</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> MyHoggUpdates</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>What is happening here?</p>
+<p><strong>clone:</strong>: Tells git to download a local copy a repository from a remote location (i.e.&nbsp;a github URL) to your computer.</p>
+<p><strong>checkout</strong>: Tells git to create an new branch (-b) with the name “MyHoggUpdates”. This branch will contain all of your own adjustments, but the main branch on your local machine will not be altered! If you break something (e.g., delete an important code block), its easy to go back to the main branch. Just type <code>bash git checkout main</code> to go back in to the main branch. <em>Note</em> only need to add <code>bash -b</code> after <code>bash checkout</code> when creating a <em>new</em> branch. Git will automatically revert all files in the repo the the main version.</p>
+<section id="contributing-your-changes" class="level3">
+<h3 class="anchored" data-anchor-id="contributing-your-changes">Contributing your Changes</h3>
+<p>Provided you have permission to write to the repository (this is granted on a per-user basis by repo “owners”), you can contribute any changes you make by pushing a copy of your branch to github. Say you added a new file “new_HOGG_file.ini”, you could add it, commit it, then push to git hub as follows:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add new_HOGG_file.ini</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-am</span> <span class="st">"A relevant description of your changes"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">--set-upstream</span> origin MyHoggUpdates</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Note</strong> you only need to run the <code>--set-upstream origin Test</code> once per branch. The second, third, hundredth push you can simply type <code>git push</code></p>
+</section>
+<section id="pulling-remote-changes" class="level3">
+<h3 class="anchored" data-anchor-id="pulling-remote-changes">Pulling Remote Changes</h3>
+<p>Say there were some important updates to the main remote branch that you need to incorporate to code on your local branch. Starting from within <strong>MyHoggUpdates</strong> You could:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout MyHoggUpdates</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>pull</strong> downloads all the changes from the main branch on github to your local machine.</p>
+<p><strong>merge</strong> will automatically incorporate any changes for files that don’t conflict with changes you’ve made to files locally. i.e., if you’re working on “new_HOGG_file.ini”, but someone else changed “existing_BB_file.ini” then the updates to “existing_BB_file.ini” will be brought in without causing any “merge conflicts”. If you also made an edit to “existing_BB_file.ini” that does not match the incoming change, it will create a merge conflict, that needs to be resolved manually.</p>
+</section>
+</section>
+<section id="other-useful-commands-and-features" class="level2">
+<h2 class="anchored" data-anchor-id="other-useful-commands-and-features">Other Useful Commands and Features</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>status</strong> will list which if any files have been changed since the last commit and any files that have been added but are not tracked.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> restore existing_BB_file.ini</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>restore</strong>: will revert “existing_BB_file.ini” back to it’s state in the most recent commit. This is useful if you broke something and want to “go back” to the way things were. You can give a specific file name after</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> revert HEAD~n</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>revert</strong> allows you go back any “n” number of commits, <code>bash Head~2</code> would go back to the state you had two commits ago.</p>
+<p><strong>Issues</strong>: Opening issues on GitHub allows us to delegate work, discuss task and keep notes on various features.</p>
+<ul>
+<li>They can be labeled as bugs, upgrade requests, etc.<br>
+</li>
+<li>Issues can be assigned to one or more members of the organization, and you can leave comments to discuss issues.</li>
+<li>An issue remains open until they are “closed”.</li>
+</ul>
+<p><strong>GitHub Pages</strong>: GitHub can be used to render static sites (like this one). Its a super useful skill/resource. But that’s a whole separate tutorial for another time!</p>
 </section>
 <section id="helpful-resources" class="level2">
 <h2 class="anchored" data-anchor-id="helpful-resources">Helpful Resources</h2>
@@ -291,26 +461,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="i-broke-something" class="level3">
 <h3 class="anchored" data-anchor-id="i-broke-something">I broke something :(</h3>
 <p>Sometimes you break something and need to know how to fix it. Pardon the profanity … but <a href="https://ohshitgit.com/">Oh Shit, Git</a> is a really helpful resource.</p>
-</section>
-</section>
-</section>
-<section id="more-tasks-features" class="level1">
-<h1>More Tasks &amp; Features</h1>
-<p><strong>Issues</strong>: Opening issues on Github allows us to delegate work, discuss task and keep notes on various features. * They can be labeled as bugs, upgrade requests, etc.<br>
-* Issues can be assigned to one or more members of the organization, and you can leave comments to discuss issues. * An issue remains open until they are “closed”.</p>
-<p><strong>Branching</strong>: is a way to create a separate workspace to work on updates, test features, and break things (safely) without affecting the “main” branch. We’ll rely on branches and “branch protection” rules to keep the main (working) branches of repositories safe. More info can be found <a href="https://www.atlassian.com/git/tutorials/using-branches">here</a></p>
-<ul>
-<li>You can use “git branch” to list all existing branches</li>
-<li>You can use “git checkout” to switch between branches
-<ul>
-<li>You can also use “git checkout” to create an new branch</li>
-</ul></li>
-</ul>
-<p><strong>Merging</strong>: is a way to combine branches. An in depth discussion can be found <a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge">here</a></p>
-<p><strong>Conflict Resolution</strong>: This is a tricky task and usually requires a case by case approach to sort things out. We’ll undoubtedly need to do some conflict resolution down the line but lets not worry aoubt it for now.</p>
-<p><strong>Github Pages</strong>: Github can be used to render static sites (like this one). Its a super useful skill/resource. We’ll cover it down the line.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -393,10 +547,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -406,8 +559,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -420,6 +582,120 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -463,6 +739,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -488,6 +765,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -548,6 +851,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
