@@ -1,21 +1,17 @@
 ---
-title: "Welcome to the Micrometeorology Lab!"
+title: "Welcome to the EcoFlux Lab!"
 ---
 
 ::: {.column-margin}
-**Quick Links**
-
-* Link to People?
-* Link to Data?
-* Link to Publications?
-
-**Contact Information**
-Dr. Sara Knox
+**Contact Information**<br>
+Dr. Sara Knox<br>
 sara.knox@mcgill.ca
 
 :::
 
-![](./images/Lab_April_2022.jpg){fig-align="center"}
+![](./images/DSM_Winter_edit.png){fig-align="center"}
 
 Our research group explores the physical, biological and chemical processes that control trace gas, water and energy fluxes between the land surface and the atmosphere. We investigate how land‑atmosphere exchanges of greenhouse gas fluxes respond to a changing climate and disturbances, and how we can modify land management practices for climate change adaptation and mitigation. We combine micrometeorological measurements with remote sensing and modelling to understand soil-plant-atmosphere interactions across a range of spatial and temporal scales. We collaborate with a broad group of researchers and institutions to help inform and advance climate policy. 
+
+![](./images/lab_logo/No_text_smaller.png){fig-align="center"}
 

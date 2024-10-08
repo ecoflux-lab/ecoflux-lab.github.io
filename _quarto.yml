@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Micromet Lab"
+  title: "EcoFlux Lab"
   navbar:
     background: light
     left:
@@ -19,7 +19,7 @@ website:
         text: Outreach and News
     right:
       - icon: github
-        href: https://github.com/ubc-micromet
+        href: https://github.com/ecoflux-lab
         aria-label: Quarto GitHub
   sidebar:
     - id: home
