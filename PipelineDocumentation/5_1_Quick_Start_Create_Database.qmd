@@ -61,8 +61,8 @@ Simply type `plotApp` on the command line, and it will open an app that can comp
 
 
 <br>
-<div id="div_id_code">
 <hr>
+<div id="div_id_code">
 
 `MyMicrometSitesCleaning_Main.m` template script for copying (see Figure 5.2 for necessary edits):
 <pre>

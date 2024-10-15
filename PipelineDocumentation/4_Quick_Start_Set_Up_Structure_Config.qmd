@@ -19,7 +19,7 @@ projectPath = '/Users/&lt;username&gt;/Projects/My_MicrometSites/';</pre>
     <pre>
     create_TAB_ProjectFolders(projectPath,'SITEID')</pre>    
 
-    Note that both input arguments have type "string".
+    Note that both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
 
     As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., `My_MicrometSites` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
 
@@ -60,10 +60,10 @@ For now we will describe only the new directories and files necessary for you to
 <ol>
     <li>`get_TAB_project_configuration.m` which was created "behind the scenes" in step 2 above, then used during step 3;</li>
     <li>`biomet_database_default.m`; and </li>
-    <li>`biomet_sites_default.m`. 
+    <li>`biomet_sites_default.m`.</li> 
 </ol>
 
-The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.</li>
+The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.
 
 
 

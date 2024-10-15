@@ -147,12 +147,23 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Pipeline Documentation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1. Motivation: The Importance of Flux Data Standardization and Reproducibility</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.0 &nbsp; Note: High Frequency Data Processing</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../PipelineDocumentation/2_SoftwareInstallation.html" class="sidebar-item-text sidebar-link">
@@ -223,12 +234,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/5_0_Quick_Start_EddyPro_Processing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5.0 &nbsp; Quick Start: EddyPro Processing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/5_1_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">5.1 &nbsp; Quick Start: Create Database and Visualize</span></a>
   </div>
@@ -244,6 +249,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/6_0_Quick_Start_Template_Files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.0 &nbsp; Quick Start: Download Template Files</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/6_1_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
@@ -355,8 +366,8 @@ ul.task-list li input[type="checkbox"] {
 Simply type <code>plotApp</code> on the command line, and it will open an app that can compare traces from the same and different cleaning stages (once you have completed those), databases, and also produce statistical plots and outputs. More details of this and other visualization tools are described at length in section 7.</p></li>
 </ol>
 <br>
-<div id="div_id_code">
 <hr>
+<div id="div_id_code">
 <code>MyMicrometSitesCleaning_Main.m</code> template script for copying (see Figure 5.2 for necessary edits):
 <pre>%% Main function for MyMicrometSites data processing
 % Created by &lt;author&gt; on &lt;date&gt;
@@ -406,11 +417,10 @@ db_struct2database(outStruct,databasePath,0,[],timeUnit,missingPointValue,struct
 </div>
 
 
-</section></section></main></div>
+</section>
+</section>
 
-
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -831,7 +841,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 

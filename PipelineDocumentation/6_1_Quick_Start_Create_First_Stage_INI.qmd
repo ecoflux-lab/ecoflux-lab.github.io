@@ -8,13 +8,9 @@ This section will show you how to start cleaning your data for stage one. Note t
 
 ### Instructions to create first stage INI file
 
-1. First, put the template INI files you acquired in the site ID directory shown in figure 6.1. Next, make a copy of `TEMPLATE_FirstStage.ini`, then rename the copy, replacing "TEMPLATE" with your site ID (`SITEID1` in this example; this filename format is required).
+1. Open your site-specific `SITEID1_FirstStage.ini` file for editing.
 
-   <img src="images/directory_trees/DirectoryTree6a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"/>
-
-   *Figure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.*
-
-2. Near the top of the file, insert the full name of your site (more descriptive is better), your site ID, and the timezone information. 
+2. Near the top of the file, insert the full name of your site (more descriptive is better), your site ID, and the timezone information. `Difference_GMT_to_local_time` is the timezone that your site is located in, and `Timezone` is the timezone that your data is reported in (UTC, standard time, or daylight saving time). Both these parameters are currently necessary in order to output the correct timezone for Ameriflux requirements (local standard time). 
 3. Next, scroll down (skipping "Global Variables" sections for now) to where you see:
     <pre>
     %----------------------------------------------------
@@ -47,7 +43,7 @@ This section will show you how to start cleaning your data for stage one. Note t
 
  5. If you do *NOT* have a four-component net radiometer such as a CNR4 at your site, you can skip all of step 5 and go to step 6. If you do have a CNR4 or similar, we have provided an "include" INI file that loads relevant radiation variables for you. *We strongly advise that you do not edit this or any other include file.* Instead, scroll to the bottom of your site-specific INI file where the include files are called.
 
-    a. Uncomment (e.g., delete % - NOT #) the line containing `RAD_FirstStage_include.ini`, so that the block of code looks like this:
+    a. Uncomment&ast; (e.g., delete % - NOT #) the line containing `RAD_FirstStage_include.ini`, so that the block of code looks like this:
     <pre>
     %----------------------------------------------------------
     % Call #include ini files
@@ -60,7 +56,7 @@ This section will show you how to start cleaning your data for stage one. Note t
     %#include EddyPro_LI7700_FirstStage_include.ini
     #include RAD_FirstStage_include.ini</pre>
 
-        Recall that this file is read by Matlab, so comments are created using `%`; the `#` sign must be present to call the include file. 
+        &ast;Recall that this file is read by Matlab, so comments are created using `%`; the `#` sign must be present to call the include file. 
 
     b. Next, scroll almost to the top of the file where you see:
     <pre>

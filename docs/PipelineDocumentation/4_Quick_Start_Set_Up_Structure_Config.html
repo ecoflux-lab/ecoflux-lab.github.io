@@ -147,12 +147,23 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Pipeline Documentation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1. Motivation: The Importance of Flux Data Standardization and Reproducibility</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.0 &nbsp; Note: High Frequency Data Processing</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../PipelineDocumentation/2_SoftwareInstallation.html" class="sidebar-item-text sidebar-link">
@@ -221,12 +232,6 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/5_0_Quick_Start_EddyPro_Processing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5.0 &nbsp; Quick Start: EddyPro Processing</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/5_1_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
@@ -324,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Define your projectPath in Matlab. Then pick <em>one</em> flux site to work with; note the site ID, which must be all upper case.</p></li>
 <li><p>In Matlab, run the <code>create_TAB_ProjectFolders</code> function (which is in the <code>Biomet.net</code> library that you cloned), as follows:</p>
 <pre> create_TAB_ProjectFolders(projectPath,'SITEID')</pre>
-<p>Note that both input arguments have type “string”.</p>
+<p>Note that both input arguments are of type “string”. You can use single <code>''</code> or double <code>""</code> quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info.&nbsp;</p>
 <p>As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., <code>My_MicrometSites</code> in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
 <p><img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&amp;Subdirectories" width="250"></p>
 <p><em>Figure 4.1. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
@@ -370,10 +375,10 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>
 <code>biomet_sites_default.m</code>.
-</li></ol></li>
+</li>
+</ol></li>
 </ul>
-The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.
-
+<p>The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.</p>
 
 
 </section>

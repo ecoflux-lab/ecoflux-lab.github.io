@@ -87,6 +87,9 @@ website:
           text: Pipeline Documentation
         - href: PipelineDocumentation/1_Motivation.qmd 
           text: "1. Motivation: The Importance of Flux Data Standardization and Reproducibility"
+          contents:
+            - href: PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.qmd
+              text: "1.0 &nbsp; Note: High Frequency Data Processing"
         - href: PipelineDocumentation/2_SoftwareInstallation.qmd
           text: "2. Software Installation"
           contents:
@@ -109,13 +112,13 @@ website:
         - href: PipelineDocumentation/5_Quick_Start_Create_Database.qmd
           text: "5. Quick Start: Create Database"
           contents:
-            - href: PipelineDocumentation/5_0_Quick_Start_EddyPro_Processing.qmd
-              text: "5.0 &nbsp; Quick Start: EddyPro Processing"
             - href: PipelineDocumentation/5_1_Quick_Start_Create_Database.qmd
               text: "5.1 &nbsp; Quick Start: Create Database and Visualize"
         - href: PipelineDocumentation/6_Quick_Start_Create_INI_Files.qmd
           text: "6. Quick Start: Create INI Files for Data Cleaning"
           contents:
+            - href: PipelineDocumentation/6_0_Quick_Start_Template_Files.qmd
+              text: "6.0 &nbsp; Quick Start: Download Template Files"
             - href: PipelineDocumentation/6_1_Quick_Start_Create_First_Stage_INI.qmd
               text: "6.1 &nbsp; Quick Start: First Stage INI File"
             - href: PipelineDocumentation/6_2_Quick_Start_Create_Second_Stage_INI.qmd

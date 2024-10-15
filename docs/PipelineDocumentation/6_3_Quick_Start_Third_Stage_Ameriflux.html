@@ -147,12 +147,23 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Pipeline Documentation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1. Motivation: The Importance of Flux Data Standardization and Reproducibility</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.0 &nbsp; Note: High Frequency Data Processing</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../PipelineDocumentation/2_SoftwareInstallation.html" class="sidebar-item-text sidebar-link">
@@ -223,12 +234,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/5_0_Quick_Start_EddyPro_Processing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5.0 &nbsp; Quick Start: EddyPro Processing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/5_1_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">5.1 &nbsp; Quick Start: Create Database and Visualize</span></a>
   </div>
@@ -244,6 +249,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/6_0_Quick_Start_Template_Files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.0 &nbsp; Quick Start: Download Template Files</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/6_1_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
@@ -318,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="third-stage-cleaning">Third Stage Cleaning</h3>
 <p>The third stage cleaning generally requires the least amount of work by the user, but is usually the most computationally intensive stage, as it includes running models for gap-filling fluxes. The following example assumes you have already completed first and second stage cleaning for one site.</p>
 <ol type="1">
-<li><p>Make a copy of the <code>TEMPLATE_config.yml</code> file that we provided (figure 6.5) and rename the copy with your site ID.</p>
+<li><p>Open your site-specific <code>SITEID1_config.yml</code> for editing (figure 6.5):</p>
 <p><img src="images/directory_trees/DirectoryTree6c_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"></p>
 <p><em>Figure 6.5. Directory tree showing location of third stage custom YAML file that must be copied (green highlighted text) and edited (yellow highlighted text).</em></p></li>
 <li><p>At the top of your site-specific file, input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text):</p>
