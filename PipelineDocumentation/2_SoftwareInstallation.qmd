@@ -1,5 +1,5 @@
 ## 2. &nbsp; Software Installation
-This section provides instructions on installing the software and configuring the library needed for running the data-cleaning pipeline.
+This section provides instructions on installing the software and configuring the libraries needed for running the data-cleaning pipeline.
 
 <!-- * Git (optional)
 * Matlab

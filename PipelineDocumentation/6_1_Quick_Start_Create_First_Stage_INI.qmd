@@ -47,7 +47,7 @@ This section will show you how to start cleaning your data for stage one. Note t
 
  5. If you do *NOT* have a four-component net radiometer such as a CNR4 at your site, you can skip all of step 5 and go to step 6. If you do have a CNR4 or similar, we have provided an "include" INI file that loads relevant radiation variables for you. *We strongly advise that you do not edit this or any other include file.* Instead, scroll to the bottom of your site-specific INI file where the include files are called.
 
-    a. Uncomment the line containing `RAD_FirstStage_include.ini`, so that the block of code looks like this:
+    a. Uncomment (e.g., delete % - NOT #) the line containing `RAD_FirstStage_include.ini`, so that the block of code looks like this:
     <pre>
     %----------------------------------------------------------
     % Call #include ini files
