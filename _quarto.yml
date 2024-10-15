@@ -6,6 +6,7 @@ website:
   title: "EcoFlux Lab"
   navbar:
     background: light
+    logo: /images/lab_logo/No_text_smaller.png
     left:
       - href: index.qmd
         text: Home
