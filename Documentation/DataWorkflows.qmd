@@ -1,6 +1,5 @@
 ---
 title: "Data Pipeline"
-order: 1
 ---
 
 # Data flow schematic

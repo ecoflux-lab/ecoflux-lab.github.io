@@ -1,6 +1,5 @@
 ---
 title: "Tips for Reproducible Data Flow"
-order: 4
 ---
 
 # R resources

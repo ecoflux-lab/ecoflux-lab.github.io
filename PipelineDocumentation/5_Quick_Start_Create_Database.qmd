@@ -1,0 +1,9 @@
+## 5 &nbsp; Quick Start: Create Database from Raw Data and Visualize Contents
+
+
+This section contains information on EddyPro processing and quick-start instructions on how to create an initial database from your raw data, which can subsequently be used in the pipeline. 
+
+Here are some template INI files for use when starting the data cleaning process from scratch: <!-- add github link -->
+
+Here is some sample data which can be used to run through the pipeline: <!-- add link to website directory with one month of DSM sample data -->
+

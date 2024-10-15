@@ -1,7 +1,8 @@
 ---
 title: "Daily Site Monitoring"
-echo: false
-order: 1
+toc: true
+toc-depth: 2
+collapse: true
 ---
 
 Below are instructions for visual checks of the data that should be done every day.  Web plots for each site can be found by going to:

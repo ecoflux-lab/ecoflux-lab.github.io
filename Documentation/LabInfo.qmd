@@ -1,6 +1,5 @@
 ---
 title: "Information for Current Lab Members"
-order: 3
 ---
 
 This page provides information and links to documentation that are relevant to current members of the lab

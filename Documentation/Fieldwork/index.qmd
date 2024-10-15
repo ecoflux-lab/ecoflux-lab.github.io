@@ -1,7 +1,5 @@
 ---
-title: "Fieldwork & Maintenance Procedures"
-echo: false
-order: 2
+title: "Fieldwork maintenance and procedures"
 ---
 
 This page covers general procedures for daily monitoring and field site maintenance/calibration.  If you need to sechedule a field visit - the availability of lab members by day is shown below in @tbl-times.
