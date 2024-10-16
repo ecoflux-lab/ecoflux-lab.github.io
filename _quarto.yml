@@ -117,8 +117,6 @@ website:
         - href: PipelineDocumentation/6_Quick_Start_Create_INI_Files.qmd
           text: "6. Quick Start: Create INI Files for Data Cleaning"
           contents:
-            - href: PipelineDocumentation/6_0_Quick_Start_Template_Files.qmd
-              text: "6.0 &nbsp; Quick Start: Download Template Files"
             - href: PipelineDocumentation/6_1_Quick_Start_Create_First_Stage_INI.qmd
               text: "6.1 &nbsp; Quick Start: First Stage INI File"
             - href: PipelineDocumentation/6_2_Quick_Start_Create_Second_Stage_INI.qmd

@@ -302,7 +302,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quick-start-create-ini-and-other-configuration-files-for-data-cleaning" id="toc-quick-start-create-ini-and-other-configuration-files-for-data-cleaning" class="nav-link active" data-scroll-target="#quick-start-create-ini-and-other-configuration-files-for-data-cleaning">6 &nbsp; Quick Start: Create INI and Other Configuration Files for Data Cleaning</a></li>
+  <li><a href="#quick-start-create-ini-and-other-configuration-files-for-data-cleaning" id="toc-quick-start-create-ini-and-other-configuration-files-for-data-cleaning" class="nav-link active" data-scroll-target="#quick-start-create-ini-and-other-configuration-files-for-data-cleaning">6 &nbsp; Quick Start: Create INI and Other Configuration Files for Data Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#download-template-iniconfig-files" id="toc-download-template-iniconfig-files" class="nav-link" data-scroll-target="#download-template-iniconfig-files">Download template INI/config files:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -315,8 +318,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="quick-start-create-ini-and-other-configuration-files-for-data-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="quick-start-create-ini-and-other-configuration-files-for-data-cleaning">6 &nbsp; Quick Start: Create INI and Other Configuration Files for Data Cleaning</h2>
 <p>This section provides quick-start instructions for create your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.</p>
+<section id="download-template-iniconfig-files" class="level3">
+<h3 class="anchored" data-anchor-id="download-template-iniconfig-files">Download template INI/config files:</h3>
+<p>Data files will be available soon…</p>
+<ul>
+<li>First Stage Template INI file</li>
+<li>Second Stage Template INI file</li>
+<li>Third Stage Configuration file</li>
+</ul>
+<!-- * <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_FirstStage.ini">First Stage Template INI file</a>
+* <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_SecondStage.ini">Second Stage Template INI file</a>
+* <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_config.yml">Third Stage Configuration file</a>
+-->
+<ol type="1">
+<li><p>Download the files above; put these TEMPLATE files in the location shown in figure 6.1:</p>
+<p><img src="images/directory_trees/DirectoryTree6a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"></p>
+<p><em>Figure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.</em></p></li>
+<li><p>Make copies of <em>all three</em> files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (<code>SITEID1</code> in this example; this filename format is required).</p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

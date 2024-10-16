@@ -130,7 +130,7 @@
     "href": "PipelineDocumentation/6_Quick_Start_Create_INI_Files.html",
     "title": "EcoFlux Lab",
     "section": "",
-    "text": "This section provides quick-start instructions for create your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.",
+    "text": "This section provides quick-start instructions for create your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.\n\n\nData files will be available soon…\n\nFirst Stage Template INI file\nSecond Stage Template INI file\nThird Stage Configuration file\n\n\n\nDownload the files above; put these TEMPLATE files in the location shown in figure 6.1:\n\nFigure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.\nMake copies of all three files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (SITEID1 in this example; this filename format is required).",
     "crumbs": [
       "Pipeline Documentation",
       "6. Quick Start: Create INI Files for Data Cleaning"
@@ -141,7 +141,7 @@
     "href": "PipelineDocumentation/6_Quick_Start_Create_INI_Files.html#quick-start-create-ini-and-other-configuration-files-for-data-cleaning",
     "title": "EcoFlux Lab",
     "section": "",
-    "text": "This section provides quick-start instructions for create your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.",
+    "text": "This section provides quick-start instructions for create your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.\n\n\nData files will be available soon…\n\nFirst Stage Template INI file\nSecond Stage Template INI file\nThird Stage Configuration file\n\n\n\nDownload the files above; put these TEMPLATE files in the location shown in figure 6.1:\n\nFigure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.\nMake copies of all three files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (SITEID1 in this example; this filename format is required).",
     "crumbs": [
       "Pipeline Documentation",
       "6. Quick Start: Create INI Files for Data Cleaning"
@@ -973,7 +973,7 @@
     "href": "PipelineDocumentation/5_Quick_Start_Create_Database.html",
     "title": "EcoFlux Lab",
     "section": "",
-    "text": "This section contains information on EddyPro processing and quick-start instructions on how to create an initial database from your raw data, which can subsequently be used in the pipeline.\nHere are some template INI files for use when starting the data cleaning process from scratch: \nHere is some sample data which can be used to run through the pipeline:",
+    "text": "This section contains quick-start instructions on how to create an initial database from your raw data, which can subsequently be used in the pipeline.\nFirst, you can download some sample data:\n\n\n\nComing soon… \n\nDownload the sample data and config file above, and keep it handy.",
     "crumbs": [
       "Pipeline Documentation",
       "5. Quick Start: Create Database"
@@ -984,7 +984,7 @@
     "href": "PipelineDocumentation/5_Quick_Start_Create_Database.html#quick-start-create-database-from-raw-data-and-visualize-contents",
     "title": "EcoFlux Lab",
     "section": "",
-    "text": "This section contains information on EddyPro processing and quick-start instructions on how to create an initial database from your raw data, which can subsequently be used in the pipeline.\nHere are some template INI files for use when starting the data cleaning process from scratch: \nHere is some sample data which can be used to run through the pipeline:",
+    "text": "This section contains quick-start instructions on how to create an initial database from your raw data, which can subsequently be used in the pipeline.\nFirst, you can download some sample data:\n\n\n\nComing soon… \n\nDownload the sample data and config file above, and keep it handy.",
     "crumbs": [
       "Pipeline Documentation",
       "5. Quick Start: Create Database"
@@ -1113,7 +1113,7 @@
     "href": "PipelineDocumentation/6_0_Quick_Start_Template_Files.html",
     "title": "EcoFlux Lab",
     "section": "",
-    "text": "First Stage Template INI file\nSecond Stage Template INI file\nThird Stage Configuration file\n\n\nDownload the files above; put these TEMPLATE files in the location shown in figure 6.1:\n\nFigure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.\nMake copies of all three files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (SITEID1 in this example; this filename format is required).\n\n\n\n\n\nEddyPro_Sample_Data\nMet_Sample_Data\nThird Stage Sample Configuration file for TUT site\n\nNow download the sample data and config file above, and keep it handy; it will be used shortly.",
+    "text": "Data files will be available soon..\n\n\n\nFirst Stage Template INI file\nSecond Stage Template INI file\nThird Stage Configuration file\n\n\n\nDownload the files above; put these TEMPLATE files in the location shown in figure 6.1:\n\nFigure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.\nMake copies of all three files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (SITEID1 in this example; this filename format is required).",
     "crumbs": [
       "Pipeline Documentation",
       "6. Quick Start: Create INI Files for Data Cleaning",
@@ -1149,7 +1149,7 @@
     "href": "PipelineDocumentation/6_0_Quick_Start_Template_Files.html#quick-start-download-template-files-and-sample-data",
     "title": "EcoFlux Lab",
     "section": "",
-    "text": "First Stage Template INI file\nSecond Stage Template INI file\nThird Stage Configuration file\n\n\nDownload the files above; put these TEMPLATE files in the location shown in figure 6.1:\n\nFigure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.\nMake copies of all three files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (SITEID1 in this example; this filename format is required).\n\n\n\n\n\nEddyPro_Sample_Data\nMet_Sample_Data\nThird Stage Sample Configuration file for TUT site\n\nNow download the sample data and config file above, and keep it handy; it will be used shortly.",
+    "text": "Data files will be available soon..\n\n\n\nFirst Stage Template INI file\nSecond Stage Template INI file\nThird Stage Configuration file\n\n\n\nDownload the files above; put these TEMPLATE files in the location shown in figure 6.1:\n\nFigure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.\nMake copies of all three files that begin “TEMPLATE” and rename the copies, replacing “TEMPLATE” with your site ID (SITEID1 in this example; this filename format is required).",
     "crumbs": [
       "Pipeline Documentation",
       "6. Quick Start: Create INI Files for Data Cleaning",

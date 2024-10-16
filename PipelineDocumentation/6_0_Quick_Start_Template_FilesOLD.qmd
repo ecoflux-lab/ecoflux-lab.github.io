@@ -1,10 +1,16 @@
 ## 6.0. &nbsp; Quick Start: Download Template Files and Sample Data 
 
+Data files will be available soon..
+
 ### Template INI/config files:
-* <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_FirstStage.ini">First Stage Template INI file</a>
+* First Stage Template INI file
+* Second Stage Template INI file
+* Third Stage Configuration file
+
+<!-- * <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_FirstStage.ini">First Stage Template INI file</a>
 * <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_SecondStage.ini">Second Stage Template INI file</a>
 * <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_config.yml">Third Stage Configuration file</a>
-
+-->
 
 1. Download the files above; put these TEMPLATE files in the location shown in figure 6.1:
 
@@ -14,11 +20,7 @@
 
 2. Make copies of *all three* files that begin "TEMPLATE" and rename the copies, replacing "TEMPLATE" with your site ID (`SITEID1` in this example; this filename format is required). 
 
-### Sample data and configuration file for working example:
-* <a href="ini_templates_sample_data/eddypro_TUT_20240716_20240816_full_output.csv">EddyPro_Sample_Data</a>
-* <a href="ini_templates_sample_data/TUT_MET">Met_Sample_Data</a>
-* <a href="ini_template_sample_data/TUT_config.yml">Third Stage Sample Configuration file for TUT site</a>
 
-Now download the sample data and config file above, and keep it handy; it will be used shortly.  
+
 
 
