@@ -23,7 +23,7 @@ Updated on: October 2024  <!--- Sara/Zoran: please confirm/add information below
 
 | Software | Recommended version as of above date |
 | -------- | ------------------- |
-| Matlab   | 2023b / 2024a?      |
+| Matlab   | 2023b / 2024a       |
 | R        | v4.3.3              |
 | RStudio  | ?                   |
 | Python   | 3.9.6 for Mac       |
