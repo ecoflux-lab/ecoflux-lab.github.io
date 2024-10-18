@@ -4,17 +4,9 @@ This section provides quick-start instructions for create your first and second 
 
 
 ### Download template INI/config files:
-Data files will be available soon...
 
+<a href="ini_templates_sample_data/Template_Sample_INIs.zip">Template and Sample INI/config files</a>
 
-* First Stage Template INI file
-* Second Stage Template INI file
-* Third Stage Configuration file
-
-<!-- * <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_FirstStage.ini">First Stage Template INI file</a>
-* <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_SecondStage.ini">Second Stage Template INI file</a>
-* <a href="https://github.com/CANFLUX/pipeline-documentation/raw/main/ini_templates/TEMPLATE_config.yml">Third Stage Configuration file</a>
--->
 
 1. Download the files above; put these TEMPLATE files in the location shown in figure 6.1:
 

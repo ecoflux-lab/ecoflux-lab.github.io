@@ -23,9 +23,9 @@ Updated on: October 2024  <!--- Sara/Zoran: please confirm/add information below
 
 | Software | Recommended version as of above date |
 | -------- | ------------------- |
-| Matlab   | 2023b / 2024a       |
+| Matlab   | 2023b / **2024a**   |
 | R        | v4.3.3              |
-| RStudio  | ?                   |
+| RStudio  | 2024.09.0-375       |
 | Python   | 3.9.6 for Mac       |
 | Git      | Latest available <!-- (see link in 2_Install_Git_Create_Account_Optional.md) -->  |
 
