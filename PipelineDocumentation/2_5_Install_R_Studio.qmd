@@ -10,7 +10,7 @@ As with all the other software installations for use in data cleaning, first che
 
 * Installation instructions for RStudio on Windows and Mac: <a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noopener noreferrer">posit.co/download/rstudio-desktop</a>.
 
-* Any packages that you need and do not already have will be automatically installed.
+* Any packages that you need and do not already have will be automatically installed by our pipeline scripts.
 
 <!-- * Next, install the following libraries in RStudio by running the `install.packages()` command, as follows:
 <pre>
