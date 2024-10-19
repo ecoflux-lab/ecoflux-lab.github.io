@@ -250,5 +250,14 @@
   },
   "PipelineDocumentation/3_Data_Cleaning_Principles.qmd": {
     "3_Data_Cleaning_Principles.html": "fb585f1c"
+  },
+  "PipelineDocumentation/6_0_Quick_Start_Template_Files.qmd": {
+    "6_0_Quick_Start_Template_Files.html": "39a5060a"
+  },
+  "PipelineDocumentation/6_0_Quick_Start_Template_FilesOLD.qmd": {
+    "6_0_Quick_Start_Template_FilesOLD.html": "22341896"
+  },
+  "PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.qmd": {
+    "1_0_Note_High_Freq_Data_Processing.html": "92324ac5"
   }
 }

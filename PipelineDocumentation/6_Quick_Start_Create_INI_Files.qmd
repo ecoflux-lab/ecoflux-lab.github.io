@@ -16,7 +16,7 @@ This section provides quick-start instructions for create your first and second 
 
 2. Rename the TEMPLATE files you just copied, replacing "TEMPLATE" with your site ID (`SITEID1` in this example; this filename format is required). 
 
-3. The files in the `Tutorial_filled_sample_files` folder are completed "filled-in" versions of the TEMPLATE files that work with the data downloaded in section 5.
+3. The files in the `Tutorial_filled_sample_files` folder are completed "filled-in" versions of the TEMPLATE files that work with the sample data available for download in section 5.
 
 
 
