@@ -5,10 +5,10 @@
 
 This section provides a quick-start summary for setting up your project directory structure and configuring Matlab to work with this structure. <!-- For a more detailed description of these steps see sections 4.2 and 4.3. -->
 
-You need the file path to your project root folder for these next steps. For example, if the name of your project is "My_MicrometSites", the project path might look like: 
+You need the file path to your project root folder for these next steps. For example, if the name of your project is "My_Micromet", the project path might look like: 
 
 <pre>
-projectPath = '/Users/&lt;username&gt;/Projects/My_MicrometSites/';</pre>
+projectPath = '/Users/&lt;username&gt;/Projects/My_Micromet';</pre>
 
 ### Instructions
 
@@ -21,7 +21,7 @@ projectPath = '/Users/&lt;username&gt;/Projects/My_MicrometSites/';</pre>
 
     Note that both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
 
-    As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., `My_MicrometSites` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
+    As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., `My_Micromet` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
 
     <img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&Subdirectories" width="250"/>
     

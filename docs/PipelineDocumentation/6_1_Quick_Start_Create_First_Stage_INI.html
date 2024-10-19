@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="instructions-to-create-first-stage-ini-file">Instructions to create first stage INI file</h3>
 <ol type="1">
 <li><p>Open your site-specific <code>SITEID1_FirstStage.ini</code> file for editing.</p></li>
-<li><p>Near the top of the file, insert the full name of your site (more descriptive is better), your site ID, and the timezone information. <code>Difference_GMT_to_local_time</code> is the timezone that your site is located in, and <code>Timezone</code> is the timezone that your data is reported in (UTC, standard time, or daylight saving time). Both these parameters are currently necessary in order to output the correct timezone for Ameriflux requirements (local standard time).</p></li>
+<li><p>Near the top of the file, insert the full name of your site (more descriptive is better), your site ID, and the timezone information. <code>Difference_GMT_to_local_time</code> is the timezone that your site is located in, and <code>Timezone</code> is the timezone that your data is stored in (UTC, standard time, or daylight saving time). Both these parameters are currently necessary in order to output the correct timezone for Ameriflux requirements (local standard time).</p></li>
 <li><p>Next, scroll down (skipping “Global Variables” sections for now) to where you see:</p>
 <pre> %----------------------------------------------------
  %--&gt; Insert met variables here

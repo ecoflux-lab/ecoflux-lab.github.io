@@ -10,7 +10,7 @@ This section will show you how to start cleaning your data for stage one. Note t
 
 1. Open your site-specific `SITEID1_FirstStage.ini` file for editing.
 
-2. Near the top of the file, insert the full name of your site (more descriptive is better), your site ID, and the timezone information. `Difference_GMT_to_local_time` is the timezone that your site is located in, and `Timezone` is the timezone that your data is reported in (UTC, standard time, or daylight saving time). Both these parameters are currently necessary in order to output the correct timezone for Ameriflux requirements (local standard time). 
+2. Near the top of the file, insert the full name of your site (more descriptive is better), your site ID, and the timezone information. `Difference_GMT_to_local_time` is the timezone that your site is located in, and `Timezone` is the timezone that your data is stored in (UTC, standard time, or daylight saving time). Both these parameters are currently necessary in order to output the correct timezone for Ameriflux requirements (local standard time). 
 3. Next, scroll down (skipping "Global Variables" sections for now) to where you see:
     <pre>
     %----------------------------------------------------
