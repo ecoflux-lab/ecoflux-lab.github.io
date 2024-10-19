@@ -11,4 +11,4 @@ This section contains quick-start instructions on how to create an initial datab
 * <a href="ini_template_sample_data/TUT_config.yml">Third Stage Sample Configuration file for TUT site</a>
 -->
 
-Download the sample data above, and keep it handy.  
+Download the sample data above, unzip the contents, and keep them handy.  
