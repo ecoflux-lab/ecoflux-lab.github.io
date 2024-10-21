@@ -12,7 +12,14 @@ As with all the other software installations for use in data cleaning, first che
 
 * Any packages that you need and do not already have will be automatically installed by our pipeline scripts.
 
-<!-- * Next, install the following libraries in RStudio by running the `install.packages()` command, as follows:
+* Next, install the following libraries in RStudio by running the code below. Note this code will only install packages that you don't already have installed:
+
 <pre>
-install.packages(c('REddyProc','fs','yaml','rlist','data.table','tidyverse','caret','ranger','zoo','randomForest')) ADD MORE HERE!
-</pre> -->
+packages <- c("tidyverse", "caret", "REddyProc", "dplyr", "lubridate", "data.table", "fs", "yaml", "rlist", "zoo", "reshape2", "stringr", "ranger", "caret", "ggplot2")
+  
+installed_packages <- packages %in% rownames(installed.packages())
+  if (any(installed_packages == FALSE)) {
+    install.packages(packages[!installed_packages])
+  }
+
+</pre> 

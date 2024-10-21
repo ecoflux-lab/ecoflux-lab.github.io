@@ -305,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-visualization-apps" id="toc-data-visualization-apps" class="nav-link active" data-scroll-target="#data-visualization-apps">7. &nbsp; Data Visualization Apps</a>
   <ul class="collapse">
   <li><a href="#plotting-data-using-plotapp-function" id="toc-plotting-data-using-plotapp-function" class="nav-link" data-scroll-target="#plotting-data-using-plotapp-function">Plotting data using <code>plotApp</code> function</a></li>
-  <li><a href="#plotting-data-using-rshiny-app" id="toc-plotting-data-using-rshiny-app" class="nav-link" data-scroll-target="#plotting-data-using-rshiny-app">Plotting data using RShiny app</a></li>
+  <li><a href="#plotting-data-using-r-shiny-app" id="toc-plotting-data-using-r-shiny-app" class="nav-link" data-scroll-target="#plotting-data-using-r-shiny-app">Plotting data using R Shiny app</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -318,8 +318,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="data-visualization-apps" class="level2">
 <h2 class="anchored" data-anchor-id="data-visualization-apps">7. &nbsp; Data Visualization Apps</h2>
-<p>In progress…</p>
-<p>Functions for visualizing data:</p>
+<p><link rel="stylesheet" href="css/style.css"></p>
+<p>Matlab functions for visualizing data:</p>
 <ul>
 <li><code>gui_Browse_Folder</code>: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons.<br>
 </li>
@@ -327,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><code>plotApp</code>.</li>
 </ul>
-<p><br></p>
+<p><strong>Note</strong>: there is also an R Shiny App (see below) <br></p>
 <section id="plotting-data-using-plotapp-function" class="level3">
 <h3 class="anchored" data-anchor-id="plotting-data-using-plotapp-function">Plotting data using <code>plotApp</code> function</h3>
 <p><code>plotApp</code> is a Matlab graphical user interface (GUI) made to facilitate visualization of database traces as:<br>
@@ -427,9 +427,37 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 </section>
 </section>
-<section id="plotting-data-using-rshiny-app" class="level3">
-<h3 class="anchored" data-anchor-id="plotting-data-using-rshiny-app">Plotting data using RShiny app</h3>
-<p>In progress…</p>
+<section id="plotting-data-using-r-shiny-app" class="level3">
+<h3 class="anchored" data-anchor-id="plotting-data-using-r-shiny-app">Plotting data using R Shiny app</h3>
+<p>Instructions for using the <code>RShiny_flux_plots.R</code> app (under <code>./Biomet.net/R/RShiny_flux_plots</code>)</p>
+<p>To run the R Shiny App, either locally or on an RShiny server, you will need to download, edit, rename and save two files.</p>
+<ol type="1">
+<li>Download the <code>Excel sheet</code> below to input your site coordinates (you can include multiple sites, each as a separate line).</li>
+</ol>
+<p><a href="ini_templates_sample_data/site_coordinates_TUT.xlsx">Example site coordinate file</a></p>
+<ul>
+<li><p><strong>Note</strong> that the standard meridian is equal to your UTC offset (without daylight savings) x 15 (e.g., Vancouver is UTC-8 so the standard meridian is -120)</p></li>
+<li><p>Also, latitude and longitude are in decimal degrees and negative for West and South coordinates</p></li>
+</ul>
+<ol start="2" type="1">
+<li><p>Now save the excel file under <code>Calculation_Procedures/SITE/</code> (i.e., where your other site-specific ini files are). You should rename the file to include your specific <code>Project Name</code>.</p></li>
+<li><p>Download the example <code>ini file</code>.</p></li>
+</ol>
+<p><a href="ini_templates_sample_data/TUT_RShiny_ini.R.zip">Example R Shiny ini file</a></p>
+<ol start="4" type="1">
+<li><p>Edit the ini file and rename the paths to match your local computer</p></li>
+<li><p>Select which level(s) you would like to plot (e.g., You can plot <code>ThirdStage</code> data by specifying <code>level &lt;- "Clean/ThirdStage"</code>, or multiple levels of data using the concatenate command like <code>level &lt;- c("Clean/ThirdStage","Met")</code>.</p></li>
+<li><p>Rename the file to include your specific <code>Project Name</code> and save it in under <code>Calculation_Procedures/SITE/</code> (i.e., where your other site-specific ini files are).</p></li>
+<li><p>Now you can run the R Shiny App by editing the paths in the code below and running it in the R console (<strong>make sure to change the paths name to match your computer</strong>)</p></li>
+</ol>
+<pre>source("/Users/saraknox/Code/local_data_cleaning/Projects/EcoFlux/Database/Calculation_Procedures/RShiny_flux_plots_ini/UQAM_ini.R")
+
+source("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/load_save_data.R")
+    
+shiny::runApp("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/RShiny_flux_plots.R") 
+</pre>
+<p><strong>Note</strong>: if you get an error installing the package <code>imager</code>, you may need to try:</p>
+<p>For <code>imager</code>, you may need to download quartz to be able to run this library properly (https://www.xquartz.org) &amp; then use <code>install.packages("igraph", type="binary")</code></p>
 <!-- 1. Create a visualization INI file for your site (see examples in the `Biomet.net` library under `Biomet.net/R/data_visualization_EcoFlux/ini_files/`; not to be confused with data-cleaning INI files). 
 [XXX Sara: the examples in here vary a bit, and are a bit long and confusing... can I just use RShiny_flux_plots_ini/EcoFlux_ini.R as a template for the instructions?]
 
