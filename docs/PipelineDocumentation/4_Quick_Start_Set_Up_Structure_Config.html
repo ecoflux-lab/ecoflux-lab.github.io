@@ -323,16 +323,18 @@ ul.task-list li input[type="checkbox"] {
 <p>This section provides a quick-start summary for setting up your project directory structure and configuring Matlab to work with this structure. <!-- For a more detailed description of these steps see sections 4.2 and 4.3. --></p>
 <p>You need the file path to your project root folder for these next steps. For example, if the name of your project is “My_Micromet”, the project path might look like:</p>
 <pre>projectPath = '/Users/&lt;username&gt;/Projects/My_Micromet';</pre>
+<p>This project directory must be on your local computer: do not put it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow.</p>
 <section id="instructions" class="level3">
 <h3 class="anchored" data-anchor-id="instructions">Instructions</h3>
 <ol type="1">
 <li><p>Define your projectPath in Matlab. Then pick <em>one</em> flux site to work with; note the site ID, which must be all upper case.</p></li>
 <li><p>In Matlab, run the <code>create_TAB_ProjectFolders</code> function (which is in the <code>Biomet.net</code> library that you cloned), as follows:</p>
 <pre> create_TAB_ProjectFolders(projectPath,'SITEID')</pre>
-<p>Note that both input arguments are of type “string”. You can use single <code>''</code> or double <code>""</code> quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info.&nbsp;</p>
+<p>Both input arguments are of type “string”. You can use single <code>''</code> or double <code>""</code> quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info.&nbsp;</p>
 <p>As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., <code>My_Micromet</code> in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
 <p><img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&amp;Subdirectories" width="250"></p>
-<p><em>Figure 4.1. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
+<p><em>Figure 4.1. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p>
+<p>[Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running <code>create_TAB_ProjectFolders</code> (above). In that case, download <a href="presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the <em>contents</em> of “My_Micromet_Folder” within your project directory (underneath <code>My_Micromet</code>); make sure your directory structure looks like figure 4.1.]</p></li>
 <li><p>Next, run <code>set_TAB_project(projectPath)</code>. This process sets up the <code>Biomet.net</code> toolbox to work with your project.</p></li>
 </ol>
 </section>
