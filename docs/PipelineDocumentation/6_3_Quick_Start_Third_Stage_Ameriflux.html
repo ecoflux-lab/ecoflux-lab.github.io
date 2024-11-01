@@ -158,8 +158,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.0 &nbsp; Note: High Frequency Data Processing</span></a>
+  <a href="../PipelineDocumentation/1_1_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 &nbsp; Note: High Frequency Data Processing</span></a>
   </div>
 </li>
       </ul>
@@ -286,8 +286,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/8_0_Recommended_Software_Versions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8.0 &nbsp; Recommended Software Versions</span></a>
+  <a href="../PipelineDocumentation/8_1_Recommended_Software_Versions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.1 &nbsp; Recommended Software Versions</span></a>
   </div>
 </li>
       </ul>
@@ -321,15 +321,15 @@ ul.task-list li input[type="checkbox"] {
 <p><link rel="stylesheet" href="css/style.css"></p>
 <section id="third-stage-cleaning" class="level3">
 <h3 class="anchored" data-anchor-id="third-stage-cleaning">Third Stage Cleaning</h3>
-<p>The third stage cleaning generally requires the least amount of work by the user, but is usually the most computationally intensive stage, as it includes running models for gap-filling fluxes. The following example assumes you have already completed first and second stage cleaning for one site.</p>
+<p>The third stage cleaning generally requires the least amount of work by the user, but is usually the most computationally intensive stage, as it includes running models for gap-filling fluxes and flux partitioning. The following example assumes you have already completed first and second stage cleaning for one site.</p>
 <ol type="1">
 <li><p>Open your site-specific <code>SITEID1_config.yml</code> for editing (figure 6.5):</p>
 <p><img src="images/directory_trees/DirectoryTree6c_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"></p>
 <p><em>Figure 6.5. Directory tree showing location of third stage custom YAML file that must be copied (green highlighted text) and edited (yellow highlighted text).</em></p></li>
-<li><p>At the top of your site-specific file, input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text):</p>
+<li><p>At the top of your site-specific configuration file (i.e., <code>SITEID1_config.yml</code>), input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text):</p>
 <p><img src="images/ini_files/ini_example3a.jpg" alt="INIfiles/ThirdStageConfig" width="500"></p>
 <p><em>Figure 6.6. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text.</em></p>
-<p>The main configuration file (<code>global_config.yml</code>) for running third stage cleaning is located in the <code>TraceAnalysis_ini</code> directory, and generally speaking this should not be edited. The custom <code>SITEID1_config.yml</code> file can be used to add parameters/inputs and if they already exist in the global_config.yml they will be overwritten by the site-specific settings.</p>
+<p>The main configuration file (<code>global_config.yml</code>) for running third stage cleaning is located in the <code>TraceAnalysis_ini</code> directory, and generally speaking this should not be edited. The custom <code>SITEID1_config.yml</code> file can be used to add parameters/inputs; these site-specific settings will overwrite those in the <code>global_config.yml</code> if they are also defined there.</p>
 <p>Note on gap-filling FCH4: currently the predictors for all random forest models used to fill gaps are set to: <code>Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1</code>. However, for FCH4, these inputs should be changed to prioritize soil variables such as soil temperature, soil moisture, and water table depth. You can change these settings under “Optional parameters” (figure 6.7; peach highlighting). <!-- As an active area of research, we recommend experimenting with different combinations of these inputs. --></p>
 <p><img src="images/ini_files/ini_example3b.jpg" alt="INIfiles/ThirdStageConfigOptions" width="550"></p>
 <p><em>Figure 6.7. Third stage site-specific custom YAML file showing where to change inputs for FCH4 random forest gap-filling.</em></p></li>

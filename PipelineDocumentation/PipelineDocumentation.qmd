@@ -13,7 +13,7 @@ Revisions: October 2024\
 ### Documentation outline
 
 1. Motivation: The Importance of Flux Data Standardization and Reproducibility\
-&emsp;1.0 &nbsp;Note on EddyPro Processing of High Frequency Data\
+&emsp;1.1 &nbsp;Note on EddyPro Processing of High Frequency Data\
 
 2. Software Installation\
 &emsp;2.1 &nbsp;Install Software: Git, and Create Github account (optional)\
@@ -51,6 +51,6 @@ Revisions: October 2024\
 7. Data Visualization
 
 8. Troubleshooting and FAQ\
-&emsp;8.1 &nbsp;Troubleshooting and FAQ\
-&emsp;8.2 &nbsp;Recommended Software Versions
+&emsp;8.1 &nbsp;Recommended Software Versions\
+<!--&emsp;8.2 &nbsp;Recommended Software Versions-->
 

@@ -158,8 +158,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.0 &nbsp; Note: High Frequency Data Processing</span></a>
+  <a href="../PipelineDocumentation/1_1_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 &nbsp; Note: High Frequency Data Processing</span></a>
   </div>
 </li>
       </ul>
@@ -286,8 +286,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/8_0_Recommended_Software_Versions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8.0 &nbsp; Recommended Software Versions</span></a>
+  <a href="../PipelineDocumentation/8_1_Recommended_Software_Versions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.1 &nbsp; Recommended Software Versions</span></a>
   </div>
 </li>
       </ul>
@@ -322,10 +322,10 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Open your site-specific <code>SITEID1_SecondStage.ini</code> for editing.</p></li>
 <li><p>Near the top of the file, insert the full name of your site (more descriptive is better) and your site ID.</p></li>
-<li><p>The <code>TEMPLATE_SecondStage.ini</code> file that you downloaded and copied already includes a set of fundamental climate variables and the bare minimum flux variables to continue on and run the third stage. We advise testing the file with only these variables first. Note that even if you do not change the content of any traces during the second stage, you must still include any trace that you wish to be available for the third stage (and beyond, e.g., Ameriflux submission), i.e., they must be passed along the pipeline.</p></li>
+<li><p>The <code>TEMPLATE_SecondStage.ini</code> file that you downloaded and copied already includes a set of fundamental climate variables and the bare minimum flux variables needed to run the third stage. We advise testing the file with only these variables first. Note that even if you do not change the content of any traces during the second stage, you must still include any trace that you wish to be available for the third stage (and beyond, e.g., Ameriflux submission), i.e., they must be passed along the pipeline.</p></li>
 <li><p>Test the second stage data cleaning in Matlab, as follows:</p>
-<pre> fr_automated_cleaning(yearIn,'SITEID',2)</pre>
-<p>Note the input parameter <code>2</code> instead of <code>1</code>, denoting second stage. You should see a new <code>Clean</code> folder directly under the site ID directory in your Database, for whichever year(s) you ran it for. Within that <code>Clean</code> folder, there will be a <code>SecondStage</code> folder (figure 6.4).</p>
+<pre> fr_automated_cleaning(yearIn,'SITEID1',2)</pre>
+<p>Note the third and final input parameter is <code>2</code> instead of <code>1</code>, denoting second stage. You should see a new <code>Clean</code> folder directly under the site ID directory in your Database, for whichever year(s) you ran it for. Within that <code>Clean</code> folder, there will be a <code>SecondStage</code> folder (figure 6.4).</p>
 <p><img src="images/directory_trees/DirectoryTree6b_short.jpg" alt="DirectoryTree:DatabaseSecondStage" width="350"></p>
 <p><em>Figure 6.4. Directory tree showing location of data output (in this example, variable1, variable2, …) from second stage cleaning.</em></p></li>
 <li><p>You can add any other relevant variables into the second stage INI file. Again, use the visualization tools to check your data looks as expected, then you are ready to progress to third stage cleaning.</p></li>

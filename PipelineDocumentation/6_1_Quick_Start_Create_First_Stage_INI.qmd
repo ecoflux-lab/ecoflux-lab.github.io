@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-This section will show you how to start cleaning your data for stage one. Note that the example assumes you have already created `Flux` and `Met` databases for the same site. 
+This section will show you how to start cleaning your data for the first stage. Note that the example assumes you have already created `Flux` and `Met` databases for the same site. 
 
 <!-- In section 4.1, when you ran the `create_TAB_ProjectFolders` function, this transferred a number of necessary files to your local computer, including one called `TEMPLATE_FirstStage.ini` (figure 6.1): -->
 
@@ -35,9 +35,9 @@ This section will show you how to start cleaning your data for stage one. Note t
 4. Once you have done this for a few variables, test the data cleaning in Matlab, using the `fr_automated_cleaning.m` function as follows:
     <pre>
     fr_automated_cleaning(yearIn,'SITEID',1)</pre>
-    where yearIn (YYYY) is the year of data you want to clean (it is possible to clean multiple years at once but we will keep things simple with one year for now), SITEID would be SITEID1 from the earlier example, and '1' represents the first stage of data cleaning.
+    where yearIn is a numeric array containing the year(s) of data you want to clean (it is possible to clean multiple years at once but we will keep things simple with one year for now), SITEID would be SITEID1 from the earlier example, and '1' represents the first stage of data cleaning.
 
-    Provided everything worked with no errors, you should now see output data matching the variables you defined in a new `Clean` folder within your `Met` folder..
+    Provided everything worked with no errors, you should now see output data matching the variables you defined in a new `Clean` folder within your `Met` folder.
 
 <!--    Pay attention to the output display, it is informative. Provided everything worked with no errors, you should now see output data in a new `Clean` folder within your `Met` folder. You can use the same "quick-look" visualization tools to check this data looks as expected (e.g., the filenames are correct the values conform to your minMax bounds). -->
 
@@ -120,7 +120,7 @@ This section will show you how to start cleaning your data for stage one. Note t
 **TIPS**
 <ul>
    <li>Pay attention to the output display, it is informative.</li> 
-   <li>We recommend using the "quick-look" visualization tools at any stage of cleaning to check your data looks as expected (e.g., the filenames are correct and the values conform to your minMax bounds).</li>
+   <li>We recommend using the "quick-look" visualization tools at any stage of cleaning to check that your data looks as expected (e.g., the filenames are correct and the retained values conform to your minMax bounds).</li>
 </ul>
 
 <!-- See section 6.4 [XXX link] for more guidance on this and INI files in general. For cases where you do not have input data for all traces defined in any include file that you use, see section 8.1 on Troubleshooting [XXX link]. -->

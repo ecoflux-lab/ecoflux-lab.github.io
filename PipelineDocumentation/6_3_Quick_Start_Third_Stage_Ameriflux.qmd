@@ -4,7 +4,7 @@
 
 ### Third Stage Cleaning
 
-The third stage cleaning generally requires the least amount of work by the user, but is usually the most computationally intensive stage, as it includes running models for gap-filling fluxes. The following example assumes you have already completed first and second stage cleaning for one site.
+The third stage cleaning generally requires the least amount of work by the user, but is usually the most computationally intensive stage, as it includes running models for gap-filling fluxes and flux partitioning. The following example assumes you have already completed first and second stage cleaning for one site.
 
 1. Open your site-specific `SITEID1_config.yml` for editing (figure 6.5):
 
@@ -12,13 +12,13 @@ The third stage cleaning generally requires the least amount of work by the user
 
     *Figure 6.5. Directory tree showing location of third stage custom YAML file that must be copied (green highlighted text) and edited (yellow highlighted text).*
 
-2. At the top of your site-specific file, input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text):
+2. At the top of your site-specific configuration file (i.e., `SITEID1_config.yml`), input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text):
 
    <img src="images/ini_files/ini_example3a.jpg" alt="INIfiles/ThirdStageConfig" width="500"/>
     
    *Figure 6.6. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text.*
 
-	The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `TraceAnalysis_ini` directory, and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs and if they already exist in the global_config.yml they will be overwritten by the site-specific settings.
+	The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `TraceAnalysis_ini` directory, and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there.
 
     Note on gap-filling FCH4: currently the predictors for all random forest models used to fill gaps are set to: `Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1`. However, for FCH4, these inputs should be changed to prioritize soil variables such as soil temperature, soil moisture, and water table depth. You can change these settings under "Optional parameters" (figure 6.7; peach highlighting). <!-- As an active area of research, we recommend experimenting with different combinations of these inputs. -->
 

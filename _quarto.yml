@@ -88,8 +88,8 @@ website:
         - href: PipelineDocumentation/1_Motivation.qmd 
           text: "1. Motivation: The Importance of Flux Data Standardization and Reproducibility"
           contents:
-            - href: PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.qmd
-              text: "1.0 &nbsp; Note: High Frequency Data Processing"
+            - href: PipelineDocumentation/1_1_Note_High_Freq_Data_Processing.qmd
+              text: "1.1 &nbsp; Note: High Frequency Data Processing"
         - href: PipelineDocumentation/2_SoftwareInstallation.qmd
           text: "2. Software Installation"
           contents:
@@ -128,8 +128,8 @@ website:
         - href: PipelineDocumentation/8_Troubleshooting_FAQ.qmd
           text: "8. Troubleshooting and FAQ"
           contents:
-            - href: PipelineDocumentation/8_0_Recommended_Software_Versions.qmd
-              text: "8.0 &nbsp; Recommended Software Versions"
+            - href: PipelineDocumentation/8_1_Recommended_Software_Versions.qmd
+              text: "8.1 &nbsp; Recommended Software Versions"
         
 format:
   html:

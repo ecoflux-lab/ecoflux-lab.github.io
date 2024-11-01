@@ -1,6 +1,6 @@
 ## 6 &nbsp; Quick Start: Create INI and Other Configuration Files for Data Cleaning
 
-This section provides quick-start instructions for create your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.
+This section provides quick-start instructions for creating your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.
 
 
 ### Download template INI/config files:
@@ -16,7 +16,7 @@ This section provides quick-start instructions for create your first and second 
 
 2. Rename the TEMPLATE files you just copied, replacing "TEMPLATE" with your site ID (`SITEID1` in this example; this filename format is required). 
 
-3. The files in the `Tutorial_filled_sample_files` folder are completed "filled-in" versions of the TEMPLATE files that work with the sample data available for download in section 5.
+3. The files in the `Tutorial_filled_sample_files` folder are completed, "filled-in" versions of the TEMPLATE files that work with the sample data available for download in section 5.
 
 
 

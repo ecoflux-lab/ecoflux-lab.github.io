@@ -1,4 +1,4 @@
-## 1.0. &nbsp; A Note on High Frequency Data Processing
+## 1.1. &nbsp; A Note on High Frequency Data Processing
 
 For those users processing flux data in EddyPro, here we provide general guidelines as to what we recommend using for input parameters. 
 

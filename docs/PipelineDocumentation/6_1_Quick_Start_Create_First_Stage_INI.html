@@ -158,8 +158,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/1_0_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.0 &nbsp; Note: High Frequency Data Processing</span></a>
+  <a href="../PipelineDocumentation/1_1_Note_High_Freq_Data_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 &nbsp; Note: High Frequency Data Processing</span></a>
   </div>
 </li>
       </ul>
@@ -286,8 +286,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/8_0_Recommended_Software_Versions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8.0 &nbsp; Recommended Software Versions</span></a>
+  <a href="../PipelineDocumentation/8_1_Recommended_Software_Versions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.1 &nbsp; Recommended Software Versions</span></a>
   </div>
 </li>
       </ul>
@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="quick-start-create-your-first-stage-ini-file-for-data-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="quick-start-create-your-first-stage-ini-file-for-data-cleaning">6.1. &nbsp; Quick Start: Create your First Stage INI File for Data Cleaning</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
-<p>This section will show you how to start cleaning your data for stage one. Note that the example assumes you have already created <code>Flux</code> and <code>Met</code> databases for the same site.</p>
+<p>This section will show you how to start cleaning your data for the first stage. Note that the example assumes you have already created <code>Flux</code> and <code>Met</code> databases for the same site.</p>
 <!-- In section 4.1, when you ran the `create_TAB_ProjectFolders` function, this transferred a number of necessary files to your local computer, including one called `TEMPLATE_FirstStage.ini` (figure 6.1): -->
 <section id="instructions-to-create-first-stage-ini-file" class="level3">
 <h3 class="anchored" data-anchor-id="instructions-to-create-first-stage-ini-file">Instructions to create first stage INI file</h3>
@@ -343,8 +343,8 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Once you have done this for a few variables, test the data cleaning in Matlab, using the <code>fr_automated_cleaning.m</code> function as follows:</p>
 <pre> fr_automated_cleaning(yearIn,'SITEID',1)</pre>
-<p>where yearIn (YYYY) is the year of data you want to clean (it is possible to clean multiple years at once but we will keep things simple with one year for now), SITEID would be SITEID1 from the earlier example, and ‘1’ represents the first stage of data cleaning.</p>
-<p>Provided everything worked with no errors, you should now see output data matching the variables you defined in a new <code>Clean</code> folder within your <code>Met</code> folder..</p></li>
+<p>where yearIn is a numeric array containing the year(s) of data you want to clean (it is possible to clean multiple years at once but we will keep things simple with one year for now), SITEID would be SITEID1 from the earlier example, and ‘1’ represents the first stage of data cleaning.</p>
+<p>Provided everything worked with no errors, you should now see output data matching the variables you defined in a new <code>Clean</code> folder within your <code>Met</code> folder.</p></li>
 </ol>
 <!--    Pay attention to the output display, it is informative. Provided everything worked with no errors, you should now see output data in a new `Clean` folder within your `Met` folder. You can use the same "quick-look" visualization tools to check this data looks as expected (e.g., the filenames are correct the values conform to your minMax bounds). -->
 <ol start="5" type="1">
@@ -415,7 +415,7 @@ globalVars.Trace.SW_IN_1_1_1.instrumentSN               = ''</blank></pre>
 Pay attention to the output display, it is informative.
 </li>
 <li>
-We recommend using the “quick-look” visualization tools at any stage of cleaning to check your data looks as expected (e.g., the filenames are correct and the values conform to your minMax bounds).
+We recommend using the “quick-look” visualization tools at any stage of cleaning to check that your data looks as expected (e.g., the filenames are correct and the retained values conform to your minMax bounds).
 </li>
 </ul>
 <!-- See section 6.4 [XXX link] for more guidance on this and INI files in general. For cases where you do not have input data for all traces defined in any include file that you use, see section 8.1 on Troubleshooting [XXX link]. -->
