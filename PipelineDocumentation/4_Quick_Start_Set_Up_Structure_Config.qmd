@@ -7,10 +7,15 @@ This section provides a quick-start summary for setting up your project director
 
 You need the file path to your project root folder for these next steps. For example, if the name of your project is "My_Micromet", the project path might look like: 
 
+*Mac example:*
 <pre>
-projectPath = '/Users/&lt;username&gt;/Projects/My_Micromet';</pre>
+projectPath = '/Users/&lt;username&gt;/Projects/My_Micromet/';</pre>
 
-This project directory must be on your local computer: do not put it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow.
+*PC example:*
+<pre>
+projectPath = 'C:\Projects\My_Micromet\';</pre>
+
+**NOTE:** This project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it within the Biomet.net directory.
 
 ### Instructions
 

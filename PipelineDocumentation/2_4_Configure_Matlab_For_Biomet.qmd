@@ -36,7 +36,7 @@ Before completing this step, you must have the Biomet.net repository cloned to y
 
     <img src="images/matlab/MatlabConfigWindows&Mac4.jpg" alt="MatlabConfigWindows&Mac4" width="500"/>
     
-    *Figure 2.4. View of Matlab path after adding the Startup directory **and after restarting Matlab**, for (a) Windows and (b) Mac.*
+    *Figure 2.4. View of Matlab path after adding the Startup directory, **and after restarting Matlab**, for (a) Windows and (b) Mac.*
 
     </br>
 
