@@ -265,5 +265,14 @@
   },
   "PipelineDocumentation/8_1_Recommended_Software_Versions.qmd": {
     "8_1_Recommended_Software_Versions.html": "2eec0c84"
+  },
+  "PipelineDocumentation/2_2_Download_Biomet_Library.qmd": {
+    "2_2_Download_Biomet_Library.html": "5055f246"
+  },
+  "PipelineDocumentation/7_2_RShiny_App.qmd": {
+    "7_2_RShiny_App.html": "71bf25ee"
+  },
+  "PipelineDocumentation/7_1_Matlab_plotApp.qmd": {
+    "7_1_Matlab_plotApp.html": "8ba4a8e7"
   }
 }

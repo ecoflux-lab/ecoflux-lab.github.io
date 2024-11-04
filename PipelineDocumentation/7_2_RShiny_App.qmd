@@ -1,0 +1,43 @@
+## 7.2. &nbsp; RShiny App for Viewing Data in Real-Time
+
+<link rel="stylesheet" href="css/style.css">
+
+### Plotting data using R Shiny app
+
+Instructions for using the `RShiny_flux_plots.R` app (under `./Biomet.net/R/RShiny_flux_plots`)
+
+To run the R Shiny App, either locally or on an RShiny server, you will need to download, edit, rename and save two files.
+
+1. Download the `Excel sheet` below to input your site coordinates (you can include multiple sites, each as a separate line). 
+
+<a href="ini_templates_sample_data/site_coordinates_TUT.xlsx">Example site coordinate file</a>
+
+* **Note** that the standard meridian is equal to your UTC offset (without daylight savings) x 15 (e.g., Vancouver is UTC-8 so the standard meridian is -120)
+
+* Also, latitude and longitude are in decimal degrees and negative for West and South coordinates
+
+2. Now save the excel file under `Calculation_Procedures/SITE/` (i.e., where your other site-specific ini files are). You should rename the file to include your specific `Project Name`.
+
+3.	Download the example `ini file`.
+
+<a href="ini_templates_sample_data/TUT_RShiny_ini.R.zip">Example R Shiny ini file</a>
+
+4. Edit the ini file and rename the paths to match your local computer
+
+5. Select which level(s) you would like to plot (e.g., You can plot `ThirdStage` data by specifying `level <- "Clean/ThirdStage"`, or multiple levels of data using the concatenate command like `level <- c("Clean/ThirdStage","Met")`. 
+
+6. Rename the file to include your specific `Project Name` and save it in under `Calculation_Procedures/SITE/` (i.e., where your other site-specific ini files are).
+
+7. Now you can run the R Shiny App by editing the paths in the code below and running it in the R console (**make sure to change the paths name to match your computer**)
+
+<pre>
+source("/Users/saraknox/Code/local_data_cleaning/Projects/EcoFlux/Database/Calculation_Procedures/RShiny_flux_plots_ini/UQAM_ini.R")
+
+source("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/load_save_data.R")
+    
+shiny::runApp("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/RShiny_flux_plots.R") 
+</pre> 
+
+**Note**: if you get an error installing the package `imager`, you may need to try: 
+
+For `imager`, you may need to download quartz to be able to run this library properly (https://www.xquartz.org) & then use `install.packages("igraph", type="binary")`

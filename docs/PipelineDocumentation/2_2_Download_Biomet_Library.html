@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>clone_biomet_library – EcoFlux Lab</title>
+<title>download_biomet_library – EcoFlux Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_SoftwareInstallation.html">2. Software Installation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_2_Clone_Biomet_Library.html">2.2 &nbsp; Clone Biomet Library</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_SoftwareInstallation.html">2. Software Installation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html">2.2 &nbsp; Download Biomet Library</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -181,8 +181,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/2_2_Clone_Biomet_Library.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">2.2 &nbsp; Clone Biomet Library</span></a>
+  <a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">2.2 &nbsp; Download Biomet Library</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -269,12 +269,29 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/7_Data_Visualization.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../PipelineDocumentation/7_Data_Visualization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">7. Data Visualization</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/7_1_Matlab_plotApp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.1 &nbsp; Matlab plotApp for In-Depth Analysis</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/7_2_RShiny_App.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.2 &nbsp; RShiny App for Viewing Data in Real-Time</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../PipelineDocumentation/8_Troubleshooting_FAQ.html" class="sidebar-item-text sidebar-link">
@@ -302,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#clone-the-biomet.net-library-git-repository-to-your-local-computer" id="toc-clone-the-biomet.net-library-git-repository-to-your-local-computer" class="nav-link active" data-scroll-target="#clone-the-biomet.net-library-git-repository-to-your-local-computer">2.2. &nbsp; Clone the Biomet.net library Git repository to your local computer</a></li>
+  <li><a href="#download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer" id="toc-download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer" class="nav-link active" data-scroll-target="#download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer">2.2. &nbsp; Download or clone the Biomet.net library Git repository to your local computer</a></li>
   </ul>
 </nav>
     </div>
@@ -312,19 +329,34 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="clone-the-biomet.net-library-git-repository-to-your-local-computer" class="level2">
-<h2 class="anchored" data-anchor-id="clone-the-biomet.net-library-git-repository-to-your-local-computer">2.2. &nbsp; Clone the Biomet.net library Git repository to your local computer</h2>
-<p>The <a href="https://github.com/ubc-micromet/Biomet.net" target="_blank" rel="noopener noreferrer">Biomet.net</a> repository contains libraries of computer code (in Matlab, R, Python, etc.) related to running the data cleaning pipeline. It contains (a) the scripts to run the first, second, and third cleaning stages, as well as conversion to AmeriFlux format, and (b) many functions to help analyse and visualise data throughout all the stages of data processing and cleaning.</p>
-<p>In principle, users should not need to edit this code library. Instead, as far as possible, you will interface with it using various configuration files unique to your own project(s). This process is described later. First, you need to clone the repository.</p>
+<section id="download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer" class="level2">
+<h2 class="anchored" data-anchor-id="download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer">2.2. &nbsp; Download or clone the Biomet.net library Git repository to your local computer</h2>
+<p>The <a href="https://github.com/ubc-micromet/Biomet.net" target="_blank" rel="noopener noreferrer">Biomet.net</a> repository contains libraries of computer code (in Matlab, R, and Python) related to running the data cleaning pipeline. It contains (a) the scripts to run the first, second, and third cleaning stages, as well as conversion to AmeriFlux format, and (b) many functions to help analyse and visualize data throughout all the stages of data processing and cleaning.</p>
+<p>In principle, users should not need to edit this code library. Instead, as far as possible, you will interface with it using various configuration files unique to your own project(s) and site(s). This process is described later.</p>
+<p>First, you need to either download or clone the repository. Instructions for both are given below; if you do not have Git installed on your computer and do not anticipate adding any of your own code to the Biomet.net library, then you can download the repository, as follows:</p>
+<section id="instructions-to-download-the-biomet.net-repository" class="level4">
+<h4 class="anchored" data-anchor-id="instructions-to-download-the-biomet.net-repository">Instructions to <em>download</em> the Biomet.net repository:</h4>
+<ol type="1">
+<li><p>Go to the <a href="https://github.com/CANFLUX/Biomet.net" target="_blank" rel="noopener noreferrer">Biomet.net library webpage</a>.</p></li>
+<li><p>Click on the green “Code” button, and then click “Download ZIP”:</p>
+<p><img src="images/Biomet/BiometRepoDownload2.jpg" alt="DownloadBiometRepo" width="500"></p>
+<p><em>Screenshot of Biomet.net repository on Github, showing how to download.</em></p></li>
+<li><p>Move the downloaded <code>Biomet.net-main.zip</code> file to a convenient location on your computer, e.g., within your <code>C:</code> drive for PCs, or within <code>/Users/&lt;username&gt;/</code> for Macs.</p></li>
+<li><p>Importantly, after unzipping the file, <em>rename</em> the unzipped directory from <code>Biomet.net-main</code> to <strong><code>Biomet.net</code></strong>.</p></li>
+<li><p>We recommend repeating these steps periodically so that you remain up to date with our pipeline developments, keeping only the most recently downloaded Biomet.net folder on your computer. It should always be in the same location so that Matlab knows where to look for the library (see section 2.4 for details).</p></li>
+</ol>
+<p><br></p>
+<p>Alternatively, if you prefer to clone the directory, you will need to have Git installed on your computer (section 2.1), then you can follow these instructions:</p>
+</section>
 <section id="instructions-to-clone-the-biomet.net-repository-from-a-terminal" class="level4">
-<h4 class="anchored" data-anchor-id="instructions-to-clone-the-biomet.net-repository-from-a-terminal">Instructions to clone the Biomet.net repository from a terminal:</h4>
+<h4 class="anchored" data-anchor-id="instructions-to-clone-the-biomet.net-repository-from-a-terminal">Instructions to <em>clone</em> the Biomet.net repository from a terminal:</h4>
 <ol type="1">
 <li><p>Make sure you are in the directory (folder) where you wish the repository to live, for example, your computer <code>C:</code> drive for PCs, or <code>/Users/&lt;username&gt;/</code> for Macs, or something similar depending on your preferences.</p></li>
 <li><p>Next, follow the instructions on <a href="https://www.educative.io/answers/how-to-clone-a-git-repository-using-the-command-line" target="_blank" rel="noopener noreferrer">this website</a> to clone the repository.</p></li>
 <li><p>If you have any difficulties or are unsure of <code>git</code> procedures in general, see <a href="https://ecoflux-lab.github.io/Documentation/UsingGit.html" target="_blank" rel="noopener noreferrer">this online tutorial</a>.</p></li>
 <li><p>Always keep your local copy of the <code>Biomet.net</code> code up to date by periodically using the <code>git pull</code> command every few days, or when you know there has been a change to the code. You must be in the repository directory for this to work.</p></li>
 </ol>
-<p><strong>NOTE</strong>: Editing existing files or saving new ones to the main branch of <code>Biomet.net</code> should be avoided. If you wish to contribute your own code to the <code>Biomet.net</code> library, see section 2.1.</p>
+<p><strong>NOTE</strong>: Editing existing files or saving new ones to the main branch of <code>Biomet.net</code> should generally be avoided. Reminder: if you wish to contribute your own code to the <code>Biomet.net</code> library, see section 2.1.</p>
 
 
 </section>

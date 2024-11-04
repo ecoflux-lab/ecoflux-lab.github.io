@@ -4,7 +4,7 @@
 
 This section provides a generic, quick-start example that converts (1) EddyPro raw data output, and (2) Campbell Scientific TOA5 output, to a formatted database ready to be processed using the standardised libraries (i.e., `Biomet.net`). We also present some examples of how to quickly check the contents of your new database.
 
-### Create Database
+### Create database using data from your own site(s)
 
 As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data:
 
@@ -19,7 +19,6 @@ As previously mentioned, we will follow an example that focuses on flux-related 
 3. Now, create a `Met` folder within the same `SITEID` directory (SITEID1 in this example), and copy your Campbell Scientific TOA5 data for this site to this Met folder. 
 
 4. In your `<projectPath>/Matlab` folder, create one new "main" Matlab file that will act as a "do-it-all" script. You can name this file however you like; we advise making it meaningful and including the word "Main". The example given here (figure 5.2) is named `DataCleaning_Main.m` (you can make your filename less generic) &mdash; it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>. 
-<!-- For instructions on how to convert other flux- and met-data formats, see section 5.2. -->
 
     <img src="images/matlab/Template_My_Micromet.jpg" alt="DirectoryTree:MatlabDirectory" width="600"/>
     
@@ -33,12 +32,12 @@ As previously mentioned, we will follow an example that focuses on flux-related 
 
 Your data is now in a format ready for cleaning using the pipeline.
 
-### Visualize Contents of New Database
+### Visualize contents of new database
 
-Here are some quick tips to inspect the Flux data from SITEID1 in your newly created database:
+Here are some quick tips to inspect the data in your newly created database, all within Matlab:
 
 1. `plotApp` function:\
-Simply type `plotApp` on the command line, and it will open an app that can compare traces from the same and different cleaning stages (once you have completed those), databases, and also produce statistical plots and outputs. More details of this and other visualization tools are described at length in section 7. 
+Simply type `plotApp` on the Matlab command line, and it will open an app that can compare traces from the same and different cleaning stages (once you have completed those), databases, and also produce statistical plots and outputs. More details of this and other visualization tools are described at length in section 7. 
 
 2. `gui_Browse_folder` function: 
     <pre>
@@ -102,7 +101,7 @@ db_struct2database(outStruct,databasePath,0,[],timeUnit,missingPointValue,struct
 %% Met data from Campbell Scientific TOA5 output files
 %
 % Input file name
-fileName = fullfile(structProject.sitesPath,siteID,'Met','MY_CS_TOA5_OUTPUT.csv');
+fileName = fullfile(structProject.sitesPath,siteID,'Met','MY_CS_TOA5_OUTPUT.dat');
 
 % Read the file 
 [~,~,~,outStruct] = fr_read_TOA5_file(fileName); 

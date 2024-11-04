@@ -3,12 +3,12 @@
 Compiled by: Rosie Howard, 2024\
 Edits and contributions: Zoran Nesic, Sara Knox, June Skeeter, Paul Moore, and other EcoFlux Lab members and affiliates.
 
-Revisions: October 2024\
-- These are the "quick-start" instructions for new users of the data-cleaning pipeline. The full documentation will be made available at a later date. 
+Revisions:\
+- October 2024: these are the "quick-start" instructions for new users of the data-cleaning pipeline. The full documentation will be made available at a later date. 
 
 ### Useful links 
-- Link to <a href="presentation/DataCleaningPipeline_Overview_Final_Web.zip">Overview of Data Cleaning Pipeline</a> slides presented during FLUXNET-CH4 V2.0 Workshop.
-- Link to <a href="https://www.youtube.com/watch?v=wpeOC09LvS8&list=PLwwM5mY7NX4S62HBzrxXWvox_tWysd9un&ab_channel=EcoFluxLab">YouTube playlist of ALL presentations</a> from FLUXNET-CH4 V2.0 Workshop.
+- Link to <a href="workshop/DataCleaningPipeline_Overview_Final_Web.zip">Overview of Data Cleaning Pipeline</a> slides presented during FLUXNET-CH4 V2.0 Workshop.
+- Link to <a href="https://www.youtube.com/watch?v=wpeOC09LvS8&list=PLwwM5mY7NX4S62HBzrxXWvox_tWysd9un&ab_channel=EcoFluxLab" target="_blank" rel="noopener noreferrer">YouTube playlist of ALL presentations</a> from FLUXNET-CH4 V2.0 Workshop.
 
 ### Documentation outline
 

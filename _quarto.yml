@@ -95,8 +95,8 @@ website:
           contents:
             - href: PipelineDocumentation/2_1_Install_Git_Optional.qmd
               text: "2.1 &nbsp; Install Software: Git (optional)"
-            - href: PipelineDocumentation/2_2_Clone_Biomet_Library.qmd
-              text: "2.2 &nbsp; Clone Biomet Library"
+            - href: PipelineDocumentation/2_2_Download_Biomet_Library.qmd
+              text: "2.2 &nbsp; Download Biomet Library"
             - href: PipelineDocumentation/2_3_Install_Matlab.qmd
               text: "2.3 &nbsp; Install Software: Matlab"
             - href: PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.qmd
@@ -125,6 +125,11 @@ website:
               text: "6.3 &nbsp; Quick Start: Third Stage and Ameriflux Output"
         - href: PipelineDocumentation/7_Data_Visualization.qmd
           text: "7. Data Visualization"
+          contents:
+            - href: PipelineDocumentation/7_1_Matlab_plotApp.qmd
+              text: "7.1 &nbsp; Matlab plotApp for In-Depth Analysis"
+            - href: PipelineDocumentation/7_2_RShiny_App.qmd
+              text: "7.2 &nbsp; RShiny App for Viewing Data in Real-Time"
         - href: PipelineDocumentation/8_Troubleshooting_FAQ.qmd
           text: "8. Troubleshooting and FAQ"
           contents:
