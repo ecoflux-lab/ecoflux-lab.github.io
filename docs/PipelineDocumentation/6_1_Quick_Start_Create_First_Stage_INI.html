@@ -281,13 +281,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_1_Matlab_plotApp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.1 &nbsp; Matlab plotApp for In-Depth Analysis</span></a>
+ <span class="menu-text">7.1 &nbsp; Matlab plotApp</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_2_RShiny_App.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.2 &nbsp; RShiny App for Viewing Data in Real-Time</span></a>
+ <span class="menu-text">7.2 &nbsp; R-Shiny App</span></a>
   </div>
 </li>
       </ul>
@@ -348,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
  %----------------------------------------------------</pre>
 <p>Beginning with air temperature, define the input data to each trace given in the INI file. For example, if you have an output variable that represents your 2-m air temperature measurement named <code>MET_HMP_T_2m_Avg</code>, you would assign this variable name to the <code>inputFileName</code> parameter (figure 6.2; yellow highlighted text). During this first cleaning stage this trace will be renamed as <code>TA_1_1_1</code> using the <code>variableName</code> parameter, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>.</p>
 <p><img src="images/ini_files/ini_example1.jpg" alt="INIFiles:inputFileName1" width="600"></p>
-<p><em>Figure 6.2. Air temperature trace as defined in a first stage INI file, with input from <code>MET_HMP_T_2m_Avg</code> variable.</em></p>
+<p><em>Figure 6.2. Air temperature trace (<code>TA_1_1_1</code>) as defined in a first stage INI file, with input from <code>MET_HMP_T_2m_Avg</code> variable.</em></p>
 <p>Other fields that need editing are highlighted in peach:</p>
 <ul>
 <li>Give a descriptive title to your trace;</li>
@@ -418,13 +418,23 @@ globalVars.Trace.SW_IN_1_1_1.instrumentSN               = ''</blank></pre>
 <li><p>Now scroll up to:</p>
 <pre>%---------------------------------------
 % Global variables (instrument-specific)
-%---------------------------------------</pre>
+%---------------------------------------
+% The instrument traces will all need to have the same
+% instrumentType field 'LI7200', 'LI7700'...
+% and come from the same software (EddyPro)
+<blank>
+% If using LI7200 with EddyPro_LI7200_FirstStage_include file:
+globalVars.Instrument.IRGA.Enable                       = 1     % Required variable 0/1
+globalVars.Instrument.IRGA.instrument                   = 'LI-7200' % Edit if using LI7500
+globalVars.Instrument.IRGA.instrumentSN                 = ''    
+globalVars.Instrument.IRGA.inputFileName_dates          = [datenum(1900,1,1) datenum(2999,12,31)]</blank></pre>
 <p>Enter/edit the relevant parameter details for your IRGA(s) (instrument, serial number, start date of measurements). Do the same for your anemometer and full eddy-covariance (EC) system instruments (e.g., CSAT3 plus IRGA). ‘otherTraces’ includes all instrument types not previously defined within global variables, and must be enabled, with measurement record dates defined.</p></li>
 <li><p>Run <code>fr_automated_cleaning(yearIn,'SITEID',1)</code> again to test this addition. You should see your first-stage cleaned data appear in a new <code>Clean</code> folder within your <code>Flux</code> folder.</p></li>
 </ol></li>
-<li><p>At this stage, you can start to add any <code>Met</code> or <code>Flux</code> variables that may not already be included in the template files. Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 6.3).</p>
+<li><p>At this stage, you can start to add any <code>Met</code> or <code>Flux</code> variables that may not already be included in the template files. You can do this by copy-pasting the <code>[Trace]...[End]</code> code block (like the one in figure 6.2) and editing the parameter inputs accordingly.</p></li>
+<li><p>Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 6.3).</p>
 <p><img src="images/ini_files/ini_example2.jpg" alt="INIFiles:inputFileName2" width="500"></p>
-<p><em>Figure 6.3. Second air temperature trace defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from <code>MET_HMP_T_350cm_Avg</code> variable.</em></p></li>
+<p><em>Figure 6.3. Second air temperature trace (<code>TA_1_2_1</code>) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from <code>MET_HMP_T_350cm_Avg</code> variable.</em></p></li>
 </ol>
 <strong>TIPS</strong>
 <ul>

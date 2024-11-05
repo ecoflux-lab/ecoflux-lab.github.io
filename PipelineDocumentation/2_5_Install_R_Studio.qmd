@@ -18,6 +18,4 @@ packages <- c("tidyverse", "caret", "REddyProc", "dplyr", "lubridate", "data.tab
 installed_packages <- packages %in% rownames(installed.packages())
   if (any(installed_packages == FALSE)) {
     install.packages(packages[!installed_packages])
-  }
-
-</pre> 
+  }</pre> 

@@ -2,16 +2,18 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-This section presents some general troubleshooting tips outlining things to check to make sure the scripts will run smoothly. There are also some FAQ, and some guidance of special cases and how to handle them.
+This section presents some general troubleshooting tips outlining things to check to make sure the pipeline scripts will run smoothly. There are also some FAQ, and some guidance on special cases and how to handle them.
 
-#### Troubleshooting: some general tips
+Note that this section is a work in progress and will continue to be updated as the pipeline is further developed and tested.
+
+### Troubleshooting: some general tips
 
 * When running data cleaning (any stage), pay very close attention to the output on your screen. It tells you when everything runs smoothly, and if something goes wrong, in most cases it will be informative as to why and whereabouts things went wrong. 
 * Avoid having extra white space in your INI file between `[TRACE]` and `[END]`. Each parameter must be defined on a new line, with no wraparound. We recommend using a text editor that has line numbers (such as VS Code) to help you avoid and/or diagnose this issue.
 * If you downloaded the Biomet.net library (rather than cloned it), make sure that you renamed it `Biomet.net` since the download includes "main" in the folder name.
 
 
-#### FAQ
+### FAQ
 
 1. *I have multiple files containing data from one site, e.g., daily, monthly, or annual files. How do I create one database from all my files?*
 
@@ -37,7 +39,7 @@ This section presents some general troubleshooting tips outlining things to chec
 
     * Check that after you downloaded and unzipped the `Biomet.net` library, you renamed it from `Biomet.net-main` to **`Biomet.net`**.
 
-#### Special Cases
+### Special Cases
 
 This section outlines some recurring special cases and how to deal with them:
 
@@ -52,10 +54,14 @@ This section outlines some recurring special cases and how to deal with them:
     E.g., if you are running data cleaning for the year 2023, this code essentially tells the pipeline that for this "dummyVariable", no data exists for 2023 (and only exists for the year 1900), and the program will continue smoothly with no errors.
 
 2. *I am using an earlier version of Matlab than 2023b, and I'm getting an error when running the `create_TAB_ProjectFolders` function. How do I fix this?*
-
-    Download <a href= "directory_setup/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of the unzipped directory within your own project directory; make sure your directory structure looks like figure 4.1 in section 4. 
     
-    [The `gitclone` function is used within the `create_TAB_ProjectFolders` function to transfer (clone) the directory structure and files within. However, `gitclone` was only added to Matlab 2023b, so you need to download this project directory structure directly.] 
+    Download <a href= "directory_setup/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of the unzipped directory within your own project directory; make sure your directory structure looks like figure 4.1 in section 4. 
+
+    The `gitclone` function is used within the `create_TAB_ProjectFolders` function to transfer (clone) the directory structure and files within. However, `gitclone` was only added to Matlab 2023b, so you need to download this project directory structure directly.
+
+    If it is an error related to `gitclone`, the error will occur on the line that gitclone is called, so you can check this in the error message, e.g., it may look like this:
+    <pre>Error: <u>File: create_TAB_ProjectFolders.m Line: 66 Column: 32</u>
+    Incorrect use of '=' operator. To assign a value to a variable, use '='. To compare values for equality, use '=='.</pre>
 
     <!--Ideally, you would update your Matlab version if possible, since we may make edits to the directory structure/set-up in the future... Not sure how we are handling this even for those using gitclone?? -->
 

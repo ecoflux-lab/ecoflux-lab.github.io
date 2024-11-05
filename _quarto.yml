@@ -127,9 +127,9 @@ website:
           text: "7. Data Visualization"
           contents:
             - href: PipelineDocumentation/7_1_Matlab_plotApp.qmd
-              text: "7.1 &nbsp; Matlab plotApp for In-Depth Analysis"
+              text: "7.1 &nbsp; Matlab plotApp"
             - href: PipelineDocumentation/7_2_RShiny_App.qmd
-              text: "7.2 &nbsp; RShiny App for Viewing Data in Real-Time"
+              text: "7.2 &nbsp; R-Shiny App"
         - href: PipelineDocumentation/8_Troubleshooting_FAQ.qmd
           text: "8. Troubleshooting and FAQ"
           contents:

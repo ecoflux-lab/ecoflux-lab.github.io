@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/7_Data_Visualization.html">7. Data Visualization</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/7_2_RShiny_App.html">7.2 &nbsp; RShiny App for Viewing Data in Real-Time</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/7_Data_Visualization.html">7. Data Visualization</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/7_2_RShiny_App.html">7.2 &nbsp; R-Shiny App</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -281,13 +281,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_1_Matlab_plotApp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.1 &nbsp; Matlab plotApp for In-Depth Analysis</span></a>
+ <span class="menu-text">7.1 &nbsp; Matlab plotApp</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_2_RShiny_App.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">7.2 &nbsp; RShiny App for Viewing Data in Real-Time</span></a>
+ <span class="menu-text">7.2 &nbsp; R-Shiny App</span></a>
   </div>
 </li>
       </ul>
@@ -319,9 +319,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#rshiny-app-for-viewing-data-in-real-time" id="toc-rshiny-app-for-viewing-data-in-real-time" class="nav-link active" data-scroll-target="#rshiny-app-for-viewing-data-in-real-time">7.2. &nbsp; RShiny App for Viewing Data in Real-Time</a>
+  <li><a href="#r-shiny-app-for-viewing-data-in-real-time" id="toc-r-shiny-app-for-viewing-data-in-real-time" class="nav-link active" data-scroll-target="#r-shiny-app-for-viewing-data-in-real-time">7.2. &nbsp; R-Shiny App for Viewing Data in Real-Time</a>
   <ul class="collapse">
-  <li><a href="#plotting-data-using-r-shiny-app" id="toc-plotting-data-using-r-shiny-app" class="nav-link" data-scroll-target="#plotting-data-using-r-shiny-app">Plotting data using R Shiny app</a></li>
+  <li><a href="#plotting-data-using-the-r-shiny-app" id="toc-plotting-data-using-the-r-shiny-app" class="nav-link" data-scroll-target="#plotting-data-using-the-r-shiny-app">Plotting data using the R-Shiny app</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -332,38 +332,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="rshiny-app-for-viewing-data-in-real-time" class="level2">
-<h2 class="anchored" data-anchor-id="rshiny-app-for-viewing-data-in-real-time">7.2. &nbsp; RShiny App for Viewing Data in Real-Time</h2>
+<section id="r-shiny-app-for-viewing-data-in-real-time" class="level2">
+<h2 class="anchored" data-anchor-id="r-shiny-app-for-viewing-data-in-real-time">7.2. &nbsp; R-Shiny App for Viewing Data in Real-Time</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
-<section id="plotting-data-using-r-shiny-app" class="level3">
-<h3 class="anchored" data-anchor-id="plotting-data-using-r-shiny-app">Plotting data using R Shiny app</h3>
-<p>Instructions for using the <code>RShiny_flux_plots.R</code> app (under <code>./Biomet.net/R/RShiny_flux_plots</code>)</p>
-<p>To run the R Shiny App, either locally or on an RShiny server, you will need to download, edit, rename and save two files.</p>
+<p>We recommend using this R-Shiny app for viewing your data in real-time, and if you wish to displaying your data publicly.</p>
+<section id="plotting-data-using-the-r-shiny-app" class="level3">
+<h3 class="anchored" data-anchor-id="plotting-data-using-the-r-shiny-app">Plotting data using the R-Shiny app</h3>
+<p>Instructions for using the <code>RShiny_flux_plots.R</code> app (under <code>/Biomet.net/R/RShiny_flux_plots/</code>). To run the R-Shiny app, either locally or on an R-Shiny server, you will need to download, edit, rename and save two files.</p>
 <ol type="1">
-<li>Download the <code>Excel sheet</code> below to input your site coordinates (you can include multiple sites, each as a separate line).</li>
-</ol>
+<li><p>Download the <code>Excel sheet</code> below to input your site coordinates (you can include multiple sites, each as a separate line):</p>
 <p><a href="ini_templates_sample_data/site_coordinates_TUT.xlsx">Example site coordinate file</a></p>
 <ul>
-<li><p><strong>Note</strong> that the standard meridian is equal to your UTC offset (without daylight savings) x 15 (e.g., Vancouver is UTC-8 so the standard meridian is -120)</p></li>
-<li><p>Also, latitude and longitude are in decimal degrees and negative for West and South coordinates</p></li>
-</ul>
-<ol start="2" type="1">
-<li><p>Now save the excel file under <code>Calculation_Procedures/SITE/</code> (i.e., where your other site-specific ini files are). You should rename the file to include your specific <code>Project Name</code>.</p></li>
-<li><p>Download the example <code>ini file</code>.</p></li>
-</ol>
-<p><a href="ini_templates_sample_data/TUT_RShiny_ini.R.zip">Example R Shiny ini file</a></p>
-<ol start="4" type="1">
-<li><p>Edit the ini file and rename the paths to match your local computer</p></li>
-<li><p>Select which level(s) you would like to plot (e.g., You can plot <code>ThirdStage</code> data by specifying <code>level &lt;- "Clean/ThirdStage"</code>, or multiple levels of data using the concatenate command like <code>level &lt;- c("Clean/ThirdStage","Met")</code>.</p></li>
-<li><p>Rename the file to include your specific <code>Project Name</code> and save it in under <code>Calculation_Procedures/SITE/</code> (i.e., where your other site-specific ini files are).</p></li>
-<li><p>Now you can run the R Shiny App by editing the paths in the code below and running it in the R console (<strong>make sure to change the paths name to match your computer</strong>)</p></li>
-</ol>
-<pre>source("/Users/saraknox/Code/local_data_cleaning/Projects/EcoFlux/Database/Calculation_Procedures/RShiny_flux_plots_ini/UQAM_ini.R")
+<li><p><strong>Note</strong> that the standard meridian is equal to your [UTC offset (without daylight savings) x 15]. For example, Vancouver is UTC-8 so the standard meridian is -120.</p></li>
+<li><p>Also, latitude and longitude are in decimal degrees, and negative for West and South coordinates.</p></li>
+</ul></li>
+<li><p>Rename the Excel file to include your specific <code>Project Name</code> (in place of “TUT” in this example file).</p></li>
+<li><p>Create a new folder called <code>RShiny_flux_plots_ini</code> within <code>&lt;projectPath&gt;/Database/Calculation_Procedures/</code>, and save your Excel site coordinates file within this new folder.</p></li>
+<li><p>Next, download this <code>R-Shiny ini file</code> example:</p>
+<p><a href="ini_templates_sample_data/TUT_RShiny_ini.R.zip">Example R-Shiny ini file</a></p></li>
+<li><p>Edit the ini file, renaming the two paths at the top of the file, to (a) the Biomet.net library and (b) your Database folder, so they match your local computer.</p></li>
+<li><p>Select which level(s) of data you would like to plot. You can plot <code>ThirdStage</code> data by specifying <code>level &lt;- "Clean/ThirdStage"</code>, or multiple levels of data using the concatenate command, e.g., <code>level &lt;- c("Clean/ThirdStage","Met")</code>.</p></li>
+<li><p>As with the Excel sheet, rename the ini file to include your specific <code>Project Name</code> and save it in under <code>&lt;projectPath&gt;/Database/Calculation_Procedures/RShiny_flux_plots_ini/</code> (same location as the Excel file).</p></li>
+<li><p>Next, copy the code block below to a <em>new</em> R script, again saving it in your new <code>RShiny_flux_plots_ini</code> folder. You can name it as you wish; in this example it is named <code>run_RShiny.R</code>. Edit the filepaths at the top of your new script, as with your INI file, and also enter your RShiny ini filename. Alternatively, you can run these lines of code on the command line, but you must remember to edit the file paths and ini filename.</p>
+<pre> # Edit these two file paths to point to biomet.net library and your database directory
+ biomet_dir &lt;- "/Users/rosie/Documents/Micromet/Biomet.net"  # path to Biomet.net directory 
+ main_dir &lt;- "/Users/rosie/Documents/Micromet/Projects/My_Micromet/Database"   # database path 
 
+ # Edit to match your RShiny ini filename
+ ini_filename &lt;- "TUT_RShiny_ini.R"
+
+ source(file.path(main_dir,"Calculation_Procedures/RShiny_flux_plots_ini",ini_filename))
+ source(file.path(biomet_dir,"R/RShiny_flux_plots/load_save_data.R"))
+ shiny::runApp(file.path(biomet_dir,"R/RShiny_flux_plots/RShiny_flux_plots.R"))</pre></li>
+<li><p>You can now run the R-Shiny app by running your new script (<code>run_RShiny.R</code>), or as mentioned in step 9, you can run the individual lines of code within the R console. <strong>Importantly, remember to change the file paths to match those on your local computer</strong>.</p>
+<!-- <pre>source("/Users/saraknox/Code/local_data_cleaning/Projects/EcoFlux/Database/Calculation_Procedures/RShiny_flux_plots_ini/UQAM_ini.R")
 source("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/load_save_data.R")
-    
-shiny::runApp("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/RShiny_flux_plots.R") 
-</pre>
+shiny::runApp("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/RShiny_flux_plots.R")</pre> --></li>
+</ol>
 <p><strong>Note</strong>: if you get an error installing the package <code>imager</code>, you may need to try:</p>
 <p>For <code>imager</code>, you may need to download quartz to be able to run this library properly (https://www.xquartz.org) &amp; then use <code>install.packages("igraph", type="binary")</code></p>
 

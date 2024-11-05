@@ -2,13 +2,15 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-### Plotting data using `plotApp` function
+### Plotting data using the `plotApp` function
 
 `plotApp` is a Matlab graphical user interface (GUI) made to facilitate visualization of database traces as:\
 (i) Basic time series;\
 (ii) Statistical summary;\
 (iii) Comparison amongst traces; and\
 (iv) Comparisons amongst stages.
+
+We recommend using this plotApp during database creation and data cleaning.
 
 #### Quick Start `plotApp` Instructions:
 

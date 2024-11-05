@@ -13,7 +13,7 @@ You will also need to create a site ID that relates to the flux site you are wor
 
 1. If you have multiple flux sites, choose *one* site to begin working with. Using the Matlab command line, define your projectPath and siteID as in the following example:
 
-    For example, if the name of your project is "My_Micromet", the project path might look like: 
+    For example, if the name of your project is `My_Micromet`, and your chosen siteID is `SITEID1`, you would enter the following commands in the Matlab command window:
 
     *Mac example:*
     <pre>
@@ -25,7 +25,7 @@ You will also need to create a site ID that relates to the flux site you are wor
     projectPath = 'C:\Projects\My_Micromet\';
     siteID = 'SITEID1';</pre>
 
-2. In Matlab, run the `create_TAB_ProjectFolders` function (which is in the `Biomet.net` library that you cloned), as follows:
+2. Next, in Matlab, run the `create_TAB_ProjectFolders` function (which is in the `Biomet.net` library that you cloned), as follows:
     
     <pre>
     create_TAB_ProjectFolders(projectPath,siteID)</pre>    
@@ -40,7 +40,7 @@ You will also need to create a site ID that relates to the flux site you are wor
 
     [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1.] 
 
-3. Next, run `set_TAB_project(projectPath)`. This process sets up the `Biomet.net` toolbox to work with your project. 
+3. Finally, run `set_TAB_project(projectPath)`. This process sets up the `Biomet.net` toolbox to work with your project. 
 
 ### Short description of new directory structure and contents
 

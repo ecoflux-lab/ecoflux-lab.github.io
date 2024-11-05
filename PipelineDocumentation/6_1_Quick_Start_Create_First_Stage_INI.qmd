@@ -21,7 +21,7 @@ This section will show you how to start cleaning your data for the first stage. 
 
     <img src="images/ini_files/ini_example1.jpg" alt="INIFiles:inputFileName1" width="600"/>
 
-    *Figure 6.2. Air temperature trace as defined in a first stage INI file, with input from `MET_HMP_T_2m_Avg` variable.*
+    *Figure 6.2. Air temperature trace (`TA_1_1_1`) as defined in a first stage INI file, with input from `MET_HMP_T_2m_Avg` variable.*
 
     Other fields that need editing are highlighted in peach: 
     - Give a descriptive title to your trace;
@@ -104,17 +104,28 @@ This section will show you how to start cleaning your data for the first stage. 
     <pre>
     %---------------------------------------
     % Global variables (instrument-specific)
-    %---------------------------------------</pre>
+    %---------------------------------------
+    % The instrument traces will all need to have the same
+    % instrumentType field 'LI7200', 'LI7700'...
+    % and come from the same software (EddyPro)
+    <blank>
+    % If using LI7200 with EddyPro_LI7200_FirstStage_include file:
+    globalVars.Instrument.IRGA.Enable						= 1		% Required variable 0/1
+    globalVars.Instrument.IRGA.instrument					= 'LI-7200'	% Edit if using LI7500
+    globalVars.Instrument.IRGA.instrumentSN					= ''	
+    globalVars.Instrument.IRGA.inputFileName_dates			= [datenum(1900,1,1) datenum(2999,12,31)]</pre>
     
     	Enter/edit the relevant parameter details for your IRGA(s) (instrument, serial number, start date of measurements). Do the same for your anemometer and full eddy-covariance (EC) system instruments (e.g., CSAT3 plus IRGA). 'otherTraces' includes all instrument types not previously defined within global variables, and must be enabled, with measurement record dates defined.
 
     c. Run `fr_automated_cleaning(yearIn,'SITEID',1)` again to test this addition. You should see your first-stage cleaned data appear in a new `Clean` folder within your `Flux` folder. 
 
-7. At this stage, you can start to add any `Met` or `Flux` variables that may not already be included in the template files. Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 6.3).
+7. At this stage, you can start to add any `Met` or `Flux` variables that may not already be included in the template files. You can do this by copy-pasting the `[Trace]...[End]` code block (like the one in figure 6.2) and editing the parameter inputs accordingly. 
+
+8. Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 6.3).
 
     <img src="images/ini_files/ini_example2.jpg" alt="INIFiles:inputFileName2" width="500"/>
 
-    *Figure 6.3. Second air temperature trace defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
+    *Figure 6.3. Second air temperature trace (`TA_1_2_1`) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
 
 
 **TIPS**

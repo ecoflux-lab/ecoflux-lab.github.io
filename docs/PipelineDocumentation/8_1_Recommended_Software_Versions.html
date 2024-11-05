@@ -281,13 +281,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_1_Matlab_plotApp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.1 &nbsp; Matlab plotApp for In-Depth Analysis</span></a>
+ <span class="menu-text">7.1 &nbsp; Matlab plotApp</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_2_RShiny_App.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.2 &nbsp; RShiny App for Viewing Data in Real-Time</span></a>
+ <span class="menu-text">7.2 &nbsp; R-Shiny App</span></a>
   </div>
 </li>
       </ul>
@@ -319,7 +319,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#software-current-recommended-versions" id="toc-software-current-recommended-versions" class="nav-link active" data-scroll-target="#software-current-recommended-versions">8.1. &nbsp; Software: Current Recommended Versions</a></li>
+  <li><a href="#software-current-recommended-versions" id="toc-software-current-recommended-versions" class="nav-link active" data-scroll-target="#software-current-recommended-versions">8.1. &nbsp; Software: Current Recommended Versions</a>
+  <ul class="collapse">
+  <li><a href="#software-overview" id="toc-software-overview" class="nav-link" data-scroll-target="#software-overview">Software Overview</a></li>
+  <li><a href="#recommended-software-versions" id="toc-recommended-software-versions" class="nav-link" data-scroll-target="#recommended-software-versions">Recommended Software Versions:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -331,21 +335,20 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="software-current-recommended-versions" class="level2">
 <h2 class="anchored" data-anchor-id="software-current-recommended-versions">8.1. &nbsp; Software: Current Recommended Versions</h2>
-<p>In progress…</p>
-<section id="software-overview" class="level4">
-<h4 class="anchored" data-anchor-id="software-overview">Software Overview</h4>
+<section id="software-overview" class="level3">
+<h3 class="anchored" data-anchor-id="software-overview">Software Overview</h3>
 <ul>
-<li><p>All three stages of data cleaning can be run from <strong>Matlab</strong>. <!-- [link to Install_Matlab.md]. --></p></li>
+<li><p>All three stages of data cleaning (plus conversion to Ameriflux output if needed) can be run from <strong>Matlab</strong>. Our <code>plotApp</code> for data visualization and analysis during data cleaning is run from Matlab too.</p></li>
 <li><p>Note that the third stage Matlab script invokes an <strong>R</strong>-script, which you will also need installed on your local computer. <!-- [link to R/RStudio installation instructions]. --></p></li>
-<li><p>The scripts and tools that run the data cleaning are kept in a <strong>Git</strong> repository<!-- [link to Clone_Biomet_Library.md]. --></p></li>
-<li><p>Optionally, you can install Git and create your own <strong>Github</strong> account. <!-- [link to Install_Git_Create_Account_Optional.md]. --></p></li>
-<li><p>Some users may also need <strong>Python</strong> installed. <!-- [link to Install_Python.md]. --></p></li>
+<li><p>Additionally, our <code>R-Shiny</code> data visualization tool uses <strong>R/R-Studio</strong>, and we recommend this app for viewing your data in real-time.</p></li>
+<li><p>The scripts and tools that run the data cleaning are kept in a <strong>Git</strong> repository (called <code>Biomet.net</code>). These can be downloaded without having Git installed.<!-- [link to Clone_Biomet_Library.md]. --></p></li>
+<li><p>Optionally, you can install Git and create your own <strong>Github</strong> account, in case you wish to contribute code to the Biomet.net library. <!-- [link to Install_Git_Create_Account_Optional.md]. --></p></li>
+<li><p>Some users may also need <strong>Python</strong> installed, for example, if you are processing high-frequency data. <!-- [link to Install_Python.md]. --></p></li>
 </ul>
 </section>
-<section id="recommended-software-versions" class="level4">
-<h4 class="anchored" data-anchor-id="recommended-software-versions">Recommended Software Versions:</h4>
-<p>In progress…</p>
-<p>Updated on: October 2024 <!--- Sara/Zoran: please confirm/add information below --></p>
+<section id="recommended-software-versions" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-software-versions">Recommended Software Versions:</h3>
+<p>Updated on: 5 November 2024</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 29%">
@@ -360,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Matlab</td>
-<td>2023b / <strong>2024a</strong></td>
+<td><strong>2024a</strong> (at least 2023b)</td>
 </tr>
 <tr class="even">
 <td>R</td>

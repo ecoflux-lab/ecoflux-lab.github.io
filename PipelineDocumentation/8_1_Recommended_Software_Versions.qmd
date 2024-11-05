@@ -1,29 +1,27 @@
 ## 8.1. &nbsp; Software: Current Recommended Versions
 
-In progress...
+### Software Overview
 
-#### Software Overview
-
-* All three stages of data cleaning can be run from **Matlab**. <!-- [link to Install_Matlab.md]. --> 
+* All three stages of data cleaning (plus conversion to Ameriflux output if needed) can be run from **Matlab**. Our `plotApp` for data visualization and analysis during data cleaning is run from Matlab too.
 
 * Note that the third stage Matlab script invokes an **R**-script, which you will also need installed on your local computer. <!-- [link to R/RStudio installation instructions]. -->
 
-* The scripts and tools that run the data cleaning are kept in a **Git** repository<!-- [link to Clone_Biomet_Library.md]. -->
+* Additionally, our `R-Shiny` data visualization tool uses **R/R-Studio**, and we recommend this app for viewing your data in real-time.
 
-* Optionally, you can install Git and create your own **Github** account. <!-- [link to Install_Git_Create_Account_Optional.md]. --> 
+* The scripts and tools that run the data cleaning are kept in a **Git** repository (called `Biomet.net`). These can be downloaded without having Git installed.<!-- [link to Clone_Biomet_Library.md]. -->
 
-* Some users may also need **Python** installed. <!-- [link to Install_Python.md]. -->
+* Optionally, you can install Git and create your own **Github** account, in case you wish to contribute code to the Biomet.net library. <!-- [link to Install_Git_Create_Account_Optional.md]. --> 
+
+* Some users may also need **Python** installed, for example, if you are processing high-frequency data. <!-- [link to Install_Python.md]. -->
 
 
-#### Recommended Software Versions:
+### Recommended Software Versions:
 
-In progress...
-
-Updated on: October 2024  <!--- Sara/Zoran: please confirm/add information below -->
+Updated on: 5 November 2024 
 
 | Software | Recommended version as of above date |
 | -------- | ------------------- |
-| Matlab   | 2023b / **2024a**   |
+| Matlab   | **2024a** (at least 2023b)  |
 | R        | v4.3.3              |
 | RStudio  | 2024.09.0-375       |
 | Python   | 3.9.6 for Mac       |

@@ -281,13 +281,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_1_Matlab_plotApp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.1 &nbsp; Matlab plotApp for In-Depth Analysis</span></a>
+ <span class="menu-text">7.1 &nbsp; Matlab plotApp</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/7_2_RShiny_App.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7.2 &nbsp; RShiny App for Viewing Data in Real-Time</span></a>
+ <span class="menu-text">7.2 &nbsp; R-Shiny App</span></a>
   </div>
 </li>
       </ul>
@@ -344,21 +344,21 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="instructions">Instructions</h3>
 <ol type="1">
 <li><p>If you have multiple flux sites, choose <em>one</em> site to begin working with. Using the Matlab command line, define your projectPath and siteID as in the following example:</p>
-<p>For example, if the name of your project is “My_Micromet”, the project path might look like:</p>
+<p>For example, if the name of your project is <code>My_Micromet</code>, and your chosen siteID is <code>SITEID1</code>, you would enter the following commands in the Matlab command window:</p>
 <p><em>Mac example:</em></p>
 <pre> projectPath = '/Users/&lt;username&gt;/Projects/My_Micromet/';
  siteID = 'SITEID1';</pre>
 <p><em>PC example:</em></p>
 <pre> projectPath = 'C:\Projects\My_Micromet\';
  siteID = 'SITEID1';</pre></li>
-<li><p>In Matlab, run the <code>create_TAB_ProjectFolders</code> function (which is in the <code>Biomet.net</code> library that you cloned), as follows:</p>
+<li><p>Next, in Matlab, run the <code>create_TAB_ProjectFolders</code> function (which is in the <code>Biomet.net</code> library that you cloned), as follows:</p>
 <pre> create_TAB_ProjectFolders(projectPath,siteID)</pre>
 <p>Both input arguments are of type “string”. You can use single <code>''</code> or double <code>""</code> quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info.&nbsp;</p>
 <p>As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., <code>My_Micromet</code> in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
 <p><img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&amp;Subdirectories" width="250"></p>
 <p><em>Figure 4.1. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p>
 <p>[Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running <code>create_TAB_ProjectFolders</code> (above). In that case, download <a href="presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the <em>contents</em> of “My_Micromet_Folder” within your project directory (underneath <code>My_Micromet</code>); make sure your directory structure looks like figure 4.1.]</p></li>
-<li><p>Next, run <code>set_TAB_project(projectPath)</code>. This process sets up the <code>Biomet.net</code> toolbox to work with your project.</p></li>
+<li><p>Finally, run <code>set_TAB_project(projectPath)</code>. This process sets up the <code>Biomet.net</code> toolbox to work with your project.</p></li>
 </ol>
 </section>
 <section id="short-description-of-new-directory-structure-and-contents" class="level3">
