@@ -19,8 +19,6 @@ This section will show you how to create your second stage INI file, in order to
 
 5. You can add any other relevant variables into the second stage INI file. Again, use the visualization tools to check your data looks as expected, then you are ready to progress to third stage cleaning.
 
-<!-- [add fluxes to second stage template! needed for third stage example] -->
-
 ### Quick summary of second stage features
 1. Combine multiple traces into one using the `calc_avg_trace` function. These traces *must* already have been defined in the first stage.
 2. Use the "Evaluate" option to operate on your input traces.

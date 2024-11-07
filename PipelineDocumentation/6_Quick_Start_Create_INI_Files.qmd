@@ -18,7 +18,3 @@ This section provides quick-start instructions for creating your first and secon
 
 3. The files in the `Tutorial_filled_sample_files` folder are completed, "filled-in" versions of the TEMPLATE files that work with the sample data available for download in section 5.
 
-
-
-
-
