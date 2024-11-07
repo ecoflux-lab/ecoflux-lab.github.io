@@ -38,7 +38,7 @@ You will also need to create a site ID that relates to the flux site you are wor
     
     *Figure 4.1. Directory tree showing contents of project folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
-    [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1.] 
+    [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "directory_setup/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1.] 
 
 3. Finally, run `set_TAB_project(projectPath)`. This process sets up the `Biomet.net` toolbox to work with your project. 
 
