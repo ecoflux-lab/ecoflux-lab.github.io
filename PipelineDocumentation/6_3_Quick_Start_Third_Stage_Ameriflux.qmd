@@ -45,7 +45,7 @@ The standalone flux variable names (e.g., FCH4, FC, H, LE) are copied directly f
 | _PI_SC_JSZ_MAD                 | Plus Median of Absolute Deviation (about the median) filter |
 | _PI_SC_JSZ_MAD_RP              | Plus REddyProc applied (u-star filtering)  |
 
-<a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">This link</a> provides descriptions of suffixes applied to REddyProc output, e.g., `_uStar`, `U95` ,`_orig` and `_f`.
+<a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">This link</a> provides descriptions of suffixes applied to REddyProc output, e.g., `_uStar`, `U95`, `_orig`, and `_f`.
 
 ### Output your data to an Ameriflux CSV file
 
