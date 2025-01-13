@@ -354,6 +354,45 @@ ul.task-list li input[type="checkbox"] {
 <pre> fr_automated_cleaning(yearIn,siteID,7)  % third stage</pre>
 <p>The output will appear in two directories: <code>ThirdStage</code> and <code>ThirdStage_Default_Ustar</code> within the <code>Clean</code> directory, where the second stage output is; again, we recommend that you inspect this data using the visualization tools. <!--Section 6.6 [XXX link] provides more details on third stage cleaning, including adding further custom configuration and output data. --></p></li>
 </ol>
+<section id="third-stage-output-flux-variable-definitions" class="level4">
+<h4 class="anchored" data-anchor-id="third-stage-output-flux-variable-definitions"><em>Third stage output: flux variable definitions</em></h4>
+<p>The standalone flux variable names (e.g., FCH4, FC, H, LE) are copied directly from the second stage output. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear. For now, this description provides only definitions, and more detailed information on each output variable will be provided on this webpage soon.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Suffix</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>_PI</td>
+<td>Wind sector and precipitation filter</td>
+</tr>
+<tr class="even">
+<td>_PI_SC</td>
+<td>Plus Storage flux correction</td>
+</tr>
+<tr class="odd">
+<td>_PI_SC_JSZ</td>
+<td>Plus z-score filter</td>
+</tr>
+<tr class="even">
+<td>_PI_SC_JSZ_MAD</td>
+<td>Plus Median of Absolute Deviation (about the median) filter</td>
+</tr>
+<tr class="odd">
+<td>_PI_SC_JSZ_MAD_RP</td>
+<td>Plus REddyProc applied (u-star filtering)</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">This link</a> provides descriptions of suffixes applied to REddyProc output, e.g., <code>_uStar</code>, <code>U95 ,</code>_orig<code>and</code>_f`.</p>
+</section>
 </section>
 <section id="output-your-data-to-an-ameriflux-csv-file" class="level3">
 <h3 class="anchored" data-anchor-id="output-your-data-to-an-ameriflux-csv-file">Output your data to an Ameriflux CSV file</h3>
