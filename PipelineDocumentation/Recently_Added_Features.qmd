@@ -18,7 +18,9 @@ There are three overwrite options:
 
 * `1` = overwrite traces having the same variableName and also with `Overwrite = 0` setting (all include file traces have this as default XXX). This puts the new data where the old data was, i.e., complete overwrite, first trace gone.  
 
-* `2` = overwrite traces having the same variableName and with `Overwrite = 0` setting. This takes advantage of previous trace and will not completely overwrite. 
+* `2` = overwrite traces having the same variableName and with `Overwrite = 0` setting. This takes advantage of previous trace and will not completely overwrite. The original is erased and the new one gets put where ever it fits (it becomes the "last" trace in the loaded traces until another trace is loaded after it). In that screen shot, the original CH_Mixing.. will be erased and the new one will be put into trace_str just before all the RAD_include traces. [XXX Zoran, I can't think of an example where this is useful.]
+
+Most of the time, if you are overwriting, you will want option `1`.
 
 <img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"/>
 
