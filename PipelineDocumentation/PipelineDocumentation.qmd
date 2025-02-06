@@ -7,7 +7,8 @@ Revisions:\
 - October 2024: these are the "quick-start" instructions for new users of the data-cleaning pipeline. The full documentation will be made available at a later date. 
 
 ### Useful links 
-- Link to <a href="workshop/DataCleaningPipeline_Overview_Final_Web.zip">Overview of Data Cleaning Pipeline</a> slides presented during FLUXNET-CH4 V2.0 Workshop (on Day 1: Afternoon, and Day 2: Morning and Afternoon).
+- <a href="https://ecoflux-lab.github.io/PipelineDocumentation/Recently_Added_Features.html" target="_blank" rel="noopener noreferrer">Recently added pipeline features</a>
+- Link to <a href="workshop/DataCleaningPipeline_Overview_Final_Web.zip">Overview of Data Cleaning Pipeline</a> slides presented during FLUXNET-CH4 V2.0 Workshop (October 21-23, 2024) on Day 1: Afternoon, and Day 2: Morning and Afternoon.
 - Link to <a href="https://www.youtube.com/watch?v=wpeOC09LvS8&list=PLwwM5mY7NX4S62HBzrxXWvox_tWysd9un&ab_channel=EcoFluxLab" target="_blank" rel="noopener noreferrer">YouTube playlist of ALL presentations</a> from FLUXNET-CH4 V2.0 Workshop.
 
 ### Documentation outline
