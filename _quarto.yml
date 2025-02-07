@@ -85,9 +85,6 @@ website:
       contents:
         - href: PipelineDocumentation/PipelineDocumentation.qmd
           text: Pipeline Documentation
-          contents:
-            - href: PipelineDocumentation/Recently_Added_Features.qmd
-              text: "Recently Added Features"
         - href: PipelineDocumentation/1_Motivation.qmd 
           text: "1. Motivation: The Importance of Flux Data Standardization and Reproducibility"
           contents:
@@ -138,6 +135,8 @@ website:
           contents:
             - href: PipelineDocumentation/8_1_Recommended_Software_Versions.qmd
               text: "8.1 &nbsp; Recommended Software Versions"
+            - href: PipelineDocumentation/8_2_Recently_Added_Features.qmd
+              text: "8.2 &nbsp; Recently Added Features"
         
 format:
   html:

@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/PipelineDocumentation.html">Pipeline Documentation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/Recently_Added_Features.html">Recently Added Features</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/8_Troubleshooting_FAQ.html">8. Troubleshooting and FAQ</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/Recently_Added_Features.html">Recently Added Features</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -141,23 +141,12 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../PipelineDocumentation/PipelineDocumentation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pipeline Documentation</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/Recently_Added_Features.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Recently Added Features</span></a>
+  <a href="../PipelineDocumentation/PipelineDocumentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pipeline Documentation</span></a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../PipelineDocumentation/1_Motivation.html" class="sidebar-item-text sidebar-link">
@@ -318,6 +307,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">8.1 &nbsp; Recommended Software Versions</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/Recently_Added_Features.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Recently Added Features</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -343,7 +338,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="recently-added-features" class="level2">
 <h2 class="anchored" data-anchor-id="recently-added-features">Recently Added Features</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
-<p>This page contains significant features recently added to the data cleaning pipeline - most recent at the top. Details can also be found in the full documentation (updated soon).</p>
+<p>This page contains significant features recently added to the data cleaning pipeline - most recent at the top. Details can also be found in the full documentation (updated on this website soon).</p>
 <section id="updated-6-february-2025" class="level5">
 <h5 class="anchored" data-anchor-id="updated-6-february-2025"><em>Updated: 6 February 2025</em></h5>
 <p><strong>Overwrite feature:</strong></p>
@@ -352,9 +347,10 @@ ul.task-list li input[type="checkbox"] {
 <p>There are three overwrite options:</p>
 <ul>
 <li><p><code>0</code> = do not overwrite with this trace. This is the default setting. If you do not include the <code>Overwrite</code> parameter, the pipeline assumes this option.</p></li>
-<li><p><code>1</code> = overwrite traces having the same variableName and also with <code>Overwrite = 0</code> setting (all include file traces have this as default XXX). This puts the new data where the old data was, i.e., complete overwrite, first trace gone.</p></li>
-<li><p><code>2</code> = overwrite traces having the same variableName and with <code>Overwrite = 0</code> setting. This takes advantage of previous trace and will not completely overwrite.</p></li>
+<li><p><code>1</code> = overwrite traces having the same variableName and also with <code>Overwrite = 0</code> setting (all include file traces have this as default XXX). This puts the new data where the old data was, i.e., complete overwrite, first trace gone. In Figure A, the original CH4_MIXING_RATIO will be erased and the new one will be put into trace_str (“list” of all traces and their properties) just before all the RAD_include traces.</p></li>
+<li><p><code>2</code> = overwrite traces having the same variableName and with <code>Overwrite = 0</code> setting. This takes advantage of previous trace and will not completely overwrite. The original is erased and the new one gets put where ever it fits (it becomes the “last” trace in the loaded traces until another trace is loaded after it). [XXX Zoran, I can’t think of an example where this would be used.]</p></li>
 </ul>
+<p>Most of the time, if you are overwriting, you will want option <code>1</code>.</p>
 <p><img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"></p>
 <p><em>Figure A: Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. Yellow highlighting shows the syntax for the “overwrite” property.</em></p>
 <p><br></p>
