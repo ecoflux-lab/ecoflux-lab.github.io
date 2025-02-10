@@ -339,9 +339,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="recently-added-features">8.2. &nbsp; Recently Added Features</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
 <p>This page contains significant features recently added to the data cleaning pipeline - most recent at the top. Details can also be found in the full documentation (updated on this website soon).</p>
-<section id="updated-6-february-2025" class="level5">
-<h5 class="anchored" data-anchor-id="updated-6-february-2025"><em>Updated: 6 February 2025</em></h5>
-<p><strong>Overwrite feature:</strong></p>
+<p><strong>Watch this space for third stage changes coming soon…</strong></p>
+<section id="updated-10-february-2025" class="level5">
+<h5 class="anchored" data-anchor-id="updated-10-february-2025"><em>Updated: 10 February 2025</em></h5>
+<p><strong>New Overwrite feature:</strong></p>
 <p>Sometimes we need to overwrite multiple properties for one or more traces that have already been created e.g.&nbsp;in an include file. The global variables feature allows this, however, once this section becomes long with many trace property tweaks, it can become very hard to troubleshoot, and in these cases having all the information for one trace together is more desirable.</p>
 <p>Instead of using global variables you can duplicate the full trace (<code>[Trace] ... [End]</code>), and in your site-specific first stage INI file, put this duplicate <em>after</em> the line of code where the include file is called that contains your original trace. Note the additional <code>Overwrite</code> property highlighted in yellow:</p>
 <p><img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"></p>
@@ -358,9 +359,31 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <p><strong>New <em>postEvaluate</em> property:</strong></p>
 <p>The new <code>postEvaluate</code> property can be applied in the first stage. It is executed in the first stage <em>after</em> all other cleaning is done, e.g., minMax, calibration, etc.. This is in contrast to the <code>Evaluate</code> property which is executed for all traces <em>before</em> any other cleaning properties.</p>
-<p>This example shows two simplified traces: (1) <code>var1</code> which includes a time shift in the Evaluate statement (this happens first), a unit conversion using the calibration feature, and application of <code>minMax</code> bounds (all highlighted in peach); (2) <code>var2</code> which takes advantage of the <code>postEvaluate</code> statement (highlighted in yellow), to utilize <code>var1</code> <em>after all</em> cleaning is complete for that trace.</p>
-<p><img src="images/ini_files/ini_example1b.jpg" alt="INIfiles/postEvaluateFeature" width="650"></p>
-<p>Note that using an <code>Evaluate</code> statement in the <code>var2</code> trace instead of <code>postEvaluate</code> would result in <code>var1</code> being used <em>after</em> the time shift, and <em>before</em> the calibration and application of minMax bounds.</p>
+<p>Generally speaking, the order of operations is: <code>Evaluate</code> –&gt; <code>other cleaning (e.g., minMax, calibration)</code> –&gt; <code>postEvaluate</code>. This is <strong><em>regardless of the order that they appear</em></strong> within <code>[Trace] ... [End]</code>. The following series of examples show how the Evaluate and postEvaluate statements work in relation to the other cleaning properties. For each example the input (Original) is an array of ones, and both the “Original” and first-stage “Clean” data are plotted in the result.</p>
+<p><strong>Example 1:</strong> Only minMax and calibration, no Evaluate or postEvaluate statements<br>
+<img src="images/ini_files/ini_example1b1.jpg" alt="INIfiles/postEvaluateEx1" width="650"></p>
+<p>Result: x = 2x [calibrated]<br>
+<img src="images/ini_files/ini_example1b1_fig.jpg" alt="INIfiles/postEvaluateEx1" width="400"></p>
+<p><br></p>
+<p><strong>Example 2:</strong> Evaluate, minMax and calibration, no postEvaluate statement<br>
+<img src="images/ini_files/ini_example1b2.jpg" alt="INIfiles/postEvaluateEx2" width="650"></p>
+<p>Result: x = (x - 1)*2 [Evaluate first, then calibrate]<br>
+<img src="images/ini_files/ini_example1b2_fig.jpg" alt="INIfiles/postEvaluateEx2" width="400"></p>
+<p><br></p>
+<p><strong>Example 3:</strong> minMax and calibration, postEvaluate statement, no Evaluate statement<br>
+<img src="images/ini_files/ini_example1b3.jpg" alt="INIfiles/postEvaluateEx3" width="650"></p>
+<p>Result: x = 2x - 1 [calibrate, then postEvaluate]<br>
+<img src="images/ini_files/ini_example1b3_fig.jpg" alt="INIfiles/postEvaluateEx3" width="400"></p>
+<p><br></p>
+<p><strong>Example 4:</strong> minMax and calibration, both Evaluate and postEvaluate statements<br>
+<img src="images/ini_files/ini_example1b4.jpg" alt="INIfiles/postEvaluateEx4" width="650"></p>
+<p>Result: x = (x - 1)*2 - 1 [Evaluate, then calibrate, then postEvaluate]<br>
+<img src="images/ini_files/ini_example1b4_fig.jpg" alt="INIfiles/postEvaluateEx4" width="400"></p>
+<!-- This example shows two simplified traces: (1) `var1` which includes a time shift in the Evaluate statement (this happens first), a unit conversion using the calibration feature, and application of `minMax` bounds (all highlighted in peach); (2) `var2` which takes advantage of the `postEvaluate` statement (highlighted in yellow), to utilize `var1` *after all* cleaning is complete for that trace. 
+
+<img src="images/ini_files/ini_example1b.jpg" alt="INIfiles/postEvaluateFeature" width="650"/>
+
+Note that using an `Evaluate` statement in the `var2` trace instead of `postEvaluate` would result in `var1` being used *after* the time shift, and *before* the calibration and application of minMax bounds.  -->
 
 
 </section>
