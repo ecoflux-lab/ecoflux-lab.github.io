@@ -358,7 +358,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><br></p>
 <p><strong>New <em>postEvaluate</em> property:</strong></p>
-<p>The new <code>postEvaluate</code> property can be applied in the first stage. It is executed in the first stage <em>after</em> all other cleaning is done, e.g., minMax, calibration, etc.. This is in contrast to the <code>Evaluate</code> property which is executed for all traces <em>before</em> any other cleaning properties.</p>
+<p>More complex user-defined processing can be applied in the first stage to any trace using the very useful “Evaluate” and new “postEvaluate” options. Matlab functions (user-written or from <code>Biomet.net</code>) can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” or “postEvaluate” strings. They can be used to derive variables from available data, flag variables to remove bad data, or to calculate new useful variables. Here is an <code>Evaluate</code> example for removing outliers from a trace:</p>
+<pre><code>Evaluate = 'wlen=24;thres=4;TA_1_1_1 = run_std_dev(TA_1_1_1,clean_tv,wlen,thres);'</code></pre>
+<p>The <code>Evaluate</code> property is executed for all traces <em>before</em> any other cleaning properties, e.g., minMax, calibration, etc.. In contrast, the newer <code>postEvaluate</code> property is executed in the first stage <em>after</em> all other cleaning is done.</p>
 <p>Generally speaking, the order of operations is: <code>Evaluate</code> –&gt; <code>other cleaning (e.g., minMax, calibration)</code> –&gt; <code>postEvaluate</code>. This is <strong><em>regardless of the order that they appear</em></strong> within <code>[Trace] ... [End]</code>. The following series of examples show how the Evaluate and postEvaluate statements work in relation to the other cleaning properties. For each example the input (Original) is an array of ones, and both the “Original” and first-stage “Clean” data are plotted in the result.</p>
 <p><strong>Example 1:</strong> Only minMax and calibration, no Evaluate or postEvaluate statements<br>
 <img src="images/ini_files/ini_example1b1.jpg" alt="INIfiles/postEvaluateEx1" width="650"></p>
