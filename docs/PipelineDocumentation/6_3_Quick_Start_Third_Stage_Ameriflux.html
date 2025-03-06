@@ -328,6 +328,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#quick-start-third-stage-cleaning-and-converting-to-ameriflux-output" id="toc-quick-start-third-stage-cleaning-and-converting-to-ameriflux-output" class="nav-link active" data-scroll-target="#quick-start-third-stage-cleaning-and-converting-to-ameriflux-output">6.3. &nbsp; Quick Start: Third Stage Cleaning and Converting to Ameriflux Output</a>
   <ul class="collapse">
   <li><a href="#third-stage-cleaning" id="toc-third-stage-cleaning" class="nav-link" data-scroll-target="#third-stage-cleaning">Third Stage Cleaning</a></li>
+  <li><a href="#third-stage-output-flux-variable-definitions" id="toc-third-stage-output-flux-variable-definitions" class="nav-link" data-scroll-target="#third-stage-output-flux-variable-definitions">Third stage output: flux variable definitions</a></li>
   <li><a href="#output-your-data-to-an-ameriflux-csv-file" id="toc-output-your-data-to-an-ameriflux-csv-file" class="nav-link" data-scroll-target="#output-your-data-to-an-ameriflux-csv-file">Output your data to an Ameriflux CSV file</a></li>
   </ul></li>
   </ul>
@@ -349,19 +350,26 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Open your site-specific <code>SITEID1_config.yml</code> for editing (figure 6.5):</p>
 <p><img src="images/directory_trees/DirectoryTree6c_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"></p>
 <p><em>Figure 6.5. Directory tree showing location of third stage custom YAML file that must be copied (green highlighted text) and edited (yellow highlighted text).</em></p></li>
-<li><p>At the top of your site-specific configuration file (i.e., <code>SITEID1_config.yml</code>), input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text):</p>
-<p><img src="images/ini_files/ini_example3a.jpg" alt="INIfiles/ThirdStageConfig" width="500"></p>
-<p><em>Figure 6.6. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text.</em></p>
+<li><p>At the top of your site-specific configuration file (i.e., <code>SITEID1_config.yml</code>), input the site ID, the year that measurements at the site began, and the metadata for your site (figure 6.6; yellow highlighted text). The <code>northOffset</code> can be found in your site GHG biomet file and this information is used for filtering data by wind direction, to comply with eddy-covariance measurement standards.</p>
+<p>The peach highlighted text in figure 6.6 indicates parts of the file that should be checked in relation to your site data:</p>
+<ul>
+<li>First, check that the flux variables listed are actually measured at your site, otherwise replace the right hand side with <code>NULL</code>.</li>
+<li>Second, check the met variable names for used for gap-filling are named the same as those output by your second stage cleaning.</li>
+<li>Third, if you wish to, you can edit the wind sector and precipitation filter values, but we recommend the values already written in the file.</li>
+</ul>
+<p><img src="images/ini_files/ini_example3a.jpg" alt="INIfiles/ThirdStageConfig" width="650"></p>
+<p><em>Figure 6.6. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text, and optional text to check or edit in peach highlighting.</em></p>
 <p>The main configuration file (<code>global_config.yml</code>) for running third stage cleaning is located in the <code>TraceAnalysis_ini</code> directory, and generally speaking this should not be edited. The custom <code>SITEID1_config.yml</code> file can be used to add parameters/inputs; these site-specific settings will overwrite those in the <code>global_config.yml</code> if they are also defined there.</p>
-<p>Note on gap-filling FCH4: currently the predictors for all random forest models used to fill gaps are set to: <code>Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1</code>. However, for FCH4, these inputs should be changed to prioritize soil variables such as soil temperature, soil moisture, and water table depth. You can change these settings under “Optional parameters” (figure 6.7; peach highlighting). <!-- As an active area of research, we recommend experimenting with different combinations of these inputs. --></p>
-<p><img src="images/ini_files/ini_example3b.jpg" alt="INIfiles/ThirdStageConfigOptions" width="550"></p>
-<p><em>Figure 6.7. Third stage site-specific custom YAML file showing where to change inputs for FCH4 random forest gap-filling.</em></p></li>
+<p><!-- Note on gap-filling FCH4: currently the predictors for all random forest models used to fill gaps are set to: `Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1`. However, for FCH4, these inputs should be changed to prioritize soil variables such as soil temperature, soil moisture, and water table depth. You can change these settings under "Optional parameters" (figure 6.7; peach highlighting). As an active area of research, we recommend experimenting with different combinations of these inputs. --></p>
+<!-- <img src="images/ini_files/ini_example3b.jpg" alt="INIfiles/ThirdStageConfigOptions" width="550"/> -->
+<!-- *Figure 6.7. Third stage site-specific custom YAML file showing where to change inputs for FCH4 random forest gap-filling.* --></li>
 <li><p>Next, test the third stage data cleaning in Matlab; remember that it can take a lot longer to run than first and second stages. Note that the cleaning stage argument for third stage cleaning is <code>7</code> (<em>not</em> 3; this is a legacy artifact), as follows:</p>
 <pre> fr_automated_cleaning(yearIn,siteID,7)  % third stage</pre>
 <p>The output will appear in two directories: <code>ThirdStage</code> and <code>ThirdStage_Default_Ustar</code> within the <code>Clean</code> directory, where the second stage output is; again, we recommend that you inspect this data using the visualization tools. <!--Section 6.6 [XXX link] provides more details on third stage cleaning, including adding further custom configuration and output data. --></p></li>
 </ol>
-<section id="third-stage-output-flux-variable-definitions" class="level4">
-<h4 class="anchored" data-anchor-id="third-stage-output-flux-variable-definitions"><em>Third stage output: flux variable definitions</em></h4>
+</section>
+<section id="third-stage-output-flux-variable-definitions" class="level3">
+<h3 class="anchored" data-anchor-id="third-stage-output-flux-variable-definitions">Third stage output: flux variable definitions</h3>
 <p>The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly from the second stage output, then wind sector and precipitation filters are applied to comply with eddy-covariance measurement theory, with no change to the variable name. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear. For now, this description provides only definitions, and more detailed information on each output variable will be provided on this webpage soon.</p>
 <table class="caption-top table">
 <colgroup>
@@ -394,7 +402,6 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p><a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">This link</a> provides descriptions of suffixes applied to REddyProc output, e.g., <code>_uStar</code>, <code>U95</code>, <code>_orig</code>, and <code>_f</code>.</p>
-</section>
 </section>
 <section id="output-your-data-to-an-ameriflux-csv-file" class="level3">
 <h3 class="anchored" data-anchor-id="output-your-data-to-an-ameriflux-csv-file">Output your data to an Ameriflux CSV file</h3>
