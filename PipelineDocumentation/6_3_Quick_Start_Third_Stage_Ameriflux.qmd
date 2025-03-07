@@ -43,6 +43,7 @@ The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly f
 
 | Suffix                         | Definition                             | 
 | ------------------------------ | -------------------------------------- | 
+| No suffix                      | Standard cleaning (wind direction and precipitation filtering) | 
 | _PI_SC                         | Storage flux Correction                |
 | _PI_SC_JSZ                     | Plus z-score filter                         |
 | _PI_SC_JSZ_MAD                 | Plus Median of Absolute Deviation (about the median) filter |
