@@ -23,7 +23,7 @@ GitHub| [https://github.com/sknox01](https://github.com/sknox01)
 
 I am broadly interested in the impacts of climate variability and land-use change on land-atmosphere exchanges of water, energy, and trace gases. I also seek to understand how ecosystem responses to global change can feedback to slow or accelerate future climate change. My research and training is in micrometeorology, hydrology, and ecosystem ecology. I focus on biosphere-atmosphere interactions in a variety of climates and ecosystems.
 
-***Education***
+**Education**
 : University of California, Berkeley, PhD
 : Carleton University, MSc
 : McGill University, BSc
@@ -49,7 +49,7 @@ Office| PCMH B1100
 
 Currently Research Projects Manager for UBC Geography Physical Labs. I have designed and installed research sites in terrain ranging from temperate bogs to arctic tundra. I primarily support professors, PDF's and grad students with physical scientific measurements in the field and in the lab.
 
-***Education*** 
+**Education** 
 : B.Sc. Physics Co-op University of Victoria, B.C.
 
 ---
@@ -72,34 +72,58 @@ Office| MCML 137
 
 I am responsible for management of numerous research and equipment design projects for various faculties and departments at UBC. I design eddy covariance and soil respiration systems that are used at various North American universities as well as by other research institutions. My main research interests are (1) the design of automated measurement systems for long-term environmental measurements and (2) the standardization of measurement and data processing procedures to ensure high quality and reproducibility of research results.
 
-***Education***
+**Education**
 : B.Sc. in Electrical Engineering, University of Belgrade
 : M.A.Sc. in Electrical Engineering, University of British Columbia
 
 ---
 
-## Current Students and PostDocs
-
 :::: {.columns}
 :::{.column width="30%"}
 
-![](images/headshots/june-oval.png){width=85%}
+<!-- ![](images/headshots/joyson-oval.png){width=85%} -->
 :::
 ::: {.column width="70%"}
 
  |
 -----|:-----
-Name| Dr. June Skeeter
-Position | Postdoctoral Scholar
-Pronouns| They/Them/Theirs
-Email| june.skeeter@ubc.ca
-Office| Geography Room 127
-GitHub| [https://github.com/June-Skeeter](https://github.com/June-Skeeter)
+Name| Dr. Rosemary Howard
+Position | Research Associate
+Email| 
 
 ::: 
 ::::
 
-My name is June.  I am a geographer, researcher, and educator who has been living as an uninvited guest on unceded Coast Salish Territory since 2015.  I received a PhD in geography from UBC in 2022 and am now working as a postdoctoral researcher for the UBC Micrometeorology group.  I study greenhouse gas exchange in wetland ecosystems and associated feedback mechanisms that influence the earth's climate system.  My research employs a variety of methods from different fields, including: micrometeorology, remote sensing, spatial analysis, and machine learning.
+
+**Previous experience**
+
+
+**Education**
+
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
+<!-- ![](images/headshots/joyson-oval.png){width=85%} -->
+:::
+::: {.column width="70%"}
+
+ |
+-----|:-----
+Name| Dr. Paul Moore
+Position | Data Scientist
+Email| 
+
+::: 
+::::
+
+
+**Previous experience**
+
+
+**Education**
 
 ---
 
@@ -194,49 +218,6 @@ I received a BS in Biological Sciences from Wellesley College in 2017, then work
 :::: {.columns}
 :::{.column width="30%"}
 
-![](images/headshots/Ted-oval.png){width=85%}
-:::
-::: {.column width="70%"}
-
- |
------|:-----
-Name| Ted Scott
-Pronouns| He/Him/His
-Level of Study| Ph.D. Student
-Email| tedjs\@student.ubc.ca
-
-::: 
-::::
-
-Prior to UBC, while at the University of Minnesota, I earned a BS in Computer Science (1997), then a MS (2000) and PhD in Geophysics (2006) under David Kohlstedt, investigating the dynamic properties of partially molten peridotites. My work helped constrain the composition and behavior of highly molten planetary interiors such as Jupiter’s moon Io. I then worked at Microsoft for several years as a data scientist and engineer, and more recently as a high-school science and math teacher. My current research interests include studying greenhouse gas fluxes in wetland environments. I then synthesize the data collected across multiple sites in various environments to better understand how individually and collectively they can contribute as a natural climate solution. As in my prior PhD, I hope my work can be used to better constrain climate models and lead to sound policy as we address climate change. In my free time, I enjoy trail running and rock climbing.
-
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/zhang-oval.png){width=85%}
-
-:::
-::: {.column width="70%"}
-
-  |
------|:-----
-Name| Hehan (Zoe) Zhang
-Pronouns| She/Her/Hers
-Level of Study| M.Sc. Student
-Email| hehanzha\@student.ubc.ca
-
-::: 
-::::
-  
-I received a BSc in Environmental Science from the University of British Columbia in 2022. My undergraduate thesis research investigated the impacts of fire on greenhouse gas (GHG) fluxes (CO2, CH4, and N2O) within different burned zones of a bog. The methodology incorporated chamber measurements and gas chromatography for the analysis. Currently, as a second-year MSc student, I am examining the impacts of seedling removal — a post-fire management practice — on the GHG fluxes (CO2 and CH4) within the 2016 burned zone of the Burns Bog, Delta, BC. This research utilizes a smart chamber with a portable analyzer. Additionally, I am interested in quantifying the net carbon exchange at the ecosystem scale using eddy covariance techniques and understanding carbon dynamics across varying ecosystem types. 
-
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
 ![](images/headshots/vanessa-oval.png){width=85%}
 
 :::
@@ -254,140 +235,96 @@ I earned a Bachelor’s degree in Geography/Environmental Studies from the Unive
 
 ---
 
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/mcguire-oval.png){width=85%}
-:::
-::: {.column width="70%"}
-
-  |
------|:-----
-Name| Kelsey McGuire
-Pronouns| She/Her/Hers
-Level of Study| B.Sc. Student
-Email| kmcgu\@student.ubc.ca
-
-::: 
-::::
-  
-I am currently doing a B.Sc in Geographical Sciences, with concentrations in Climatology and Geographic Information Systems. Within the lab, I am supporting various graduate students with their research on how wetland and tidal sites can act as natural climate solutions, where I will help to write code for data processing, and assist on field site visits. I hope in later years to conduct more research on land-atmosphere exchanges, specifically around the carbon cycle, and find ways to incorporate different GIS technologies to help in visualizing it.
-
----
-  
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/himari-oval.png){width=85%}
-
-:::
-::: {.column width="70%"}
-
-  |
------|:-----
-Name| Himari Honda
-Pronouns| She/Her/Hers 
-Level of Study| B.Sc. Student
-Email| hhonda02\@student.ubc.ca
-
-::: 
-::::
-  
-I am an undergraduate student at UBC majoring in Geographical Sciences with a concentration in climatology. My work in the lab consists of facilitating graduate students with their research and field visits to the flux towers. I am currently working with Zoe Zhang to pursue further research on the effects of heatwaves on carbon dioxide and methane fluxes at restored peatlands. In the near future, I am interested in studying how greenhouse gas exchange is influenced by varying biophysical and meteorological factors.
-
 ## Lab Alumni
 
 :::: {.columns}
-::: {.column width="50%}
-
-**Darian Ng**
-: *(M.Sc. Student)*
-
-![](images/headshots/darian-oval.png){width=45%}
-
+::: {.column width="50%"}
+**June Skeeter**  
+*(Postdoctoral Scholar)*  
+![](images/headshots/june-oval.png){width=45%}
 :::
 ::: {.column width="50%"}
-
-**Adin Litman**
-: *(B.Sc. Student)*
-
-![](images/headshots/litman-oval.png){width=45%}
-
-:::
-::::
-
-:::: {.columns}
-::: {.column width="50%"}
-
-**Tin Satriawan**
-: *(M.Sc. Student)*
-
-![](images/headshots/satriawan-oval.png){width=45%}
-
-:::
-::: {.column width="50%"}
-
-**Dr. Sung-Ching (Nick) Lee**
-: *(Postdoctoral Scholar)*
-
+**Dr. Sung-Ching (Nick) Lee**  
+*(Postdoctoral Scholar)*  
 ![](images/headshots/sung-ching-oval.png){width=45%}
-
 :::
 ::::
 
 :::: {.columns}
-:::{.column width="50%"}
+::: {.column width="50%"}
+**Hehan (Zoe) Zhang**  
+*(M.Sc. Student)*  
+![](images/headshots/zhang-oval.png){width=45%}
+:::
+::: {.column width="50%"}
+**Darian Ng**  
+*(M.Sc. Student)*  
+![](images/headshots/darian-oval.png){width=45%}
+:::
+::::
 
-**Marion Nyberg**
-: *(M.Sc. Student)*
-
+:::: {.columns}
+::: {.column width="50%"}
+**Tin Satriawan**  
+*(M.Sc. Student)*  
+![](images/headshots/satriawan-oval.png){width=45%}
+:::
+::: {.column width="50%"}
+**Marion Nyberg**  
+*(M.Sc. Student)*  
 ![](images/headshots/nyberg-oval.png){width=45%}
-
 :::
-:::{.column width="50%"}
+::::
 
-**Aylin Barreras-Apodaca**
-: *(Visiting International M.Sc. Student)*
-
+:::: {.columns}
+::: {.column width="50%"}
+**Aylin Barreras-Apodaca**  
+*(Visiting International M.Sc. Student)*  
 ![](images/headshots/aylin-ba-oval.png){width=45%}
-
 :::
-::::
-
-::::{.columns}
 ::: {.column width="50%"}
-
-**Nicole Choi**
-: *(B.Sc. Student)*
-
+**Nicole Choi**  
+*(B.Sc. Student)*  
 ![](images/headshots/choi-oval.png){width=45%}
-
 :::
-:::{.column width="50%"}
-
-**Cristina Mace**
-: *(B.Sc. Student)*
-
-![](images/headshots/mace-oval.png){width=45%}
-
-::: 
 ::::
 
-::::{.columns}
+:::: {.columns}
 ::: {.column width="50%"}
-
-**Azumi Konaka**
-: *(B.Sc. Student)*
-
-![](images/headshots/konaka-oval.png){width=45%}
-
+**Cristina Mace**  
+*(B.Sc. Student)*  
+![](images/headshots/mace-oval.png){width=45%}
 :::
-:::{.column width="50%"}
+::: {.column width="50%"}
+**Adin Litman**  
+*(B.Sc. Student)*  
+![](images/headshots/litman-oval.png){width=45%}
+:::
+::::
 
-**Weiwen Fu**
-: *(B.Sc. Student)*
 
+:::: {.columns}
+::: {.column width="50%"}
+**Azumi Konaka**  
+*(B.Sc. Student)*  
+![](images/headshots/konaka-oval.png){width=45%}
+:::
+::: {.column width="50%"}
+**Weiwen Fu**  
+*(B.Sc. Student)*  
 ![](images/headshots/weiwen-oval.png){width=45%}
+:::
+::::
 
+:::: {.columns}
+::: {.column width="50%"}
+**Himari Honda** 
+*(B.Sc. Student)* 
+![](images/headshots/himari-oval.png){width=45%}
+:::
+::: {.column width="50%"}
+**Kelsey McGuire**  
+*(B.Sc. Student)*  
+![](images/headshots/mcguire-oval.png){width=45%}
 :::
 ::::

@@ -1,12 +1,16 @@
 ---
 title: "Research"
 ---
-Our research focuses on measuring and modelling greenhouse gas, water, and energy fluxes across a range of spatial and temporal scales. We combine field-based measurements, remote sensing, and modelling to investigate land-atmosphere interactions in our rapidly changing world, with a current emphasis on wetland ecosystems.
 
 ![](images/tower.jpeg)
 
-## The integrated GHG Research and Observations in Wetlands (iGROW) Research Program
-Among the numerous ecosystem services provided by wetlands climate regulation is identified as one of their most important benefits to society. Wetland ecosystems play an important role in the global carbon cycle; they provide the ideal environment for long-term storage of atmospheric carbon dioxide, yet they are also the largest single source of methane. Climate change has the potential to increase greenhouse gas (GHG) emissions from wetlands, however, the consequences of rising temperatures on wetland GHG exchange remains uncertain. Furthermore, preventing further wetland loss and restoring wetland ecosystems has been identified by researchers and governments as important in limiting future emissions to help meet climate goals. The integrated GHG Research and Observations in Wetlands (iGROW) research program’, takes an interdisciplinary approach to provide a better understanding of how wetland responses to climate variability and restoration can feedback to slow or accelerate future climate change. iGROW combines state-of-the-art field-based measurements, remote sensing, and modelling to provide new insights into the controls of wetland GHG fluxes across a range of spatial and temporal scales and quantify the potential climate benefits of wetland restoration and conservation. This research is key to better predicting current and future contributions of wetlands to climate change, which is highly relevant for policies aiming to limit the level of global temperature rise. Current iGROW research projects include:
+## Overview
+
+The EcoFlux lab focuses on measuring and modelling greenhouse gas, water, and energy fluxes across a range of spatial and temporal scales. We combine field-based measurements, remote sensing, and modelling to investigate land-atmosphere interactions in our rapidly changing world, with a current emphasis on wetland ecosystems.
+
+Wetlands provide numerous benefits. Among the numerous ecosystem services provided by wetlands climate regulation is identified as one of their most important benefits to society. Wetland ecosystems play an important role in the global carbon cycle; they provide the ideal environment for long-term storage of atmospheric carbon dioxide, yet they are also the largest single source of methane. Climate change has the potential to increase greenhouse gas (GHG) emissions from wetlands, however, the consequences of rising temperatures on wetland GHG exchange remains uncertain. Furthermore, preventing further wetland loss and restoring wetland ecosystems has been identified by researchers and governments as important in limiting future emissions to help meet climate goals. The EcoFlux Lab takes an interdisciplinary approach to provide a better understanding of how wetland responses to climate variability and restoration can feedback to slow or accelerate future climate change. Our work combines state-of-the-art field-based measurements, remote sensing, and modelling to provide new insights into the controls of wetland GHG fluxes across a range of spatial and temporal scales and quantify the potential climate benefits of wetland restoration and conservation. This research is key to better predicting current and future contributions of wetlands to climate change, which is highly relevant for policies aiming to limit the level of global temperature rise. 
+
+## Current EcoFlux Research Projects
 
 ### Carbon Fluxes in Restored Wetlands
 <img src="images/CFlux.jpeg" style="float: left; margin-top: 20px; margin-right: 25px; margin-bottom: 15px" width="300" height="250"/>
@@ -59,7 +63,7 @@ May 19, 2022 - [Project intended to demonstrate wetlands’ greenhouse gas impac
 April 20, 2022 - [DUC analyzing wetlands on farms and ranches for carbon capture](https://www.ducks.ca/news/provincial/alberta/duc-analyzing-wetlands-on-farms-and-ranches-for-carbon-capture/) <br>
 April, 2022 - [DUC Carbon Tower Project](https://mfga.net/duc-carbon-tower-project) <br>
 
-## Past iGROW Research Projects
+## Past EcoFlux Research Projects
 ### FLUXNET-CH4 – a global database of eddy covariance CH4 flux measurements and wetland synthesis for CH4
 Natural wetlands emit approximately 30% of global CH4 emissions, as their waterlogged soils create ideal conditions for CH4 production. They are also the largest, and most uncertain, natural source of CH4 to the atmosphere. Direct observations of local CH4 emissions with high measurement frequency are important for constraining CH4 budgets, for understanding the responses of CH4 fluxes to environmental factors and climate, and for creating validation datasets for the land-surface models used to infer global CH4 budgets. However, unlike well-coordinated efforts for synthesizing CO2 flux-tower observations (e.g., FLUXNET), no such network and data synthesis effort existed previously for CH4. <br>
 
