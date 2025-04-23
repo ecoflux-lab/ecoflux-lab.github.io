@@ -158,6 +158,33 @@ I am interested in studying the carbon and water cycle in different ecosystems (
 :::: {.columns}
 :::{.column width="30%"}
 
+![](images/headshots/xiucheng-oval.png){width=85%}
+:::
+::: {.column width="70%"}
+
+ |
+-----|:-----
+Name| Dr. Xuicheng Yang
+Position | Postdoctoral Scholar
+Email| xiuchengyang@uvic.ca
+
+::: 
+::::
+
+I am conducting remote sensing analyses to characterize Canada’s tidal marsh ecosystems. I am also synthesizing spatial datasets on the distributions and threats to Canada’s coastal ecosystems, including land use changes and sea level rise, to develop, analyze, and visualize future ecosystem scenarios, with a particular focus on carbon storage. 
+
+**Previous experience**
+: University of Connecticut, USA, Postdoctoral Fellow
+
+**Education**
+: University of Strasbourg, France, PhD
+: Peking University, China, Masters
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
 ![](images/headshots/tzu-yi-oval.png){width=85%}
 :::
 ::: {.column width="70%"}
@@ -218,6 +245,26 @@ I received a BS in Biological Sciences from Wellesley College in 2017, then work
 :::: {.columns}
 :::{.column width="30%"}
 
+![](images/headshots/jinshuai-oval.png){width=85%}
+:::
+::: {.column width="70%"}
+
+ |
+-----|:-----
+Name| Jinshuai Li
+Position | Visiting PhD Candidate
+Email| jinshuai.li@mail.mcgill.ca
+
+::: 
+::::
+
+I am a PhD candidate at the Institute of Geographic Sciences and Natural Resources, Chinese Academy of Sciences. Currently, I am doing research at McGill University as a visiting student. I am interested in the basic characteristics of the wetland carbon cycle and the main environmental response features. At the present stage, my research focuses on quantifying the environmental response characteristics of methane emissions from wetlands, and based on this, I am trying to construct models to quantify methane emissions and further reduce the simulation errors. 
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
 ![](images/headshots/vanessa-oval.png){width=85%}
 
 :::
@@ -232,6 +279,26 @@ Level of Study| M.Sc. Student
 ::::
   
 I earned a Bachelor’s degree in Geography/Environmental Studies from the University of California, Los Angeles in 2019. Before coming to UBC, I worked as a scientific programmer at the NASA Goddard Space Flight Center, providing visualization and computation support to earth system and atmosphere climate models. I am interested in modelling land-atmosphere exchanges and projecting responses of wetland and forested ecosystems to climate change. 
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
+![](images/headshots/dylan-oval.png){width=85%}
+
+:::
+::: {.column width="70%"}
+
+|
+-----|:-----
+Name| Dylan Gwilliam
+Level of Study| M.Sc. Student
+
+::: 
+::::
+  
+I received my B.Sc. in Environment from McGill in 2024, specialising in Land Surface Processes and Environmental Change. Before coming back to McGill for my Master's, I worked 9 months in Science and Conservation Planning at the Nature Conservancy of Canada. I am interested in quantifying land-atmosphere greenhouse gas fluxes from wetlands and how they are altered after degradation and restoration. I believe understanding this missing piece of the puzzle can help to better value and protect wetland ecosystems and their role as nature-based climate solutions. 
 
 ---
 
