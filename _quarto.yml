@@ -123,6 +123,13 @@ website:
               text: "6.2 &nbsp; Quick Start: Second Stage INI File"
             - href: PipelineDocumentation/6_3_Quick_Start_Third_Stage_Ameriflux.qmd
               text: "6.3 &nbsp; Quick Start: Third Stage and Ameriflux Output"
+        - href: PipelineDocumentation/5_Full_Doc_Features_Details_Advanced.qmd
+          text: "5. Full Documentation: Features, Details, and Other Useful Information for Advanced Users"
+          contents:
+            - href: PipelineDocumentation/5_1_Full_Doc_Setup_Project_Directory_Structure_Details.qmd
+              text: "5.1 &nbsp; Full Documentation: Project Directory Structure and Matlab Configuration"
+            - href: PipelineDocumentation/5_2_Full_Doc_Create_Database_From_Raw_Data_Inspect_Outputs.qmd
+              text: "5.2 &nbsp; Full Documentation: Create Database from Raw Data and Inspect Contents"
         - href: PipelineDocumentation/7_Data_Visualization.qmd
           text: "7. Data Visualization"
           contents:

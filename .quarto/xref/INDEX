@@ -280,5 +280,20 @@
   },
   "PipelineDocumentation/8_2_Recently_Added_Features.qmd": {
     "8_2_Recently_Added_Features.html": "9997490d"
+  },
+  "PipelineDocumentation/5_Full_Doc_Features_Details_Advanced.qmd": {
+    "5_Full_Doc_Features_Details_Advanced.html": "9d197ee8"
+  },
+  "PipelineDocumentation/5.1_Full_Doc_Setup_Project_Directory_Structure_Details.md": {
+    "5.1_Full_Doc_Setup_Project_Directory_Structure_Details.html": "b4940f3d"
+  },
+  "PipelineDocumentation/5.1_Full_Doc_Setup_Project_Directory_Structure_Details.qmd": {
+    "5.1_Full_Doc_Setup_Project_Directory_Structure_Details.html": "6233db4b"
+  },
+  "PipelineDocumentation/5_1_Full_Doc_Setup_Project_Directory_Structure_Details.qmd": {
+    "5_1_Full_Doc_Setup_Project_Directory_Structure_Details.html": "cb235ca8"
+  },
+  "PipelineDocumentation/5_2_Full_Doc_Create_Database_From_Raw_Data_Inspect_Outputs.qmd": {
+    "5_2_Full_Doc_Create_Database_From_Raw_Data_Inspect_Outputs.html": "4f52a26a"
   }
 }
