@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>install_python_optional – EcoFlux Lab</title>
+<title>rshiny_app – EcoFlux Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_SoftwareInstallation.html">2. Software Installation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_6_Install_Python_Optional.html">2.6 &nbsp; Install Software: Python (optional)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/6_Data_Visualization.html">6. Data Visualization</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/6_2_RShiny_App.html">6.2 &nbsp; R-Shiny App</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/2_6_Install_Python_Optional.html" class="sidebar-item-text sidebar-link active">
+  <a href="../PipelineDocumentation/2_6_Install_Python_Optional.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2.6 &nbsp; Install Software: Python (optional)</span></a>
   </div>
 </li>
@@ -329,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/6_2_RShiny_App.html" class="sidebar-item-text sidebar-link">
+  <a href="../PipelineDocumentation/6_2_RShiny_App.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">6.2 &nbsp; R-Shiny App</span></a>
   </div>
 </li>
@@ -374,23 +374,61 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#python-installation-on-your-local-computer-optional" id="toc-python-installation-on-your-local-computer-optional" class="nav-link active" data-scroll-target="#python-installation-on-your-local-computer-optional">2.6. &nbsp; Python Installation on your local computer (optional)</a></li>
+  <li><a href="#r-shiny-app-for-viewing-data-in-real-time" id="toc-r-shiny-app-for-viewing-data-in-real-time" class="nav-link active" data-scroll-target="#r-shiny-app-for-viewing-data-in-real-time">7.2. &nbsp; R-Shiny App for Viewing Data in Real-Time</a>
+  <ul class="collapse">
+  <li><a href="#plotting-data-using-the-r-shiny-app" id="toc-plotting-data-using-the-r-shiny-app" class="nav-link" data-scroll-target="#plotting-data-using-the-r-shiny-app">Plotting data using the R-Shiny app</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_SoftwareInstallation.html">2. Software Installation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_6_Install_Python_Optional.html">2.6 &nbsp; Install Software: Python (optional)</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/6_Data_Visualization.html">6. Data Visualization</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/6_2_RShiny_App.html">6.2 &nbsp; R-Shiny App</a></li></ol></nav></header>
 
 
 
 
-<section id="python-installation-on-your-local-computer-optional" class="level2">
-<h2 class="anchored" data-anchor-id="python-installation-on-your-local-computer-optional">2.6. &nbsp; Python Installation on your local computer (optional)</h2>
-<p>This step is optional. Python can be used in a number of eddy covariance data packages (e.g., some of these <a href="https://ameriflux.lbl.gov/resources/resource-list/tools-and-software-for-flux-scientists/flux-data-post-processing-and-qa-qc/" target="_blank" rel="noopener noreferrer">flux data post-processing and QA/QC resources</a>).</p>
-<p>Python is also necessary for those interested in running high-frequency data reprocessing described in this <a href="https://github.com/CANFLUX/EddyPro_API/blob/main/README.md" target="_blank" rel="noopener noreferrer">EddyPro API</a> or gap-filling fluxes using the approach described in <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168192321002124">the paper</a> “Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands”.</p>
-<p>However, you can skip this step if you do no plan to use any of the resources above.</p>
+<section id="r-shiny-app-for-viewing-data-in-real-time" class="level2">
+<h2 class="anchored" data-anchor-id="r-shiny-app-for-viewing-data-in-real-time">7.2. &nbsp; R-Shiny App for Viewing Data in Real-Time</h2>
+<p><link rel="stylesheet" href="css/style.css"></p>
+<p>We recommend using this R-Shiny app for viewing your data in real-time, and if you wish to display your data publicly.</p>
+<section id="plotting-data-using-the-r-shiny-app" class="level3">
+<h3 class="anchored" data-anchor-id="plotting-data-using-the-r-shiny-app">Plotting data using the R-Shiny app</h3>
+<p>Instructions for using the <code>RShiny_flux_plots.R</code> app (under <code>/Biomet.net/R/RShiny_flux_plots/</code>). To run the R-Shiny app, either locally or on an R-Shiny server, you will need to download, edit, rename and save two files.</p>
+<ol type="1">
+<li><p>Download the <code>Excel sheet</code> below to input your site coordinates (you can include multiple sites, each as a separate line):</p>
+<p><a href="ini_templates_sample_data/site_coordinates_TUT.xlsx">Example site coordinate file</a></p>
+<ul>
+<li><p><strong>Note</strong> that the standard meridian is equal to your [UTC offset (without daylight savings) x 15]. For example, Vancouver is UTC-8 so the standard meridian is -120.</p></li>
+<li><p>Also, latitude and longitude are in decimal degrees, and negative for West and South coordinates.</p></li>
+</ul></li>
+<li><p>Rename the Excel file to include your specific <code>Project Name</code> (in place of “TUT” in this example file).</p></li>
+<li><p>Create a new folder called <code>RShiny_flux_plots_ini</code> within <code>&lt;projectPath&gt;/Database/Calculation_Procedures/</code>, and save your Excel site coordinates file within this new folder.</p></li>
+<li><p>Next, download this <code>R-Shiny ini file</code> example:</p>
+<p><a href="ini_templates_sample_data/TUT_RShiny_ini.R.zip">Example R-Shiny ini file</a></p></li>
+<li><p>Edit the ini file, renaming the two paths at the top of the file, to (a) the Biomet.net library and (b) your Database folder, so they match your local computer.</p></li>
+<li><p>Select which level(s) of data you would like to plot. You can plot <code>ThirdStage</code> data by specifying <code>level &lt;- "Clean/ThirdStage"</code>, or multiple levels of data using the concatenate command, e.g., <code>level &lt;- c("Clean/ThirdStage","Met")</code>.</p></li>
+<li><p>As with the Excel sheet, rename the ini file to include your specific <code>Project Name</code> and save it in under <code>&lt;projectPath&gt;/Database/Calculation_Procedures/RShiny_flux_plots_ini/</code> (same location as the Excel file).</p></li>
+<li><p>Next, copy the code block below to a <em>new</em> R script, again saving it in your new <code>RShiny_flux_plots_ini</code> folder. You can name it as you wish; in this example it is named <code>run_RShiny.R</code>. Edit the filepaths at the top of your new script, as with your INI file, and also enter your RShiny ini filename. Alternatively, you can run these lines of code on the command line, but you must remember to edit the file paths and ini filename.</p>
+<pre> # Edit these two file paths to point to biomet.net library and your database directory
+ biomet_dir &lt;- "/Users/rosie/Documents/Micromet/Biomet.net"  # path to Biomet.net directory 
+ main_dir &lt;- "/Users/rosie/Documents/Micromet/Projects/My_Micromet/Database"   # database path 
+
+ # Edit to match your RShiny ini filename
+ ini_filename &lt;- "TUT_RShiny_ini.R"
+
+ source(file.path(main_dir,"Calculation_Procedures/RShiny_flux_plots_ini",ini_filename))
+ source(file.path(biomet_dir,"R/RShiny_flux_plots/load_save_data.R"))
+ shiny::runApp(file.path(biomet_dir,"R/RShiny_flux_plots/RShiny_flux_plots.R"))</pre></li>
+<li><p>You can now run the R-Shiny app by running your new script (<code>run_RShiny.R</code>), or as mentioned in step 9, you can run the individual lines of code within the R console. <strong>Importantly, remember to change the file paths to match those on your local computer</strong>.</p>
+<!-- <pre>source("/Users/saraknox/Code/local_data_cleaning/Projects/EcoFlux/Database/Calculation_Procedures/RShiny_flux_plots_ini/UQAM_ini.R")
+source("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/load_save_data.R")
+shiny::runApp("/Users/saraknox/Code/Biomet.net/R/RShiny_flux_plots/RShiny_flux_plots.R")</pre> --></li>
+</ol>
+<p><strong>Note</strong>: if you get an error installing the package <code>imager</code>, you may need to try:</p>
+<p>For <code>imager</code>, you may need to download quartz to be able to run this library properly (https://www.xquartz.org) &amp; then use <code>install.packages("igraph", type="binary")</code></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

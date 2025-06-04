@@ -107,22 +107,23 @@ website:
               text: "2.6 &nbsp; Install Software: Python (optional)"
         - href: PipelineDocumentation/3_Data_Cleaning_Principles.qmd
           text: "3. Data Cleaning Principles"
-        - href: PipelineDocumentation/4_Quick_Start_Set_Up_Structure_Config.qmd
-          text: "4. Quick Start: Project Directory Structure"
-        - href: PipelineDocumentation/5_Quick_Start_Create_Database.qmd
-          text: "5. Quick Start: Create Database"
+        - href: PipelineDocumentation/4_Quick_Start_Tutorial.qmd
+          text: "4. Quick Start Tutorial - Recommended for First-Time Users"
           contents:
-            - href: PipelineDocumentation/5_1_Quick_Start_Create_Database.qmd
-              text: "5.1 &nbsp; Quick Start: Create Database and Visualize"
-        - href: PipelineDocumentation/6_Quick_Start_Create_INI_Files.qmd
-          text: "6. Quick Start: Create INI Files for Data Cleaning"
-          contents:
-            - href: PipelineDocumentation/6_1_Quick_Start_Create_First_Stage_INI.qmd
-              text: "6.1 &nbsp; Quick Start: First Stage INI File"
-            - href: PipelineDocumentation/6_2_Quick_Start_Create_Second_Stage_INI.qmd
-              text: "6.2 &nbsp; Quick Start: Second Stage INI File"
-            - href: PipelineDocumentation/6_3_Quick_Start_Third_Stage_Ameriflux.qmd
-              text: "6.3 &nbsp; Quick Start: Third Stage and Ameriflux Output"
+            - href: PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.qmd
+              text: "4.1 &nbsp; Quick Start: Project Directory Structure"
+            - href: PipelineDocumentation/4_2_Quick_Start_Create_Database.qmd
+              text: "4.2 &nbsp; Quick Start: Create Database"
+            - href: PipelineDocumentation/4_3_Quick_Start_Create_Database.qmd
+              text: "4.3 &nbsp; Quick Start: Create Database and Visualize"
+            - href: PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.qmd
+              text: "4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning"
+            - href: PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.qmd
+              text: "4.5 &nbsp; Quick Start: First Stage INI File"
+            - href: PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.qmd
+              text: "4.6 &nbsp; Quick Start: Second Stage INI File"
+            - href: PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.qmd
+              text: "4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output"
         - href: PipelineDocumentation/5_Full_Doc_Features_Details_Advanced.qmd
           text: "5. Full Documentation: Features, Details, and Other Useful Information for Advanced Users"
           contents:
@@ -130,20 +131,28 @@ website:
               text: "5.1 &nbsp; Full Documentation: Project Directory Structure and Matlab Configuration"
             - href: PipelineDocumentation/5_2_Full_Doc_Create_Database_From_Raw_Data_Inspect_Outputs.qmd
               text: "5.2 &nbsp; Full Documentation: Create Database from Raw Data and Inspect Contents"
-        - href: PipelineDocumentation/7_Data_Visualization.qmd
-          text: "7. Data Visualization"
+            - href: PipelineDocumentation/5_3_Full_Doc_First_Stage_INI_Files.qmd
+              text: "5.3 &nbsp; Full Documentation: First Stage INI files"
+            - href: PipelineDocumentation/5_4_Full_Doc_Second_Stage_INI_Files.qmd
+              text: "5.4 &nbsp; Full Documentation: Second Stage INI Files"
+            - href: PipelineDocumentation/5_5_Full_Doc_Third_Stage_Cleaning_And_Ameriflux_Output.qmd
+              text: "5.5 &nbsp; Full Documentation: Third Stage Cleaning and Converting to Ameriflux Output"
+        - href: PipelineDocumentation/6_Data_Visualization.qmd
+          text: "6. Data Visualization"
           contents:
-            - href: PipelineDocumentation/7_1_Matlab_plotApp.qmd
-              text: "7.1 &nbsp; Matlab plotApp"
-            - href: PipelineDocumentation/7_2_RShiny_App.qmd
-              text: "7.2 &nbsp; R-Shiny App"
-        - href: PipelineDocumentation/8_Troubleshooting_FAQ.qmd
-          text: "8. Troubleshooting and FAQ"
+            - href: PipelineDocumentation/6_1_Matlab_plotApp.qmd
+              text: "6.1 &nbsp; Matlab plotApp"
+            - href: PipelineDocumentation/6_2_RShiny_App.qmd
+              text: "6.2 &nbsp; R-Shiny App"
+            - href: PipelineDocumentation/6_3_Other_Biomet_Plotting_Tools.qmd
+              text: "6.3 &nbsp; Other Biomet.net Plotting Tools"
+        - href: PipelineDocumentation/7_Troubleshooting_FAQ.qmd
+          text: "7. Troubleshooting and FAQ"
           contents:
-            - href: PipelineDocumentation/8_1_Recommended_Software_Versions.qmd
-              text: "8.1 &nbsp; Recommended Software Versions"
-            - href: PipelineDocumentation/8_2_Recently_Added_Features.qmd
-              text: "8.2 &nbsp; Recently Added Features"
+            - href: PipelineDocumentation/7_1_Recommended_Software_Versions.qmd
+              text: "7.1 &nbsp; Recommended Software Versions"
+            - href: PipelineDocumentation/7_2_Recently_Added_Features.qmd
+              text: "7.2 &nbsp; Recently Added Features"
         
 format:
   html:

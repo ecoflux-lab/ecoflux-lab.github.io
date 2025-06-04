@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>install_python_optional – EcoFlux Lab</title>
+<title>quick_start_create_ini_files – EcoFlux Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_SoftwareInstallation.html">2. Software Installation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_6_Install_Python_Optional.html">2.6 &nbsp; Install Software: Python (optional)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/4_Quick_Start_Tutorial.html">4. Quick Start Tutorial - Recommended for First-Time Users</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/2_6_Install_Python_Optional.html" class="sidebar-item-text sidebar-link active">
+  <a href="../PipelineDocumentation/2_6_Install_Python_Optional.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2.6 &nbsp; Install Software: Python (optional)</span></a>
   </div>
 </li>
@@ -247,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link">
+  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</span></a>
   </div>
 </li>
@@ -374,23 +374,35 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#python-installation-on-your-local-computer-optional" id="toc-python-installation-on-your-local-computer-optional" class="nav-link active" data-scroll-target="#python-installation-on-your-local-computer-optional">2.6. &nbsp; Python Installation on your local computer (optional)</a></li>
+  <li><a href="#quick-start-create-ini-and-other-configuration-files-for-data-cleaning" id="toc-quick-start-create-ini-and-other-configuration-files-for-data-cleaning" class="nav-link active" data-scroll-target="#quick-start-create-ini-and-other-configuration-files-for-data-cleaning">6 &nbsp; Quick Start: Create INI and Other Configuration Files for Data Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#download-template-iniconfig-files" id="toc-download-template-iniconfig-files" class="nav-link" data-scroll-target="#download-template-iniconfig-files">Download template INI/config files:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_SoftwareInstallation.html">2. Software Installation</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/2_6_Install_Python_Optional.html">2.6 &nbsp; Install Software: Python (optional)</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/4_Quick_Start_Tutorial.html">4. Quick Start Tutorial - Recommended for First-Time Users</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</a></li></ol></nav></header>
 
 
 
 
-<section id="python-installation-on-your-local-computer-optional" class="level2">
-<h2 class="anchored" data-anchor-id="python-installation-on-your-local-computer-optional">2.6. &nbsp; Python Installation on your local computer (optional)</h2>
-<p>This step is optional. Python can be used in a number of eddy covariance data packages (e.g., some of these <a href="https://ameriflux.lbl.gov/resources/resource-list/tools-and-software-for-flux-scientists/flux-data-post-processing-and-qa-qc/" target="_blank" rel="noopener noreferrer">flux data post-processing and QA/QC resources</a>).</p>
-<p>Python is also necessary for those interested in running high-frequency data reprocessing described in this <a href="https://github.com/CANFLUX/EddyPro_API/blob/main/README.md" target="_blank" rel="noopener noreferrer">EddyPro API</a> or gap-filling fluxes using the approach described in <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168192321002124">the paper</a> “Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands”.</p>
-<p>However, you can skip this step if you do no plan to use any of the resources above.</p>
+<section id="quick-start-create-ini-and-other-configuration-files-for-data-cleaning" class="level2">
+<h2 class="anchored" data-anchor-id="quick-start-create-ini-and-other-configuration-files-for-data-cleaning">6 &nbsp; Quick Start: Create INI and Other Configuration Files for Data Cleaning</h2>
+<p>This section provides quick-start instructions for creating your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux.</p>
+<section id="download-template-iniconfig-files" class="level3">
+<h3 class="anchored" data-anchor-id="download-template-iniconfig-files">Download template INI/config files:</h3>
+<p><a href="ini_templates_sample_data/Template_Sample_INIs.zip">Template and Sample INI/config files</a></p>
+<ol type="1">
+<li><p>Download the files above; unzip the contents, and copy the TEMPLATE files in the <code>Template_INI_config_files</code> folder to the location shown in figure 6.1:</p>
+<p><img src="images/directory_trees/DirectoryTree6a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"></p>
+<p><em>Figure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.</em></p></li>
+<li><p>Rename the TEMPLATE files you just copied, replacing “TEMPLATE” with your site ID (<code>SITEID1</code> in this example; this filename format is required).</p></li>
+<li><p>The files in the <code>Tutorial_filled_sample_files</code> folder are completed, “filled-in” versions of the TEMPLATE files that work with the sample data available for download in section 5.</p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
