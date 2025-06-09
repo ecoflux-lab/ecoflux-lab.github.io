@@ -96,11 +96,11 @@ website:
             - href: PipelineDocumentation/2_1_Install_Git_Optional.qmd
               text: "2.1 &nbsp; Install Software: Git (optional)"
             - href: PipelineDocumentation/2_2_Download_Biomet_Library.qmd
-              text: "2.2 &nbsp; Download Biomet Library"
+              text: "2.2 &nbsp; Download Biomet.net Library"
             - href: PipelineDocumentation/2_3_Install_Matlab.qmd
               text: "2.3 &nbsp; Install Software: Matlab"
             - href: PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.qmd
-              text: "2.4 &nbsp; Configure Matlab for Biomet"
+              text: "2.4 &nbsp; Configure Matlab for Biomet.net"
             - href: PipelineDocumentation/2_5_Install_R_Studio.qmd
               text: "2.5 &nbsp; Install Software: R/RStudio"
             - href: PipelineDocumentation/2_6_Install_Python_Optional.qmd
@@ -111,19 +111,15 @@ website:
           text: "4. Quick Start Tutorial - Recommended for First-Time Users"
           contents:
             - href: PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.qmd
-              text: "4.1 &nbsp; Quick Start: Project Directory Structure"
-            - href: PipelineDocumentation/4_2_Quick_Start_Create_Database.qmd
-              text: "4.2 &nbsp; Quick Start: Create Database"
-            - href: PipelineDocumentation/4_3_Quick_Start_Create_Database.qmd
-              text: "4.3 &nbsp; Quick Start: Create Database and Visualize"
-            - href: PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.qmd
-              text: "4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning"
-            - href: PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.qmd
-              text: "4.5 &nbsp; Quick Start: First Stage INI File"
-            - href: PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.qmd
-              text: "4.6 &nbsp; Quick Start: Second Stage INI File"
-            - href: PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.qmd
-              text: "4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output"
+              text: "4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration"
+            - href: PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.qmd
+              text: "4.2 &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents"
+            - href: PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.qmd
+              text: "4.3 &nbsp; Quick Start Tutorial: Create your First Stage INI File for Data Cleaning"
+            - href: PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.qmd
+              text: "4.4 &nbsp; Quick Start Tutorial: Create Your Second Stage INI File for Data Cleaning"
+            - href: PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.qmd
+              text: "4.5 &nbsp; Quick Start Tutorial: Third Stage Cleaning and Converting to Ameriflux Output"
         - href: PipelineDocumentation/5_Full_Doc_Features_Details_Advanced.qmd
           text: "5. Full Documentation: Features, Details, and Other Useful Information for Advanced Users"
           contents:

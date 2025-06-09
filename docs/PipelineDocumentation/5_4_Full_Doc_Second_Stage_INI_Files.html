@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.2 &nbsp; Download Biomet Library</span></a>
+ <span class="menu-text">2.2 &nbsp; Download Biomet.net Library</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet</span></a>
+ <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet.net</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,43 +230,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1 &nbsp; Quick Start: Project Directory Structure</span></a>
+ <span class="menu-text">4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2 &nbsp; Quick Start: Create Database</span></a>
+  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.3 &nbsp; Quick Start: Create Database and Visualize</span></a>
+  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 &nbsp; Quick Start Tutorial: Create your First Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</span></a>
+  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 &nbsp; Quick Start Tutorial: Create Your Second Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.5 &nbsp; Quick Start: First Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.6 &nbsp; Quick Start: Second Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output</span></a>
+  <a href="../PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 &nbsp; Quick Start Tutorial: Third Stage Cleaning and Converting to Ameriflux Output</span></a>
   </div>
 </li>
       </ul>
@@ -388,7 +376,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="full-documentation-second-stage-ini-files">5.4. &nbsp; Full Documentation: Second Stage INI Files</h2>
 <p>[XXX In Progress]</p>
 <p><link rel="stylesheet" href="css/style.css"></p>
-<p>On this page: - <a href="#div_id_GeneralSecondStage">General outline for creating your second stage INI file</a> - <a href="#div_id_RunSecondStage">Running second stage cleaning in Matlab</a> - <a href="#div_id_PropertiesSecondStage">Properties and parameters: second stage INI</a> - <a href="#div_id_SecondStageFeatures">Second stage main features</a> - <a href="#div_id_SyntaxRules">Programming syntax rules for first and second stage INI files</a></p>
+<p>On this page:</p>
+<ul>
+<li><a href="#div_id_GeneralSecondStage">General outline for creating your second stage INI file</a></li>
+<li><a href="#div_id_RunSecondStage">Running second stage cleaning in Matlab</a></li>
+<li><a href="#div_id_PropertiesSecondStage">Properties and parameters: second stage INI</a></li>
+<li><a href="#div_id_SecondStageFeatures">Second stage main features</a></li>
+<li><a href="#div_id_SyntaxRules">Programming syntax rules for first and second stage INI files</a></li>
+</ul>
 <p><br></p>
 <div id="div_id_GeneralSecondStage">
 <hr>
@@ -416,7 +411,65 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="properties-and-parameters-second-stage-ini" class="level3">
 <h3 class="anchored" data-anchor-id="properties-and-parameters-second-stage-ini">Properties and parameters: second stage INI</h3>
-<p><em>Table XXX. Second stage INI file properties and parameters.</em> | Field | Description | | ———– | ———– | | Site_name | Name of the site. Any text can go here. | | SiteID | This is the name attributed to the site in the database (e.g., DSM or BB). | | input_path | This can stay blank. | | output_path | The local output path.| | high_level_path | Leave blank:{}. It used to indicate Met/Flux, etc.| | searchPath | All traces on this path(s) will be loaded up and available in the SecondStage cleaning. Syntax: use ‘auto’ or use specific folders to limit or to expand the (example: ‘Flux,Met,Flags’). When option ‘auto’ is used, all the traces created by the FirstStage cleaning will be automatically loaded before the SecondStage cleaning starts. | |[Trace] | Marks the beginning of a new variable. The section has to end with the keyword &lt;[End]&gt;.| | variableName | Name of variable for second stage, again following Ameriflux format. The variable with the name created here will show up in the <code>/Database/yyyy/SITEID/Clean/SecondStage</code> folder, where <code>yyyy</code> is the year that the data is valid for. | | Evaluate | User defined function. If no function is applied, default input will just pass the variable from the first stage to the second stage, e.g., <code>Evaluate = 'TKE = TKE;'</code>. Use the <code>calc_avg_trace</code> function (described above) to average or gap-fill met variables (such as air temperature) with values from secondary measurements or nearby sites (you will need to load these into the first stage before using them in this second stage). See sample file <code>DSM_SecondStage.ini</code> for more use cases.| | title | Descriptive variable name for plots/visualization. | | units | Units for this current trace, e.g.&nbsp;<code>'W/m^2'</code>|</p>
+<p><em>Table XXX. Second stage INI file properties and parameters.</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Site_name</td>
+<td>Name of the site. Any text can go here.</td>
+</tr>
+<tr class="even">
+<td>SiteID</td>
+<td>This is the name attributed to the site in the database (e.g., DSM or BB).</td>
+</tr>
+<tr class="odd">
+<td>input_path</td>
+<td>This can stay blank.</td>
+</tr>
+<tr class="even">
+<td>output_path</td>
+<td>The local output path.</td>
+</tr>
+<tr class="odd">
+<td>high_level_path</td>
+<td>Leave blank:{}. It used to indicate Met/Flux, etc.</td>
+</tr>
+<tr class="even">
+<td>searchPath</td>
+<td>All traces on this path(s) will be loaded up and available in the SecondStage cleaning. Syntax: use ‘auto’ or use specific folders to limit or to expand the (example: ‘Flux,Met,Flags’). When option ‘auto’ is used, all the traces created by the FirstStage cleaning will be automatically loaded before the SecondStage cleaning starts.</td>
+</tr>
+<tr class="odd">
+<td>[Trace]</td>
+<td>Marks the beginning of a new variable. The section has to end with the keyword &lt;[End]&gt;.</td>
+</tr>
+<tr class="even">
+<td>variableName</td>
+<td>Name of variable for second stage, again following Ameriflux format. The variable with the name created here will show up in the <code>/Database/yyyy/SITEID/Clean/SecondStage</code> folder, where <code>yyyy</code> is the year that the data is valid for.</td>
+</tr>
+<tr class="odd">
+<td>Evaluate</td>
+<td>User defined function. If no function is applied, default input will just pass the variable from the first stage to the second stage, e.g., <code>Evaluate = 'TKE = TKE;'</code>. Use the <code>calc_avg_trace</code> function (described above) to average or gap-fill met variables (such as air temperature) with values from secondary measurements or nearby sites (you will need to load these into the first stage before using them in this second stage). See sample file <code>DSM_SecondStage.ini</code> for more use cases.</td>
+</tr>
+<tr class="even">
+<td>title</td>
+<td>Descriptive variable name for plots/visualization.</td>
+</tr>
+<tr class="odd">
+<td>units</td>
+<td>Units for this current trace, e.g.&nbsp;<code>'W/m^2'</code></td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <div id="div_id_SecondStageFeatures">
 <hr>
@@ -429,7 +482,43 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Averaging multiple sensors to remove variability;</p></li>
 <li><p>Using one sensor as the best (most accurate value) and using the other sensor(s) only to fill in the missing values. A relationship can be created between the “best” sensor and its “replacement” and that relationship can be applied to the “replacement” values to improve the accuracy;</p></li>
 <li><p>Using the sensors from another near-by site to fill in the missing values at the current site.</p>
-<p>Arguments for <code>calc_avg_trace</code> function: | Field | Description | Type | | —– | ———– | —- | | tv | input the time vector <code>clean_tv</code> that has already been created in the first stage cleaning | n/a| | data_in | the name of the trace output from stage one, to be filled or “improved” by combining/averaging with another trace or traces | string uppercase | | data_fill | the name of the traces used to average/gap-fill “data_in” trace; these “data_fill” traces must have been included in the first stage | integer | | avg_period | |</p></li>
+<p>Arguments for <code>calc_avg_trace</code> function:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 55%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>tv</td>
+<td>input the time vector <code>clean_tv</code> that has already been created in the first stage cleaning</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>data_in</td>
+<td>the name of the trace output from stage one, to be filled or “improved” by combining/averaging with another trace or traces</td>
+<td>string uppercase</td>
+</tr>
+<tr class="odd">
+<td>data_fill</td>
+<td>the name of the traces used to average/gap-fill “data_in” trace; these “data_fill” traces must have been included in the first stage</td>
+<td>integer</td>
+</tr>
+<tr class="even">
+<td>avg_period</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></li>
 </ul>
 <ol start="2" type="1">
 <li>As with the first stage, more complex user-defined processing can be applied to the trace using the “Evaluate” option. User written Matlab functions can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. Some rules for formatting apply here (see the DSM SecondStage ini file for details and examples [XXX if we include this]).</li>

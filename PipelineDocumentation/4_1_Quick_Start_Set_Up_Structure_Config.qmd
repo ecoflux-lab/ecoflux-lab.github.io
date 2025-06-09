@@ -1,7 +1,12 @@
-## 4 &nbsp; Quick Start: Project Directory Structure and Matlab Configuration
+## 4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration
 <!-- ## 4.1. &nbsp; Quick Start: Project Directory Structure and Matlab Configuration -->
 
 <link rel="stylesheet" href="css/style.css">
+
+On this page:
+
+- <a href="#div_id_Instructions">Instructions for setting up project directory structure and configuring Matlab</a>
+- <a href="#div_id_Description">Short description of new directory structure and contents</a>
 
 This section provides a quick-start summary for setting up your project directory structure and configuring Matlab to work with this structure. <!-- For a more detailed description of these steps see sections 4.2 and 4.3. -->
 
@@ -9,7 +14,10 @@ You need the file path to your project root folder for these next steps. This pr
 
 You will also need to create a site ID that relates to the flux site you are working with. This is often an acronym based on the site name (e.g., Burns Bog has `siteID = 'BB'`, Richmond Brackish Marsh has `siteID = 'RBM'`). Note that the siteID must be all upper case.
 
-### Instructions
+<div id="div_id_Instructions">
+<hr>
+
+### Instructions for setting up project directory structure and configuring Matlab
 
 1. If you have multiple flux sites, choose *one* site to begin working with. Using the Matlab command line, define your projectPath and siteID as in the following example:
 
@@ -19,7 +27,7 @@ You will also need to create a site ID that relates to the flux site you are wor
     <pre>
     projectPath = '/Users/&lt;username&gt;/Projects/My_Micromet/';
     siteID = 'SITEID1';</pre>
-
+ 
     *PC example:*
     <pre>
     projectPath = 'C:\Projects\My_Micromet\';
@@ -30,7 +38,7 @@ You will also need to create a site ID that relates to the flux site you are wor
     <pre>
     create_TAB_ProjectFolders(projectPath,siteID)</pre>    
 
-    Both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
+    Both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
 
     As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., `My_Micromet` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
 
@@ -38,9 +46,14 @@ You will also need to create a site ID that relates to the flux site you are wor
     
     *Figure 4.1. Directory tree showing contents of project folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
-    [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "directory_setup/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1.] 
+    [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1.] 
 
 3. Finally, run `set_TAB_project(projectPath)`. This process sets up the `Biomet.net` toolbox to work with your project. 
+
+</div>
+
+<div id="div_id_Description">
+<hr>
 
 ### Short description of new directory structure and contents
 
@@ -78,6 +91,6 @@ For now we will describe only the new directories and files necessary for you to
 
 The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.
 
-
+</div>
 
 

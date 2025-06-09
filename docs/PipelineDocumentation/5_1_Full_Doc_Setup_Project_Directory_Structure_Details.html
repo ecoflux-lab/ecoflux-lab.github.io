@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.2 &nbsp; Download Biomet Library</span></a>
+ <span class="menu-text">2.2 &nbsp; Download Biomet.net Library</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet</span></a>
+ <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet.net</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,43 +230,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1 &nbsp; Quick Start: Project Directory Structure</span></a>
+ <span class="menu-text">4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2 &nbsp; Quick Start: Create Database</span></a>
+  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.3 &nbsp; Quick Start: Create Database and Visualize</span></a>
+  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 &nbsp; Quick Start Tutorial: Create your First Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</span></a>
+  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 &nbsp; Quick Start Tutorial: Create Your Second Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.5 &nbsp; Quick Start: First Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.6 &nbsp; Quick Start: Second Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output</span></a>
+  <a href="../PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 &nbsp; Quick Start Tutorial: Third Stage Cleaning and Converting to Ameriflux Output</span></a>
   </div>
 </li>
       </ul>
@@ -388,14 +376,24 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="full-documentation-project-directory-structure-and-matlab-configuration">5.1. &nbsp; Full Documentation: Project Directory Structure and Matlab Configuration</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
 <p>This section provides the same instructions as the quick-start set up in section 4.1, but in much greater detail.</p>
-<p>On this page: - <a href="#div_id_DirectoryStructure">Setting up your project directory structure and configure Matlab to work with Biomet.net</a> - <a href="#div_id_ConfigMatlab">Configure Matlab for directory structure</a></p>
+<p>On this page:</p>
+<ul>
+<li><a href="#div_id_DirectoryStructure">Setting up your project directory structure and configure Matlab to work with Biomet.net</a></li>
+<li><a href="#div_id_ConfigMatlab">Configure Matlab for directory structure</a></li>
+</ul>
 <br>
 <div id="div_id_DirectoryStructure">
 <hr>
 <section id="setting-up-your-project-directory-structure-and-configure-matlab-to-work-with-biomet.net" class="level3">
 <h3 class="anchored" data-anchor-id="setting-up-your-project-directory-structure-and-configure-matlab-to-work-with-biomet.net">Setting up your project directory structure and configure Matlab to work with Biomet.net</h3>
 <p>Each user should have at least one <code>Project</code> directory which encompasses data cleaning/analysis/research for a group of similar flux sites, e.g., FLUXNET-Canada-V2.0. You will need the full file path to this Project directory, and also you will need to create a site IDs(s) for your flux site(s), if they do not already exist. Site IDs are usually acronyms based on the site name.</p>
-<p><strong>Important notes</strong>: * We enforce using <em>uppercase</em> for site IDs, to avoid problems between running data cleaning on Mac vs.&nbsp;Windows. Examples: the Delta Salt Marsh site ID is <code>DSM</code>; the Turkey Point Agriculture site ID is <code>TPAG</code>. * Site IDs <em>must</em> also be a valid Matlab variable name: they should start with a letter, can only be alphanumeric, and are allowed to contain underscores but no other special characters (no hyphens!), e.g., <code>PE_TNR</code>. * Your project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it within the Biomet.net directory. * Your <code>&lt;projectPath&gt;</code>, which you will need when following the instructions, is the full filepath to your <code>Project</code> root directory. E.g., if your project is called <code>My_Micromet</code>, the project path would be similar to <code>/Users/&lt;username&gt;/Projects/My_Micromet/</code>.</p>
+<p><strong>Important notes</strong>:</p>
+<ul>
+<li><p>We enforce using <em>uppercase</em> for site IDs, to avoid problems between running data cleaning on Mac vs.&nbsp;Windows. Examples: the Delta Salt Marsh site ID is <code>DSM</code>; the Turkey Point Agriculture site ID is <code>TPAG</code>.</p></li>
+<li><p>Site IDs <em>must</em> also be a valid Matlab variable name: they should start with a letter, can only be alphanumeric, and are allowed to contain underscores but no other special characters (no hyphens!), e.g., <code>PE_TNR</code>.</p></li>
+<li><p>Your project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it within the Biomet.net directory.</p></li>
+<li><p>Your <code>&lt;projectPath&gt;</code>, which you will need when following the instructions, is the full filepath to your <code>Project</code> root directory. E.g., if your project is called <code>My_Micromet</code>, the project path would be similar to <code>/Users/&lt;username&gt;/Projects/My_Micromet/</code>.</p></li>
+</ul>
 <p>We provide functions within the Biomet library to help you set up the project directory structure and configure Matlab:</p>
 <section id="instructions-steps-match-those-in-section-4.1" class="level4">
 <h4 class="anchored" data-anchor-id="instructions-steps-match-those-in-section-4.1">Instructions (steps match those in section 4.1)</h4>

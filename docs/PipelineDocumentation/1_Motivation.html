@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.2 &nbsp; Download Biomet Library</span></a>
+ <span class="menu-text">2.2 &nbsp; Download Biomet.net Library</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet</span></a>
+ <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet.net</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,43 +230,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1 &nbsp; Quick Start: Project Directory Structure</span></a>
+ <span class="menu-text">4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2 &nbsp; Quick Start: Create Database</span></a>
+  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.3 &nbsp; Quick Start: Create Database and Visualize</span></a>
+  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 &nbsp; Quick Start Tutorial: Create your First Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</span></a>
+  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 &nbsp; Quick Start Tutorial: Create Your Second Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.5 &nbsp; Quick Start: First Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.6 &nbsp; Quick Start: Second Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output</span></a>
+  <a href="../PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 &nbsp; Quick Start Tutorial: Third Stage Cleaning and Converting to Ameriflux Output</span></a>
   </div>
 </li>
       </ul>
@@ -386,7 +374,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="motivation-the-importance-of-flux-data-standardization-and-reproducibility" class="level2">
 <h2 class="anchored" data-anchor-id="motivation-the-importance-of-flux-data-standardization-and-reproducibility">1. &nbsp; Motivation: The Importance of Flux Data Standardization and Reproducibility</h2>
-<p>Collecting and handling eddy covariance data presents challenges on many front, including site and instrument selection, high frequency data processing, data post-processing, and QA/QC. While there are many resources online resources that can help with all of these different challenges of eddy covariance measurements (see examples below), here we focus on the approach that the EcoFlux Lab uses for flux data post-processing and QA/QC. Here we provide a detailed outline of our procedures for <strong>data post-processing QA/QC, gap-filling, and CO2 flux partitioning. We also provide data visualization tools</strong>. We draw on expertise from regional networks and FLUXNET, and leverage widely used tools in the field such as REddyProc and other recently developed machine learning-based gap-filling resources . By following these procedures, you will be able to develop a robust data pipeline to ensure high quality data that you can submit to your regional flux networks. Data standardization and reproducibility helps minimize errors, enhances data reliability, and enables the integration of data sets from diverse ecosystems into global networks like FLUXNET.</p>
+<p>Collecting and handling eddy covariance data presents challenges on many fronts, including site and instrument selection, high frequency data processing, data post-processing, and QA/QC. While there are many online resources that can help with all of these different challenges of eddy covariance measurements (see examples below), we focus on the approach that the EcoFlux Lab uses for flux data post-processing and QA/QC. Here we provide a detailed outline of our procedures for <strong>data post-processing QA/QC, gap-filling, and CO2 flux partitioning. We also provide data visualization tools</strong>. We draw on expertise from regional networks and FLUXNET, and leverage widely used tools in the field such as REddyProc and other recently developed machine learning-based gap-filling resources. By following these procedures, you will be able to develop a robust data pipeline to ensure high quality data that you can submit to your regional flux networks. Data standardization and reproducibility helps minimize errors, enhances data reliability, and enables the integration of data sets from diverse ecosystems into global networks like FLUXNET.</p>
 <p>Note that in this pipeline, we are focused on data post-processing, rather than the processing of high frequency (e.g., 20 Hz) data. While we do provide <a href="https://ecoflux-lab.github.io/PipelineDocumentation/1_1_Note_High_Freq_Data_Processing.html" target="_blank" rel="noopener noreferrer">resources on high frequency flux processing</a>, this is not within the main scope of this data pipeline. For more information on site set-up, instrument selection, and processing of high frequency data, please contact <a href="mailto:xsun130@asu@edu">Xiangmin Sun</a> from the FLUXNET <a href="https://fluxnet.org/community/fluxnet-working-groups/ch4-and-n2o-processing-committee/" target="_blank" rel="noopener noreferrer">CH4 and N2O processing committee</a>.</p>
 <p>While the data pipeline described here requires some coding knowledge, the whole pipeline can be run <strong>without having to modify any existing code</strong>. You only need to edit some initialization files, and then execute the code.</p>
 <p><strong>Additional resources</strong>:</p>

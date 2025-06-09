@@ -5,6 +5,7 @@
 This section complements the quick-start set up in section 4.2.
 
 On this page:
+
 - <a href="#div_id_BestPractices">Best practices</a>
 - <a href="#div_id_CreateDatabaseUsefulInfo">Useful information on creating your database</a>
 - <a href="#div_id_MultipleInputFilesContinuousUpdates">Creating Database From Multiple Input Files and Updates for Continuous Operational Sites</a>
@@ -13,6 +14,7 @@ On this page:
 
 <br>
 <div id="div_id_BestPractices">
+
 <hr>
 
 ### Best practices
@@ -30,6 +32,7 @@ If you need help getting started with your "main" computer program, a sample Mat
 
 <br>
 <div id="div_id_CreateDatabaseUsefulInfo">
+
 <hr>
 
 ### Useful information on creating your database
@@ -61,6 +64,7 @@ We advise you to generalize your scripts as far as possible, based on the sites 
 
 <br>
 <div id="div_id_MultipleInputFilesContinuousUpdates">
+
 <hr>
 
 ### Creating Database From Multiple Input Files and Updates for Continuous Operational Sites
@@ -109,6 +113,7 @@ fprintf('  %s - Met  Number of files processed = %d, Number of HHours = %d\n',si
 If we run the same sequence twice (fr_TOA5_Database or fr_EddyPro_Databse as shown above), the second time the number of files processed would be zero assuming that there were no new files added to the Sites folder between the two runs. If on the other hand, one of the files changed, the function would process it. That is how real-time data gets processed in this data pipeline. 
 
 Other examples of `Biomet.net` functions that update data continuously, and can be written into a script as previously shown, are as follows:
+
 1. `fr_HOBO_database` (continuously create database from HOBO met data);
 2. `fr_SmartFlux_database` (continuously create database from SmartFlux output; flux data);
 3. `fr_SoilFluxPro_database` (continuously create database from SoilFluxPro output data).
@@ -129,13 +134,14 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 
 <br>
 <div id="div_id_CreateDatabaseFromECCC">
+
 <hr>
 
 ### Create database using data from Canadian meteorological stations
 
 Data from Canadian meteorological stations [operational climate stations run by Environment and Climate Change Canada (ECCC)] can be used for gap-filling met data for Canadian flux sites that are in close proximity. If you have gaps in your met data, you can search for nearby climate stations as follows:
 
-1. To find the closest Environment ECCC stations to your flux site, first go to this website: https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
+1. To find the closest Environment ECCC stations to your flux site, first go to this website: <a href="https://climate.weather.gc.ca/historical_data/search_historic_data_e.html" target="_blank" rel="noopener noreferrer">https://climate.weather.gc.ca/historical_data/search_historic_data_e.html</a>
 2. Click on the "Search by Proximity" tab (figure XXX), select "location coordinates in Decimal Degrees" and type in the coordinates of your flux site:
 
     <img src="images/ECCC/ECCC_Proximity.jpg" alt="ECCC_Proximity" width="600"/>
@@ -156,7 +162,7 @@ Data from Canadian meteorological stations [operational climate stations run by 
     
     *Figure XXX. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.*
 
-7. Next, you need the **Station ID** (which is different to the Climate ID). Go to this website: https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/; open the `Station Inventory EN.csv` file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.
+7. Next, you need the **Station ID** (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the `Station Inventory EN.csv` file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.
 
 8. Create a script using the snippet below, and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once. 
 
@@ -186,6 +192,7 @@ Data from Canadian meteorological stations [operational climate stations run by 
 
 <br>
 <div id="div_id_VisualizeInspect">
+
 <hr>
 
 ### Visualize and inspect your newly created database 

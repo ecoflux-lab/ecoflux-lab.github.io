@@ -1,12 +1,35 @@
-## 5.1. &nbsp; Quick Start: Create Database from Raw Data and Visualize Contents
+## 4.2. &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents
 
 <link rel="stylesheet" href="css/style.css">
 
 This section provides a generic, quick-start example that converts (1) EddyPro raw data output, and (2) Campbell Scientific TOA5 output, to a formatted database ready to be processed using the standardised libraries (i.e., `Biomet.net`). We also present some examples of how to quickly check the contents of your new database.
 
-### Create database using data from your own site(s)
+On this page:
 
-As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data:
+- <a href="#div_id_SampleData">Sample data for tutorial</a>
+- <a href="#div_id_CreateDatabase">Create database</a>
+- <a href="#div_id_Visualize">Visualize and inspect database</a>
+- <a href="#div_id_code">Sample code</a>
+
+<div id="div_id_SampleData">
+<hr>
+
+### Sample data for tutorial:
+
+If you wish to use our sample raw flux and met data to work through the example, click the following "Sample_Data_For_Tutorial" link, unzip the contents, and keep them handy: 
+
+<a href="ini_templates_sample_data/TUT_sample_data.zip">Sample_Data_For_Tutorial</a>
+
+</div>
+
+<br>
+
+<div id="div_id_CreateDatabase">
+<hr>
+
+### Create database using our sample data, or using data from your own site(s)
+
+As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data. If your data has a different format, we recommend first carrying out steps below using our sample data to see how the process works. We cover data with different formats in section 5.2 [XXX check]. 
 
 1. First, in your newly created `Sites` directory, within the relevant `SITEID` directory, create a new `Flux` folder (figure 5.1). 
 
@@ -14,9 +37,9 @@ As previously mentioned, we will follow an example that focuses on flux-related 
 
     *Figure 5.1. Directory tree showing file path to the location where raw flux data for site with SITEID1 should be stored.*
 
-2. Copy your EddyPro raw output data to this `Flux` folder. This data will remain untouched so that you always have a local copy of the original data.
+2. Copy the EddyPro raw output data to this `Flux` folder. This data will remain untouched so that you always have a local copy of the original data.
 
-3. Now, create a `Met` folder within the same `SITEID` directory (SITEID1 in this example), and copy your Campbell Scientific TOA5 data for this site to this Met folder. 
+3. Now, create a `Met` folder within the same `SITEID` directory (SITEID1 in this example), and copy the Campbell Scientific TOA5 data for this site to this Met folder. 
 
 4. In your `<projectPath>/Matlab` folder, create one new "main" Matlab file that will act as a "do-it-all" script. You can name this file however you like; we advise making it meaningful and including the word "Main". The example given here (figure 5.2) is named `DataCleaning_Main.m` (you can make your filename less generic) &mdash; it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>. 
 
@@ -32,7 +55,14 @@ As previously mentioned, we will follow an example that focuses on flux-related 
 
 Your data is now in a format ready for cleaning using the pipeline.
 
-### Visualize contents of new database
+</div>
+
+<br>
+
+<div id="div_id_Visualize">
+<hr>
+
+### Visualize and inspect contents of new database
 
 Here are some quick tips to inspect the data in your newly created database, all within Matlab:
 
@@ -57,12 +87,11 @@ Simply type `plotApp` on the Matlab command line, and it will open an app that c
     grid on;zoom on
     </pre>
 
-
-
+</div>
 
 <br>
-<hr>
 <div id="div_id_code">
+<hr>
 
 `DataCleaning_Main.m` template script for copying one section at a time (see Figure 5.2 for necessary edits, highlighted yellow):
 <pre>
@@ -116,4 +145,3 @@ structType = 1;
 db_struct2database(outStruct,databasePath,0,[],timeUnit,missingPointValue,structType,1); 
 </pre>
 </div>
-

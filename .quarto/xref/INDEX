@@ -352,5 +352,17 @@
   },
   "PipelineDocumentation/7_1_Recommended_Software_Versions.qmd": {
     "7_1_Recommended_Software_Versions.html": "265f8797"
+  },
+  "PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.qmd": {
+    "4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.html": "52301bd5"
+  },
+  "PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.qmd": {
+    "4_4_Quick_Start_Create_Second_Stage_INI_File.html": "654b10c3"
+  },
+  "PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.qmd": {
+    "4_3_Quick_Start_Create_First_Stage_INI_File.html": "5ae755e4"
+  },
+  "PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.qmd": {
+    "4_2_Quick_Start_Create_Database_Visualize_Contents.html": "e59ae0d6"
   }
 }

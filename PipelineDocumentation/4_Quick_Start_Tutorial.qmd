@@ -1,4 +1,4 @@
-## 4 &nbsp; Quick Start Tutorial - Recommended for First-Time Users
+## 4. &nbsp; Quick Start Tutorial - Recommended for First-Time Users
 
 If you are a first-time user of this data-cleaning pipeline, we recommend that you follow this "quick-start" tutorial. We provide sample data and template files along with instructions for creating your first and second stage INI files, editing the relevant third stage configuration files, and outputting your clean data in the correct format for submission to Ameriflux. 
 

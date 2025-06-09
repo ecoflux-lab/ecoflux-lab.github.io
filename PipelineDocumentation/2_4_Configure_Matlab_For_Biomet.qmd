@@ -23,7 +23,7 @@ Before completing this step, you must have the Biomet.net repository cloned to y
 
 * At this point the Matlab path should look very similar to Figure 2.3: only one folder in the path does not belong to Matlab nor the `/user/Documents/Matlab` folder, and that is the Startup folder you just added.
 
-* Next, click “Save” to save these settings for the future. We recommend that no other folders are saved in the default path to avoid unintentional consequences when running the data cleaning. If the saving fails, if possible you should restart Matlab in admin mode and repeat the process (it is often a permissions issue at this point; see Troubleshooting section 8 for more information).
+* Next, click “Save” to save these settings for the future. We recommend that no other folders are saved in the default path to avoid unintentional consequences when running the data cleaning. If the saving fails, if possible you should restart Matlab in admin mode and repeat the process (it is often a permissions issue at this point; see Troubleshooting section 7 for more information).
 
     <img src="images/matlab/MatlabConfigWindows&Mac3.jpg" alt="MatlabConfigWindows&Mac3" width="500"/>
     

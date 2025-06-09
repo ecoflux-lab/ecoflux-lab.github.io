@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/style.css"> 
 
 On this page:
+
 - <a href="#div_id_GeneralSecondStage">General outline for creating your second stage INI file</a>
 - <a href="#div_id_RunSecondStage">Running second stage cleaning in Matlab</a>
 - <a href="#div_id_PropertiesSecondStage">Properties and parameters: second stage INI</a>
@@ -14,6 +15,7 @@ On this page:
 <br>
 
 <div id="div_id_GeneralSecondStage">
+
 <hr>
 
 ### General outline for creating your second stage INI file
@@ -25,9 +27,11 @@ As with the first stage cleaning, if you are doing this for the first time, we r
 * Edit second stage INI file adding *just a few variables at a time* (as with the first stage) and then testing, so it’s easy to diagnose errors/typos. Pay attention to the output in your Matlab command window, it is informative and highlights any issues and where they occur. Recall the data cleaning principles previously outlined and make sure your traces align with the second stage principles.
 
 </div>
+
 <br>
 
 <div id="div_id_RunSecondStage">
+
 <hr>
 
 ### Running second stage cleaning in Matlab
@@ -44,14 +48,17 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2])
 
 
 </div>
+
 <br>
 
 <div id="div_id_PropertiesSecondStage">
+
 <hr>
 
 ### Properties and parameters: second stage INI
 
 *Table XXX. Second stage INI file properties and parameters.*
+
 | Field      | Description |
 | ----------- | ----------- |
 | Site_name   | Name of the site. Any text can go here.        |
@@ -69,6 +76,7 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2])
 <br>
 
 <div id="div_id_SecondStageFeatures">
+
 <hr>
 
 ### Second stage main features
@@ -79,6 +87,7 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2])
  * Using the sensors from another near-by site to fill in the missing values at the current site.
 
     Arguments for `calc_avg_trace` function:
+    
     | Field | Description | Type |
     | ----- | ----------- | ---- |
     | tv | input the time vector `clean_tv` that has already been created in the first stage cleaning | n/a|
@@ -89,9 +98,11 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2])
 2. As with the first stage, more complex user-defined processing can be applied to the trace using the “Evaluate” option. User written Matlab functions can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. Some rules for formatting apply here (see the DSM SecondStage ini file for details and examples [XXX if we include this]).
 
 </div>
+
 <br>
 
 <div id="div_id_SyntaxRules">
+
 <hr>
 
 #### Programming syntax rules for first and second stage INI files:

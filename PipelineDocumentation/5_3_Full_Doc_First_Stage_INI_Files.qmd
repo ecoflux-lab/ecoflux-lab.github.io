@@ -7,6 +7,7 @@
 **This section provides extensive details beyond the first-time set up in section 4, to help more advanced users. If you are creating INI files for the first time, we highly recommend following our quick-start tutorial: instructions for INI file creation begin in section 4.3.** 
 
 On this page:
+
 - <a href="#div_id_WhatAreINIs">What are INI files?</a>
 - <a href="#div_id_GeneralFirstStage">General outline for creating first stage INI file</a>
 - <a href="#div_id_RunFirstStage">Running first stage cleaning in Matlab</a>
@@ -23,6 +24,7 @@ On this page:
 <br>
 
 <div id="div_id_WhatAreINIs">
+
 <hr>
 
 ### What are INI files?
@@ -34,6 +36,7 @@ To help you create and edit your own site-specific INI files, throughout the ins
 </div>
 
 <div id="div_id_GeneralFirstStage">
+
 <hr>
 
 ### General outline for creating your first stage INI file
@@ -51,9 +54,7 @@ If you are doing this for the first time, you can obtain simplified template fil
     1. Select traces that are needed for future data analysis. Not all the measured variables from a site need to be here, only the ones that will be used in future analysis or those needed to improve cleaning, such as diagnostic variables.
     2. Each first stage trace name should follow [Ameriflux guidelines](https://ameriflux.lbl.gov/data/aboutdata/data-variables/) including positional qualifiers where relevant. Filenames from your raw database can be renamed here. 
     3. The original values can be altered; calibrations can be applied, units can be changed.
-    4. Apply basic filtering: 
-    (a) values can be removed if they exceed minMax thresholds;
-    (b) values can be clamped to the thresholds if they exceed clampedMinMax values. 
+    4. Apply basic filtering: (a) values can be removed if they exceed minMax thresholds; (b) values can be clamped to the thresholds if they exceed clampedMinMax values. 
     5. You can create dependencies between different traces. If one trace has some data points removed, all its dependent traces will also have those data points removed. 
     6. More complex user-defined processing can be applied to the trace using the very useful "Evaluate" option (also available in second stage cleaning). Matlab functions (user-written or `Biomet.net`) can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. Some rules for formatting apply here (see the existing SecondStage ini file for details and examples XXX DSM?).
 
@@ -79,10 +80,12 @@ If you are doing this for the first time, you can obtain simplified template fil
     *Figure 6.9. Second air temperature trace (`TA_1_2_1`) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
 
 </div>
+
 <br>
 
 
 <div id="div_id_RunFirstStage">
+
 <hr>
 
 #### Running first stage cleaning in Matlab
@@ -96,6 +99,7 @@ If you are doing this for the first time, you can obtain simplified template fil
     where the arguments are defined as follows:
 
     *Table 6.1. Argument definitions for `fr_automated_cleaning` function.*
+
     | Field | Description | Type |
     | ----- | ----------- | ---- |
     | yearIn | year(s) you wish to clean data for | integer or integer array |
@@ -109,11 +113,13 @@ If you are doing this for the first time, you can obtain simplified template fil
 </div>
 
 <div id="div_id_PropertiesFirstStage">
+
 <hr>
 
 #### Properties and parameters: first stage INI
 
 *Table 6.2. First stage INI file properties and parameters.*
+
 | Field      | Description |
 | ----------- | ----------- |
 | Header/Comments      | “%” character indicates the beginning of a comment. Program will not process any characters that follow “%”. Use comments to add information and to better document the site. Each line of the INI file can be followed by a comment. Refer to the sample INI file for DSM site.      |
@@ -149,6 +155,7 @@ Other properties that a user wants to use later on in their own programs (or in 
 <br>
 
 <div id="div_id_Tags">
+
 <hr>
 
 #### Tags for dependent variables
@@ -161,6 +168,7 @@ Tags in your site-specific custom file will **overwrite** tags of the same name 
 </div>
 
 <div id="div_id_GlobVar_Include">
+
 <hr>
 
 #### Global variables and include files
@@ -197,6 +205,7 @@ c. Other (`globalVars.other`):
 In sections 4.1 and 4.2, we introduced `include` files and how they are obtained. These template files define a standard set of variables that can be loaded into your first stage INI file. Specifically, the files relate to EddyPro output and radiation components. We suggest browsing through these files to become familiar with the content. If you wish to change or add any settings, we strongly recommend leaving the template "include" files untouched and using the global variables feature to create or overwrite the relevant setting, as previously described.
 
 More information about include files:
+
 * `EddyPro_Common_FirstStage_include.ini`: includes traces common to EddyPro output, listed in EddyPro file output order;
 * `EddyPro_LI7200_FirstStage_include.ini`: when an LI-7200 IRGA is being used, this file adds LI-7200 specific traces, listed in EddyPro file output order;
 * `EddyPro_LI7500_FirstStage_include.ini`: when an LI-7500 IRGA is being used, this file adds LI-7500 specific traces, listed in EddyPro file output order;
@@ -211,6 +220,7 @@ To include any of these files, add the following line of code to the very bottom
 ```
 
 *How the global variables algorithm works:*
+
 1. The INI file trace parameters, i.e., all fields between [TRACE] and [END] in the INI file, are loaded up.
 2. The program then cycles through all the traces: for each trace, first it checks if the `instrumentType` field matches one of the `globalVars.Instrument` fields, e.g., for `instrumentType = 'LI7700'` measuring "CH4", if there is a `global.Instrument.LI7700` field, then all its fields would be applied to the CH4 trace, either creating a new field or overwriting the existing fields; i.e., the content of `global.Instrument.LI7700.instrumentSN` would replace the content of the CH4 field `instrumentSN`. Secondly, it checks if the trace `variableName` matches any of the `globalVars.Trace` fields, e.g. Trace "CH4".
 3. The program continues reading the INI file and applies all the settings from the [TRACE]-[END] section.
@@ -223,6 +233,7 @@ To include any of these files, add the following line of code to the very bottom
 <br>
 
 <div id="div_id_Outlier">
+
 <hr>
 
 #### Outlier detection
@@ -239,6 +250,7 @@ Alternatively, you could include your own code to do this, depending on what you
 <br>
 
 <div id="div_id_Overwrite">
+
 <hr>
 
 #### Overwrite feature
@@ -271,6 +283,7 @@ There are three overwrite options:
 <br>
 
 <div id="div_id_Eval">
+
 <hr>
 
 #### More about the Evaluate and postEvaluate properties
@@ -283,7 +296,7 @@ Evaluate = 'wlen=24;thres=4;TA_1_1_1 = run_std_dev(TA_1_1_1,clean_tv,wlen,thres)
 
 The `Evaluate` property is executed for all traces *before* any other cleaning properties, e.g., minMax, calibration, etc.. In contrast, the newer `postEvaluate` property is executed in the first stage *after* all other cleaning is done.
 
-Generally speaking, the order of operations is: `Evaluate` --> `other cleaning (e.g., minMax, calibration)` --> `postEvaluate`. This is ***regardless of the order that they appear*** within `[Trace] ... [End]`. The following series of examples show how the Evaluate and postEvaluate statements work in relation to the other cleaning properties. For each example the input (Original) is an array of ones, and both the "Original" and first-stage "Clean" data are plotted in the result.
+Generally speaking, the order of operations is: `Evaluate` --> `other cleaning (e.g., minMax, calibration)` --> `postEvaluate`. This is ***regardless of the order that they appear***  &nbsp;within `[Trace] ... [End]`. The following series of examples show how the Evaluate and postEvaluate statements work in relation to the other cleaning properties. For each example the input (Original) is an array of ones, and both the "Original" and first-stage "Clean" data are plotted in the result.
 
 **Example 1:** 
 Only minMax and calibration, no Evaluate or postEvaluate statements\
@@ -321,6 +334,7 @@ Result: x = (x - 1)*2 - 1 [Evaluate, then calibrate, then postEvaluate]\
 <br>
 
 <div id="div_id_CreateFromAmeriflux">
+
 <hr>
 
 #### Creating INI file from Ameriflux data
@@ -330,6 +344,7 @@ Result: x = (x - 1)*2 - 1 [Evaluate, then calibrate, then postEvaluate]\
 </div>
 
 <div id="div_id_SyntaxRules">
+
 <hr>
 
 #### Programming syntax rules for first and second stage INI files:
@@ -351,6 +366,7 @@ Some programming rules that you must follow for the first and second stage INI f
 </div>
 
 <div id="div_id_TipsINI">
+
 <hr>
 
 **Tips**

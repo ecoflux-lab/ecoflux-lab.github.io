@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.2 &nbsp; Download Biomet Library</span></a>
+ <span class="menu-text">2.2 &nbsp; Download Biomet.net Library</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet</span></a>
+ <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet.net</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,43 +230,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1 &nbsp; Quick Start: Project Directory Structure</span></a>
+ <span class="menu-text">4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2 &nbsp; Quick Start: Create Database</span></a>
+  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.3 &nbsp; Quick Start: Create Database and Visualize</span></a>
+  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 &nbsp; Quick Start Tutorial: Create your First Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</span></a>
+  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 &nbsp; Quick Start Tutorial: Create Your Second Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.5 &nbsp; Quick Start: First Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.6 &nbsp; Quick Start: Second Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output</span></a>
+  <a href="../PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 &nbsp; Quick Start Tutorial: Third Stage Cleaning and Converting to Ameriflux Output</span></a>
   </div>
 </li>
       </ul>
@@ -429,8 +417,55 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="third-stage-filters-and-variable-names">Third stage filters and variable names</h3>
 <p>The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly from the second stage output, then wind sector and precipitation filters are applied to comply with eddy-covariance measurement theory, with no change to the variable name. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear.</p>
 <p>For now, this description provides only definitions, and more detailed information on each output variable will be provided on this webpage soon. All these filters are set to be applied by default, but most of them can optionally be turned off by setting <code>Run: FALSE</code> in your third stage YML configuration file. As a reminder, algorithms that need parameter inputs have default values in the <code>global_config.yml</code> file which we as a group arrived at by doing sensitivity tests and reading the literature; however, these values can also be overwritten in your site-specific YML file if desired.</p>
-<p><em>Table XXX. Third stage flux output variable definitions, descriptions, and options.</em> | Suffix | Definition | Description | Optional | | —————————— | ————————————– | ————— | ——— | | No suffix | Standard cleaning | Applies wind direction and precipitation filtering to comply with eddy-covariance theory. | No.&nbsp;Runs by default. However, if you wish to, you can edit the wind sector and precipitation filter values, under <code>Standard_Cleaning/wakeFilter</code>, and <code>Standard_Cleaning/precipCutOff</code>. | | _PI_SC | SC = Storage Correction | Adds the storage term to the CO2 flux (NEE = FC + SC). | Yes. Set <code>Run: FALSE</code> if you do not want to add the storage term. | | _PI_SC_JSZ | Plus JSZ = z-score filter | For outlier removal: uses a sliding window to calculate z-score, i.e., <em>(flux – mean)/(std. dev.)</em>, and removes data points with an absolute value greater than the threshold <code>z_thresh</code> set in <code>global_config.yml</code>. <code>window</code> size and <code>z_thresh</code> values can both be overwritten in your site-specific YML file if desired. | Yes. Set <code>Run: FALSE</code> if you do not want to removal outliers with this filter. |<br>
-| _PI_SC_JSZ_MAD | Plus Median of Absolute Deviation (about the median) filter | For outlier removal: follows <a href="https://bg.copernicus.org/articles/3/571/2006/bg-3-571-2006.html" target="_blank" rel="noopener noreferrer">Papale et al.&nbsp;(2006)</a>. | Yes. Set <code>Run: FALSE</code> if you do not want to removal outliers with this filter. | | _PI_SC_JSZ_MAD_RP | Plus REddyProc applied (u-star filtering) | CO2 flux partitioning and u-star filtering using <a href="https://bg.copernicus.org/articles/15/5015/2018/bg-15-5015-2018.html" target="_blank" rel="noopener noreferrer">REddyProc (Wutzler et al., 2018)</a>. Descriptions of suffixes applied to REddyProc output, e.g., <code>_uStar</code>, <code>U95</code>, <code>_orig</code>, and <code>_f</code>, can be found at <a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">this link</a>.| Yes. Set <code>Run: FALSE</code> if you do not want run flux partitioning and u-star filtering using REddyProc. |</p>
+<p><em>Table XXX. Third stage flux output variable definitions, descriptions, and options.</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 41%">
+<col style="width: 16%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Suffix</th>
+<th>Definition</th>
+<th>Description</th>
+<th>Optional</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No suffix</td>
+<td>Standard cleaning</td>
+<td>Applies wind direction and precipitation filtering to comply with eddy-covariance theory.</td>
+<td>No.&nbsp;Runs by default. However, if you wish to, you can edit the wind sector and precipitation filter values, under <code>Standard_Cleaning/wakeFilter</code>, and <code>Standard_Cleaning/precipCutOff</code>.</td>
+</tr>
+<tr class="even">
+<td>_PI_SC</td>
+<td>SC = Storage Correction</td>
+<td>Adds the storage term to the CO2 flux (NEE = FC + SC).</td>
+<td>Yes. Set <code>Run: FALSE</code> if you do not want to add the storage term.</td>
+</tr>
+<tr class="odd">
+<td>_PI_SC_JSZ</td>
+<td>Plus JSZ = z-score filter</td>
+<td>For outlier removal: uses a sliding window to calculate z-score, i.e., <em>(flux – mean)/(std. dev.)</em>, and removes data points with an absolute value greater than the threshold <code>z_thresh</code> set in <code>global_config.yml</code>. <code>window</code> size and <code>z_thresh</code> values can both be overwritten in your site-specific YML file if desired.</td>
+<td>Yes. Set <code>Run: FALSE</code> if you do not want to removal outliers with this filter.</td>
+</tr>
+<tr class="even">
+<td>_PI_SC_JSZ_MAD</td>
+<td>Plus Median of Absolute Deviation (about the median) filter</td>
+<td>For outlier removal: follows <a href="https://bg.copernicus.org/articles/3/571/2006/bg-3-571-2006.html" target="_blank" rel="noopener noreferrer">Papale et al.&nbsp;(2006)</a>.</td>
+<td>Yes. Set <code>Run: FALSE</code> if you do not want to removal outliers with this filter.</td>
+</tr>
+<tr class="odd">
+<td>_PI_SC_JSZ_MAD_RP</td>
+<td>Plus REddyProc applied (u-star filtering)</td>
+<td>CO2 flux partitioning and u-star filtering using <a href="https://bg.copernicus.org/articles/15/5015/2018/bg-15-5015-2018.html" target="_blank" rel="noopener noreferrer">REddyProc (Wutzler et al., 2018)</a>. Descriptions of suffixes applied to REddyProc output, e.g., <code>_uStar</code>, <code>U95</code>, <code>_orig</code>, and <code>_f</code>, can be found at <a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">this link</a>.</td>
+<td>Yes. Set <code>Run: FALSE</code> if you do not want run flux partitioning and u-star filtering using REddyProc.</td>
+</tr>
+</tbody>
+</table>
 </section></div>
 <p><br></p>
 <div id="div_id_RunAmerifluxStage">

@@ -4,7 +4,7 @@
 
 As with all the other software installations for use in data cleaning, first check which versions are recommended at present.
 
-* Installation instructions for R on Windows and Mac can be found here: <a href="https://cran.rstudio.com/" target="_blank" rel="noopener noreferrer">cran.rstudio.com</a>.
+* Installation instructions for R on Windows and Mac: <a href="https://cran.rstudio.com/" target="_blank" rel="noopener noreferrer">cran.rstudio.com</a>.
 
 * Installation instructions for RStudio on Windows and Mac: <a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noopener noreferrer">posit.co/download/rstudio-desktop</a>.
 

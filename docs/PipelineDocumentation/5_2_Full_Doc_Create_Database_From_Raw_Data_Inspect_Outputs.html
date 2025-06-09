@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_2_Download_Biomet_Library.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.2 &nbsp; Download Biomet Library</span></a>
+ <span class="menu-text">2.2 &nbsp; Download Biomet.net Library</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/2_4_Configure_Matlab_For_Biomet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet</span></a>
+ <span class="menu-text">2.4 &nbsp; Configure Matlab for Biomet.net</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,43 +230,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../PipelineDocumentation/4_1_Quick_Start_Set_Up_Structure_Config.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1 &nbsp; Quick Start: Project Directory Structure</span></a>
+ <span class="menu-text">4.1 &nbsp; Quick Start Tutorial: Project Directory Structure and Matlab Configuration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2 &nbsp; Quick Start: Create Database</span></a>
+  <a href="../PipelineDocumentation/4_2_Quick_Start_Create_Database_Visualize_Contents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 &nbsp; Quick Start Tutorial: Create Database from Raw Data and Visualize Contents</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_Database.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.3 &nbsp; Quick Start: Create Database and Visualize</span></a>
+  <a href="../PipelineDocumentation/4_3_Quick_Start_Create_First_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 &nbsp; Quick Start Tutorial: Create your First Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_INI_Files.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.4 &nbsp; Quick Start: Create INI Files for Data Cleaning</span></a>
+  <a href="../PipelineDocumentation/4_4_Quick_Start_Create_Second_Stage_INI_File.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 &nbsp; Quick Start Tutorial: Create Your Second Stage INI File for Data Cleaning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_5_Quick_Start_Create_First_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.5 &nbsp; Quick Start: First Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_6_Quick_Start_Create_Second_Stage_INI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.6 &nbsp; Quick Start: Second Stage INI File</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/4_7_Quick_Start_Third_Stage_Ameriflux.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.7 &nbsp; Quick Start: Third Stage and Ameriflux Output</span></a>
+  <a href="../PipelineDocumentation/4_5_Quick_Start_Third_Stage_Cleaning_And_Ameriflux_Output.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 &nbsp; Quick Start Tutorial: Third Stage Cleaning and Converting to Ameriflux Output</span></a>
   </div>
 </li>
       </ul>
@@ -388,7 +376,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="full-documentation-create-database-from-raw-data-and-inspect-contents">5.2. &nbsp; Full Documentation: Create Database from Raw Data and Inspect Contents</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
 <p>This section complements the quick-start set up in section 4.2.</p>
-<p>On this page: - <a href="#div_id_BestPractices">Best practices</a> - <a href="#div_id_CreateDatabaseUsefulInfo">Useful information on creating your database</a> - <a href="#div_id_MultipleInputFilesContinuousUpdates">Creating Database From Multiple Input Files and Updates for Continuous Operational Sites</a> - <a href="#div_id_CreateDatabaseFromECCC">Create database using data from Canadian meteorological stations</a> - <a href="#div_id_VisualizeInspect">Visualize and inspect your newly created database</a></p>
+<p>On this page:</p>
+<ul>
+<li><a href="#div_id_BestPractices">Best practices</a></li>
+<li><a href="#div_id_CreateDatabaseUsefulInfo">Useful information on creating your database</a></li>
+<li><a href="#div_id_MultipleInputFilesContinuousUpdates">Creating Database From Multiple Input Files and Updates for Continuous Operational Sites</a></li>
+<li><a href="#div_id_CreateDatabaseFromECCC">Create database using data from Canadian meteorological stations</a></li>
+<li><a href="#div_id_VisualizeInspect">Visualize and inspect your newly created database</a></li>
+</ul>
 <br>
 <div id="div_id_BestPractices">
 <hr>
@@ -459,7 +454,12 @@ timeUnit = '30MIN';
 fprintf('  %s - Met  Number of files processed = %d, Number of HHours = %d\n',siteID,nFiles,nHHours); 
 </pre>
 <p><br> If we run the same sequence twice (fr_TOA5_Database or fr_EddyPro_Databse as shown above), the second time the number of files processed would be zero assuming that there were no new files added to the Sites folder between the two runs. If on the other hand, one of the files changed, the function would process it. That is how real-time data gets processed in this data pipeline.</p>
-<p>Other examples of <code>Biomet.net</code> functions that update data continuously, and can be written into a script as previously shown, are as follows: 1. <code>fr_HOBO_database</code> (continuously create database from HOBO met data); 2. <code>fr_SmartFlux_database</code> (continuously create database from SmartFlux output; flux data); 3. <code>fr_SoilFluxPro_database</code> (continuously create database from SoilFluxPro output data).</p>
+<p>Other examples of <code>Biomet.net</code> functions that update data continuously, and can be written into a script as previously shown, are as follows:</p>
+<ol type="1">
+<li><code>fr_HOBO_database</code> (continuously create database from HOBO met data);</li>
+<li><code>fr_SmartFlux_database</code> (continuously create database from SmartFlux output; flux data);</li>
+<li><code>fr_SoilFluxPro_database</code> (continuously create database from SoilFluxPro output data).</li>
+</ol>
 <!-- ### Continuous database updates for operational sites
 
 For users that have an ongoing projects where the data files are continuously being updated in near real-time, the following functions are examples of how to handle this:
@@ -479,7 +479,7 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 <h3 class="anchored" data-anchor-id="create-database-using-data-from-canadian-meteorological-stations">Create database using data from Canadian meteorological stations</h3>
 <p>Data from Canadian meteorological stations [operational climate stations run by Environment and Climate Change Canada (ECCC)] can be used for gap-filling met data for Canadian flux sites that are in close proximity. If you have gaps in your met data, you can search for nearby climate stations as follows:</p>
 <ol type="1">
-<li><p>To find the closest Environment ECCC stations to your flux site, first go to this website: https://climate.weather.gc.ca/historical_data/search_historic_data_e.html</p></li>
+<li><p>To find the closest Environment ECCC stations to your flux site, first go to this website: <a href="https://climate.weather.gc.ca/historical_data/search_historic_data_e.html" target="_blank" rel="noopener noreferrer">https://climate.weather.gc.ca/historical_data/search_historic_data_e.html</a></p></li>
 <li><p>Click on the “Search by Proximity” tab (figure XXX), select “location coordinates in Decimal Degrees” and type in the coordinates of your flux site:</p>
 <p><img src="images/ECCC/ECCC_Proximity.jpg" alt="ECCC_Proximity" width="600"></p>
 <p><em>Figure XXX. “Search by Proximity” tab on ECCC Historical Data website.</em></p></li>
@@ -491,7 +491,7 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 <li><p>In this example, the closes would be “WINNIPEG THE FORKS”; click on “Go”, and make a note of the “Climate ID” number provided (figure XXX; in this case, the climate ID is 5023262).</p>
 <p><img src="images/ECCC/ECCC_WinnipegExample.jpg" alt="ECCC_WinnipegExample" width="600"></p>
 <p><em>Figure XXX. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.</em></p></li>
-<li><p>Next, you need the <strong>Station ID</strong> (which is different to the Climate ID). Go to this website: https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/; open the <code>Station Inventory EN.csv</code> file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.</p></li>
+<li><p>Next, you need the <strong>Station ID</strong> (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the <code>Station Inventory EN.csv</code> file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.</p></li>
 <li><p>Create a script using the snippet below, and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once.</p>
 <pre> structProject = set_TAB_project(projectPath) 
  stationIDs = [28051]; 

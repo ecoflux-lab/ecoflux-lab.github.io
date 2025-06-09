@@ -2,7 +2,7 @@
 
 Currently, it is necessary to use Matlab to run the data cleaning scripts. 
 
-* First, check which Matlab version is currently recommended for the pipeline code, in section 8.2. While the data pipeline will most likely work with other recent versions of Matlab, we make no guarantees of cross compatibility.
+* First, check which Matlab version is currently recommended for the pipeline code, in section 7.1. While the data pipeline will most likely work with other recent versions of Matlab, we make no guarantees of cross compatibility.
 
 * Visit <a href="https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html" target="_blank" rel="noopener noreferrer">this website</a> for details on how to install Matlab, or contact your systems administrator for help. 
 

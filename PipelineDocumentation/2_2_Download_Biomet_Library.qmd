@@ -24,7 +24,7 @@ First, you need to either download or clone the repository. Instructions for bot
 
 <br>
 
-Alternatively, if you prefer to clone the directory, you will need to have Git installed on your computer (section 2.1), then you can follow these instructions:
+Alternatively, if you prefer to clone the directory, you will need to have Git installed on your computer (section 2.1). Then you can follow these instructions:
 
 #### Instructions to *clone* the Biomet.net repository from a terminal:
 
