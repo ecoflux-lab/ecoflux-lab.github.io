@@ -10,7 +10,7 @@ On this page:
 
 This section provides a quick-start summary for setting up your project directory structure and configuring Matlab to work with this structure. <!-- For a more detailed description of these steps see sections 4.2 and 4.3. -->
 
-You need the file path to your project root folder for these next steps. This project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it within the Biomet.net directory.
+You need the file path to your project root folder for these next steps. This project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it in the Biomet.net directory.
 
 You will also need to create a site ID that relates to the flux site you are working with. This is often an acronym based on the site name (e.g., Burns Bog has `siteID = 'BB'`, Richmond Brackish Marsh has `siteID = 'RBM'`). Note that the siteID must be all upper case.
 
@@ -40,7 +40,7 @@ You will also need to create a site ID that relates to the flux site you are wor
 
     Both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
 
-    As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., `My_Micromet` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
+    As the function name suggests, this will create some folders on your computer and also transfer some necessary small files. In your project root directory (e.g., `My_Micromet` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
 
     <img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&Subdirectories" width="250"/>
     
@@ -57,7 +57,7 @@ You will also need to create a site ID that relates to the flux site you are wor
 
 ### Short description of new directory structure and contents
 
-For now we will describe only the new directories and files necessary for you to begin data cleaning. <!-- For the long description see section 4.2 [xxx link].-->
+For now, we will describe only the new directories and files necessary for you to begin data cleaning. <!-- For the long description see section 4.2 [xxx link].-->
 
 #### Database directory
 * The new `Database` directory contains a `Calculation_Procedures` directory, and within `Calculation_Procedures`, there is one called `TraceAnalysis_ini`. 
@@ -79,7 +79,7 @@ For now we will describe only the new directories and files necessary for you to
 
     <img src="images/directory_trees/DirectoryTree3.jpg" alt="DirectoryTree:SitesDatabaseDirectory&Subdirectories" width="250"/>
 
-    *Figure 4.3. Directory tree showing contents of `Sites` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
+    *Figure 4.2. Directory tree showing contents of `Sites` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
 #### Matlab directory
 * This directory should now contain three matlab files: 
@@ -89,7 +89,7 @@ For now we will describe only the new directories and files necessary for you to
     <li>`biomet_sites_default.m`.</li> 
 </ol>
 
-The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.
+The latter two functions are used in the pipeline behind the scenes and may also be useful to you later when you want to visualize your data.
 
 </div>
 

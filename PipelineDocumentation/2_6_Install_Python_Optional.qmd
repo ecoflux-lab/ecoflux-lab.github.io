@@ -1,4 +1,4 @@
-## 2.6. &nbsp; Python Installation on your local computer (optional)
+## 2.6. &nbsp; Python installation on your local computer (optional)
 
 This step is optional. Python can be used in a number of eddy covariance data packages (e.g., some of these <a href="https://ameriflux.lbl.gov/resources/resource-list/tools-and-software-for-flux-scientists/flux-data-post-processing-and-qa-qc/" target="_blank" rel="noopener noreferrer">flux data post-processing and QA/QC resources</a>). 
 

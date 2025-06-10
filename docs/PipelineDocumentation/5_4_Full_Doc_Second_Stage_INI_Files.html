@@ -392,7 +392,7 @@ ul.task-list li input[type="checkbox"] {
 <p>As with the first stage cleaning, if you are doing this for the first time, we recommend that you obtain the simplified template files from the quick-start instructions in section 4 and follow the tutorial. The steps to create your second stage INI are very similar to the first stage:</p>
 <ul>
 <li><p>Using your duplicated second stage INI file or downloaded template file, rename it using your unique measurement site ID. For example, the first stage INI file for a site with siteID = ‘DSM’ is named <code>DSM_FirstStage.ini</code>.</p></li>
-<li><p>Edit second stage INI file adding <em>just a few variables at a time</em> (as with the first stage) and then testing, so it’s easy to diagnose errors/typos. Pay attention to the output in your Matlab command window, it is informative and highlights any issues and where they occur. Recall the data cleaning principles previously outlined and make sure your traces align with the second stage principles.</p></li>
+<li><p>Edit second stage INI file adding <em>just a few variables at a time</em> (as with the first stage) and then testing, so it’s easy to diagnose errors/typos. Pay attention to the output in your Matlab command window; it is informative and highlights any issues and where they occur. Recall the data cleaning principles previously outlined and make sure your traces align with the second stage principles.</p></li>
 </ul>
 </section></div>
 <p><br></p>
@@ -411,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="properties-and-parameters-second-stage-ini" class="level3">
 <h3 class="anchored" data-anchor-id="properties-and-parameters-second-stage-ini">Properties and parameters: second stage INI</h3>
-<p><em>Table XXX. Second stage INI file properties and parameters.</em></p>
+<p><em>Table 5.2. Second stage INI file properties and parameters.</em></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -481,7 +481,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Averaging multiple sensors to remove variability;</p></li>
 <li><p>Using one sensor as the best (most accurate value) and using the other sensor(s) only to fill in the missing values. A relationship can be created between the “best” sensor and its “replacement” and that relationship can be applied to the “replacement” values to improve the accuracy;</p></li>
-<li><p>Using the sensors from another near-by site to fill in the missing values at the current site.</p>
+<li><p>Using sensors from another near-by site to fill in the missing values at the current site.</p>
 <p>Arguments for <code>calc_avg_trace</code> function:</p>
 <table class="caption-top table">
 <colgroup>
@@ -531,9 +531,9 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="programming-syntax-rules-for-first-and-second-stage-ini-files">Programming syntax rules for first and second stage INI files:</h4>
 <pre><code>Some programming rules that you must follow for the first and second stage INI files to be successfully read by the pipeline scripts:
 
-1. We enforce using uppercase for site IDs to avoid problems between running data cleaning on Mac vs. Windows.
+1. We enforce using uppercase for site IDs to avoid problems with running data cleaning on Mac vs. Windows.
 2. All traces must be enclosed in [Trace] and [End] blocks.
-3. All assignments can be on multiple lines, but should be enclosed in single quotes.
+3. All assignments can be on multiple lines but should be enclosed in single quotes.
 4. Comments must begin with a percentage sign (%).
 5. All fields must be in Matlab format.
 6. All parameter assignments must be to strings in single quotes, or numeric expressions, e.g., threshold_const = 6, threshold_const = [6], variableName = 'Some Name'.

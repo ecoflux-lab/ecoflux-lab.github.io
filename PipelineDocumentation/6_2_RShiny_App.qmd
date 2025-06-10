@@ -18,7 +18,7 @@ Instructions for using the `RShiny_flux_plots.R` app (under `/Biomet.net/R/RShin
 
 2. Rename the Excel file to include your specific `Project Name` (in place of "TUT" in this example file).
 
-3. Create a new folder called `RShiny_flux_plots_ini` within `<projectPath>/Database/Calculation_Procedures/`, and save your Excel site coordinates file within this new folder. 
+3. Create a new folder called `RShiny_flux_plots_ini` within `<projectPath>/Database/Calculation_Procedures/` and save your Excel site coordinates file within this new folder. 
 
 4. Next, download this `R-Shiny ini file` example:
 

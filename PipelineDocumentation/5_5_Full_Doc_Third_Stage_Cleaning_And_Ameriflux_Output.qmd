@@ -27,9 +27,9 @@ As with the first and second stage cleaning, if you are doing this for the first
 * Open your site-specific `SITEID1_config.yml` for editing.
 * Fill in the details for your site in the "Metadata" section at the top of the file. The `northOffset` can be found in your site GHG biomet file and this information is used for filtering data by wind direction, to comply with eddy-covariance measurement standards.
 * Make sure that you are processing the correct fluxes as measured at your site, under Processing -> ThirdStage -> Fluxes, and input `NULL` for any fluxes not measured at your site.
-* Check the met variable names for used for gap-filling are named the same as those output by your second stage cleaning, under Met_Gap_Filling -> Linear_Interpolation -> Fill_Vars.
+* Check the met variable names used for gap-filling are named the same as those output by your second stage cleaning, under Met_Gap_Filling -> Linear_Interpolation -> Fill_Vars.
 
-The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library, and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. 
+The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. 
 
 </div>
 
@@ -41,7 +41,7 @@ The main configuration file (`global_config.yml`) for running third stage cleani
 
 ### Running third stage cleaning in Matlab
 
-If you already ran the first and second stage cleaning, you can simply run: 
+If you already ran the first and second stage cleaning, simply run: 
 ```
 fr_automated_cleaning(yearIn,'SITEID',7)
 ```
@@ -74,7 +74,7 @@ For now, this description provides only definitions, and more detailed informati
 | _PI_SC                         | SC = Storage Correction                | Adds the storage term to the CO2 flux (NEE = FC + SC). | Yes. Set `Run: FALSE` if you do not want to add the storage term. | 
 | _PI_SC_JSZ                     | Plus JSZ = z-score filter              | For outlier removal: uses a sliding window to calculate z-score, i.e., *(flux – mean)/(std. dev.)*, and removes data points with an absolute value greater than the threshold `z_thresh` set in `global_config.yml`. `window` size and `z_thresh` values can both be overwritten in your site-specific YML file if desired. | Yes. Set `Run: FALSE` if you do not want to removal outliers with this filter. |   
 | _PI_SC_JSZ_MAD                 | Plus Median of Absolute Deviation (about the median) filter | For outlier removal: follows <a href="https://bg.copernicus.org/articles/3/571/2006/bg-3-571-2006.html" target="_blank" rel="noopener noreferrer">Papale et al. (2006)</a>.  | Yes. Set `Run: FALSE` if you do not want to removal outliers with this filter.  |
-| _PI_SC_JSZ_MAD_RP              | Plus REddyProc applied (u-star filtering)  | CO2 flux partitioning and u-star filtering using <a href="https://bg.copernicus.org/articles/15/5015/2018/bg-15-5015-2018.html" target="_blank" rel="noopener noreferrer">REddyProc (Wutzler et al., 2018)</a>. Descriptions of suffixes applied to REddyProc output, e.g., `_uStar`, `U95`, `_orig`, and `_f`, can be found at <a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">this link</a>.| Yes. Set `Run: FALSE` if you do not want run flux partitioning and u-star filtering using REddyProc. |
+| _PI_SC_JSZ_MAD_RP              | Plus REddyProc applied (u-star filtering)  | CO2 flux partitioning and u-star filtering using <a href="https://bg.copernicus.org/articles/15/5015/2018/bg-15-5015-2018.html" target="_blank" rel="noopener noreferrer">REddyProc (Wutzler et al., 2018)</a>. Descriptions of suffixes applied to REddyProc output, e.g., `_uStar`, `U95`, `_orig`, and `_f`, can be found at <a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">this link</a>.| Yes. Set `Run: FALSE` if you do not want to run flux partitioning and u-star filtering using REddyProc. |
 
 
 </div>
@@ -104,8 +104,7 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2 7 8])
 
 <hr>
 
-### Tips
-
+**TIPS**\
 We recommend *not* editing the `global_config.yml` file directly as it is part of the `Biomet.net` library and it will create issues when you try to update the library (which you should be doing regularly). 
 
 </div>

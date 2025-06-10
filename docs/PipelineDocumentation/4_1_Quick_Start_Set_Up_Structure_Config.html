@@ -382,7 +382,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#div_id_Description">Short description of new directory structure and contents</a></li>
 </ul>
 <p>This section provides a quick-start summary for setting up your project directory structure and configuring Matlab to work with this structure. <!-- For a more detailed description of these steps see sections 4.2 and 4.3. --></p>
-<p>You need the file path to your project root folder for these next steps. This project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it within the Biomet.net directory.</p>
+<p>You need the file path to your project root folder for these next steps. This project directory must be on your local computer: avoid putting it on an external drive or cloud drive (like OneDrive or GDrive) as this will cause problems in the steps that follow. Additionally, avoid putting it in the Biomet.net directory.</p>
 <p>You will also need to create a site ID that relates to the flux site you are working with. This is often an acronym based on the site name (e.g., Burns Bog has <code>siteID = 'BB'</code>, Richmond Brackish Marsh has <code>siteID = 'RBM'</code>). Note that the siteID must be all upper case.</p>
 <div id="div_id_Instructions">
 <hr>
@@ -400,7 +400,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Next, in Matlab, run the <code>create_TAB_ProjectFolders</code> function (which is in the <code>Biomet.net</code> library that you cloned), as follows:</p>
 <pre> create_TAB_ProjectFolders(projectPath,siteID)</pre>
 <p>Both input arguments are of type “string”. You can use single <code>''</code> or double <code>""</code> quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info.</p>
-<p>As the function name suggests, this will create some folders on your computer, and also transfer some necessary small files. In your project root directory (e.g., <code>My_Micromet</code> in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
+<p>As the function name suggests, this will create some folders on your computer and also transfer some necessary small files. In your project root directory (e.g., <code>My_Micromet</code> in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
 <p><img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&amp;Subdirectories" width="250"></p>
 <p><em>Figure 4.1. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p>
 <p>[Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running <code>create_TAB_ProjectFolders</code> (above). In that case, download <a href="presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the <em>contents</em> of “My_Micromet_Folder” within your project directory (underneath <code>My_Micromet</code>); make sure your directory structure looks like figure 4.1.]</p></li>
@@ -411,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="short-description-of-new-directory-structure-and-contents" class="level3">
 <h3 class="anchored" data-anchor-id="short-description-of-new-directory-structure-and-contents">Short description of new directory structure and contents</h3>
-<p>For now we will describe only the new directories and files necessary for you to begin data cleaning. <!-- For the long description see section 4.2 [xxx link].--></p>
+<p>For now, we will describe only the new directories and files necessary for you to begin data cleaning. <!-- For the long description see section 4.2 [xxx link].--></p>
 <section id="database-directory" class="level4">
 <h4 class="anchored" data-anchor-id="database-directory">Database directory</h4>
 <ul>
@@ -432,7 +432,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Raw, <em>uncleaned</em> data from your site(s) will be stored in the <code>&lt;projectPath&gt;/Sites</code> directory, under the appropriate siteID (covered shortly in section 5.1). The data in this directory should remain <em>untouched</em> since we always want to preserve a copy of the raw data.</p>
 <p><img src="images/directory_trees/DirectoryTree3.jpg" alt="DirectoryTree:SitesDatabaseDirectory&amp;Subdirectories" width="250"></p>
-<p><em>Figure 4.3. Directory tree showing contents of <code>Sites</code> folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
+<p><em>Figure 4.2. Directory tree showing contents of <code>Sites</code> folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
 </ul>
 </section>
 <section id="matlab-directory" class="level4">
@@ -451,7 +451,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 </ol></li>
 </ul>
-<p>The latter two functions are used in the pipeline behind the scenes, and may also be useful to you later when you want to visualize your data.</p>
+<p>The latter two functions are used in the pipeline behind the scenes and may also be useful to you later when you want to visualize your data.</p>
 </section></section></div>
 
 

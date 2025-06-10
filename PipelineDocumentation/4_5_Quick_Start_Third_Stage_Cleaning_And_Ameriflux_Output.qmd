@@ -33,7 +33,7 @@ On this page:
     
    *Figure 6.6. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text, and optional text to check or edit in peach highlighting.*
     
-    The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library, and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. More information on this is provided in the full documentation in section 5.5.
+    The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. More information on this is provided in the full documentation in section 5.5.
 
     <!-- Note on gap-filling FCH4: currently the predictors for all random forest models used to fill gaps are set to: `Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1`. However, for FCH4, these inputs should be changed to prioritize soil variables such as soil temperature, soil moisture, and water table depth. You can change these settings under "Optional parameters" (figure 6.7; peach highlighting). -->
 
@@ -41,7 +41,7 @@ On this page:
 
    <!-- *Figure 6.7. Third stage site-specific custom YAML file showing where to change inputs for FCH4 random forest gap-filling.* -->
 
-3. Next, test the third stage data cleaning in Matlab; remember that it can take a lot longer to run than first and second stages. Note that the cleaning stage argument for third stage cleaning is `7` (*not* 3; this is a legacy artifact), as follows:
+3. Next, test the third stage data cleaning in Matlab; remember that it can take a lot longer to run than first and second stages. Note that the cleaning stage argument for third stage cleaning is `7` (*not* &nbsp;3; this is a legacy artifact), as follows:
     <pre>
     fr_automated_cleaning(yearIn,siteID,7)  % third stage</pre>
     
@@ -55,7 +55,7 @@ On this page:
 
 ### Third stage output: flux variable definitions
 
-The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly from the second stage output, then wind sector and precipitation filters are applied to comply with eddy-covariance measurement theory, with no change to the variable name. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear. This description provides only definitions, and more detailed information on each output variable is provided in the full documentation in section 5.5.
+The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly from the second stage output, then wind sector and precipitation filters are applied to comply with eddy-covariance measurement theory, with no change to the variable name. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear. This description only provides definitions, and more detailed information on each output variable is provided in the full documentation in section 5.5.
 
 | Suffix                         | Definition                             |
 | ------------------------------ | -------------------------------------- |

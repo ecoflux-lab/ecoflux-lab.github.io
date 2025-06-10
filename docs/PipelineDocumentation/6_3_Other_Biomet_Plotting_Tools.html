@@ -382,7 +382,7 @@ ul.task-list li input[type="checkbox"] {
 <li><em>Load one trace and plot it</em>:</li>
 </ol>
 <ul>
-<li>Use the <code>biomet_path</code> function, e.g., <code>pth = biomet_path(2022, 'DSM', 'MET')</code> to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself, but always use this function.</li>
+<li>Use the <code>biomet_path</code> function, e.g., <code>pth = biomet_path(2022, 'DSM', 'MET')</code> to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself but always use this function.</li>
 <li>Use the <code>read_bor</code> function to load the time vector from the <code>clean_tv</code> file, then convert it to a datetime object using the <code>datetime</code> function.</li>
 <li>Use the <code>read_bor</code> function again to load the trace of your choice from the filepath you defined using <code>biomet_path</code>, e.g., <code>x = read_bor(fullfile(pth,'MET_CNR4_Net_Avg'))</code> will load the <em>MET_CNR4_Net_Avg</em> trace from the DSM Met folder for 2022, using the previously defined path.</li>
 <li>You can now plot your variable <em>x</em> with a nicely formatted time vector.</li>

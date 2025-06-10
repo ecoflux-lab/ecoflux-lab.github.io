@@ -391,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="best-practices">Best practices</h3>
 <p>The best-practice approach for each project is to have one “main” script for data processing (e.g., <code>DataCleaning_Main.m</code>). This script should contain all the steps that are needed to go from raw data to the final gap-filled Ameriflux “clean” data set: 1. Obtaining/downloading the raw data (not covered here, we assume you have your own systems for obtaining datalogger output from your sites); 2. Creating the database in the appropriate format (this section); 3. Applying the data-cleaning stages (section 6).</p>
 <p>This section covers step 2, and you can add data-cleaning code later in section 6. Each flux site is unique with its own sensors, data loggers, and data archiving formats (such as EddyPro output files, TOA5 Campbell Scientific files, Ameriflux CSV files, to name a few). The purpose of step 2 is to convert from such a site-specific dataset to a generic dataset ready to be processed using the standardised libraries (i.e., <code>Biomet.net</code>). These “generic” binary files can be read by most computer languages, by design, meaning they are suitable for the Biomet library which contains code written in Matlab, R, and Python.</p>
-<p>If you need help getting started with your “main” computer program, a sample Matlab script is provided in the quick-start guide (section 5.1 XXX check). With that <code>DataCleaning_Main.m</code> script the entire data processing is documented and it can be easily replicated. Insert as many informative comments as you can - it will help if the process needs to be reviewed later on. When working with your own data, we still recommend following the steps in the tutorial as they also outline where to put your raw data files, and other important tasks.</p>
+<p>If you need help getting started with your “main” computer program, a sample Matlab script is provided in the quick-start guide (section 5.1 XXX check). With that <code>DataCleaning_Main.m</code> script the entire data processing process is documented and it can be easily replicated. Insert as many informative comments as you can - it will help if the process needs to be reviewed later on. When working with your own data, we still recommend following the steps in the tutorial as they also outline where to put your raw data files, and other important tasks.</p>
 </section></div>
 <br>
 <div id="div_id_CreateDatabaseUsefulInfo">
@@ -423,9 +423,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="div_id_MultipleInputFilesContinuousUpdates">
 <hr>
 <section id="creating-database-from-multiple-input-files-and-updates-for-continuous-operational-sites" class="level3">
-<h3 class="anchored" data-anchor-id="creating-database-from-multiple-input-files-and-updates-for-continuous-operational-sites">Creating Database From Multiple Input Files and Updates for Continuous Operational Sites</h3>
-<p>In real applications, it is likely that users will have multiple input files from Flux and Met stations (daily, monthly, or annual files). It is also very often the case with active sites that new files are continuously being downloaded from the site and being added to the data folder.</p>
-<p>To facilitate data processing in those cases we use specialized functions that can deal with multiple files and keep track of which files have changes since the last database update and updating only those. That way raw data folders can contain thousands of files without affecting the speed of the database updates.</p>
+<h3 class="anchored" data-anchor-id="creating-database-from-multiple-input-files-and-updates-for-continuous-operational-sites">Creating Database from Multiple Input Files and Updates for Continuous Operational Sites</h3>
+<p>In real applications, it is likely that users will have multiple input files from Flux and Met stations (daily, monthly, or annual files). It is also very often the case with active sites that new files are continuously being downloaded from the site and added to the data folder.</p>
+<p>To facilitate data processing in those cases we use specialized functions that can deal with multiple files and keep track of which files have changes since the last database update and update only those. That way raw data folders can contain thousands of files without affecting the speed of the database updates.</p>
 <p><strong>Updating Flux data</strong></p>
 <p>Here is an example of how to update database from any files in the Sites/siteID/Flux folder that match a file pattern (in this case <code>eddypro_TUT_*.csv</code>).</p>
 <pre>%% Processing multiple EddyPro files from the same folder 
@@ -483,7 +483,7 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 <li><p>Click on the “Search by Proximity” tab (figure XXX), select “location coordinates in Decimal Degrees” and type in the coordinates of your flux site:</p>
 <p><img src="images/ECCC/ECCC_Proximity.jpg" alt="ECCC_Proximity" width="600"></p>
 <p><em>Figure XXX. “Search by Proximity” tab on ECCC Historical Data website.</em></p></li>
-<li><p>We advise selecting a station no more than 25 km away but that is also up to the user’s judgement and their responsibility to justify.</p></li>
+<li><p>We advise selecting a station no more than 25 km away, but that is also up to the user’s judgement and their responsibility to justify.</p></li>
 <li><p>It also helps to select a proper range of dates using either “with data available between” or “with data on” option.</p></li>
 <li><p>From the list of stations pick one that’s has “Hourly” data for the dates you need, and is closest to your location (see example in figure XXX):</p>
 <p><img src="images/ECCC/ECCC_PickStation.jpg" alt="ECCC_PickStation" width="600"></p>
@@ -492,7 +492,7 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 <p><img src="images/ECCC/ECCC_WinnipegExample.jpg" alt="ECCC_WinnipegExample" width="600"></p>
 <p><em>Figure XXX. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.</em></p></li>
 <li><p>Next, you need the <strong>Station ID</strong> (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the <code>Station Inventory EN.csv</code> file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.</p></li>
-<li><p>Create a script using the snippet below, and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once.</p>
+<li><p>Create a script using the snippet below and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once.</p>
 <pre> structProject = set_TAB_project(projectPath) 
  stationIDs = [28051]; 
  yearsIn = 2022:2023; 
@@ -517,8 +517,8 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 <hr>
 <section id="visualize-and-inspect-your-newly-created-database" class="level3">
 <h3 class="anchored" data-anchor-id="visualize-and-inspect-your-newly-created-database">Visualize and inspect your newly created database</h3>
-<p>Once your database is created, we strongly advise you to review its contents contents using <code>Biomet.net</code> functions. Some of these are listed in the tutorial under section 5.1, and section 8 provides extensive details of visualization tools for insepcting and analysing raw and cleaned data.</p>
-<p>When you have confirmed that all the traces you expect to see are present in your newly created Database, you are ready to start cleaning the data. First, you need to obtain the set of sample, configuration, and standardization files, describe in section.</p>
+<p>Once your database is created, we strongly advise you to review its contents using <code>Biomet.net</code> functions. Some of these are listed in the tutorial under section 5.1, and section 6 provides extensive details of visualization tools for inspecting and analyzing raw and cleaned data.</p>
+<p>When you have confirmed that all the traces you expect to see are present in your newly created Database, you are ready to start cleaning the data. First, you need to obtain the set of sample, configuration, and standardization files, described in section.</p>
 </section></div>
 <!-- Once your database is created, we strongly advise you to review its contents contents using `Biomet.net` functions, in particular:
 

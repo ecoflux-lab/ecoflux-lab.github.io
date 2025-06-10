@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-This section provides a generic, quick-start example that converts (1) EddyPro raw data output, and (2) Campbell Scientific TOA5 output, to a formatted database ready to be processed using the standardised libraries (i.e., `Biomet.net`). We also present some examples of how to quickly check the contents of your new database.
+This section provides a generic, quick-start example that converts (1) EddyPro raw data output, and (2) Campbell Scientific TOA5 output, to a formatted database ready to be processed using standardized libraries (i.e., `Biomet.net`). We also present some examples of how to quickly check the contents of your new database.
 
 On this page:
 
@@ -29,7 +29,7 @@ If you wish to use our sample raw flux and met data to work through the example,
 
 ### Create database using our sample data, or using data from your own site(s)
 
-As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data. If your data has a different format, we recommend first carrying out steps below using our sample data to see how the process works. We cover data with different formats in section 5.2 [XXX check]. 
+As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data. If your data has a different format, we recommend first carrying out the steps below using our sample data to see how the process works. We cover data with different formats in section 5.2 [XXX check]. 
 
 1. First, in your newly created `Sites` directory, within the relevant `SITEID` directory, create a new `Flux` folder (figure 5.1). 
 
@@ -41,7 +41,7 @@ As previously mentioned, we will follow an example that focuses on flux-related 
 
 3. Now, create a `Met` folder within the same `SITEID` directory (SITEID1 in this example), and copy the Campbell Scientific TOA5 data for this site to this Met folder. 
 
-4. In your `<projectPath>/Matlab` folder, create one new "main" Matlab file that will act as a "do-it-all" script. You can name this file however you like; we advise making it meaningful and including the word "Main". The example given here (figure 5.2) is named `DataCleaning_Main.m` (you can make your filename less generic) &mdash; it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>. 
+4. In your `<projectPath>/Matlab` folder, create a new "main" Matlab file that will act as a "do-it-all" script. You can name this file however you like; we advise making it meaningful and including the word "Main". The example given here (figure 5.2) is named `DataCleaning_Main.m` (you can make your filename less generic) &mdash; it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>. 
 
     <img src="images/matlab/Template_My_Micromet.jpg" alt="DirectoryTree:MatlabDirectory" width="600"/>
     

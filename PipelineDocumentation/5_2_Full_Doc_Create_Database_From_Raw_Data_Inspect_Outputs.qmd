@@ -26,7 +26,7 @@ The best-practice approach for each project is to have one “main” script for
 
 This section covers step 2, and you can add data-cleaning code later in section 6. Each flux site is unique with its own sensors, data loggers, and data archiving formats (such as EddyPro output files, TOA5 Campbell Scientific files, Ameriflux CSV files, to name a few). The purpose of step 2 is to convert from such a site-specific dataset to a generic dataset ready to be processed using the standardised libraries (i.e., `Biomet.net`). These "generic" binary files can be read by most computer languages, by design, meaning they are suitable for the Biomet library which contains code written in Matlab, R, and Python. 
 
-If you need help getting started with your "main" computer program, a sample Matlab script is provided in the quick-start guide (section 5.1 XXX check). With that `DataCleaning_Main.m` script the entire data processing is documented and it can be easily replicated. Insert as many informative comments as you can - it will help if the process needs to be reviewed later on. When working with your own data, we still recommend following the steps in the tutorial as they also outline where to put your raw data files, and other important tasks.
+If you need help getting started with your "main" computer program, a sample Matlab script is provided in the quick-start guide (section 5.1 XXX check). With that `DataCleaning_Main.m` script the entire data processing process is documented and it can be easily replicated. Insert as many informative comments as you can - it will help if the process needs to be reviewed later on. When working with your own data, we still recommend following the steps in the tutorial as they also outline where to put your raw data files, and other important tasks.
 
 </div>
 
@@ -67,11 +67,11 @@ We advise you to generalize your scripts as far as possible, based on the sites 
 
 <hr>
 
-### Creating Database From Multiple Input Files and Updates for Continuous Operational Sites
+### Creating Database from Multiple Input Files and Updates for Continuous Operational Sites
 
-In real applications, it is likely that users will have multiple input files from Flux and Met stations (daily, monthly, or annual files). It is also very often the case with active sites that new files are continuously being downloaded from the site and being added to the data folder.  
+In real applications, it is likely that users will have multiple input files from Flux and Met stations (daily, monthly, or annual files). It is also very often the case with active sites that new files are continuously being downloaded from the site and added to the data folder.  
 
-To facilitate data processing in those cases we use specialized functions that can deal with multiple files and keep track of which files have changes since the last database update and updating only those. That way raw data folders can contain thousands of files without affecting the speed of the database updates. 
+To facilitate data processing in those cases we use specialized functions that can deal with multiple files and keep track of which files have changes since the last database update and update only those. That way raw data folders can contain thousands of files without affecting the speed of the database updates. 
 
 **Updating Flux data**
 
@@ -148,7 +148,7 @@ Data from Canadian meteorological stations [operational climate stations run by 
     
     *Figure XXX. "Search by Proximity" tab on ECCC Historical Data website.*
 
-3. We advise selecting a station no more than 25 km away but that is also up to the user's judgement and their responsibility to justify. 
+3. We advise selecting a station no more than 25 km away, but that is also up to the user's judgement and their responsibility to justify. 
 4. It also helps to select a proper range of dates using either "with data available between" or "with data on" option.
 5. From the list of stations pick one that's has "Hourly" data for the dates you need, and is closest to your location (see example in figure XXX):
 
@@ -164,7 +164,7 @@ Data from Canadian meteorological stations [operational climate stations run by 
 
 7. Next, you need the **Station ID** (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the `Station Inventory EN.csv` file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.
 
-8. Create a script using the snippet below, and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once. 
+8. Create a script using the snippet below and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once. 
 
     <pre>
     structProject = set_TAB_project(projectPath) 
@@ -197,9 +197,9 @@ Data from Canadian meteorological stations [operational climate stations run by 
 
 ### Visualize and inspect your newly created database 
 
-Once your database is created, we strongly advise you to review its contents contents using `Biomet.net` functions. Some of these are listed in the tutorial under section 5.1, and section 8 provides extensive details of visualization tools for insepcting and analysing raw and cleaned data.
+Once your database is created, we strongly advise you to review its contents using `Biomet.net` functions. Some of these are listed in the tutorial under section 5.1, and section 6 provides extensive details of visualization tools for inspecting and analyzing raw and cleaned data.
 
-When you have confirmed that all the traces you expect to see are present in your newly created Database, you are ready to start cleaning the data. First, you need to obtain the set of sample, configuration, and standardization files, describe in section.
+When you have confirmed that all the traces you expect to see are present in your newly created Database, you are ready to start cleaning the data. First, you need to obtain the set of sample, configuration, and standardization files, described in section.
 
 </div>
 

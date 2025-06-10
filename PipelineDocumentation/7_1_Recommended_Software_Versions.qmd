@@ -10,7 +10,7 @@
 
 * The scripts and tools that run the data cleaning are kept in a **Git** repository (called `Biomet.net`). These can be downloaded without having Git installed.<!-- [link to Clone_Biomet_Library.md]. -->
 
-* Optionally, you can install Git and create your own **Github** account, in case you wish to contribute code to the Biomet.net library. <!-- [link to Install_Git_Create_Account_Optional.md]. --> 
+* Optionally, you can install Git and create your own **GitHub** account, in case you wish to contribute code to the Biomet.net library. <!-- [link to Install_Git_Create_Account_Optional.md]. --> 
 
 * Some users may also need **Python** installed, for example, if you are processing high-frequency data. <!-- [link to Install_Python.md]. -->
 

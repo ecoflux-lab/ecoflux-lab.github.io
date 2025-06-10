@@ -32,7 +32,7 @@ We recommend using this plotApp during database creation and data cleaning.
     *Figure 7.2. plotApp GUI showing where to enter the Database folder to view and analyze data.*
 
 * Next, select the *Year*, *Site*, and *Data type* (Flux, Met, Clean, etc.) that you want to plot.
-* *Flux* and *Met* data type are associated with *Raw* and *Stage1* traces. *Clean* data type is associated with *Stage2* and higher.
+* *Flux* and *Met* data types is associated with *Stage2* and higher.
 * Once these selections are made, the 'Traces' list will populate; then click on a trace to select it and plot the time series (figure 7.3).
 
     <img src="images/visualization/plotApp2.jpg" alt="plotApp:GUI2" width="500"/>
@@ -108,10 +108,10 @@ The four panel 'Plot comparison' summary includes (i) upper left – raw half-ho
 * The minMax=[] bounds for the trace defined in the .ini file for the particular site are shown in the upper panel in yellow and purple.
 * The lower panel shows all the parents of a particular trace (i.e., those traces which include that trace as a dependent=’’ in the INI file). Note, dependents are often called using 'tags'.
 * In the lower panel, 0 - SELF refers to data which are missing before cleaning based on dependents. 
-* For all other parents, a large dot indicates a point which was removed from the selected trace which was not missing in the previous stage. A small dot indicates the data from the selected trace would be removed based on the parent, but was already missing from the previous stage.
+* For all other parents, a large dot indicates a point which was removed from the selected trace which was not missing in the previous stage. A small dot indicates the data from the selected trace would be removed based on the parent but was already missing from the previous stage.
 * Users can interact with the figure using the Matlab navigation tools (e.g., zoom and pan) to view a subset of the data. 
     * It is recommended that you only zoom/pan the top panel.
-    * The x-axis of the top and bottom panels are linked, so navigating in one panel will automatically update the x-axis on the corresponding panel.
+    * The x-axis of the top and bottom panels is linked, so navigating in one panel will automatically update the x-axis on the corresponding panel.
 
 *Compare traces*
 

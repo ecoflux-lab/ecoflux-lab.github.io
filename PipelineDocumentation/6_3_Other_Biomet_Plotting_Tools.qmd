@@ -7,7 +7,7 @@
 This function is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example:
 
 1. *Load one trace and plot it*: 
-* Use the `biomet_path` function, e.g., `pth = biomet_path(2022, 'DSM', 'MET')` to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself, but always use this function. 
+* Use the `biomet_path` function, e.g., `pth = biomet_path(2022, 'DSM', 'MET')` to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself but always use this function. 
 * Use the `read_bor` function to load the time vector from the `clean_tv` file, then convert it to a datetime object using the `datetime` function.
 * Use the `read_bor` function again to load the trace of your choice from the filepath you defined using `biomet_path`, e.g., `x = read_bor(fullfile(pth,'MET_CNR4_Net_Avg'))` will load the *MET_CNR4_Net_Avg* trace from the DSM Met folder for 2022, using the previously defined path.
 * You can now plot your variable *x* with a nicely formatted time vector. 

@@ -16,7 +16,7 @@ Instead of using global variables you can duplicate the full trace (`[Trace] ...
 
 <img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"/>
 
-*Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the `CH4_MIXING_RATIO` trace that was originally defined in `EddyPro_LI7700_FirstStage_include.ini`. Yellow highlighting shows the syntax for the "overwrite" property.*
+*Figure 7.2. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the `CH4_MIXING_RATIO` trace that was originally defined in `EddyPro_LI7700_FirstStage_include.ini`. Yellow highlighting shows the syntax for the "overwrite" property.*
 
 There are three overwrite options:
 
@@ -45,7 +45,7 @@ Evaluate = 'wlen=24;thres=4;TA_1_1_1 = run_std_dev(TA_1_1_1,clean_tv,wlen,thres)
 
 The `Evaluate` property is executed for all traces *before* any other cleaning properties, e.g., minMax, calibration, etc.. In contrast, the newer `postEvaluate` property is executed in the first stage *after* all other cleaning is done.
 
-Generally speaking, the order of operations is: `Evaluate` --> `other cleaning (e.g., minMax, calibration)` --> `postEvaluate`. This is ***regardless of the order that they appear*** within `[Trace] ... [End]`. The following series of examples show how the Evaluate and postEvaluate statements work in relation to the other cleaning properties. For each example the input (Original) is an array of ones, and both the "Original" and first-stage "Clean" data are plotted in the result.
+Generally speaking, the order of operations is: `Evaluate` --> `other cleaning (e.g., minMax, calibration)` --> `postEvaluate`. This is ***regardless of the order that they appear*** &nbsp;within `[Trace] ... [End]`. The following series of examples shows how the Evaluate and postEvaluate statements work in relation to the other cleaning properties. For each example the input (Original) is an array of ones, and both the "Original" and first-stage "Clean" data are plotted in the result.
 
 **Example 1:** 
 Only minMax and calibration, no Evaluate or postEvaluate statements\
