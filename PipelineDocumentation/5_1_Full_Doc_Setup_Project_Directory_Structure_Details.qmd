@@ -10,6 +10,7 @@ On this page:
 - <a href="#div_id_ConfigMatlab">Configure Matlab for directory structure</a>
 
 <br>
+
 <div id="div_id_DirectoryStructure">
 
 <hr>
