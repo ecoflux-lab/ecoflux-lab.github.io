@@ -1,10 +1,10 @@
-## 6. &nbsp; Data Visualization Apps
+## 6. &nbsp; Data Visualization
 
 <link rel="stylesheet" href="css/style.css">
 
 Previously, we briefly mentioned some ways to visualize your data (section 4.2). This current section gives details on our recommended methods for viewing and analyzing your data, both during cleaning, and once you have real-time data flowing. 
 
-#### Matlab
+### Matlab
 
 There are several Matlab functions for visualizing data:
 
@@ -12,7 +12,7 @@ There are several Matlab functions for visualizing data:
 * `gui_Browse_Folder`: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons. A working example is provided in section 4.2.\
 * `guiPlotTraces`: this is an older function with less utility than the `plotApp` GUI, but it still displays your data for quick viewing.
 
-#### RShiny
+### RShiny
 
 There is also an R Shiny App which is useful for viewing your flux data in real-time (see section 6.2 for details). You can host this on an RShiny server to make your data publicly viewable.
 

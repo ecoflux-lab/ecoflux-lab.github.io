@@ -1,7 +1,5 @@
 ## 5.4. &nbsp; Full Documentation: Second Stage INI Files 
 
-[XXX In Progress]
-
 <link rel="stylesheet" href="css/style.css"> 
 
 On this page:
@@ -95,7 +93,7 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2])
     | data_fill | the name of the traces used to average/gap-fill "data_in" trace; these "data_fill" traces must have been included in the first stage | integer |
     | avg_period | |
 
-2. As with the first stage, more complex user-defined processing can be applied to the trace using the “Evaluate” option. User written Matlab functions can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. Some rules for formatting apply here (see the DSM SecondStage ini file for details and examples [XXX if we include this]).
+2. As with the first stage, more complex user-defined processing can be applied to the trace using the “Evaluate” option. User written Matlab functions can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. <!--Some rules for formatting apply here (see the DSM SecondStage ini file for details and examples [XXX if we include this]).-->
 
 </div>
 

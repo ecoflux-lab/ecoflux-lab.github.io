@@ -8,8 +8,8 @@ On this page:
 
 - <a href="#div_id_BestPractices">Best practices</a>
 - <a href="#div_id_CreateDatabaseUsefulInfo">Useful information on creating your database</a>
-- <a href="#div_id_MultipleInputFilesContinuousUpdates">Creating Database From Multiple Input Files and Updates for Continuous Operational Sites</a>
-- <a href="#div_id_CreateDatabaseFromECCC">Create database using data from Canadian meteorological stations</a>
+- <a href="#div_id_MultipleInputFilesContinuousUpdates">Create Database From Multiple Input Files and Updates for Continuous Operational Sites</a>
+- <a href="#div_id_CreateDatabaseFromECCC">Create Database Using Data from Canadian Meteorological Stations</a>
 - <a href="#div_id_VisualizeInspect">Visualize and inspect your newly created database</a>
 
 <br>
@@ -19,14 +19,17 @@ On this page:
 
 ### Best practices
 
-The best-practice approach for each project is to have one “main” script for data processing (e.g., `DataCleaning_Main.m`). This script should contain all the steps that are needed to go from raw data to the final gap-filled Ameriflux “clean” data set:
-    1. Obtaining/downloading the raw data (not covered here, we assume you have your own systems for obtaining datalogger output from your sites); 
-    2. Creating the database in the appropriate format (this section);
-    3. Applying the data-cleaning stages (section 6).
+The best-practice approach for each project is to have one “main” script for data processing (e.g., `DataCleaning_Main.m`). This script should contain all the steps that are needed to go from raw data to the final cleaned and gap-filled Ameriflux data set:
 
-This section covers step 2, and you can add data-cleaning code later in section 6. Each flux site is unique with its own sensors, data loggers, and data archiving formats (such as EddyPro output files, TOA5 Campbell Scientific files, Ameriflux CSV files, to name a few). The purpose of step 2 is to convert from such a site-specific dataset to a generic dataset ready to be processed using the standardised libraries (i.e., `Biomet.net`). These "generic" binary files can be read by most computer languages, by design, meaning they are suitable for the Biomet library which contains code written in Matlab, R, and Python. 
+1. Obtaining/downloading the raw data (not covered here, we assume you have your own systems for obtaining datalogger output from your sites); 
+2. Creating the database in the appropriate format (this current subsection);
+3. Applying the data-cleaning stages (subsections 5.3, 5.4, and 5.5).
 
-If you need help getting started with your "main" computer program, a sample Matlab script is provided in the quick-start guide (section 5.1 XXX check). With that `DataCleaning_Main.m` script the entire data processing process is documented and it can be easily replicated. Insert as many informative comments as you can - it will help if the process needs to be reviewed later on. When working with your own data, we still recommend following the steps in the tutorial as they also outline where to put your raw data files, and other important tasks.
+<!-- As mentioned, this subsection (5.2) covers step 2, and you can the add data-cleaning code later. --> 
+
+Each flux site is unique with its own sensors, data loggers, and data archiving formats (such as EddyPro output files, TOA5 Campbell Scientific files, Ameriflux CSV files, to name a few). The purpose of step 2 is to convert from such a site-specific dataset to a generic dataset ready to be processed using the standardised libraries (i.e., `Biomet.net`). These "generic" binary files can be read by most computer languages, by design, meaning they are suitable for the Biomet library which contains code written in Matlab, R, and Python. 
+
+If you need help getting started with your "main" computer program, a sample Matlab script is provided in the quick-start guide (section 4.2, under "Sample Code"). With that `DataCleaning_Main.m` script the entire data processing process is documented and it can be easily replicated. Insert as many informative comments as you can - it will help if the process needs to be reviewed later on or the project is handed over to another person. When working with your own data, especially for the first time using the pipeline, we still recommend following the steps in the tutorial as they also outline where to put your raw data files, and other important tasks.
 
 </div>
 
@@ -45,7 +48,7 @@ If you need help getting started with your "main" computer program, a sample Mat
     3. `fr_read_TOA5_file` (create database from TOA5 Campbell Scientific ASCII files);
     4. `fr_read_generic_data_file` (create database from most file formats).
 
-[XXX Zoran: not sure what else to add here, how do you feel about sharing test_fr_read_generic_data_file.m with those examples?]
+<!-- [XXX Zoran: not sure what else to add here, how do you feel about sharing test_fr_read_generic_data_file.m with those examples?] -->
 
 * The relevant function, when run in matlab, will create subdirectories named by data year (`yearIn`), then by `SITEID` (i.e., SITEIDs are grouped by year), as follows:
     
@@ -55,7 +58,7 @@ If you need help getting started with your "main" computer program, a sample Mat
 
  * The SITEID subdirectories will be populated with data (e.g., `Flux` and `Met` if these data types exist) for the appropriate year, stored as binary files ready for cleaning. The green highlighting in figure 5.4 shows an example with three years of data from two different sites.
 
-* The `clean_tv` file, which will be located in each Raw/Clean folder, is a standardized time vector of 30-minute frequency. This formats the timestamp of each record in Local Standard Time (LST; as required by AmeriFlux). [XXX Zoran, it is still not clear to me exactly how this file is created...]
+* The `clean_tv` file is automatically created, and will be located in each Raw/Clean folder. This a standardized time vector of 30-minute frequency. This formats the timestamp of each record in Local Standard Time (LST; as required by AmeriFlux). <!-- [XXX Zoran, it is still not clear to me exactly how this file is created...] -->
 
 <!-- Depending on the sites and data, ideally you will add this code snippet that creates your database to your "one Matlab script does it all" program (e.g., `DataCleaning_Main.m`).  -->
 We advise you to generalize your scripts as far as possible, based on the sites and data that you have, and remember to document your code thoroughly. 
@@ -110,7 +113,7 @@ fprintf('  %s - Met  Number of files processed = %d, Number of HHours = %d\n',si
 </pre>
  
 <br>
-If we run the same sequence twice (fr_TOA5_Database or fr_EddyPro_Databse as shown above), the second time the number of files processed would be zero assuming that there were no new files added to the Sites folder between the two runs. If on the other hand, one of the files changed, the function would process it. That is how real-time data gets processed in this data pipeline. 
+If we run the same sequence twice (fr_TOA5_database or fr_EddyPro_database as shown above), the second time the number of files processed would be zero assuming that there were no new files added to the Sites folder between the two runs. If on the other hand, one of the files changed, the function would process it. That is how real-time data gets processed in this data pipeline. 
 
 Other examples of `Biomet.net` functions that update data continuously, and can be written into a script as previously shown, are as follows:
 
@@ -137,37 +140,37 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 
 <hr>
 
-### Create database using data from Canadian meteorological stations
+### Create Database Using Data from Canadian Meteorological Stations
 
 Data from Canadian meteorological stations [operational climate stations run by Environment and Climate Change Canada (ECCC)] can be used for gap-filling met data for Canadian flux sites that are in close proximity. If you have gaps in your met data, you can search for nearby climate stations as follows:
 
 1. To find the closest Environment ECCC stations to your flux site, first go to this website: <a href="https://climate.weather.gc.ca/historical_data/search_historic_data_e.html" target="_blank" rel="noopener noreferrer">https://climate.weather.gc.ca/historical_data/search_historic_data_e.html</a>
-2. Click on the "Search by Proximity" tab (figure XXX), select "location coordinates in Decimal Degrees" and type in the coordinates of your flux site:
+2. Click on the "Search by Proximity" tab (figure 5.5), select "location coordinates in Decimal Degrees" and type in the coordinates of your flux site:
 
     <img src="images/ECCC/ECCC_Proximity.jpg" alt="ECCC_Proximity" width="600"/>
     
-    *Figure XXX. "Search by Proximity" tab on ECCC Historical Data website.*
+    *Figure 5.5. "Search by Proximity" tab on ECCC Historical Data website.*
 
 3. We advise selecting a station no more than 25 km away, but that is also up to the user's judgement and their responsibility to justify. 
 4. It also helps to select a proper range of dates using either "with data available between" or "with data on" option.
-5. From the list of stations pick one that's has "Hourly" data for the dates you need, and is closest to your location (see example in figure XXX):
+5. From the list of stations pick one that's has "Hourly" data for the dates you need, and is closest to your location (see example in figure 5.6):
 
     <img src="images/ECCC/ECCC_PickStation.jpg" alt="ECCC_PickStation" width="600"/>
     
-    *Figure XXX. Search results for selecting the station for gap-filling.*
+    *Figure 5.6. Search results for selecting the station for gap-filling.*
 
-6. In this example, the closes would be "WINNIPEG THE FORKS"; click on "Go", and make a note of the "Climate ID" number provided (figure XXX; in this case, the climate ID is 5023262).
+6. In this example, the closes would be "WINNIPEG THE FORKS"; click on "Go", and make a note of the "Climate ID" number provided (figure 5.7; in this case, the climate ID is 5023262).
 
     <img src="images/ECCC/ECCC_WinnipegExample.jpg" alt="ECCC_WinnipegExample" width="600"/>
     
-    *Figure XXX. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.*
+    *Figure 5.7. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.*
 
 7. Next, you need the **Station ID** (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the `Station Inventory EN.csv` file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.
 
 8. Create a script using the snippet below and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once. 
 
     <pre>
-    structProject = set_TAB_project(projectPath) 
+    structProject = set_TAB_project(projectPath); 
     stationIDs = [28051]; 
     yearsIn = 2022:2023; 
     monthsIn  = 1:12; 
@@ -179,8 +182,7 @@ Data from Canadian meteorological stations [operational climate stations run by 
         catch 
             fprintf('Error processing station: %d (year: %d, month: %d)\n',sID,yearsIn,monthsIn(end)); 
         end 
-    end 
-    </pre>
+    end</pre>
 
 8. Running this script will create the database for the given station ID, for two years (2022 and 2023) in the current project folder. The new database for the station 28051 is located here: `<projectPath>/Database/2022/ECCC/28051/30min/` (and similarly for 2023).
 
@@ -197,7 +199,7 @@ Data from Canadian meteorological stations [operational climate stations run by 
 
 ### Visualize and inspect your newly created database 
 
-Once your database is created, we strongly advise you to review its contents using `Biomet.net` functions. Some of these are listed in the tutorial under section 5.1, and section 6 provides extensive details of visualization tools for inspecting and analyzing raw and cleaned data.
+Once your database is created, we strongly advise you to review its contents using `Biomet.net` functions. Some of these are listed in the tutorial under section 4.2, and section 6 provides extensive details of visualization tools for inspecting and analyzing raw and cleaned data.
 
 When you have confirmed that all the traces you expect to see are present in your newly created Database, you are ready to start cleaning the data. First, you need to obtain the set of sample, configuration, and standardization files, described in section.
 
@@ -207,7 +209,7 @@ When you have confirmed that all the traces you expect to see are present in you
 
 #### *read_bor_notes_micromet.m* function
 
-[XXX I'm thinking this should be broken up and/or moved to the Data Visualization section because the examples in this function include cleaned data, which we haven't covered yet. Seems like the most important parts at this point, to inspect the database the user just created, are example 1 from `read_bor_notes_micromet.m` (load one trace and plot it), and the `gui_Browse_Folder` function...]
+[I moved this to the Data Visualization section because the examples in this function include cleaned data, which we haven't covered yet. Seems like the most important parts at this point, to inspect the database the user just created, are example 1 from `read_bor_notes_micromet.m` (load one trace and plot it), and the `gui_Browse_Folder` function...]
 
 This function is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example:
 

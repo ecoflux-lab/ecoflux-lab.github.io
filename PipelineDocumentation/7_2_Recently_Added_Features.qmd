@@ -2,11 +2,16 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-This page contains significant features recently added to the data cleaning pipeline - most recent at the top. Details can also be found in the full documentation (updated on this website soon).
+This page contains significant features recently added to the data cleaning pipeline - most recent at the top.
 
-**Watch this space for third stage changes coming soon...**
+##### *Updated: 11 June 2025*
 
-##### *Updated: 10 February 2025*
+<br>
+
+**New Third Stage YML template:**
+
+We improved error messaging for third stage cleaning, including passing more information to the log file and to the Matlab output display. You need to be using the most recent site-specific YML template for the third stage to run. The updated template is available in section 4.3 under "Download INI/config template files".
+
 
 **New Overwrite feature:**
 

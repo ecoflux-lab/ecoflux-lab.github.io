@@ -1,10 +1,8 @@
 ## 6.3. &nbsp; Other Biomet.net Plotting Tools
 
-#### *read_bor_notes_micromet.m* function
+### *read_bor_notes_micromet.m* function
 
-[XXX Zoran, the examples in this function include cleaned data, which we hadn't covered at the point this was located before, so I moved it here and linked it.]
-
-This function is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example:
+This function is part of the `Biomet.net` library and is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example:
 
 1. *Load one trace and plot it*: 
 * Use the `biomet_path` function, e.g., `pth = biomet_path(2022, 'DSM', 'MET')` to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself but always use this function. 
@@ -16,9 +14,9 @@ This function is intended as a manual on how to tell Matlab to read data from yo
 * This is most useful for comparing traces from different cleaning stages, once you have cleaned your data - which we have not yet addressed. We will cover this again later in section 
 * Use `biomet_path` again to define the filepath to the Second Stage clean data, e.g., `pth = biomet_path(2022,'DSM','Clean/SecondStage')` 
 
-3. *Multiple years*: [XXX not yet complete, may need to move]
+<!--3. *Multiple years*: [XXX not yet complete, may need to move]-->
 
-4. *Other functions for visualizing data*:
+3. *Other functions for visualizing data*:
 * `gui_Browse_Folder`: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons.
 * `guiPlotTraces`
-* `plotApp`
+* `plotApp` and `RShiny` apps: see sections 6.1 and 6.2, respectively.

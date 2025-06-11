@@ -29,7 +29,9 @@ If you wish to use our sample raw flux and met data to work through the example,
 
 ### Create database using our sample data, or using data from your own site(s)
 
-As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data. If your data has a different format, we recommend first carrying out the steps below using our sample data to see how the process works. We cover data with different formats in section 5.2 [XXX check]. 
+As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data. If your data has a different format, we recommend first carrying out the steps below using our sample data to see how the process works. Section 5.2 provides some examples of functions to deal with different data formats.
+
+<!--We cover data with different formats in section 5.2 [XXX check]. -->
 
 1. First, in your newly created `Sites` directory, within the relevant `SITEID` directory, create a new `Flux` folder (figure 5.1). 
 

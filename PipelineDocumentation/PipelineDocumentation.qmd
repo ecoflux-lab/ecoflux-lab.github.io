@@ -1,9 +1,10 @@
 ## Data Cleaning Pipeline Documentation and Instructions
 
 Compiled by: Rosie Howard, 2024\
-Edits and contributions: Zoran Nesic, Sara Knox, June Skeeter, Paul Moore, and other EcoFlux Lab members and affiliates.
+Edits and contributions: Zoran Nesic, Sara Knox, June Skeeter, Paul Moore, Karolina Bajda, and other EcoFlux Lab members and affiliates.
 
 Revisions:\
+- June 2025: Further detailed "full" documentation added, all moved to lab website.\
 - March 2025: Full documentation added including pipeline features and further information to supplement the tutorial.\
 - February 2025: "Recently Added Features" section 7.2 added. Full documentation still in progress.\
 - October 2024: These are the "quick-start" instructions for new users of the data-cleaning pipeline. The full documentation will be made available at a later date.\

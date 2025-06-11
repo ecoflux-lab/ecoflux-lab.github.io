@@ -8,16 +8,15 @@ Note that this section is a work in progress and will continue to be updated as 
 
 ### Troubleshooting: some general tips
 
+* Before running data cleaning, first **make sure you have the most recent version of the `Biomet.net` library** (see section 2.2 for details). The code is updated regularly and you should be updating your local repository at least once per week. If you downloaded the Biomet.net library (rather than cloned it), make sure that you renamed it exactly as `Biomet.net` since the download includes "main" in the folder name.
 * When running data cleaning (any stage), pay very close attention to the output on your screen. It tells you when everything runs smoothly, and if something goes wrong, in most cases it will be informative as to why and whereabouts things went wrong. 
 * Avoid having extra white space in your INI file between `[TRACE]` and `[END]`. Each parameter must be defined on a new line, with no wraparound. We recommend using a text editor that has line numbers (such as VS Code) to help you avoid and/or diagnose this issue.
-* If you downloaded the Biomet.net library (rather than cloned it), make sure that you renamed it `Biomet.net` since the download includes "main" in the folder name.
-
 
 ### FAQ
 
 1. *I have multiple files containing data from one site, e.g., daily, monthly, or annual files. How do I create one database from all my files?*
 
-    * See section ...
+    * See section 5.2: subsection "Create Database from Multiple Input Files and Updates for Continuous Operational Sites".
 
 2. *I have multiple flux sites. Once I've added one site and created my database with data from that site (and cleaned it, etc.), what are the steps to move on to my next site?*
 
@@ -25,7 +24,7 @@ Note that this section is a work in progress and will continue to be updated as 
 
 3. *How do I incorporate data from other sources such as nearby climate stations, e.g., for gap-filling, into my database?*
 
-    * See section ...
+    * See section 5.2: subsection "Create Database Using Data from Canadian Meteorological Stations".
 
 4. *When I run the third stage cleaning, why does it finish so quickly (less than a minute), and/or why is there is no data output in the* `Database` *directory?*
 
@@ -57,7 +56,7 @@ This section outlines some recurring special cases and how to deal with them:
     
     Download <a href= "directory_setup/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of the unzipped directory within your own project directory; make sure your directory structure looks like figure 4.1 in section 4. 
 
-    The `gitclone` function is used within the `create_TAB_ProjectFolders` function to transfer (clone) the directory structure and files within. However, `gitclone` was only added to Matlab 2023b, so you need to download this project directory structure directly.
+    The `gitclone` Matlab function is used within the `create_TAB_ProjectFolders` function to transfer (clone) the directory structure and files within. However, `gitclone` was only added to Matlab 2023b, so you need to download this project directory structure directly.
 
     If it is an error related to `gitclone`, the error will occur on the line that gitclone is called, so you can check this in the error message, e.g., it may look like this:
     <pre>Error: <u>File: create_TAB_ProjectFolders.m Line: 66 Column: 32</u>

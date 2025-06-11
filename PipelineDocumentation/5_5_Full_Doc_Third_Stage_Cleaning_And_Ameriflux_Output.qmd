@@ -1,7 +1,5 @@
 ## 5.5. &nbsp; Quick Start: Third Stage Cleaning and Converting to Ameriflux Output
 
-[XXX In Progress]
-
 <link rel="stylesheet" href="css/style.css"> 
 
 This section is intended to complement the instructions for third stage cleaning provided in the tutorial in section 4.5. Here we provide further details of outlier removal algorithms and u-star filtering. 
@@ -62,11 +60,11 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2 7])
 
 ### Third stage filters and variable names
 
-The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly from the second stage output, then wind sector and precipitation filters are applied to comply with eddy-covariance measurement theory, with no change to the variable name. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear. 
+The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly from the second stage output, then wind sector and precipitation filters are applied to comply with eddy-covariance measurement theory, with no change to the variable name. For the variable names with suffixes following the flux variables, these suffixes represent different algorithms that we have applied sequentially, in the order that they appear (Table 5.5.1). 
 
-For now, this description provides only definitions, and more detailed information on each output variable will be provided on this webpage soon. All these filters are set to be applied by default, but most of them can optionally be turned off by setting `Run: FALSE` in your third stage YML configuration file. As a reminder, algorithms that need parameter inputs have default values in the `global_config.yml` file which we as a group arrived at by doing sensitivity tests and reading the literature; however, these values can also be overwritten in your site-specific YML file if desired. 
+All these filters are set to be applied by default, but most of them can optionally be turned off by setting `Run: FALSE` in your third stage YML configuration file. As a reminder, algorithms that need parameter inputs have default values in the `global_config.yml` file which we as a group arrived at by doing sensitivity tests and reading the literature; however, these values can also be overwritten in your site-specific YML file if desired. 
 
-*Table XXX. Third stage flux output variable definitions, descriptions, and options.*
+*Table 5.5.1. Third stage flux output variable definitions, descriptions, and site-specific options.*
 
 | Suffix                         | Definition                             | Description   | Optional |
 | ------------------------------ | -------------------------------------- | --------------- | --------- |
@@ -105,6 +103,6 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2 7 8])
 <hr>
 
 **TIPS**\
-We recommend *not* editing the `global_config.yml` file directly as it is part of the `Biomet.net` library and it will create issues when you try to update the library (which you should be doing regularly). 
+We recommend *not* editing the `global_config.yml` file directly as it is part of the `Biomet.net` library and therefore will create issues when you try to update the library (which you should be doing regularly). 
 
 </div>
