@@ -397,17 +397,17 @@ ul.task-list li input[type="checkbox"] {
 <p>As previously mentioned, we will follow an example that focuses on flux-related EddyPro and met-related Campbell Scientific output data. If your data has a different format, we recommend first carrying out the steps below using our sample data to see how the process works. Section 5.2 provides some examples of functions to deal with different data formats.</p>
 <!--We cover data with different formats in section 5.2 [XXX check]. -->
 <ol type="1">
-<li><p>First, in your newly created <code>Sites</code> directory, within the relevant <code>SITEID</code> directory, create a new <code>Flux</code> folder (figure 5.1).</p>
+<li><p>First, in your newly created <code>Sites</code> directory, within the relevant <code>SITEID</code> directory, create a new <code>Flux</code> folder (figure 4.2A).</p>
 <p><img src="images/directory_trees/DirectoryTree3a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="250"></p>
-<p><em>Figure 5.1. Directory tree showing file path to the location where raw flux data for site with SITEID1 should be stored.</em></p></li>
+<p><em>Figure 4.2A. Directory tree showing file path to the location where raw flux data for site with SITEID1 should be stored.</em></p></li>
 <li><p>Copy the EddyPro raw output data to this <code>Flux</code> folder. This data will remain untouched so that you always have a local copy of the original data.</p></li>
 <li><p>Now, create a <code>Met</code> folder within the same <code>SITEID</code> directory (SITEID1 in this example), and copy the Campbell Scientific TOA5 data for this site to this Met folder.</p></li>
-<li><p>In your <code>&lt;projectPath&gt;/Matlab</code> folder, create a new “main” Matlab file that will act as a “do-it-all” script. You can name this file however you like; we advise making it meaningful and including the word “Main”. The example given here (figure 5.2) is named <code>DataCleaning_Main.m</code> (you can make your filename less generic) — it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>.</p>
+<li><p>In your <code>&lt;projectPath&gt;/Matlab</code> folder, create a new “main” Matlab file that will act as a “do-it-all” script. You can name this file however you like; we advise making it meaningful and including the word “Main”. The example given here (figure 4.2B) is named <code>DataCleaning_Main.m</code> (you can make your filename less generic) — it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>.</p>
 <p><img src="images/matlab/Template_My_Micromet.jpg" alt="DirectoryTree:MatlabDirectory" width="600"></p>
-<p><em>Figure 5.2. Matlab code to create database from raw EddyPro output and Campbell Scientific logger meteorological data. Yellow highlighted text should be edited.</em></p></li>
-<li><p>Next, run your “Main” Matlab program; you should see some data output in your <code>Database</code> directory. Data is grouped by year, then by site, then by data type, e.g., Flux or Met (figure 5.3; Met data not shown here).</p>
+<p><em>Figure 4.2B. Matlab code to create database from raw EddyPro output and Campbell Scientific logger meteorological data. Yellow highlighted text should be edited.</em></p></li>
+<li><p>Next, run your “Main” Matlab program; you should see some data output in your <code>Database</code> directory. Data is grouped by year, then by site, then by data type, e.g., Flux or Met (figure 4.2C; Met data not shown here).</p>
 <p><img src="images/directory_trees/DirectoryTree5a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="250"></p>
-<p><em>Figure 5.3. Directory tree showing file path to output in Database directory following database conversion.</em></p></li>
+<p><em>Figure 4.2C. Directory tree showing file path to output in Database directory following database conversion.</em></p></li>
 </ol>
 <p>Your data is now in a format ready for cleaning using the pipeline.</p>
 </section></div>
@@ -439,7 +439,7 @@ Simply type <code>plotApp</code> on the Matlab command line, and it will open an
 <br>
 <div id="div_id_code">
 <hr>
-<code>DataCleaning_Main.m</code> template script for copying one section at a time (see Figure 5.2 for necessary edits, highlighted yellow):
+<code>DataCleaning_Main.m</code> template script for copying one section at a time (see Figure 4.2B for necessary edits, highlighted yellow):
 <pre>%% Main function for My_Micromet data processing
 % Created by &lt;author&gt; on &lt;date&gt;
 % 

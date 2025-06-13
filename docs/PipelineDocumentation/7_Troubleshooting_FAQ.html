@@ -361,12 +361,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#troubleshooting-faq-and-special-cases" id="toc-troubleshooting-faq-and-special-cases" class="nav-link active" data-scroll-target="#troubleshooting-faq-and-special-cases">7. &nbsp; Troubleshooting, FAQ, and Special Cases</a>
-  <ul class="collapse">
-  <li><a href="#troubleshooting-some-general-tips" id="toc-troubleshooting-some-general-tips" class="nav-link" data-scroll-target="#troubleshooting-some-general-tips">Troubleshooting: some general tips</a></li>
-  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a></li>
-  <li><a href="#special-cases" id="toc-special-cases" class="nav-link" data-scroll-target="#special-cases">Special Cases</a></li>
-  </ul></li>
+  <li><a href="#troubleshooting-faq-and-special-cases" id="toc-troubleshooting-faq-and-special-cases" class="nav-link active" data-scroll-target="#troubleshooting-faq-and-special-cases">7. &nbsp; Troubleshooting, FAQ, and Special Cases</a></li>
   </ul>
 </nav>
     </div>
@@ -379,8 +374,17 @@ ul.task-list li input[type="checkbox"] {
 <section id="troubleshooting-faq-and-special-cases" class="level2">
 <h2 class="anchored" data-anchor-id="troubleshooting-faq-and-special-cases">7. &nbsp; Troubleshooting, FAQ, and Special Cases</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
+<p>On this page:</p>
+<ul>
+<li><a href="#div_id_GeneralTips">Troubleshooting: some general tips</a></li>
+<li><a href="#div_id_FAQ">FAQ</a></li>
+<li><a href="#div_id_SpecialCases">Special Cases</a></li>
+</ul>
 <p>This section presents some general troubleshooting tips outlining things to check to make sure the pipeline scripts will run smoothly. There are also some FAQ, and some guidance on special cases and how to handle them.</p>
 <p>Note that this section is a work in progress and will continue to be updated as the pipeline is further developed and tested.</p>
+<br>
+<div id="div_id_GeneralTips">
+<hr>
 <section id="troubleshooting-some-general-tips" class="level3">
 <h3 class="anchored" data-anchor-id="troubleshooting-some-general-tips">Troubleshooting: some general tips</h3>
 <ul>
@@ -388,7 +392,10 @@ ul.task-list li input[type="checkbox"] {
 <li>When running data cleaning (any stage), pay very close attention to the output on your screen. It tells you when everything runs smoothly, and if something goes wrong, in most cases it will be informative as to why and whereabouts things went wrong.</li>
 <li>Avoid having extra white space in your INI file between <code>[TRACE]</code> and <code>[END]</code>. Each parameter must be defined on a new line, with no wraparound. We recommend using a text editor that has line numbers (such as VS Code) to help you avoid and/or diagnose this issue.</li>
 </ul>
-</section>
+</section></div>
+<p><br></p>
+<div id="div_id_FAQ">
+<hr>
 <section id="faq" class="level3">
 <h3 class="anchored" data-anchor-id="faq">FAQ</h3>
 <ol type="1">
@@ -413,7 +420,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Check that after you downloaded and unzipped the <code>Biomet.net</code> library, you renamed it from <code>Biomet.net-main</code> to <strong><code>Biomet.net</code></strong>.</p></li>
 </ul></li>
 </ol>
-</section>
+</section></div>
+<p><br></p>
+<div id="div_id_SpecialCases">
+<hr>
 <section id="special-cases" class="level3">
 <h3 class="anchored" data-anchor-id="special-cases">Special Cases</h3>
 <p>This section outlines some recurring special cases and how to deal with them:</p>
@@ -432,16 +442,18 @@ ul.task-list li input[type="checkbox"] {
  Incorrect use of '=' operator. To assign a value to a variable, use '='. To compare values for equality, use '=='.</pre>
 <p><!--Ideally, you would update your Matlab version if possible, since we may make edits to the directory structure/set-up in the future... Not sure how we are handling this even for those using gitclone?? --></p></li>
 </ol>
-<!--
-* add info from troubleshooting new Macbook
-* add UBC-specific cases?
--->
+</section></div>
 
 
 </section>
-</section>
+</main></div>
 
-</main> <!-- /main -->
+
+
+
+
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -862,7 +874,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 
 
 

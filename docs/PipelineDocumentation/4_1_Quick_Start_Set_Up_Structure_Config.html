@@ -399,10 +399,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Next, in Matlab, run the <code>create_TAB_ProjectFolders</code> function (which is in the <code>Biomet.net</code> library that you cloned), as follows:</p>
 <pre> create_TAB_ProjectFolders(projectPath,siteID)</pre>
 <p>Both input arguments are of type “string”. You can use single <code>''</code> or double <code>""</code> quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info.</p>
-<p>As the function name suggests, this will create some folders on your computer and also transfer some necessary small files. In your project root directory (e.g., <code>My_Micromet</code> in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
+<p>As the function name suggests, this will create some folders on your computer and also transfer some necessary small files. In your project root directory (e.g., <code>My_Micromet</code> in figure 4.1A), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites.</p>
 <p><img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&amp;Subdirectories" width="250"></p>
-<p><em>Figure 4.1. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p>
-<p>[Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running <code>create_TAB_ProjectFolders</code> (above). In that case, download <a href="presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the <em>contents</em> of “My_Micromet_Folder” within your project directory (underneath <code>My_Micromet</code>); make sure your directory structure looks like figure 4.1.]</p></li>
+<p><em>Figure 4.1A. Directory tree showing contents of project folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p>
+<p>[Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running <code>create_TAB_ProjectFolders</code> (above). In that case, download <a href="presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the <em>contents</em> of “My_Micromet_Folder” within your project directory (underneath <code>My_Micromet</code>); make sure your directory structure looks like figure 4.1A.]</p></li>
 <li><p>Finally, run the following command:</p>
 <pre> set_TAB_project(projectPath)</pre>
 <p>This process sets up the <code>Biomet.net</code> toolbox to work with your project.</p></li>
@@ -417,9 +417,9 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="database-directory">Database directory</h4>
 <ul>
 <li><p>The new <code>Database</code> directory contains a <code>Calculation_Procedures</code> directory, and within <code>Calculation_Procedures</code>, there is one called <code>TraceAnalysis_ini</code>.</p></li>
-<li><p>Within <code>TraceAnalysis_ini</code>, you will see a subdirectory named using your siteID (e.g., <code>SITEID1</code> in figure 4.2), as follows:</p>
+<li><p>Within <code>TraceAnalysis_ini</code>, you will see a subdirectory named using your siteID (e.g., <code>SITEID1</code> in figure 4.1B), as follows:</p>
 <p><img src="images/directory_trees/DirectoryTree2b_short.jpg" alt="DirectoryTree:DatabaseDirectory&amp;Subdirectories" width="350"></p>
-<p><em>Figure 4.2. Directory tree showing contents of <code>TraceAnalysis_ini</code> folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
+<p><em>Figure 4.1B. Directory tree showing contents of <code>TraceAnalysis_ini</code> folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
 <li><p>Eventually (but not yet!), this <code>Database</code> directory will also contain the following:</p>
 <ul>
 <li>Initial database created using your raw data;</li>
@@ -431,9 +431,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="sites-directory" class="level4">
 <h4 class="anchored" data-anchor-id="sites-directory">Sites directory</h4>
 <ul>
-<li><p>Raw, <em>uncleaned</em> data from your site(s) will be stored in the <code>&lt;projectPath&gt;/Sites</code> directory, under the appropriate siteID (covered shortly in section 5.1). The data in this directory should remain <em>untouched</em> since we always want to preserve a copy of the raw data.</p>
+<li><p>Raw, <em>uncleaned</em> data from your site(s) will be stored in the <code>&lt;projectPath&gt;/Sites</code> directory (Figure 4.1C), under the appropriate siteID. The data in this directory should remain <em>untouched</em> since we always want to preserve a copy of the raw data.</p>
 <p><img src="images/directory_trees/DirectoryTree3.jpg" alt="DirectoryTree:SitesDatabaseDirectory&amp;Subdirectories" width="250"></p>
-<p><em>Figure 4.2. Directory tree showing contents of <code>Sites</code> folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
+<p><em>Figure 4.1C. Directory tree showing contents of <code>Sites</code> folder after running the <code>create_TAB_ProjectFolders</code> Matlab function.</em></p></li>
 </ul>
 </section>
 <section id="matlab-directory" class="level4">

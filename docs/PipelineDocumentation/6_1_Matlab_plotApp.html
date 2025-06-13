@@ -388,10 +388,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="quick-start-plotapp-instructions" class="level4">
 <h4 class="anchored" data-anchor-id="quick-start-plotapp-instructions">Quick Start <code>plotApp</code> Instructions:</h4>
 <ul>
-<li><p>In Matlab, run <code>plotApp</code> on the command line (figure 7.1).</p>
+<li><p>In Matlab, run <code>plotApp</code> on the command line (figure 6.1A).</p>
 <p><img src="images/visualization/CommandLine.jpg" alt="plotApp:CommandLine" width="250"></p>
-<p><em>Figure 7.1. How to launch the plotApp GUI in Matlab.</em></p></li>
-<li><p>The GUI in figure 7.2 will launch; specify the folder containing the database you would like to plot by typing the folder path or by clicking the folder button and navigating to the desired folder.</p>
+<p><em>Figure 6.1A. How to launch the plotApp GUI in Matlab.</em></p></li>
+<li><p>The GUI in figure 6.1B will launch; specify the folder containing the database you would like to plot by typing the folder path or by clicking the folder button and navigating to the desired folder.</p>
 <ul>
 <li>You need to specify the <code>\Database\</code> folder (immediately beneath your project folder) rather than the individual year or site folder.</li>
 <li>The <em>Year</em> and <em>Site</em> will be chosen from the drop-down menus which are automatically populated based on what is available in the folder.</li>
@@ -399,12 +399,12 @@ ul.task-list li input[type="checkbox"] {
 <li>On subsequent uses of plotApp, it will remember the last Folder that was entered.</li>
 </ul>
 <p><img src="images/visualization/plotApp1.jpg" alt="plotApp:GUI1" width="500"></p>
-<p><em>Figure 7.2. plotApp GUI showing where to enter the Database folder to view and analyze data.</em></p></li>
+<p><em>Figure 6.1B. plotApp GUI showing where to enter the Database folder to view and analyze data.</em></p></li>
 <li><p>Next, select the <em>Year</em>, <em>Site</em>, and <em>Data type</em> (Flux, Met, Clean, etc.) that you want to plot.</p></li>
 <li><p><em>Flux</em> and <em>Met</em> data types is associated with <em>Stage2</em> and higher.</p></li>
-<li><p>Once these selections are made, the ‘Traces’ list will populate; then click on a trace to select it and plot the time series (figure 7.3).</p>
+<li><p>Once these selections are made, the ‘Traces’ list will populate; then click on a trace to select it and plot the time series (figure 6.1C).</p>
 <p><img src="images/visualization/plotApp2.jpg" alt="plotApp:GUI2" width="500"></p>
-<p><em>Figure 7.3. Example of plotApp GUI showing time series plotted after selecting data.</em></p></li>
+<p><em>Figure 6.1C. Example of plotApp GUI showing time series plotted after selecting data.</em></p></li>
 <li><p>You can use the Matlab window navigation tools (i.e., zoom, pan, data tips) to explore the traces.</p></li>
 <li><p>Two traces can be plotted at once for quick and easy reference, or for qualitative visual comparisons.</p></li>
 </ul>
@@ -426,9 +426,9 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>For the single trace summary, first select Trace ‘1’ (upper panel) or ‘2’ (lower panel) using the up/down buttons.</p></li>
 <li><p>From the <em>Trace analysis</em> drop-down menu, select ‘Single trace’.</p></li>
-<li><p>A new window will open with the trace summary (figure 7.4).</p>
+<li><p>A new window will open with the trace summary (figure 6.1D).</p>
 <p><img src="images/visualization/plotAppFig1.jpg" alt="plotApp:Fig1" width="500"></p>
-<p><em>Figure 7.4. Example of single-trace summary in plotApp GUI.</em></p></li>
+<p><em>Figure 6.1D. Example of single-trace summary in plotApp GUI.</em></p></li>
 </ul>
 <p>The four panel ’Single trace’ summary includes (i) upper left – raw half-hourly data and daily average; (ii) upper right – diurnal trend using boxplots on an hourly basis; (iii) lower left – Q-Q plot; and (iv) lower right – cumulative distribution with 1st and 99th percentile, mean, and median printed.</p>
 <ul>
@@ -440,11 +440,11 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Compare traces</em></p>
 <p>A basic comparison of Trace ‘1’ and ‘2’ can be plotted using the <em>Trace analysis</em> drop-down menu and selecting ‘Compare traces’.</p>
 <ul>
-<li><p>A new window will open with the trace comparison (figure 7.5).</p></li>
+<li><p>A new window will open with the trace comparison (figure 6.1E).</p></li>
 <li><p>Any two traces can be compared. There are no restrictions on <em>Site</em>, <em>Data</em> type or <em>Level</em>, but currently the <em>Year</em> must be the same for each trace.</p></li>
 <li><p>An error message will appear if only one trace is plotted or if Year doesn’t match.</p>
 <p><img src="images/visualization/plotAppFig2.jpg" alt="plotApp:Fig2" width="500"></p>
-<p><em>Figure 7.5. Example of ‘Compare trace’ summary in plotApp GUI.</em></p></li>
+<p><em>Figure 6.1E. Example of ‘Compare trace’ summary in plotApp GUI.</em></p></li>
 </ul>
 <p>The four panel ‘Plot comparison’ summary includes (i) upper left – raw half-hourly residuals and their daily average; (ii) upper right – normalized cross-covariance for +/- 48 measurement intervals; (iii) scatter plot comparing the two traces; and (iv) lower right – cumulative distribution of the residuals.</p>
 <ul>
@@ -458,9 +458,9 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Plot parents</em></p>
 <ul>
 <li><p>The <em>Trace analysis</em> option is meant to aid the assessment of data cleaning amongst stages. For example, if more data is removed due to data cleaning than expected, <em>Plot parents</em> can be used to help identify which parent trace resulted in data removal.</p></li>
-<li><p>The ‘Trace’ selector (i.e., 1 or 2) defines which trace will be analyzed and displays the analysis in a new window (figure 7.6).</p>
+<li><p>The ‘Trace’ selector (i.e., 1 or 2) defines which trace will be analyzed and displays the analysis in a new window (figure 6.1F).</p>
 <p><img src="images/visualization/plotAppParents.jpg" alt="plotApp:parents" width="600"></p>
-<p><em>Figure 7.6. Example of ‘plot parents’ display in plotApp GUI.</em></p></li>
+<p><em>Figure 6.1F. Example of ‘plot parents’ display in plotApp GUI.</em></p></li>
 <li><p>For a particular stage, ‘Plot parents’ shows the data from the current stage (orange circles, upper panel) and contrasts with the previous stage (i.e.&nbsp;blue circles, upper panel).</p></li>
 <li><p>The minMax=[] bounds for the trace defined in the .ini file for the particular site are shown in the upper panel in yellow and purple.</p></li>
 <li><p>The lower panel shows all the parents of a particular trace (i.e., those traces which include that trace as a dependent=’’ in the INI file). Note, dependents are often called using ‘tags’.</p></li>

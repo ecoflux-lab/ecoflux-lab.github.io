@@ -21,7 +21,7 @@ Instead of using global variables you can duplicate the full trace (`[Trace] ...
 
 <img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"/>
 
-*Figure 7.2. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the `CH4_MIXING_RATIO` trace that was originally defined in `EddyPro_LI7700_FirstStage_include.ini`. Yellow highlighting shows the syntax for the "overwrite" property.*
+*Figure 7.2A. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the `CH4_MIXING_RATIO` trace that was originally defined in `EddyPro_LI7700_FirstStage_include.ini`. Yellow highlighting shows the syntax for the "overwrite" property.*
 
 There are three overwrite options:
 

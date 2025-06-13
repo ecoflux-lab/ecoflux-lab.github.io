@@ -20,11 +20,11 @@ The following download provides templates for all stages of cleaning, so you wil
 
 <a href="ini_templates_sample_data/Template_Sample_INIs.zip">Template and Sample INI/config files</a>
 
-1. Download the files above; unzip the contents, and copy the TEMPLATE files in the `Template_INI_config_files` folder to the location shown in figure 6.1:
+1. Download the files above; unzip the contents, and copy the TEMPLATE files in the `Template_INI_config_files` folder to the location shown in figure 4.3A:
 
     <img src="images/directory_trees/DirectoryTree6a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="350"/>
 
-    *Figure 6.1. Directory tree showing location of template INI files inside relevant SITEID folder.*
+    *Figure 4.3A. Directory tree showing location of template INI files inside relevant SITEID folder.*
 
 2. Rename the TEMPLATE files you just copied, replacing "TEMPLATE" with your site ID (`SITEID1` in this example; this filename format is required). 
 
@@ -37,7 +37,7 @@ The following download provides templates for all stages of cleaning, so you wil
 <div id="div_id_InstructionsFirstStageINI">
 <hr>
 
-<!-- In section 4.1, when you ran the `create_TAB_ProjectFolders` function, this transferred a number of necessary files to your local computer, including one called `TEMPLATE_FirstStage.ini` (figure 6.1): -->
+<!-- In section 4.1, when you ran the `create_TAB_ProjectFolders` function, this transferred a number of necessary files to your local computer, including one called `TEMPLATE_FirstStage.ini` (figure 4.3A): -->
 
 ### Instructions to create first stage INI file
 
@@ -50,11 +50,11 @@ The following download provides templates for all stages of cleaning, so you wil
     %--> Insert met variables here
     %----------------------------------------------------</pre>
 
-    Beginning with air temperature, define the input data to each trace given in the INI file. For example, if you have an output variable that represents your 2-m air temperature measurement named `MET_HMP_T_2m_Avg`, you would assign this variable name to the `inputFileName` parameter (figure 6.2; yellow highlighted text). During this first cleaning stage this trace will be renamed as `TA_1_1_1` using the `variableName` parameter, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>. 
+    Beginning with air temperature, define the input data to each trace given in the INI file. For example, if you have an output variable that represents your 2-m air temperature measurement named `MET_HMP_T_2m_Avg`, you would assign this variable name to the `inputFileName` parameter (figure 4.3B; yellow highlighted text). During this first cleaning stage this trace will be renamed as `TA_1_1_1` using the `variableName` parameter, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>. 
 
     <img src="images/ini_files/ini_example1.jpg" alt="INIFiles:inputFileName1" width="600"/>
 
-    *Figure 6.2. Air temperature trace (`TA_1_1_1`) as defined in a first stage INI file, with input from `MET_HMP_T_2m_Avg` variable.*
+    *Figure 4.3B. Air temperature trace (`TA_1_1_1`) as defined in a first stage INI file, with input from `MET_HMP_T_2m_Avg` variable.*
 
     Other fields that need editing are highlighted in peach: 
     - Give a descriptive title to your trace;
@@ -152,13 +152,13 @@ The following download provides templates for all stages of cleaning, so you wil
 
     c. Run `fr_automated_cleaning(yearIn,'SITEID',1)` again to test this addition. You should see your first-stage cleaned data appear in a new `Clean` folder within your `Flux` folder. 
 
-7. At this stage, you can start to add any `Met` or `Flux` variables that may not already be included in the template files. You can do this by copy-pasting the `[Trace]...[End]` code block (like the one in figure 6.2) and editing the parameter inputs accordingly. 
+7. At this stage, you can start to add any `Met` or `Flux` variables that may not already be included in the template files. You can do this by copy-pasting the `[Trace]...[End]` code block (like the one in figure 4.3B) and editing the parameter inputs accordingly. 
 
-8. Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these and use the Ameriflux naming convention to distinguish and define their relative positions (figure 6.3).
+8. Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these and use the Ameriflux naming convention to distinguish and define their relative positions (figure 4.3C).
 
     <img src="images/ini_files/ini_example2.jpg" alt="INIFiles:inputFileName2" width="500"/>
 
-    *Figure 6.3. Second air temperature trace (`TA_1_2_1`) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
+    *Figure 4.3C. Second air temperature trace (`TA_1_2_1`) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
 
 </div>
 
@@ -171,8 +171,7 @@ The following download provides templates for all stages of cleaning, so you wil
 <ul>
    <li>Pay attention to the output display; it is informative.</li> 
    <li>We recommend using the "quick-look" visualization tools at any stage of cleaning to check that your data looks as expected (e.g., the filenames are correct and the retained values conform to your minMax bounds).</li>
+   <li>See section 5.3 for lots more guidance and information on first stage INI files. For cases where you do not have input data for all traces defined in any include file that you use, see "Special Cases" in section 7 on troubleshooting.</li>
 </ul>
-
-<!-- See section 6.4 [XXX link] for more guidance on this and INI files in general. For cases where you do not have input data for all traces defined in any include file that you use, see section 8.1 on Troubleshooting [XXX link]. -->
 
 </div>

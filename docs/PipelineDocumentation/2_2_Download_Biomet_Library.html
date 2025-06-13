@@ -373,25 +373,35 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer" class="level2">
 <h2 class="anchored" data-anchor-id="download-or-clone-the-biomet.net-library-git-repository-to-your-local-computer">2.2. &nbsp; Download or clone the Biomet.net library Git repository to your local computer</h2>
-<p>The <a href="https://github.com/ubc-micromet/Biomet.net" target="_blank" rel="noopener noreferrer">Biomet.net</a> repository contains libraries of computer code (in Matlab, R, and Python) related to running the data cleaning pipeline. It contains (a) the scripts to run the first, second, and third cleaning stages, as well as conversion to AmeriFlux format, and (b) many functions to help analyze and visualize data throughout all the stages of data processing and cleaning.</p>
+<p><link rel="stylesheet" href="css/style.css"></p>
+<p>On this page:</p>
+<ul>
+<li><a href="#div_id_GitDownload">Instructions to <em>download</em> the Biomet.net repository</a></li>
+<li><a href="#div_id_GitClone">Instructions to <em>clone</em> the Biomet.net repository from a terminal</a></li>
+<li><a href="#div_id_TipsBiomet">Biomet tips</a></li>
+</ul>
+<p>The <a href="https://github.com/ubc-micromet/Biomet.net" target="_blank" rel="noopener noreferrer">Biomet.net</a> repository contains libraries of computer code (in Matlab, R, and Python) related to running the data cleaning pipeline. It contains (a) the scripts to run the first, second, and third cleaning stages, as well as conversion to AmeriFlux format, and (b) many functions to help clean, process, analyze and visualize data throughout all the stages of data processing and cleaning.</p>
 <p>In principle, users should not need to edit this code library. Instead, as far as possible, you will interface with it using various configuration files unique to your own project(s) and site(s). This process is described later.</p>
 <p>First, you need to either download or clone the repository. Instructions for both are given below; if you do not have Git installed on your computer and do not anticipate adding any of your own code to the Biomet.net library, then you can download the repository, as follows:</p>
-<section id="instructions-to-download-the-biomet.net-repository" class="level4">
-<h4 class="anchored" data-anchor-id="instructions-to-download-the-biomet.net-repository">Instructions to <em>download</em> the Biomet.net repository:</h4>
+<div id="div_id_GitDownload">
+<hr>
+<section id="instructions-to-download-the-biomet.net-repository" class="level3">
+<h3 class="anchored" data-anchor-id="instructions-to-download-the-biomet.net-repository">Instructions to <em>download</em> the Biomet.net repository:</h3>
 <ol type="1">
 <li><p>Go to the <a href="https://github.com/CANFLUX/Biomet.net" target="_blank" rel="noopener noreferrer">Biomet.net library webpage</a>.</p></li>
-<li><p>Click on the green “Code” button, and then click “Download ZIP”:</p>
+<li><p>Click on the green “Code” button, and then click “Download ZIP” (figure 2.2A):</p>
 <p><img src="images/Biomet/BiometRepoDownload2.jpg" alt="DownloadBiometRepo" width="500"></p>
-<p><em>Figure 2A. Screenshot of Biomet.net repository on GitHub, showing how to download.</em></p></li>
+<p><em>Figure 2.2A. Screenshot of Biomet.net repository on GitHub, showing how to download.</em></p></li>
 <li><p>Move the downloaded <code>Biomet.net-main.zip</code> file to a convenient location on your computer, e.g., within your <code>C:</code> drive for PCs, or within <code>/Users/&lt;username&gt;/</code> for Macs.</p></li>
 <li><p>Importantly, after unzipping the file, <em>rename</em> the unzipped directory from <code>Biomet.net-main</code> to <strong><code>Biomet.net</code></strong>.</p></li>
 <li><p>We recommend repeating these steps periodically so that you remain up to date with our pipeline developments, keeping only the most recently downloaded Biomet.net folder on your computer. It should always be in the same location so that Matlab knows where to look for the library (see section 2.4 for details).</p></li>
 </ol>
-<p><br></p>
+</section></div>
+<div id="div_id_GitClone">
+<hr>
 <p>Alternatively, if you prefer to clone the directory, you will need to have Git installed on your computer (section 2.1). Then you can follow these instructions:</p>
-</section>
-<section id="instructions-to-clone-the-biomet.net-repository-from-a-terminal" class="level4">
-<h4 class="anchored" data-anchor-id="instructions-to-clone-the-biomet.net-repository-from-a-terminal">Instructions to <em>clone</em> the Biomet.net repository from a terminal:</h4>
+<section id="instructions-to-clone-the-biomet.net-repository-from-a-terminal" class="level3">
+<h3 class="anchored" data-anchor-id="instructions-to-clone-the-biomet.net-repository-from-a-terminal">Instructions to <em>clone</em> the Biomet.net repository from a terminal:</h3>
 <ol type="1">
 <li><p>Make sure you are in the directory (folder) where you wish the repository to live, for example, your computer <code>C:</code> drive for PCs, or <code>/Users/&lt;username&gt;/</code> for Macs, or something similar depending on your preferences.</p></li>
 <li><p>Next, follow the instructions on <a href="https://www.educative.io/answers/how-to-clone-a-git-repository-using-the-command-line" target="_blank" rel="noopener noreferrer">this website</a> to clone the repository.</p></li>
@@ -399,12 +409,30 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Always keep your local copy of the <code>Biomet.net</code> code up to date by periodically using the <code>git pull</code> command every few days, or when you know there has been a change to the code. You must be in the repository directory for this to work.</p></li>
 </ol>
 <p><strong>NOTE</strong>: Editing existing files or saving new ones to the main branch of <code>Biomet.net</code> should generally be avoided. Reminder: if you wish to contribute your own code to the <code>Biomet.net</code> library, see section 2.1.</p>
+</section></div>
+<div id="div_id_TipsBiomet">
+<hr>
+<strong>TIPS</strong><br>
+
+<ul>
+<li>
+Reminder: we highly recommend redownloading or recloning (<code>git pull</code>) the Biomet.net library at least once per week.
+</li>
+<li>
+If you suddenly get an unexpected error when cleaning, using files that e.g.&nbsp;were previously working and the solution is not obvious, try redownloading or recloning the library, and then rerunning the cleaning.
+</li>
+</ul>
+</div>
 
 
-</section>
-</section>
+</section></main></div>
 
-</main> <!-- /main -->
+
+
+
+
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -825,7 +853,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 
 
 

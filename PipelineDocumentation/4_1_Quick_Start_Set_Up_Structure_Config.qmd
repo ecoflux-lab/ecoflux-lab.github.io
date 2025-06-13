@@ -40,13 +40,13 @@ You will also need to create a site ID that relates to the flux site you are wor
 
     Both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
 
-    As the function name suggests, this will create some folders on your computer and also transfer some necessary small files. In your project root directory (e.g., `My_Micromet` in figure 4.1), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
+    As the function name suggests, this will create some folders on your computer and also transfer some necessary small files. In your project root directory (e.g., `My_Micromet` in figure 4.1A), you should now see three new directories with the following names: (1) Database, (2) Matlab, (3) Sites. 
 
     <img src="images/directory_trees/DirectoryTree1_short.jpg" alt="DirectoryTree:ProjectDirectory&Subdirectories" width="250"/>
     
-    *Figure 4.1. Directory tree showing contents of project folder after running the `create_TAB_ProjectFolders` Matlab function.* 
+    *Figure 4.1A. Directory tree showing contents of project folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
-    [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1.] 
+    [Note: if you are working with an earlier version of Matlab than 2023b, you may get an error when running `create_TAB_ProjectFolders` (above). In that case, download <a href= "presentation/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); make sure your directory structure looks like figure 4.1A.] 
 
 3. Finally, run the following command:
     <pre>
@@ -66,11 +66,11 @@ For now, we will describe only the new directories and files necessary for you t
 #### Database directory
 * The new `Database` directory contains a `Calculation_Procedures` directory, and within `Calculation_Procedures`, there is one called `TraceAnalysis_ini`. 
 
-* Within `TraceAnalysis_ini`, you will see a subdirectory named using your siteID (e.g., `SITEID1` in figure 4.2), as follows:
+* Within `TraceAnalysis_ini`, you will see a subdirectory named using your siteID (e.g., `SITEID1` in figure 4.1B), as follows:
 
     <img src="images/directory_trees/DirectoryTree2b_short.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="350"/>
     
-    *Figure 4.2. Directory tree showing contents of `TraceAnalysis_ini` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
+    *Figure 4.1B. Directory tree showing contents of `TraceAnalysis_ini` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
 * Eventually (but not yet!), this `Database` directory will also contain the following:
     - Initial database created using your raw data;
@@ -79,11 +79,11 @@ For now, we will describe only the new directories and files necessary for you t
 
 
 #### Sites directory
-* Raw, *uncleaned* data from your site(s) will be stored in the `<projectPath>/Sites` directory, under the appropriate siteID (covered shortly in section 5.1). The data in this directory should remain *untouched* since we always want to preserve a copy of the raw data. 
+* Raw, *uncleaned* data from your site(s) will be stored in the `<projectPath>/Sites` directory (Figure 4.1C), under the appropriate siteID. The data in this directory should remain *untouched* since we always want to preserve a copy of the raw data. 
 
     <img src="images/directory_trees/DirectoryTree3.jpg" alt="DirectoryTree:SitesDatabaseDirectory&Subdirectories" width="250"/>
 
-    *Figure 4.2. Directory tree showing contents of `Sites` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
+    *Figure 4.1C. Directory tree showing contents of `Sites` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
 #### Matlab directory
 * This directory should now contain three matlab files: 

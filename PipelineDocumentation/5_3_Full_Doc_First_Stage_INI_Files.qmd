@@ -56,11 +56,11 @@ If you are doing this for the first time, you can obtain simplified template fil
     5. You can create dependencies between different traces. If one trace has some data points removed, all its dependent traces will also have those data points removed. 
     6. More complex user-defined processing can be applied to the trace using the very useful "Evaluate" option (also available in second stage cleaning). Matlab functions (user-written or `Biomet.net`) can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. <!-- Some rules for formatting apply here (see the existing SecondStage ini file for details and examples XXX DSM?).-->
 
-    *Example for air temperature trace*: if you have an output variable from a Campbell Scientific data logger that represents your 2-m air temperature measurement named `MET_HMP_T_2m_Avg`, you would assign this variable name to the `inputFileName` parameter (figure 5.8; yellow highlighted text). In this example, it would be renamed in this stage using the `variableName` parameter, as `TA_1_1_1`, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>. 
+    *Example for air temperature trace*: if you have an output variable from a Campbell Scientific data logger that represents your 2-m air temperature measurement named `MET_HMP_T_2m_Avg`, you would assign this variable name to the `inputFileName` parameter (figure 5.3A; yellow highlighted text). In this example, it would be renamed in this stage using the `variableName` parameter, as `TA_1_1_1`, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>. 
 
     <img src="images/ini_files/ini_example1.jpg" alt="INIFiles:inputFileName1" width="500"/>
     
-    *Figure 5.8. Air temperature trace (`TA_1_1_1`) as defined in a first stage INI file, with input from `MET_HMP_T_2m_Avg` variable.*
+    *Figure 5.3A. Air temperature trace (`TA_1_1_1`) as defined in a first stage INI file, with input from `MET_HMP_T_2m_Avg` variable.*
 
     Other fields that need editing are highlighted in peach:
     - Give a descriptive title to your trace;
@@ -71,12 +71,12 @@ If you are doing this for the first time, you can obtain simplified template fil
     - Importantly, *choose minMax bounds* that are appropriate for the climate of your site (values outside this range will become NaNs).
     - For details of all the parameters and their definitions, see the "Properties and parameters: first stage INI" subsection below.
 
-    If you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 5.9). 
+    If you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 5.3B). 
     <!--[XXX fix this, highest measurement height in profile must be TA_1_1_1]-->
 
     <img src="images/ini_files/ini_example2.jpg" alt="INIFiles:inputFileName2" width="500"/>
 
-    *Figure 5.9. Second air temperature trace (`TA_1_2_1`) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
+    *Figure 5.3B. Second air temperature trace (`TA_1_2_1`) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from `MET_HMP_T_350cm_Avg` variable.*
 
 </div>
 
@@ -96,7 +96,7 @@ If you are doing this for the first time, you can obtain simplified template fil
 
     where the arguments are defined as follows:
 
-    *Table 6.1. Argument definitions for `fr_automated_cleaning` function.*
+    *Table 5.3A. Argument definitions for `fr_automated_cleaning` function.*
 
     | Field | Description | Type |
     | ----- | ----------- | ---- |
@@ -117,7 +117,7 @@ If you are doing this for the first time, you can obtain simplified template fil
 
 ### Properties and parameters: first stage INI
 
-*Table 5.1. First stage INI file properties and parameters.*
+*Table 5.3B. First stage INI file properties and parameters.*
 
 | Field      | Description |
 | ----------- | ----------- |
@@ -267,7 +267,7 @@ Instead of using global variables you can duplicate the full trace (`[Trace] ...
 
 <img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"/>
 
-*Figure 6.10. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the `CH4_MIXING_RATIO` trace that was originally defined in `EddyPro_LI7700_FirstStage_include.ini`. Yellow highlighting shows the syntax for the "overwrite" property.*
+*Figure 5.3C. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the `CH4_MIXING_RATIO` trace that was originally defined in `EddyPro_LI7700_FirstStage_include.ini`. Yellow highlighting shows the syntax for the "overwrite" property.*
 
 There are three overwrite options:
 

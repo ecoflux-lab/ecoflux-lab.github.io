@@ -1,5 +1,7 @@
 ## Data Cleaning Pipeline Documentation and Instructions
 
+<!-- NOTE (Rosie, 13 June 2025): I spent a good amount of time trying to create custom figure numbering but it was not straightforward, so everything is manually numbered right now. Not ideal but may revisit. -->
+
 Compiled by: Rosie Howard, 2024\
 Edits and contributions: Zoran Nesic, Sara Knox, June Skeeter, Paul Moore, Karolina Bajda, and other EcoFlux Lab members and affiliates.
 

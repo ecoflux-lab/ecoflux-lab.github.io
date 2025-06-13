@@ -417,9 +417,9 @@ ul.task-list li input[type="checkbox"] {
 <li>You can create dependencies between different traces. If one trace has some data points removed, all its dependent traces will also have those data points removed.</li>
 <li>More complex user-defined processing can be applied to the trace using the very useful “Evaluate” option (also available in second stage cleaning). Matlab functions (user-written or <code>Biomet.net</code>) can be called from this statement. Multiple Matlab statements can be called from within the “Evaluate” string. <!-- Some rules for formatting apply here (see the existing SecondStage ini file for details and examples XXX DSM?).--></li>
 </ol>
-<p><em>Example for air temperature trace</em>: if you have an output variable from a Campbell Scientific data logger that represents your 2-m air temperature measurement named <code>MET_HMP_T_2m_Avg</code>, you would assign this variable name to the <code>inputFileName</code> parameter (figure 5.8; yellow highlighted text). In this example, it would be renamed in this stage using the <code>variableName</code> parameter, as <code>TA_1_1_1</code>, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>.</p>
+<p><em>Example for air temperature trace</em>: if you have an output variable from a Campbell Scientific data logger that represents your 2-m air temperature measurement named <code>MET_HMP_T_2m_Avg</code>, you would assign this variable name to the <code>inputFileName</code> parameter (figure 5.3A; yellow highlighted text). In this example, it would be renamed in this stage using the <code>variableName</code> parameter, as <code>TA_1_1_1</code>, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>.</p>
 <p><img src="images/ini_files/ini_example1.jpg" alt="INIFiles:inputFileName1" width="500"></p>
-<p><em>Figure 5.8. Air temperature trace (<code>TA_1_1_1</code>) as defined in a first stage INI file, with input from <code>MET_HMP_T_2m_Avg</code> variable.</em></p>
+<p><em>Figure 5.3A. Air temperature trace (<code>TA_1_1_1</code>) as defined in a first stage INI file, with input from <code>MET_HMP_T_2m_Avg</code> variable.</em></p>
 <p>Other fields that need editing are highlighted in peach:</p>
 <ul>
 <li>Give a descriptive title to your trace;</li>
@@ -430,9 +430,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Importantly, <em>choose minMax bounds</em> that are appropriate for the climate of your site (values outside this range will become NaNs).</li>
 <li>For details of all the parameters and their definitions, see the “Properties and parameters: first stage INI” subsection below.</li>
 </ul>
-<p>If you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 5.9). <!--[XXX fix this, highest measurement height in profile must be TA_1_1_1]--></p>
+<p>If you have more than one air temperature measurement, you would create more traces to assign these, and use the Ameriflux naming convention to distinguish and define their relative positions (figure 5.3B). <!--[XXX fix this, highest measurement height in profile must be TA_1_1_1]--></p>
 <p><img src="images/ini_files/ini_example2.jpg" alt="INIFiles:inputFileName2" width="500"></p>
-<p><em>Figure 5.9. Second air temperature trace (<code>TA_1_2_1</code>) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from <code>MET_HMP_T_350cm_Avg</code> variable.</em></p></li>
+<p><em>Figure 5.3B. Second air temperature trace (<code>TA_1_2_1</code>) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from <code>MET_HMP_T_350cm_Avg</code> variable.</em></p></li>
 </ul>
 </section></div>
 <p><br></p>
@@ -444,7 +444,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Once you have a few variables in your INI file, test it by running the <code>fr_automated_cleaning.m</code> function in Matlab (part of <code>Biomet.net</code> library), using the following command:</p>
 <pre><code>fr_automated_cleaning_(yearIn,'SITEID',1)</code></pre>
 <p>where the arguments are defined as follows:</p>
-<p><em>Table 6.1. Argument definitions for <code>fr_automated_cleaning</code> function.</em></p>
+<p><em>Table 5.3A. Argument definitions for <code>fr_automated_cleaning</code> function.</em></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -485,7 +485,7 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="properties-and-parameters-first-stage-ini" class="level3">
 <h3 class="anchored" data-anchor-id="properties-and-parameters-first-stage-ini">Properties and parameters: first stage INI</h3>
-<p><em>Table 5.1. First stage INI file properties and parameters.</em></p>
+<p><em>Table 5.3B. First stage INI file properties and parameters.</em></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -688,7 +688,7 @@ The final result is that the field <code>currentCalibration</code> for the trace
 <p>Sometimes we need to overwrite multiple properties for one or more traces that have already been created e.g.&nbsp;in an include file. The global variables feature allows this, however, once this section becomes long with many trace property tweaks, it can become very hard to troubleshoot, and in these cases having all the information for one trace together is more desirable.</p>
 <p>Instead of using global variables you can duplicate the full trace (<code>[Trace] ... [End]</code>), and in your site-specific first stage INI file, put this duplicate <em>after</em> the line of code where the include file is called that contains your original trace. Note the additional <code>Overwrite</code> property highlighted in yellow:</p>
 <p><img src="images/ini_files/ini_example1a.jpg" alt="INIfiles/OverwriteFeature" width="650"></p>
-<p><em>Figure 6.10. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the <code>CH4_MIXING_RATIO</code> trace that was originally defined in <code>EddyPro_LI7700_FirstStage_include.ini</code>. Yellow highlighting shows the syntax for the “overwrite” property.</em></p>
+<p><em>Figure 5.3C. Location within site-specific INI file to put duplicate trace for overwriting a trace previously defined in an include INI file. In this case, we want to overwrite the <code>CH4_MIXING_RATIO</code> trace that was originally defined in <code>EddyPro_LI7700_FirstStage_include.ini</code>. Yellow highlighting shows the syntax for the “overwrite” property.</em></p>
 <p>There are three overwrite options:</p>
 <ul>
 <li><p><code>0</code> = do not overwrite with this trace. This is the default setting. If you do not include the <code>Overwrite</code> parameter, the pipeline assumes this option. If you have a duplicate trace, you will get an <strong>error</strong> during cleaning (Example 1):</p>

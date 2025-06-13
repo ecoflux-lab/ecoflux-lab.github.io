@@ -55,13 +55,13 @@ We provide functions within the Biomet library to help you set up the project di
     Both input arguments are of type "string". You can use single `''` or double `""` quotation marks for these purposes in Matlab, although technically, these mean slightly different things; see <a href="https://www.mathworks.com/help/matlab/ref/string.html" target="_blank" rel="noopener noreferrer">this link</a> for more info. 
 <br>
 
-This function takes care of several steps for you, outlined next:
+Instructions continue below (<a href="#div_id_ConfigMatlab">Configure Matlab for directory structure</a>) following these details on the `create_TAB_ProjectFolders` function, which takes care of several steps for you, outlined next:
 
-* In your `Project` root directory (`My_Micromet` in figure 4.4), you should now see three directories with the following names: (1) Database, (2) Matlab, (3) Sites. In this directory tree example, there are three project root directories to illustrate the structure in case you have more than one project: My_Micromet (highlighted in green), CH4_V2.0, and FLUXNET-Canada-V2.0; although you may only have one. 
+* In your `Project` root directory (`My_Micromet` in figure 5.1A), you should now see three directories with the following names: (1) Database, (2) Matlab, (3) Sites. In this directory tree example, there are three project root directories to illustrate the structure in case you have more than one project: My_Micromet (highlighted in green), CH4_V2.0, and FLUXNET-Canada-V2.0; although you may only have one. 
 
     <img src="images/directory_trees/DirectoryTree1.jpg" alt="DirectoryTree:ProjectDirectory&Subdirectories" width="300"/>
 
-    *Figure 4.4 Directory tree showing contents of `My_Micromet` project folder after running the `create_TAB_ProjectFolders` Matlab function; also shown is the structure if there are multiple projects, e.g., My_Micromet, CH4_V2.0, FLUXNET-Canada-V2.0.* 
+    *Figure 5.1A Directory tree showing contents of `My_Micromet` project folder after running the `create_TAB_ProjectFolders` Matlab function; also shown is the structure if there are multiple projects, e.g., My_Micromet, CH4_V2.0, FLUXNET-Canada-V2.0.* 
 
 If you do not see these contents, and/or Matlab gives you an error on running `create_TAB_ProjectFolders`, you should check which version of Matlab you are using. If you are working with an earlier version of Matlab than 2023b, this is likely the cause of the issue. In this case, download <a href= "directory_setup/My_Micromet_Folder.zip">this zip file</a>, unzip, and put the *contents* of "My_Micromet_Folder" within your project directory (underneath `My_Micromet`); then make sure your directory structure looks like figure 4.1. 
 
@@ -71,33 +71,33 @@ If you do not see these contents, and/or Matlab gives you an error on running `c
 #### Database directory
 Within the new `Database` directory that you just made, you will find another new directory called `Calculation_Procedures`, and within `Calculation_Procedures`, there should be two subdirectories: `AmeriFlux` and `TraceAnalysis_ini`. Eventually your initial database and cleaned data will go here (instructions are in future sections).
 
-* In the `Ameriflux` folder, the `create_TAB_ProjectFolders.m` function has cloned a git repository containing necessary files (figure 4.5, highlighted in blue) that will be needed later if you want to convert your cleaned data into AmeriFlux format.
+* In the `Ameriflux` folder, the `create_TAB_ProjectFolders.m` function has cloned a git repository containing necessary files (figure 5.1B, highlighted in blue) that will be needed later if you want to convert your cleaned data into AmeriFlux format.
 
-    <img src="images/directory_trees/DirectoryTree2a.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="500"/>
+    <img src="images/directory_trees/DirectoryTree2a.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="550"/>
 
-    *Figure 4.5. Directory tree showing contents of `AmeriFlux` directory after running the `create_TAB_ProjectFolders` Matlab function.*
+    *Figure 5.1B. Directory tree showing contents of `AmeriFlux` directory after running the `create_TAB_ProjectFolders` Matlab function.*
 
-* Within `TraceAnalysis_ini`, you will see a subdirectory named using your SITEID (`SITEID1` in this example, figure 4.6), as follows:
+* Within `TraceAnalysis_ini`, you will see a subdirectory named using your SITEID (`SITEID1` in this example, figure 5.1C), as follows:
 
-    <img src="images/directory_trees/DirectoryTree2b_includefiles.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="400"/>
+    <img src="images/directory_trees/DirectoryTree2b_includefiles.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="500"/>
 
-    *Figure 4.6. Directory tree showing contents of `TraceAnalysis_ini` directory after running the `create_TAB_ProjectFolders` Matlab function.*
+    *Figure 5.1C. Directory tree showing contents of `TraceAnalysis_ini` directory after running the `create_TAB_ProjectFolders` Matlab function.*
 
-* Now, if you navigate to that `SITEID1` directory, you should see two more folders: `Derived_Variables` and `log` (figure 4.7). Your site-specific INI files will eventually go into this `SITEID1` directory.
+* Now, if you navigate to that `SITEID1` directory, you should see two more folders: `Derived_Variables` and `log` (figure 5.1D). Your site-specific INI files will eventually go into this `SITEID1` directory.
 
     <img src="images/directory_trees/DirectoryTree2c.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="450"/>
 
-    *Figure 4.7. Directory tree showing contents of `SITEID1` directory within `TraceAnalysis_ini`, after running the `create_TAB_ProjectFolders` Matlab function.*
+    *Figure 5.1D. Directory tree showing contents of `SITEID1` directory within `TraceAnalysis_ini`, after running the `create_TAB_ProjectFolders` Matlab function.*
 
-    Within the `TraceAnalysis_ini` folder, you should also find a series of "include" files (that were cloned by the `create_TAB_ProjectFolders` function; figure 4.6); these are important, and their purpose is described in detail in section 5.3.
+    Within the `TraceAnalysis_ini` folder, you should also find a series of "include" files (that were cloned by the `create_TAB_ProjectFolders` function; figure 5.1C); these are important, and their purpose is described in detail in section 5.3.
 
 
 #### Sites directory
-* Raw, *uncleaned* data from your site(s) will be stored in the `<projectPath>/Sites` directory, under the appropriate siteID. The data in this directory should remain *untouched* since we always want to preserve a copy of the raw data. 
+* Raw, *uncleaned* data from your site(s) will be stored in the `<projectPath>/Sites` directory (Figure 5.1E), under the appropriate siteID. The data in this directory should remain *untouched* since we always want to preserve a copy of the raw data. 
 
     <img src="images/directory_trees/DirectoryTree3.jpg" alt="DirectoryTree:SitesDatabaseDirectory&Subdirectories" width="250"/>
 
-    *Figure 4.8. Directory tree showing contents of `Sites` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
+    *Figure 5.1E. Directory tree showing contents of `Sites` folder after running the `create_TAB_ProjectFolders` Matlab function.* 
 
 #### Matlab directory
 * This directory should now contain three matlab files: 
@@ -123,7 +123,10 @@ Once you have confirmed all files and folders appear as described above, you can
 
 #### Instructions
 
-* (Step 3 in quick-start guide; section 4.1) Run `set_TAB_project(projectPath)`. This process sets up the `Biomet.net` toolbox to work with your project. 
+* (Step 3 in quick-start guide; section 4.1) Run
+    <pre>set_TAB_project(projectPath)</pre>
+
+This process sets up the `Biomet.net` toolbox to work with your project. 
 
 *If you wish to*, you can add the name of your project, for documentation purposes only, to the new file `get_TAB_project_configuration.m` which was created when running `set_TAB_project(projectPath)` in step 3.
 

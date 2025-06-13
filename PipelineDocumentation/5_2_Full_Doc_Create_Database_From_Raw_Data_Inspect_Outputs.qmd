@@ -54,9 +54,9 @@ If you need help getting started with your "main" computer program, a sample Mat
     
     <img src="images/directory_trees/DirectoryTree5.jpg" alt="DirectoryTree:DatabaseDirectory&Subdirectories" width="400"/>
 
-    *Figure 5.4. Directory tree showing structure of `Database` folder for multiple years and multiple sites under one project.* 
+    *Figure 5.2A. Directory tree showing structure of `Database` folder for multiple years and multiple sites under one project.* 
 
- * The SITEID subdirectories will be populated with data (e.g., `Flux` and `Met` if these data types exist) for the appropriate year, stored as binary files ready for cleaning. The green highlighting in figure 5.4 shows an example with three years of data from two different sites.
+ * The SITEID subdirectories will be populated with data (e.g., `Flux` and `Met` if these data types exist) for the appropriate year, stored as binary files ready for cleaning. The green highlighting in figure 5.2A shows an example with three years of data from two different sites.
 
 * The `clean_tv` file is automatically created, and will be located in each Raw/Clean folder. This a standardized time vector of 30-minute frequency. This formats the timestamp of each record in Local Standard Time (LST; as required by AmeriFlux). <!-- [XXX Zoran, it is still not clear to me exactly how this file is created...] -->
 
@@ -145,25 +145,25 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 Data from Canadian meteorological stations [operational climate stations run by Environment and Climate Change Canada (ECCC)] can be used for gap-filling met data for Canadian flux sites that are in close proximity. If you have gaps in your met data, you can search for nearby climate stations as follows:
 
 1. To find the closest Environment ECCC stations to your flux site, first go to this website: <a href="https://climate.weather.gc.ca/historical_data/search_historic_data_e.html" target="_blank" rel="noopener noreferrer">https://climate.weather.gc.ca/historical_data/search_historic_data_e.html</a>
-2. Click on the "Search by Proximity" tab (figure 5.5), select "location coordinates in Decimal Degrees" and type in the coordinates of your flux site:
+2. Click on the "Search by Proximity" tab (figure 5.2B), select "location coordinates in Decimal Degrees" and type in the coordinates of your flux site:
 
     <img src="images/ECCC/ECCC_Proximity.jpg" alt="ECCC_Proximity" width="600"/>
     
-    *Figure 5.5. "Search by Proximity" tab on ECCC Historical Data website.*
+    *Figure 5.2B. "Search by Proximity" tab on ECCC Historical Data website.*
 
 3. We advise selecting a station no more than 25 km away, but that is also up to the user's judgement and their responsibility to justify. 
 4. It also helps to select a proper range of dates using either "with data available between" or "with data on" option.
-5. From the list of stations pick one that's has "Hourly" data for the dates you need, and is closest to your location (see example in figure 5.6):
+5. From the list of stations pick one that's has "Hourly" data for the dates you need, and is closest to your location (see example in figure 5.2C):
 
     <img src="images/ECCC/ECCC_PickStation.jpg" alt="ECCC_PickStation" width="600"/>
     
-    *Figure 5.6. Search results for selecting the station for gap-filling.*
+    *Figure 5.2C. Search results for selecting the station for gap-filling.*
 
-6. In this example, the closes would be "WINNIPEG THE FORKS"; click on "Go", and make a note of the "Climate ID" number provided (figure 5.7; in this case, the climate ID is 5023262).
+6. In this example, the closes would be "WINNIPEG THE FORKS"; click on "Go", and make a note of the "Climate ID" number provided (figure 5.2D; in this case, the climate ID is 5023262).
 
     <img src="images/ECCC/ECCC_WinnipegExample.jpg" alt="ECCC_WinnipegExample" width="600"/>
     
-    *Figure 5.7. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.*
+    *Figure 5.2D. Example of Hourly Data Report for Winnipeg The Forks, showing the Climate ID number.*
 
 7. Next, you need the **Station ID** (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the `Station Inventory EN.csv` file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.
 

@@ -33,27 +33,27 @@ As previously mentioned, we will follow an example that focuses on flux-related 
 
 <!--We cover data with different formats in section 5.2 [XXX check]. -->
 
-1. First, in your newly created `Sites` directory, within the relevant `SITEID` directory, create a new `Flux` folder (figure 5.1). 
+1. First, in your newly created `Sites` directory, within the relevant `SITEID` directory, create a new `Flux` folder (figure 4.2A). 
 
     <img src="images/directory_trees/DirectoryTree3a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="250"/>
 
-    *Figure 5.1. Directory tree showing file path to the location where raw flux data for site with SITEID1 should be stored.*
+    *Figure 4.2A. Directory tree showing file path to the location where raw flux data for site with SITEID1 should be stored.*
 
 2. Copy the EddyPro raw output data to this `Flux` folder. This data will remain untouched so that you always have a local copy of the original data.
 
 3. Now, create a `Met` folder within the same `SITEID` directory (SITEID1 in this example), and copy the Campbell Scientific TOA5 data for this site to this Met folder. 
 
-4. In your `<projectPath>/Matlab` folder, create a new "main" Matlab file that will act as a "do-it-all" script. You can name this file however you like; we advise making it meaningful and including the word "Main". The example given here (figure 5.2) is named `DataCleaning_Main.m` (you can make your filename less generic) &mdash; it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>. 
+4. In your `<projectPath>/Matlab` folder, create a new "main" Matlab file that will act as a "do-it-all" script. You can name this file however you like; we advise making it meaningful and including the word "Main". The example given here (figure 4.2B) is named `DataCleaning_Main.m` (you can make your filename less generic) &mdash; it will first create the database, and later you can add the code for data cleaning. This script can be copied section by section from the <a href="#div_id_code">code block at the bottom of this page</a>. 
 
     <img src="images/matlab/Template_My_Micromet.jpg" alt="DirectoryTree:MatlabDirectory" width="600"/>
     
-    *Figure 5.2. Matlab code to create database from raw EddyPro output and Campbell Scientific logger meteorological data. Yellow highlighted text should be edited.*
+    *Figure 4.2B. Matlab code to create database from raw EddyPro output and Campbell Scientific logger meteorological data. Yellow highlighted text should be edited.*
 
-5. Next, run your "Main" Matlab program; you should see some data output in your `Database` directory. Data is grouped by year, then by site, then by data type, e.g., Flux or Met (figure 5.3; Met data not shown here).
+5. Next, run your "Main" Matlab program; you should see some data output in your `Database` directory. Data is grouped by year, then by site, then by data type, e.g., Flux or Met (figure 4.2C; Met data not shown here).
 
     <img src="images/directory_trees/DirectoryTree5a_short.jpg" alt="DirectoryTree:MatlabDirectory" width="250"/>
 
-    *Figure 5.3. Directory tree showing file path to output in Database directory following database conversion.*
+    *Figure 4.2C. Directory tree showing file path to output in Database directory following database conversion.*
 
 Your data is now in a format ready for cleaning using the pipeline.
 
@@ -95,7 +95,7 @@ Simply type `plotApp` on the Matlab command line, and it will open an app that c
 <div id="div_id_code">
 <hr>
 
-`DataCleaning_Main.m` template script for copying one section at a time (see Figure 5.2 for necessary edits, highlighted yellow):
+`DataCleaning_Main.m` template script for copying one section at a time (see Figure 4.2B for necessary edits, highlighted yellow):
 <pre>
 %% Main function for My_Micromet data processing
 % Created by &lt;author&gt; on &lt;date&gt;

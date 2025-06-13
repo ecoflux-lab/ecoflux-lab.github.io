@@ -22,11 +22,11 @@ On this page:
     <pre>
     fr_automated_cleaning(yearIn,'SITEID1',2)</pre>
     
-    Note the third and final input parameter is `2` instead of `1`, denoting second stage. You should see a new `Clean` folder directly under the site ID directory in your Database, for whichever year(s) you ran it for. Within that `Clean` folder, there will be a `SecondStage` folder (figure 6.4).
+    Note the third and final input parameter is `2` instead of `1`, denoting second stage. You should see a new `Clean` folder directly under the site ID directory in your Database, for whichever year(s) you ran it for. Within that `Clean` folder, there will be a `SecondStage` folder (figure 4.4A).
 
     <img src="images/directory_trees/DirectoryTree6b_short.jpg" alt="DirectoryTree:DatabaseSecondStage" width="350"/>
 
-    *Figure 6.4. Directory tree showing location of data output (in this example, variable1, variable2, ...) from second stage cleaning.*
+    *Figure 4.4A. Directory tree showing location of data output (in this example, variable1, variable2, ...) from second stage cleaning.*
 
 5. You can add any other relevant variables into the second stage INI file. Again, use the visualization tools to check your data looks as expected, then you are ready to progress to third stage cleaning.
 
@@ -43,6 +43,6 @@ Example: the `TA_1_1_1` trace you defined in the first stage has some missing da
 <pre>
 Evaluate = 'TA_1_1_1 = calc_avg_trace(clean_tv,TA_1_1_1,TA_OTHER_SOURCE,-1)';</pre>
 
-The function regresses the two variables provided and uses the resulting linear fit to fill the gap(s) in the first variable. <!-- For more details on second stage cleaning see the full documentation section 6.5 [XXX link]. -->Note that fluxes are gap-filled in stage three. 
+The function regresses the two variables provided and uses the resulting linear fit to fill the gap(s) in the first variable. Note that fluxes are gap-filled in stage three. 
 
 </div>
