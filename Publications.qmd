@@ -37,6 +37,8 @@ bold-auth-name:
     given: M.
   - family: Satriawan
     given: T.
+  - family: Howard
+    given: R.
 ---
 
 ## Peer Reviewed Journal Articles
@@ -105,17 +107,136 @@ bold-auth-name:
 
 ## Research Talks & Poster Presentations
 
-::: hide-me
+<p style="margin-bottom:0; margin-left: 60px; text-indent: -35px;"><b>Yang X.</b>(2025, May). Decoding tidal wetland change and resilience for the sustainable coastal environment.</p> 
 
-@skeeter_ongoing_2023
-@knox_ubc_2023
-@ng_characterizing_2022
-@lu_investigating_2022
-@satriawan_interannual_2022_a
-@satriawan_interannual_2022_b
-@satriawan_interannual_2021
-@satriawan_interannual_2020
-@nyberg_impacts_2020
+<p style="margin-bottom:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2025, May). Monitoring Methane Dynamics Across Canadian Wetlands. </p> 
 
-:::
+<p style="margin : 0; padding-top:0;margin-left: 60px; text-indent: -35px;"><b>Howard, R., Nesic, Z., Skeeter, J.,</b> Moore, P.,<b> Knox, S. H.,</b> Strack, M. (2025, May). Overview of Data Cleaning Pipeline for Standardizing Eddy-Covariance Data (Poster). </p> 
+
+<p style="margin : 0; padding-top:0;margin-left: 60px; text-indent: -35px;"><b>Ahongshangbam, J.,</b> Badiou, P.,<b> Nesic, Z., Ng, D., Knox, S. H.</b> (2025, May). Spatio-temporal variability of CO2 and CH4 fluxes in wetlands across the Prairie Pothole Region, Canada (Poster). </p> 
+
+<p style="margin : 0; padding-top:0;margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2025, March). Ecosystem Responses to Global Climate Change, FSCI 198. </p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Ahongshangbam, J.</b> (2025, March). Surface cooling potential of wetlands across the Prairie Pothole Region of Canada. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2025, January). Integrating micrometeorological measurements, remote sensing, and modeling to better understand wetland processes, feedbacks, and climate benefits. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b> (2024, December). Improving wetland methane upscaling across site to global scales. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Li, F., Yuan, K., Zhu, Q., Chen, M., Hoyt, A., <b>Knox, S. H.,</b> McNicol, G., Riley, W. J., & Jackson, R. B. (2024, December). Global CH₄ emissions from small wetlands during 2002–2022. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Cosio, E., Salinas, N., Stern, R., Tito, R., Ramos-Chang, E., Becker, R., Bereswill, S.,<b> Knox, S. H., </b> Jackson, R. B., Trachte, K., Negron Juarez, R. I., Cruz, R., Thomas, C. K., Nina-Quispe, A., Urquiza-Muñoz, J. D., Jan, S., Kirsten, T., Hoyt, A., Fuentes, J. D., & Bendix, J. (2024, December). AndesFlux: Measuring ecohydrological responses of forests to climate change along an environmental gradient to bridge observational gaps in the western Amazon. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Stern, R., Cosio, E., Cruz, R., Ramos-Chang, E., Hoyt, A., Jackson, R. B., Salinas, N., Thomas, C. K., <b>Knox, S. H.,</b> Li, F., & Negron Juarez, R. (2024, December). Carbon budget considering emission and sink patterns of both CO₂ and CH₄ in Southwestern Amazonia (Poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Haber, L., Bohrer, G., <b>Knox, S. H., </b>Neubauer, S. C., <b>Poppe, K., </b>Priddy, M., <b>Russell, S.,</b> Weil, M., & Gough, C. M. (2024, December). Sink or source?: The carbon dynamics of a restored tidal freshwater wetland in Virginia. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Hoyt, A., Stern, R., <b>Knox, S. H.,</b> Bonal, D., Cosio, E., Martins Custodio, L. L., Deshmukh, C. S., Forsberg, B., Gondwe, M., Lamb, J., Nardi, N., Nurholis, N., Riley, W. J., Salinas, N., Susanto, A. P., Yusnia, K., Jackson, R. B., Li, F., Boeckx, P. M., Brechet, L. M., Cruz, R., Delwiche, K. B., Fleischmann, A. S., Gallego-Sala, A. V., Helfter, C., McNicol, G., Norpon Juarez, R., Ramos-Chang, E., Regina Roberti, D., dos Santos, D., Thomas, C. K., & Zhu, Q. (2024, December). Methane fluxes from natural ecosystems: A pantropical network (Poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Li, M., Jackson, R. B., Li, F., Delwiche, K., & <b>Knox, S. H. </b> (2024, December). Divergent responses of environmental driver importance on wetland CH₄ and net CO₂ fluxes under hot extremes. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2024, November). Wetlands in a changing world: processes, feedbacks and the climate benefits of wetlands. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Howard, R., Nesic, Z.,  Knox, S. H.,</b> Moore, P., <b>Skeeter, J.</b> (2024, October). Overview of Data Cleaning Pipeline: Overview of Theory and Instructions.</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Poppe, K. P., Knox, S. H., Russell, S.,</b>  Oikawa, P., Matsumura, M., Gough, C., Haber, L., Shafer, K., Dhakal, S., Vargas, R., Windham-Myers, L., & Stuart-Haentjens, E. (2024, September). Exploring the impact of tidal flooding on methane fluxes across a North American network of tidal marshes (Poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2024, September). Improving understanding of the global carbon cycle by combining observations, machine learning and process-based models.</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Ahongshangbam, J.,</b> Badiou, P., Scott, T., <b>Ng, D., Nesic, Z.,</b> Glenn, A., & <b>Knox, S. H. </b>(2024, May). Surface cooling potential of wetlands across the Prairie Pothole Region of Canada.</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Lu, T.-Y., Russell, S., & Knox, S. H. </b>(2024, April). Controls on interannual variability of carbon dioxide (CO₂) in a coastal wetland ecosystem: Insights from two-year measurements in a temperate salt marsh (Poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2024, March). Wetlands in a changing world: processes, feedbacks and the climate benefits of wetlands. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2024, February). Wetlands & climate change. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H., </b>Badiou, P.,<b> Lee, S. C., Ng, D., </b>Bogard, M., & <b> Nesic, Z.</b> (2023, December). The importance of salinity in regulating greenhouse gas fluxes in wetlands of the Prairie Pothole Region. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Zhang, Z., Bansal, S., Chang, K.-Y., et al. (2023, Deecember). Characterizing performance of freshwater wetland methane models across time scales at FLUXNET-CH₄ sites using wavelet analyses. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Oikawa, P. Y., Silberman, J., Matsumura, M., et al. (2023, December). Constraining CO₂ and CH₄ fluxes from diverse tidal wetlands: Measurements and modeling across a network of eddy covariance sites in North America and Canada. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Fluet-Chouinard, E., et al. (2023, December). Detection of vegetated and forested wetlands and their inundation status with multi-temporal PALSAR and Landsat across conterminous United States. American Geophysical Union Fall Meeting, San Francisco, CA, United States. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Bogard, M. J., et al. (2023, December). Salinity causes widespread restriction of methane emissions from small inland waters.  </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Oikawa, P., Stuart-Haëntjens, E., Matsumura, M., Silberman, J., Gough, C., Haber, L., Tenda, S., Schäfer, K., Dhakal, S., <b>Knox, S. H., Poppe, K., Russell, S.,</b> Vargas, R., Hill, A., & Windham-Myers, L. (2023, December ). Constraining CO₂ and CH₄ fluxes from diverse tidal wetlands: Measurements and modeling across a network of eddy covariance sites in North America and Canada. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Harber, L., Windham-Myers, L., <b>Knox, S. H., Russell, S.,</b> Gough, C., Stapel, A., Stuart-Haëntjens, E., & <b>Poppe, K.</b> (2023, December). Fluxes in the Tidal Fresh: Assessing hourly to annual drivers of coupled CH₄ and CO₂ fluxes in a tidal freshwater wetland. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Skeeter, J.</b> (2023, December). Tools and guidance for applying neural networks to eddy covariance data. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Harber, L., Windham-Myers, L., <b>Knox, S. H., Russell, S.,</b> Gough, C., Stapel, A., Stuart-Haëntjens, E., & <b>Poppe, K.</b> (2023, December). Fluxes in the Tidal Fresh: Assessing hourly to annual drivers of coupled CH₄ and CO₂ fluxes in a tidal freshwater wetland. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2023, November). Network science: unlocking novel insights on regional and global methane cycling. Tipping Discussion Series Event on Methane (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Silberman, J., Matsumura, M., Shahan, J., Stuart-Haëntjens, E., Bergamaschi, B., Nakatsuka, K., Windham-Myers, L., Sturtevant, C., <b>Knox, S. H.,</b> Labedens Mur, S., & Oikawa, P. (2023, October). A comparative analysis of atmospheric carbon and lateral DIC fluxes in tidal marshes with differing environmental conditions and management practices. </p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Ng, D., </b>Rey-Sanchez, C., Black, A. T., Badiou, P., & <b>Knox, S. H.</b> (2023, October). Characterization and prediction of methane spatial heterogeneity within and beyond a flux tower footprint (Poster).</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;">Oikawa, P., Stuart-Haëntjens, E., Matsumura, M., Silberman, J., Gough, C., Haber, L., Tenda, S., Schäfer, K., Dhakal, S., <b>Knox, S. H., Poppe, K., Russell, S., </b>Vargas, R., Hill, A., & Windham-Myers, L. (2023, October). Constraining CO₂ and CH₄ fluxes from diverse tidal wetlands: Measurements and modeling across a network of eddy covariance sites in North America and Canada. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2023, October). Wetlands in a changing world: processes, feedbacks and the climate benefits of wetlands. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2023, September). FLUXNET-CH₄: improving understanding of wetland methane fluxes from site to global scales. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2023, June). FLUXNET-CH₄: a global eddy covariance CH₄ database to answer regional and global questions related to CH₄ cycling.</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Poppe, K., Knox, S. H., Lu, T.-Y., Russell, S., Nesic, Z., & Lee, S. C.</b> (2023, June). Measuring ecosystem-scale greenhouse gas fluxes in tidal marshes in British Columbia. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Skeeter, J., & Knox, S. H. </b>(2023, May). A framework for applying neural networks to eddy covariance data. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Skeeter, J., & Knox, S. H. </b>(2023, April). Ongoing and proposed research in the Burns Bog Ecological Conservancy Area. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b> Knox, S. H., & Skeeter, J.</b> (2023, March). UBC Micrometeorology Lab Studies Review. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2023, March). FLUXNET-CH₄: a global eddy covariance CH₄ database to answer regional and global questions related to CH₄ cycling. (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2023, March). Greenhouse gas flux research at Burns Bog. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2022, December). Wetlands in a changing world: processes, feedbacks and the climate benefits of wetlands.</p>  
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Lu, T.-Y., Russell, S. J., Skeeter, J., Lee, S., </b>Oikawa, P., & <b>Knox, S. H.</b> (2022, December). Investigating environmental controls on carbon exchange and predicting gaseous carbon fluxes at a salt marsh in British Columbia (Poster). </p>  
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Ng, D., & Knox, S. H. </b>(2022, December). Characterizing within-footprint spatial heterogeneity of CH₄ emissions in freshwater wetlands through remote sensing and footprint-weighted flux maps. </p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2022, November). Wetlands in a changing world: processes, feedbacks and the climate benefits of wetlands.</p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H., Ng, D., Lee, S.-C., Nesic, Z.,</b> & Badiou, P. (2022, September). Quantifying carbon and greenhouse gas fluxes in wetlands in the Prairie Pothole Region, Canada (Poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2022, September). Coastal wetland conservation: Nature-based climate solution (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Satriawan, T., Nyberg, M., Lee, S. C., Nesic, Z.,</b>Black, T. A., Johnson, M., <b> Knox, S. H.</b> (2022, September).Interannual Variability of Carbon Dioxide (CO2) and Methane (CH4) Fluxes in a Rewetted Temperate Bog over a 5-Year Period.</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Satriawan, T., Nyberg, M., Lee, S. C., Nesic, Z.,</b>Black, T. A., Johnson, M., <b> Knox, S. H.</b> (2022, June).Interannual Variability of Carbon Dioxide (CO2) and Methane (CH4) Fluxes in a Rewetted Temperate Bog over a 5-Year Period.</p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2022, May). Measuring the breathing of the biosphere from site to global scales. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2022, May). Wetlands in a changing world: processes, feedbacks and the climate benefits of wetlands (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Satriawan, T., Nyberg, M., Lee, S. C., Nesic, Z.,</b>Black, T. A., Johnson, M., <b> Knox, S. H.</b> (2021, December). Interannual Variability of CO2 and CH4 Fluxes in a Temperate Bog over a 5-Year Period (virtual poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2021, December). FLUXNET-CH₄ – a global database of eddy covariance methane flux measurements (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2021, April). Biosphere-atmosphere interactions in a changing world (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2021, March). Measuring ecosystem-scale greenhouse gas fluxes in tidal marshes in British Columbia (virtual presentation). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Russell, S., Knox, S. H.,</b> Windham-Myers, L., & Bergamaschi, S. (2020, December). Increased salinity decreases annual gross primary productivity of a brackish wetland (Poster). </p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Nyberg, M., Knox, S. H.,</b> Black, T., Johnson, M., <b>Ketler, R., & Nesic, Z. </b>(2020, December). Impacts of restoration and climate variability on peatland greenhouse gas fluxes (Poster). </p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Satriawan, T., Nyberg, M., Lee, S. C., Nesic, Z.,</b>Black, T. A., Johnson, M., <b> Knox, S. H.</b> (2020, December). Interannual Variability of CO2 and CH4 Fluxes in a Temperate Bog over a 5-Year Period (virtual poster). </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2020, August). FLUXNET-CH₄ synthesis activity (virtual meeting). </p> 
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b> (2019, December). Wetland FLUXNET synthesis for CH₄: understanding CH₄ fluxes at daily to interannual timescales. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b>(2019, July). Biosphere-atmosphere interactions in a changing world. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H. </b> (2019, May). Wetlands in a changing world: processes, feedbacks & the climate benefits of wetlands. </p>
+
+<p style="margin : 0; padding-top:0; margin-left: 60px; text-indent: -35px;"><b>Knox, S. H.</b> (2019, January). Blue Carbon Research: From California to British Columbia. </p>
+
 
