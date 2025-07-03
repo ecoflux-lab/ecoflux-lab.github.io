@@ -39,7 +39,7 @@ A LeDevoir paper highlighting our CARBONIQUE research project:
 ### November
 UQAM University paper on the CARBONIQUE research project:
 
-[![](images/news-banners/UQAM.png){width=300}](https://actualites.uqam.ca/2024 plus-de-12-m-pour-etudier-le-carbone-en-milieu-humide/)
+[![](images/news-banners/UQAM.png){width=300}](https://actualites.uqam.ca/2024/plus-de-12-m-pour-etudier-le-carbone-en-milieu-humide/)
 
 ### October
 An FluxNet blog post highlighting some of our workshops during the FLUXNET-CH4 V2.0 Data Processing Workshop event:
@@ -140,7 +140,7 @@ The conference is designed for girls, trans youth, and gender non-conforming and
 
 ### December (2014)
 
-A UC Berkely blog featuring some of our work studying carbon credits in the Sacramento-San Joaquin River Delta:
+A UC Berkeley blog featuring some of our work studying carbon credits in the Sacramento-San Joaquin River Delta:
 
 [![](images/news-banners/blog.png){width=80%}](https://ourenvironment.berkeley.edu/“picturing”-carbon-credits-restored-wetlands-sacramento-san-joaquin-river-delta)
 
