@@ -1,7 +1,60 @@
 ---
 title: "Outreach and News"
 ---
+## 2025
+
+### July
+
+An article featuring our work in Futurum Careers, a STEM outreach magazine:
+
+[![](images/news-banners/futurum.png){width=300}](https://futurumcareers.com/Sara-Knox-Article.pdf)
+
+
+### June
+We had a great time at the lab barbecue!
+
+![](images/lab_bbq.jpg){width=400}
+
+
+### April
+
+Watch the CARBONIQUE team set up two eddy covariance flux towers (5m and 22m) in an open and wooded bog peatland at the Lac-à-la-Tortue peatland complex. 
+
+{{< video https://www.youtube.com/watch?v=H0BmmfVAthQ >}}
+
+### February
+
+I spoke about the importance of wetlands with McGill Research and Innovation on World Wetlands Day: 
+
+[![](images/news-banners/wetlands-mcgill.jpg){width=300}](https://www.mcgill.ca/research/article/special-features/why-we-need-wetlands)
+
+## 2024
+
+### December
+A LeDevoir paper highlighting our CARBONIQUE research project:
+
+
+[![](images/news-banners/towers.jpg)](https://www.ledevoir.com/environnement/826589/force-cachee-marecages?)
+
+### November
+UQAM University paper on the CARBONIQUE research project:
+
+[![](images/news-banners/UQAM.png){width=300}](https://actualites.uqam.ca/2024 plus-de-12-m-pour-etudier-le-carbone-en-milieu-humide/)
+
+### October
+An FluxNet blog post highlighting some of our workshops during the FLUXNET-CH4 V2.0 Data Processing Workshop event:
+
+[![](images/news-banners/fluxnet.png){width=300}](https://fluxnet.org/fluxnet-ch4-v2-0-data-processing-workshop/)
+
 ## 2023
+
+### November
+
+A talk I gave during the 
+[Tipping Discussion Series Event on Methane](https://methane-possible-tipping-points-or-surprises.confetti.events)
+organized by AIMES, the Earth Commission, Future Earth, and the WCRP Safe Landing Climates Lighthouse Activity on "Network science: unlocking novel insights on regional and global methane cycling".
+
+{{< video https://www.youtube.com/watch?v=tJlyBVT-OJg >}}
 
 ### June
 
@@ -53,6 +106,7 @@ Coverage of our 2021 Global Change Biology Paper:
 
 [![](images/news-banners/gcb-paper.png)](https://geog.ubc.ca/news/new-study-reveals-how-sensitive-wetlands-are-to-global-warming/)
 
+
 ## 2019
 ### August
 The UBC Geography department highlighting our 2019 BAMS paper:
@@ -78,3 +132,16 @@ Coverage of our work on wetland restoration in the Sacramento-San Joaquin Delta:
 An interview I did as part of STEM week at Los Altos High School in Los Altos, California:
 
 [![](images/news-banners/talon-sknox.png){width=60%}](https://lahstalon.org/stem-speaker-sara-knox-explores-biometeorology/)
+
+### May (2015)
+
+I had a great time volunteering at the [Berkeley Expanding Your Horizons Conference.](https://eyh.studentorg.berkeley.edu)
+The conference is designed for girls, trans youth, and gender non-conforming and/or non-binary youth in grades 5 through 8 from local school districts interested in STEM careers.
+
+### December (2014)
+
+A UC Berkely blog featuring some of our work studying carbon credits in the Sacramento-San Joaquin River Delta:
+
+[![](images/news-banners/blog.png){width=80%}](https://ourenvironment.berkeley.edu/“picturing”-carbon-credits-restored-wetlands-sacramento-san-joaquin-river-delta)
+
+
