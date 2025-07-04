@@ -378,6 +378,7 @@ ul.task-list li input[type="checkbox"] {
 <p>On this page:</p>
 <ul>
 <li><a href="#div_id_TemplateINIConfigFiles">Download INI/config template files</a></li>
+<li><a href="#div_id_InputMetadata">Input site metadata</a></li>
 <li><a href="#div_id_InstructionsFirstStageINI">Instructions to create first stage INI file</a></li>
 <li><a href="#div_id_Tips">Tips</a></li>
 </ul>
@@ -397,6 +398,27 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </section></div>
 <p><br></p>
+<div id="div_id_InputMetadata">
+<hr>
+<section id="input-site-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="input-site-metadata">Input site metadata</h3>
+<ol type="1">
+<li><p>Open your site-specific <code>SITEID1_config.yml</code> file for editing.</p></li>
+<li><p>Enter your name, the date, and the metadata for your site (figure 4.3B; yellow highlighted text):</p>
+<ul>
+<li>siteID: e.g., SITEID1;</li>
+<li>estYear: year that measurements at the site began;</li>
+<li>latitude: North is positive;</li>
+<li>longitude: West is negative;</li>
+<li>TimeZoneHour: timezone, e.g., for Pacific standard time, GMT - 8;</li>
+<li>northOffset: this can be found in your site GHG biomet file; this information is used for filtering data by wind direction, to comply with eddy-covariance measurement standards.</li>
+</ul>
+<p><img src="images/ini_files/ini_example3c.jpg" alt="INIfiles/YMLMetadata" width="650"></p>
+<p><em>Figure 4.3B. Site-specific custom YAML file (e.g., <code>SITEID1_config.yml</code>) showing which fields to edit in yellow highlighted text.</em></p></li>
+<li><p>Save and close this YAML file (you will come back to it later).</p></li>
+</ol>
+</section></div>
+<p><br></p>
 <div id="div_id_InstructionsFirstStageINI">
 <hr>
 <!-- In section 4.1, when you ran the `create_TAB_ProjectFolders` function, this transferred a number of necessary files to your local computer, including one called `TEMPLATE_FirstStage.ini` (figure 4.3A): -->
@@ -409,9 +431,9 @@ ul.task-list li input[type="checkbox"] {
 <pre> %----------------------------------------------------
  %--&gt; Insert met variables here
  %----------------------------------------------------</pre>
-<p>Beginning with air temperature, define the input data to each trace given in the INI file. For example, if you have an output variable that represents your 2-m air temperature measurement named <code>MET_HMP_T_2m_Avg</code>, you would assign this variable name to the <code>inputFileName</code> parameter (figure 4.3B; yellow highlighted text). During this first cleaning stage this trace will be renamed as <code>TA_1_1_1</code> using the <code>variableName</code> parameter, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>.</p>
+<p>Beginning with air temperature, define the input data to each trace given in the INI file. For example, if you have an output variable that represents your 2-m air temperature measurement named <code>MET_HMP_T_2m_Avg</code>, you would assign this variable name to the <code>inputFileName</code> parameter (figure 4.3C; yellow highlighted text). During this first cleaning stage this trace will be renamed as <code>TA_1_1_1</code> using the <code>variableName</code> parameter, following the <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux naming convention</a>.</p>
 <p><img src="images/ini_files/ini_example1.jpg" alt="INIFiles:inputFileName1" width="600"></p>
-<p><em>Figure 4.3B. Air temperature trace (<code>TA_1_1_1</code>) as defined in a first stage INI file, with input from <code>MET_HMP_T_2m_Avg</code> variable.</em></p>
+<p><em>Figure 4.3C. Air temperature trace (<code>TA_1_1_1</code>) as defined in a first stage INI file, with input from <code>MET_HMP_T_2m_Avg</code> variable.</em></p>
 <p>Other fields that need editing are highlighted in peach:</p>
 <ul>
 <li>Give a descriptive title to your trace;</li>
@@ -430,7 +452,7 @@ ul.task-list li input[type="checkbox"] {
 <ol start="5" type="1">
 <li><p>If you do <em>NOT</em> have a four-component net radiometer such as a CNR4 at your site, you can skip all of step 5 and go to step 6. If you do have a CNR4 or similar, we have provided an “include” INI file that loads relevant radiation variables for you. <em>We strongly advise that you do not edit this or any other include file.</em> Instead, scroll to the bottom of your site-specific INI file where the include files are called.</p>
 <ol type="a">
-<li><p>Uncomment* (e.g., delete % - NOT #) the line containing <code>RAD_FirstStage_include.ini</code>, so that the block of code looks like this:</p>
+<li><p>Uncomment* (e.g., delete %, NOT #) the line containing <code>RAD_FirstStage_include.ini</code>, so that the block of code looks like this:</p>
 <pre>%----------------------------------------------------------
 % Call #include ini files
 %----------------------------------------------------------
@@ -494,10 +516,10 @@ globalVars.Instrument.IRGA.inputFileName_dates          = [datenum(1900,1,1) dat
 <p>Enter/edit the relevant parameter details for your IRGA(s) (instrument, serial number, start date of measurements). Do the same for your anemometer and full eddy-covariance (EC) system instruments (e.g., CSAT3 plus IRGA). ‘otherTraces’ includes all instrument types not previously defined within global variables, and must be enabled, with measurement record dates defined.</p></li>
 <li><p>Run <code>fr_automated_cleaning(yearIn,'SITEID',1)</code> again to test this addition. You should see your first-stage cleaned data appear in a new <code>Clean</code> folder within your <code>Flux</code> folder.</p></li>
 </ol></li>
-<li><p>At this stage, you can start to add any <code>Met</code> or <code>Flux</code> variables that may not already be included in the template files. You can do this by copy-pasting the <code>[Trace]...[End]</code> code block (like the one in figure 4.3B) and editing the parameter inputs accordingly.</p></li>
-<li><p>Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these and use the Ameriflux naming convention to distinguish and define their relative positions (figure 4.3C).</p>
+<li><p>At this stage, you can start to add any <code>Met</code> or <code>Flux</code> variables that may not already be included in the template files. You can do this by copy-pasting the <code>[Trace]...[End]</code> code block (like the one in figure 4.3C) and editing the parameter inputs accordingly.</p></li>
+<li><p>Also, for example, if you have more than one air temperature measurement, you would create more traces to assign these and use the Ameriflux naming convention to distinguish and define their relative positions (figure 4.3D).</p>
 <p><img src="images/ini_files/ini_example2.jpg" alt="INIFiles:inputFileName2" width="500"></p>
-<p><em>Figure 4.3C. Second air temperature trace (<code>TA_1_2_1</code>) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from <code>MET_HMP_T_350cm_Avg</code> variable.</em></p></li>
+<p><em>Figure 4.3D. Second air temperature trace (<code>TA_1_2_1</code>) defined in the same first stage INI file, in this case for a different vertical position (height of 350 cm), with input from <code>MET_HMP_T_350cm_Avg</code> variable.</em></p></li>
 </ol>
 </section></div>
 <p><br></p>
@@ -507,6 +529,9 @@ globalVars.Instrument.IRGA.inputFileName_dates          = [datenum(1900,1,1) dat
 <ul>
 <li>
 Pay attention to the output display; it is informative.
+</li>
+<li>
+Do <em>not</em> directly edit any of the “include” files that we provided. Instead, if needed, follow the instructions on how to override any settings in those files.
 </li>
 <li>
 We recommend using the “quick-look” visualization tools at any stage of cleaning to check that your data looks as expected (e.g., the filenames are correct and the retained values conform to your minMax bounds).
@@ -519,6 +544,8 @@ See section 5.3 for lots more guidance and information on first stage INI files.
 
 
 </section></main></div>
+
+
 
 
 
