@@ -405,7 +405,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- *Figure 6.7. Third stage site-specific custom YAML file showing where to change inputs for FCH4 random forest gap-filling.* --></li>
 <li><p>Next, test the third stage data cleaning in Matlab; remember that it can take a lot longer to run than first and second stages. Note that the cleaning stage argument for third stage cleaning is <code>7</code> (<em>not</em> &nbsp;3; this is a legacy artifact), as follows:</p>
 <pre> fr_automated_cleaning(yearIn,siteID,7)  % third stage</pre>
-<p>The output will appear in two directories: <code>ThirdStage</code> and <code>ThirdStage_Default_Ustar</code> within the <code>Clean</code> directory, where the second stage output is; again, we recommend that you inspect this data using the visualization tools. <!--Section 6.6 [XXX link] provides more details on third stage cleaning, including adding further custom configuration and output data. --></p></li>
+<p>The output will appear in two directories: <code>ThirdStage</code> and <code>ThirdStage_Default_Ustar</code> within the <code>Clean</code> directory, where the second stage output is; again, we recommend that you inspect this data using the visualization tools. <!--Section 6.6 [XXX link] provides more details on third stage cleaning, including adding further custom configuration and output data. --></p>
+<p>The default uncertainty output for u-star filtering is “fast”. For full uncertainty calculations, see section 5.5 in the full documentation.</p></li>
 </ol>
 </section></div>
 <br>

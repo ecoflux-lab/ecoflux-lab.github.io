@@ -47,6 +47,8 @@ On this page:
     
     The output will appear in two directories: `ThirdStage` and `ThirdStage_Default_Ustar` within the `Clean` directory, where the second stage output is; again, we recommend that you inspect this data using the visualization tools. <!--Section 6.6 [XXX link] provides more details on third stage cleaning, including adding further custom configuration and output data. -->
 
+    The default uncertainty output for u-star filtering is "fast". For full uncertainty calculations, see section 5.5 in the full documentation.
+
 </div>
 
 <br>
