@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="css/style.css"> 
 
-**This section provides extensive details beyond the first-time set up in section 4, to help more advanced users. If you are creating INI files for the first time, we highly recommend following our quick-start tutorial: instructions for INI file creation begin in section 4.3.** 
+This section provides extensive details beyond the first-time set up in section 4, to help more advanced users. **If you are creating INI files for the first time**, we highly recommend following our quick-start tutorial: instructions for INI file creation begin in section 4.3.
 
 On this page:
 
@@ -15,7 +15,8 @@ On this page:
 - <a href="#div_id_Outlier">Outlier detection</a>
 - <a href="#div_id_Overwrite">Overwrite feature</a>
 - <a href="#div_id_Eval">More about Evaluate and postEvaluate: order of operations</a>
-- <a href="#div_id_CreateFromAmeriflux">Creating INI file from Ameriflux data</a>
+- <a href="#div_id_Flags">Flags for removing periods of data</a>
+<!-- - <a href="#div_id_CreateFromAmeriflux">Creating INI file from Ameriflux data</a> -->
 - <a href="#div_id_SyntaxRules">Programming syntax rules for first and second stage INI files</a>
 - <a href="#div_id_TipsINI">Tips</a>
 
@@ -341,7 +342,21 @@ Result: x = (x - 1)*2 - 1 [Evaluate, then calibrate, then postEvaluate]\
 
 </div>
 
+
 <br>
+
+<div id="div_id_Flags">
+
+<hr>
+
+### Flags for removing periods of data
+
+Occasionally you might need to remove periods of data for certain instruments or a group of instruments, e.g., during calibration periods, times there was a known malfunction, etc. For this, we can create flag files and traces, as follows:
+
+1. 
+
+
+</div>
 
 <!-- <div id="div_id_CreateFromAmeriflux">
 
