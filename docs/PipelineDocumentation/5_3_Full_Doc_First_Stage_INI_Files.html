@@ -735,9 +735,24 @@ The final result is that the field <code>currentCalibration</code> for the trace
 <hr>
 <section id="flags-for-removing-periods-of-data" class="level3">
 <h3 class="anchored" data-anchor-id="flags-for-removing-periods-of-data">Flags for removing periods of data</h3>
-<p>Occasionally you might need to remove periods of data for certain instruments or a group of instruments, e.g., during calibration periods, times there was a known malfunction, etc. For this, we can create flag files and traces, as follows:</p>
+<p>Occasionally you might need to remove periods of data for certain instruments or a group of instruments, e.g., during calibration periods, times there was a known malfunction, etc. For this purpose, we can create flag files and traces, as follows:</p>
 <ol type="1">
-<li></li>
+<li><p>Create one Excel file per year that includes the time period you need to remove, i.e., if you have erroneous data to remove from 2021 and 2022, make one file for each year(regardless of whether it is the same instrument/issue). The Excel file must follow the template shown in figure 5.3D (<a href="https://ecoflux-lab.github.io/PipelineDocumentation/ini_templates_sample_data/SITEID1_Flags_YYYY.xlsx">download template here</a>), and the filename must also follow this pattern: <code>SITEID1_Flags_YYYY.xlsx</code>, where <code>SITEID1</code> is your own site ID, and YYYY is the year (2022 in the example below).</p>
+<p><img src="images/ini_files/SITEID1_Flags_2022.jpg" alt="INIfiles/FlagExcelFile" width="750"></p>
+<p><em>Figure 5.3D. Sample Excel flag file with two flags, flag_TA_1_1_1 and flag_RH_1_1_1, that will be removed for the corresponding time periods in column A.</em></p></li>
+<li><p>In Matlab, run the following command, inputting the year (one year at a time), and siteID for the first two arguments, e.g.:</p>
+<pre>db_update_flags_files(2022, SITEID1, biomet_sites_default, biomet_database_default);</pre>
+<p>Continuing with the example, a flag file called <code>flag_TA_1_1_1</code> will be created for 2022 for the site with ID <code>SITEID1</code>. The flag trace is an array of zeros for all of 2022, except for the time period defined in the Excel file, where there are NaNs. In this flag file there will be NaNs from 18:30 on 14 April 2022 until 12:30 on 16 April 2022. The time stamp represents the <em>end</em> of the half-hourly period.</p></li>
+<li><p>Near the top of your INI file (so that it is easy to find), e.g., after global variables but before loading your main measurement traces, add a trace for this flag (see example in figure 5.3E).</p>
+<p><img src="images/ini_files/ini_flag_example.jpg" alt="INIfiles/FlagTraceExample" width="600"></p>
+<p><em>Figure 5.3E. Example flag trace to put in first stage INI file, with dependent TA_1_1_1.</em></p>
+<p>Fill in the yellow highlighted text as follows:</p>
+<ol type="a">
+<li>The <code>variableName</code> and <code>inputFileName</code> should match the flag name in the Excel file you created;</li>
+<li>You can specify the <code>inputFileName_dates</code> to tell the pipeline to only look for a flag in certain date range(s), i.e., the year(s) that the flag exists for;</li>
+<li>For the <code>dependent</code> parameter, add in the variable that you wish the flag to act on.</li>
+</ol></li>
+<li><p>Run first stage cleaning: <code>fr_automated_cleaning(yearIn,'SITEID',1)</code> and check the output. This process will remove data for the time period defined in your Excel file for the dependent variable, since that time period has NaNs in the flag trace created in step 2.</p></li>
 </ol>
 </section></div>
 <!-- <div id="div_id_CreateFromAmeriflux">
