@@ -22,16 +22,16 @@ On this page:
 
     *Figure 4.5A. Directory tree showing location of third stage custom YAML file that must be copied (green highlighted text) and edited (yellow highlighted text).*
 
-2. At the top of your site-specific configuration file (i.e., `SITEID1_config.yml`), input the site ID, the year that measurements at the site began, and the metadata for your site (figure 4.5B; yellow highlighted text). The `northOffset` can be found in your site GHG biomet file and this information is used for filtering data by wind direction, to comply with eddy-covariance measurement standards.
+2. If you have not already entered your site metadata at the top of your site-specific configuration file (i.e., `SITEID1_config.yml`), then do so now: input the site ID, the year that measurements at the site began, and other metadata for your site (figure 4.5B; yellow highlighted text). The `northOffset` can be found in your site GHG biomet file and this information is used for filtering data by wind direction, to comply with eddy-covariance measurement standards.
+
+   <img src="images/ini_files/ini_example3a.jpg" alt="INIfiles/ThirdStageConfig" width="650"/>
+    
+   *Figure 4.5B. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text, and optional text to check or edit in peach highlighting.*
 
     The peach highlighted text indicates parts of the file that should be checked in relation to your site data:
     - First, check that the flux variables listed are actually measured at your site, otherwise replace the right hand side with `NULL`. 
     - Second, check the met variable names for used for gap-filling are named the same as those output by your second stage cleaning.
     - Third, if you wish to, you can edit the wind sector and precipitation filter values, but we recommend the values already written in the file.
-
-   <img src="images/ini_files/ini_example3a.jpg" alt="INIfiles/ThirdStageConfig" width="650"/>
-    
-   *Figure 4.5B. Third stage site-specific custom YAML file showing which fields to edit in yellow highlighted text, and optional text to check or edit in peach highlighting.*
     
     The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. More information on this is provided in the full documentation in section 5.5.
 
@@ -46,6 +46,8 @@ On this page:
     fr_automated_cleaning(yearIn,siteID,7)  % third stage</pre>
     
     The output will appear in two directories: `ThirdStage` and `ThirdStage_Default_Ustar` within the `Clean` directory, where the second stage output is; again, we recommend that you inspect this data using the visualization tools. <!--Section 6.6 [XXX link] provides more details on third stage cleaning, including adding further custom configuration and output data. -->
+
+    The default uncertainty output for u-star filtering is "fast". For full uncertainty calculations, see section 5.5 in the full documentation.
 
 </div>
 

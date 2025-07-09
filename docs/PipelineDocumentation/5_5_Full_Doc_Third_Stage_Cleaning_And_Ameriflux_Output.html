@@ -380,6 +380,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#div_id_GeneralThirdStage">General outline for creating your third stage YML configuration file</a></li>
 <li><a href="#div_id_RunThirdStage">Running third stage cleaning in Matlab</a></li>
 <li><a href="#div_id_FiltersThirdStage">Third stage filters and variable names</a></li>
+<li><a href="#div_id_RunUStarFullUncertainty">Run u-star filtering with full uncertainty calculations</a></li>
 <li><a href="#div_id_RunAmerifluxStage">Output to Ameriflux CSV file</a></li>
 <li><a href="#div_id_Tips">Tips</a></li>
 </ul>
@@ -466,6 +467,14 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </section></div>
 <p><br></p>
+<div id="div_id_RunUStarFullUncertainty">
+<hr>
+<section id="run-u-star-filtering-with-full-uncertainty-calculations" class="level3">
+<h3 class="anchored" data-anchor-id="run-u-star-filtering-with-full-uncertainty-calculations">Run u-star filtering with full uncertainty calculations</h3>
+<p>The default output for u-star filtering is from the REddyProc “fast” uncertainty calculations. To run the full uncertainty calculations, in your site-specific YAML file (e.g., SITEID1_config.yml) change the <code>Ustar_filtering: run_defaults</code> setting to <code>FALSE</code>, as shown in figure 5.5A (peach highlighted text):</p>
+<p><img src="images/ini_files/ini_example3d.jpg" alt="INIfiles:FullUstarUncertainty" width="650"></p>
+<p><em>Figure 5.5A. Third stage site-specific custom YAML file showing which field to edit to run the full u-star uncertainty calculations, in peach highlighted text.</em></p>
+<p><br></p>
 <div id="div_id_RunAmerifluxStage">
 <hr>
 <section id="output-to-ameriflux-csv-file" class="level3">
@@ -483,7 +492,9 @@ We recommend <em>not</em> editing the <code>global_config.yml</code> file direct
 </div>
 
 
-</section></main></div>
+</section></div>
+</section>
+</main></div>
 
 
 
