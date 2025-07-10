@@ -353,7 +353,7 @@ Result: x = (x - 1)*2 - 1 [Evaluate, then calibrate, then postEvaluate]\
 
 Occasionally you might need to remove periods of data for certain instruments or a group of instruments, e.g., during calibration periods, times there was a known malfunction, etc. For this purpose, we can create flag files and traces, as follows:
 
-1. Create one Excel file per year that includes the time period you need to remove, i.e., if you have erroneous data to remove from 2021 and 2022, make one file for each year(regardless of whether it is the same instrument/issue). The Excel file must follow the template shown in figure 5.3D (<a href="https://ecoflux-lab.github.io/PipelineDocumentation/ini_templates_sample_data/SITEID1_Flags_YYYY.xlsx">download template here</a>), and the filename must also follow this pattern: `SITEID1_Flags_YYYY.xlsx`, where `SITEID1` is your own site ID, and YYYY is the year (2022 in the example below).
+1. Create one Excel file per year that includes the time period you need to remove, i.e., if you have erroneous data to remove from 2021 and 2022, make one file for each year(regardless of whether it is the same instrument/issue). The Excel file must follow the template shown in figure 5.3D (<a href="ini_templates_sample_data/SITEID1_Flags_YYYY.xlsx">download template here</a>), and the filename must also follow this pattern: `SITEID1_Flags_YYYY.xlsx`, where `SITEID1` is your own site ID, and YYYY is the year (2022 in the example below).
 
     <img src="images/ini_files/SITEID1_Flags_2022.jpg" alt="INIfiles/FlagExcelFile" width="750"/>
 

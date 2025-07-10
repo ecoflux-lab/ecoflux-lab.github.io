@@ -33,12 +33,14 @@ First, you need to either download or clone the repository. Instructions for bot
 
 5. We recommend repeating these steps periodically so that you remain up to date with our pipeline developments, keeping only the most recently downloaded Biomet.net folder on your computer. It should always be in the same location so that Matlab knows where to look for the library (see section 2.4 for details).
 
+6. Alternatively, a copy of the zip file is available to <a href="ini_templates_sample_data/Biomet.net.zip">download here (July 2025 version)</a>. Warning: we make regular updates to this Git repository, so this link will become outdated.
+
 </div>
 
 <div id="div_id_GitClone">
 <hr>
 
-Alternatively, if you prefer to clone the directory, you will need to have Git installed on your computer (section 2.1). Then you can follow these instructions:
+If you prefer to clone the directory, you will need to have Git installed on your computer (section 2.1). Then you can follow these instructions:
 
 ### Instructions to *clone* the Biomet.net repository from a terminal:
 
