@@ -449,8 +449,9 @@ ul.task-list li input[type="checkbox"] {
 <pre>Error: <u>File: create_TAB_ProjectFolders.m Line: 66 Column: 32</u>
  Incorrect use of '=' operator. To assign a value to a variable, use '='. To compare values for equality, use '=='.</pre>
 <p><!--Ideally, you would update your Matlab version if possible, since we may make edits to the directory structure/set-up in the future... Not sure how we are handling this even for those using gitclone?? --></p></li>
-<li><p><em>I am working on a Linux operating system and first stage cleaning is crashing.</em></p>
-<p>Make sure that you are using upper case for the <code>measurementType</code> parameter, everywhere it appears in your first stage INI, e.g., <code>measurementType = 'Flux'</code> or <code>measurementType = 'Met'</code>.</p></li>
+<li><p><em>I am working on a Linux operating system and first stage cleaning crashes with an error unable to open the “Met” or “Flux” database folder, e.g.:</em></p>
+<pre>*** Error! File: ".../Database/2024/RBM/met/Clean/TA_1_1_1" cannot be opened!</pre>
+<p>This is because the <code>measurementType</code> parameter in your first stage INI file has lower case. To fix this, make sure that you are using upper case for the <code>measurementType</code> parameter everywhere it appears in your first stage INI, e.g., <code>measurementType = 'Met'</code> or <code>measurementType = 'Flux'</code>.</p></li>
 </ol>
 </section></div>
 

@@ -97,8 +97,10 @@ This section outlines some recurring special cases and how to deal with them:
 
     <!--Ideally, you would update your Matlab version if possible, since we may make edits to the directory structure/set-up in the future... Not sure how we are handling this even for those using gitclone?? -->
 
-3. *I am working on a Linux operating system and first stage cleaning is crashing.*
+3. *I am working on a Linux operating system and first stage cleaning crashes with an error unable to open the "Met" or "Flux" database folder, e.g.:*
 
-    Make sure that you are using upper case for the `measurementType` parameter, everywhere it appears in your first stage INI, e.g., `measurementType = 'Flux'` or `measurementType = 'Met'`.
+    <pre>*** Error! File: ".../Database/2024/RBM/met/Clean/TA_1_1_1" cannot be opened!</pre>
+
+    This is because the `measurementType` parameter in your first stage INI file has lower case. To fix this, make sure that you are using upper case for the `measurementType` parameter everywhere it appears in your first stage INI, e.g., `measurementType = 'Met'` or `measurementType = 'Flux'`.
 
 </div>
