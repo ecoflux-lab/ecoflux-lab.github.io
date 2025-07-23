@@ -97,4 +97,8 @@ This section outlines some recurring special cases and how to deal with them:
 
     <!--Ideally, you would update your Matlab version if possible, since we may make edits to the directory structure/set-up in the future... Not sure how we are handling this even for those using gitclone?? -->
 
+3. *I am working on a Linux operating system and first stage cleaning is crashing.*
+
+    Make sure that you are using upper case for the `measurementType` parameter, everywhere it appears in your first stage INI, e.g., `measurementType = 'Flux'` or `measurementType = 'Met'`.
+
 </div>

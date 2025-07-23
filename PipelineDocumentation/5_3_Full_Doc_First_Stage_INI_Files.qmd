@@ -419,6 +419,8 @@ Some programming rules that you must follow for the first and second stage INI f
 <hr>
 
 **TIPS**\
-Once your INI file is complete, if desired you can use the `simplify_FirstStageIni()` function to clean it up. This may be helpful if you used a legacy INI file as an example; the function removes obsolete fields and makes things more concise.
-
+<ul>
+    <li>Once your INI file is complete, if desired you can use the `simplify_FirstStageIni()` function to clean it up. This may be helpful if you used a legacy INI file as an example; the function removes obsolete fields and makes things more concise.</li>
+    <li>If you are on a Linux operating system, make sure that you are using upper case for the `measurementType` parameter, everywhere it appears in your first stage INI, e.g., `measurementType = 'Flux'` or `measurementType = 'Met'`.</li>
+<ul>
 </div>
