@@ -1,0 +1,93 @@
+## 6.4. &nbsp; Standalone Functions for Reading Database
+
+<link rel="stylesheet" href="css/style.css">
+
+To load data from your database without using any `Biomet.net` apps or functions, here we provide some code snippets in Matlab, R, and Python. You could add these to your general analysis and plotting scripts. 
+
+Note that they are examples and will likely require minor edits. For all snippets you will need to provide the full paths to the time vector (`clean_tv`) and data variable(s) that you need.
+
+### Matlab
+
+<a href="ini_templates_sample_data/loadData.m">Download Matlab snippet here</a>
+
+<pre>%% Reading time traces (clean_tv, TimeVector...) - float64
+
+fileName = fullfile('E:\Pipeline_Projects\database\2025\RBM\Met\clean_tv');
+fid = fopen(fileName);
+if fid >0
+    tv = fread(fid,'float64');
+    fclose(fid);
+end
+% converting time from Matlab datenum to Matlab datetime format
+tv_dt = datetime(tv,'ConvertFrom','datenum');
+
+%% Reading data traces - float32
+
+fileName = fullfile('E:\Pipeline_Projects\database\2025\RBM\Met\MET_HMP_T_6m_Avg');
+fid = fopen(fileName);
+if fid >0
+    TA_1_1_1 = fread(fid,'float32');
+    fclose(fid);
+end</pre>
+
+
+### R
+
+<a href="ini_templates_sample_data/loadData.R">Download R snippet here</a>
+
+<pre>library(ggplot2)
+
+# Reading time traces (clean_tv, TimeVector...) - float64
+file_path_tv <- "E:/Pipeline_Projects/database/2025/RBM/Met/clean_tv"
+if (file.exists(file_path_tv)) {
+  con <- file(file_path_tv, "rb")
+  tv <- readBin(con, what = "double", n = file.info(file_path_tv)$size / 8, size = 8)
+  close(con)
+} else {
+  tv <- numeric()
+}
+
+# Converting MATLAB datenum to R datetime format
+tv_dt <- as.POSIXct(tv * 86400, origin = "0000-01-01", tz = "UTC")
+
+# Reading data traces - float32
+file_path_data <- "E:/Pipeline_Projects/database/2025/RBM/Met/MET_HMP_T_6m_Avg"
+if (file.exists(file_path_data)) {
+  con <- file(file_path_data, "rb")
+  TA_1_1_1 <- readBin(con, what = "numeric", n = file.info(file_path_data)$size / 4, size = 4)
+  close(con)
+} else {
+  TA_1_1_1 <- numeric()
+}
+</pre>
+
+
+### Python
+
+<a href="ini_templates_sample_data/loadData.py">Download Python snippet here</a>
+
+<pre>import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime, timedelta
+
+# Reading time traces (clean_tv, TimeVector...) - float64
+file_path_tv = r"E:\Pipeline_Projects\database\2024\RBM\Met\clean_tv"
+try:
+    with open(file_path_tv, "rb") as f:
+        tv = np.fromfile(f, dtype=np.float64)
+except FileNotFoundError:
+    tv = np.array([])
+
+# Converting time from MATLAB datenum to Python datetime format
+days = tv % 1
+tv_dt = [datetime.fromordinal(int(date)) + timedelta(days=float(date % 1)) - timedelta(days=366) for date in tv]
+
+# Reading data traces - float32
+file_path_data = r"E:\Pipeline_Projects\database\2024\RBM\Met\MET_HMP_T_6m_Avg"
+try:
+    with open(file_path_data, "rb") as f:
+        TA_1_1_1 = np.fromfile(f, dtype=np.float32)
+except FileNotFoundError:
+    TA_1_1_1 = np.array([])</pre>
+
+

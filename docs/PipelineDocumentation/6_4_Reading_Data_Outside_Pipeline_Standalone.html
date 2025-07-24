@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>data_cleaning_principles – EcoFlux Lab</title>
+<title>reading_data_outside_pipeline_standalone – EcoFlux Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/3_Data_Cleaning_Principles.html">3. Data Cleaning Principles</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../PipelineDocumentation/6_Data_Visualization.html">6. Data Visualization</a></li><li class="breadcrumb-item"><a href="../PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.html">6.4 &nbsp; Standalone Functions for Reading Database</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -213,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/3_Data_Cleaning_Principles.html" class="sidebar-item-text sidebar-link active">
+  <a href="../PipelineDocumentation/3_Data_Cleaning_Principles.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">3. Data Cleaning Principles</span></a>
   </div>
 </li>
@@ -328,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.html" class="sidebar-item-text sidebar-link">
+  <a href="../PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">6.4 &nbsp; Standalone Functions for Reading Database</span></a>
   </div>
 </li>
@@ -367,11 +367,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-cleaning-principles" id="toc-data-cleaning-principles" class="nav-link active" data-scroll-target="#data-cleaning-principles">3. &nbsp; Data Cleaning Principles</a>
+  <li><a href="#standalone-functions-for-reading-database" id="toc-standalone-functions-for-reading-database" class="nav-link active" data-scroll-target="#standalone-functions-for-reading-database">6.4. &nbsp; Standalone Functions for Reading Database</a>
   <ul class="collapse">
-  <li><a href="#first-stage" id="toc-first-stage" class="nav-link" data-scroll-target="#first-stage">First Stage</a></li>
-  <li><a href="#second-stage" id="toc-second-stage" class="nav-link" data-scroll-target="#second-stage">Second Stage</a></li>
-  <li><a href="#third-stage" id="toc-third-stage" class="nav-link" data-scroll-target="#third-stage">Third Stage</a></li>
+  <li><a href="#matlab" id="toc-matlab" class="nav-link" data-scroll-target="#matlab">Matlab</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -382,33 +382,89 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="data-cleaning-principles" class="level2">
-<h2 class="anchored" data-anchor-id="data-cleaning-principles">3. &nbsp; Data Cleaning Principles</h2>
-<p>This section outlines the data cleaning principles and processes that should be followed closely and applied at each of the three stages, as well as other relevant information.</p>
-<p><img src="images/principles/Database_Workflow_Principles_v2.jpg" alt="DataCleaningPrinciplesSummary" width="500"></p>
-<p><em>Figure 3. Chart outlining the data cleaning principles followed in the pipeline.</em></p>
-<section id="first-stage" class="level3">
-<h3 class="anchored" data-anchor-id="first-stage">First Stage</h3>
-<ul>
-<li><p><strong>Principle: During the first stage of data cleaning, we want to keep the best measured data values <em>from each sensor</em></strong>, i.e., a user looking for the best measurements from a particular sensor would want to use the first stage data. Missing data points for periods of more than one half-hour will not be gap-filled in any way. <!-- (note that one missing half-hourly data point can be interpolated linearly, see section XXX for details). --></p></li>
-<li><p>At the most basic level, the first stage collects the raw data, applies min/max filtering, assigns consistent variable names in line with <a href="https://ameriflux.lbl.gov/data/aboutdata/data-variables/" target="_blank" rel="noopener noreferrer">Ameriflux guidelines</a> as far as possible, and moves the relevant files to a <code>Clean</code> folder in preparation for stage two. This folder will be created automatically if it does not already exist.</p></li>
-<li><p>The data are stored as binary files in “single-precision floating-point format” (aka float 32), which importantly means they are readable in most common computer languages and software.</p></li>
-</ul>
+<section id="standalone-functions-for-reading-database" class="level2">
+<h2 class="anchored" data-anchor-id="standalone-functions-for-reading-database">6.4. &nbsp; Standalone Functions for Reading Database</h2>
+<p><link rel="stylesheet" href="css/style.css"></p>
+<p>To load data from your database without using any <code>Biomet.net</code> apps or functions, here we provide some code snippets in Matlab, R, and Python. You could add these to your general analysis and plotting scripts.</p>
+<p>Note that they are examples and will likely require minor edits. For all snippets you will need to provide the full paths to the time vector (<code>clean_tv</code>) and data variable(s) that you need.</p>
+<section id="matlab" class="level3">
+<h3 class="anchored" data-anchor-id="matlab">Matlab</h3>
+<p><a href="ini_templates_sample_data/loadData.m">Download Matlab snippet here</a></p>
+<pre>%% Reading time traces (clean_tv, TimeVector...) - float64
+
+fileName = fullfile('E:\Pipeline_Projects\database\2025\RBM\Met\clean_tv');
+fid = fopen(fileName);
+if fid &gt;0
+    tv = fread(fid,'float64');
+    fclose(fid);
+end
+% converting time from Matlab datenum to Matlab datetime format
+tv_dt = datetime(tv,'ConvertFrom','datenum');
+
+%% Reading data traces - float32
+
+fileName = fullfile('E:\Pipeline_Projects\database\2025\RBM\Met\MET_HMP_T_6m_Avg');
+fid = fopen(fileName);
+if fid &gt;0
+    TA_1_1_1 = fread(fid,'float32');
+    fclose(fid);
+end</pre>
 </section>
-<section id="second-stage" class="level3">
-<h3 class="anchored" data-anchor-id="second-stage">Second Stage</h3>
-<ul>
-<li><p><strong>Principle: The second stage focuses on creating the best measured data values <em>for each particular property/variable</em></strong>. For example, if there are two (or more) collocated temperature sensors at the same height e.g., 2 metres above ground level, the second stage is intended to create the “best” trace using both (all) sensors, with the highest precision/accuracy and the fewest missing points. By default, it does this by averaging the traces, and gap-filling by using linear regression. Optionally, data can be gap-filled using a nearby climate station, or one of your own nearby stations if you have one. (Other gap-filling methods, such as using reanalysis data, are currently under development.)</p></li>
-<li><p>In practice, the second stage collects the first stage data, generates the “best” observation for each variable and moves the relevant files to a “Clean/SecondStage” folder in preparation for the third stage.</p></li>
-</ul>
+<section id="r" class="level3">
+<h3 class="anchored" data-anchor-id="r">R</h3>
+<p><a href="ini_templates_sample_data/loadData.R">Download R snippet here</a></p>
+<pre>library(ggplot2)
+
+# Reading time traces (clean_tv, TimeVector...) - float64
+file_path_tv &lt;- "E:/Pipeline_Projects/database/2025/RBM/Met/clean_tv"
+if (file.exists(file_path_tv)) {
+  con &lt;- file(file_path_tv, "rb")
+  tv &lt;- readBin(con, what = "double", n = file.info(file_path_tv)$size / 8, size = 8)
+  close(con)
+} else {
+  tv &lt;- numeric()
+}
+
+# Converting MATLAB datenum to R datetime format
+tv_dt &lt;- as.POSIXct(tv * 86400, origin = "0000-01-01", tz = "UTC")
+
+# Reading data traces - float32
+file_path_data &lt;- "E:/Pipeline_Projects/database/2025/RBM/Met/MET_HMP_T_6m_Avg"
+if (file.exists(file_path_data)) {
+  con &lt;- file(file_path_data, "rb")
+  TA_1_1_1 &lt;- readBin(con, what = "numeric", n = file.info(file_path_data)$size / 4, size = 4)
+  close(con)
+} else {
+  TA_1_1_1 &lt;- numeric()
+}
+</pre>
 </section>
-<section id="third-stage" class="level3">
-<h3 class="anchored" data-anchor-id="third-stage">Third Stage</h3>
-<ul>
-<li><strong>Principle: USTAR filtering, gap-filling, and CO2 flux partitioning</strong>.</li>
-<li>The third stage collects the second stage data and implements USTAR filtering, gap-filling, and flux partitioning procedures. For this we use the R package <a href="https://bg.copernicus.org/articles/15/5015/2018/bg-15-5015-2018.html" target="_blank" rel="noopener noreferrer">REddyProc</a>. Biomet.net functions allow Matlab to interface with R, so all three stages are run directly from Matlab. For more machine learning approaches to gap-filling, we also implement the <a href="https://github.com/yeonukkim/EC_FCH4_gapfilling">random forest approach</a> described in the paper by <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14845">Kim et al.&nbsp;(2020)</a>. Additional methane gap-filling processes currently not part of the pipeline are described <a href="https://github.com/stanfordmlgroup/methane-gapfill-ml/tree/FL" target="_blank" rel="noopener noreferrer">here</a>, with instructions <a href="https://github.com/stanfordmlgroup/methane-gapfill-ml/blob/FL/Tutorial_from_data_download_to_gap-filling.docx" target="_blank" rel="noopener noreferrer">here</a>.</li>
-</ul>
-<p>We achieve these principles by setting up various configuration files used in each stage. This process is described later (section 4.3), but there are a few more steps to complete before that. Next, you will set up your project directory structure and then configure it to work with the Biomet.net library.</p>
+<section id="python" class="level3">
+<h3 class="anchored" data-anchor-id="python">Python</h3>
+<p><a href="ini_templates_sample_data/loadData.py">Download Python snippet here</a></p>
+<pre>import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime, timedelta
+
+# Reading time traces (clean_tv, TimeVector...) - float64
+file_path_tv = r"E:\Pipeline_Projects\database\2024\RBM\Met\clean_tv"
+try:
+    with open(file_path_tv, "rb") as f:
+        tv = np.fromfile(f, dtype=np.float64)
+except FileNotFoundError:
+    tv = np.array([])
+
+# Converting time from MATLAB datenum to Python datetime format
+days = tv % 1
+tv_dt = [datetime.fromordinal(int(date)) + timedelta(days=float(date % 1)) - timedelta(days=366) for date in tv]
+
+# Reading data traces - float32
+file_path_data = r"E:\Pipeline_Projects\database\2024\RBM\Met\MET_HMP_T_6m_Avg"
+try:
+    with open(file_path_data, "rb") as f:
+        TA_1_1_1 = np.fromfile(f, dtype=np.float32)
+except FileNotFoundError:
+    TA_1_1_1 = np.array([])</pre>
 
 
 </section>

@@ -142,6 +142,8 @@ website:
               text: "6.2 &nbsp; R-Shiny App"
             - href: PipelineDocumentation/6_3_Other_Biomet_Plotting_Tools.qmd
               text: "6.3 &nbsp; Other Biomet.net Plotting Tools"
+            - href: PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.qmd
+              text: "6.4 &nbsp; Standalone Functions for Reading Database"
         - href: PipelineDocumentation/7_Troubleshooting_FAQ.qmd
           text: "7. Troubleshooting and FAQ"
           contents:

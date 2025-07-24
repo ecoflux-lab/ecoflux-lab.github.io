@@ -326,6 +326,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">6.3 &nbsp; Other Biomet.net Plotting Tools</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.4 &nbsp; Standalone Functions for Reading Database</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -434,7 +440,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Updating Flux data</strong></p>
 <p>Here is an example of how to update database from any files in the Sites/siteID/Flux folder that match a file pattern (in this case <code>eddypro_TUT_*.csv</code>).</p>
 <pre>%% Processing multiple EddyPro files from the same folder 
-projectPath = 'E:\Pipeline_Projects\TUT Project'; 
+projectPath = 'E:\Pipeline_Projects\TUT_Project'; 
 structProject = set_TAB_project(projectPath); 
 siteID = 'TUT'; 
 FluxDatabase_Pth = fullfile(structProject.databasePath, 'yyyy', siteID,'Flux'); 
@@ -446,6 +452,7 @@ timeUnit = '30MIN';
 [nFiles,nHHours]=fr_EddyPro_database(filePattern,progressListPth,FluxDatabase_Pth,[],timeUnit,missingPointValue,optionsFileRead); 
 fprintf('  %s - Flux  Number of files processed = %d, Number of HHours = %d\n',siteID,nFiles,nHHours); 
 </pre>
+<p>You will need to change the <code>projectPath</code> and maybe also the <code>filePattern</code>, if yours is different, before running this code.</p>
 <p><br></p>
 <p><strong>Updating Met data</strong></p>
 <p>If we then wanted to process met data from Sites/siteID/Met folder (using the same projectPath, structProject and siteID) with the file-name pattern matching: <code>TUT_MET.*</code> we could run the following script:</p>

@@ -82,7 +82,7 @@ Here is an example of how to update database from any files in the Sites/siteID/
 
 <pre>
 %% Processing multiple EddyPro files from the same folder 
-projectPath = 'E:\Pipeline_Projects\TUT Project'; 
+projectPath = 'E:\Pipeline_Projects\TUT_Project'; 
 structProject = set_TAB_project(projectPath); 
 siteID = 'TUT'; 
 FluxDatabase_Pth = fullfile(structProject.databasePath, 'yyyy', siteID,'Flux'); 
@@ -95,6 +95,8 @@ timeUnit = '30MIN';
 fprintf('  %s - Flux  Number of files processed = %d, Number of HHours = %d\n',siteID,nFiles,nHHours); 
 </pre>
  
+You will need to change the `projectPath` and maybe also the `filePattern`, if yours is different, before running this code.
+
 <br>
 
 **Updating Met data**

@@ -367,5 +367,8 @@
   },
   "PipelineDocumentation/index.qmd": {
     "index.html": "5c0e6234"
+  },
+  "PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.qmd": {
+    "6_4_Reading_Data_Outside_Pipeline_Standalone.html": "7550af51"
   }
 }

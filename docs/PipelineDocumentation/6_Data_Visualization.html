@@ -326,6 +326,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">6.3 &nbsp; Other Biomet.net Plotting Tools</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PipelineDocumentation/6_4_Reading_Data_Outside_Pipeline_Standalone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.4 &nbsp; Standalone Functions for Reading Database</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -363,8 +369,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link active" data-scroll-target="#data-visualization">6. &nbsp; Data Visualization</a>
   <ul class="collapse">
-  <li><a href="#matlab" id="toc-matlab" class="nav-link" data-scroll-target="#matlab">Matlab</a></li>
-  <li><a href="#rshiny" id="toc-rshiny" class="nav-link" data-scroll-target="#rshiny">RShiny</a></li>
+  <li><a href="#biomet.net-functions" id="toc-biomet.net-functions" class="nav-link" data-scroll-target="#biomet.net-functions">Biomet.net functions</a></li>
+  <li><a href="#standalone-non-biomet.net-functions" id="toc-standalone-non-biomet.net-functions" class="nav-link" data-scroll-target="#standalone-non-biomet.net-functions">Standalone non-Biomet.net functions</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -378,21 +384,29 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-visualization" class="level2">
 <h2 class="anchored" data-anchor-id="data-visualization">6. &nbsp; Data Visualization</h2>
 <p><link rel="stylesheet" href="css/style.css"></p>
-<p>Previously, we briefly mentioned some ways to visualize your data (section 4.2). This current section gives details on our recommended methods for viewing and analyzing your data, both during cleaning, and once you have real-time data flowing.</p>
-<section id="matlab" class="level3">
-<h3 class="anchored" data-anchor-id="matlab">Matlab</h3>
-<p>There are several Matlab functions for visualizing data:</p>
+<p>Previously, we briefly mentioned some ways to visualize your data (section 4.2). This current section provides further details on visualizing data both using <code>Biomet.net</code> functions, and we also provide some standalone (non-pipeline) functions to help plot data from your database using Matlab, Python, and R.</p>
+<section id="biomet.net-functions" class="level3">
+<h3 class="anchored" data-anchor-id="biomet.net-functions">Biomet.net functions</h3>
+<p>These are our recommended methods for viewing and analyzing your data, both during cleaning, and once you have real-time data flowing.</p>
+<section id="matlab" class="level4">
+<h4 class="anchored" data-anchor-id="matlab">Matlab:</h4>
+<p>There are several Matlab functions for <em>visualizing and analyzing data</em>:</p>
 <ul>
-<li><code>plotApp</code>: a Matlab graphical user interface (GUI) which we recommend using during database set up and cleaning of your data (see section 4.2 for details).<br>
+<li><code>plotApp</code>: a Matlab graphical user interface (GUI) which we recommend using during database set up and cleaning of your data (see section 6.1 for details).<br>
 </li>
-<li><code>gui_Browse_Folder</code>: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons. A working example is provided in section 4.2.<br>
+<li><code>gui_Browse_Folder</code>: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons (see section 6.3).<br>
 </li>
-<li><code>guiPlotTraces</code>: this is an older function with less utility than the <code>plotApp</code> GUI, but it still displays your data for quick viewing.</li>
+<li><code>guiPlotTraces</code>: this is an older function with less utility than the <code>plotApp</code> GUI, but it still displays your data for quick viewing (see section 6.3).</li>
 </ul>
 </section>
-<section id="rshiny" class="level3">
-<h3 class="anchored" data-anchor-id="rshiny">RShiny</h3>
-<p>There is also an R Shiny App which is useful for viewing your flux data in real-time (see section 6.2 for details). You can host this on an RShiny server to make your data publicly viewable.</p>
+<section id="rshiny" class="level4">
+<h4 class="anchored" data-anchor-id="rshiny">RShiny:</h4>
+<p>There is also an R Shiny App which is useful for <em>viewing your flux data in real-time</em> (see section 6.2 for details). You can host this on an RShiny server to make your data publicly viewable.</p>
+</section>
+</section>
+<section id="standalone-non-biomet.net-functions" class="level3">
+<h3 class="anchored" data-anchor-id="standalone-non-biomet.net-functions">Standalone non-Biomet.net functions</h3>
+<p>Section 6.4 provides functions in Matlab, Python, and R, to help you load data for your general data analysis.</p>
 
 
 </section>
