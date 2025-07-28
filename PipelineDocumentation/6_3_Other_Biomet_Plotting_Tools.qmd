@@ -1,8 +1,10 @@
 ## 6.3. &nbsp; Other Biomet.net Plotting Tools
 
-### *read_bor_notes_micromet.m* function
+<link rel="stylesheet" href="css/style.css">
 
-This function is part of the `Biomet.net` library and is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example:
+### Matlab *read_bor_notes_micromet.m* `Biomet.net` function
+
+This function is part of the `Biomet.net` library and is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example (relevant section of code is provided for reference).
 
 1. *Load one trace and plot it*: 
 * Use the `biomet_path` function, e.g., `pth = biomet_path(2022, 'DSM', 'MET')` to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself but always use this function. 
@@ -10,13 +12,74 @@ This function is part of the `Biomet.net` library and is intended as a manual on
 * Use the `read_bor` function again to load the trace of your choice from the filepath you defined using `biomet_path`, e.g., `x = read_bor(fullfile(pth,'MET_CNR4_Net_Avg'))` will load the *MET_CNR4_Net_Avg* trace from the DSM Met folder for 2022, using the previously defined path.
 * You can now plot your variable *x* with a nicely formatted time vector. 
 
+    <pre>%% Load one trace and plot it
+pth = biomet_path(2022,'DSM','MET');            % find data base path for year = 2022, DSM site
+%pth = biomet_path([],'DSM','MET');              % or: find data base path for the current year, DSM site
+tv = read_bor(fullfile(pth,'clean_tv'),8);      % load the time vector (Matlab's datenum format)
+tv_dt = datetime(tv,'convertfrom','datenum');   % convert to Matlab's datetime object (use for all new stuff)
+[DOY,year] = fr_get_doy(tv,0);                  % calculate DOY (Campbell format) from tv
+x = read_bor(fullfile(pth,'MET_CNR4_Net_Avg')); % load MET_CNR4_Net_Avg trace from DSM/MET folder
+plot(tv_dt,x)                                   % plot data
+grid on;zoom on</pre>
+
 2. *Compare two traces*:
-* This is most useful for comparing traces from different cleaning stages, once you have cleaned your data - which we have not yet addressed. We will cover this again later in section 
+* This is most useful for comparing traces from different cleaning stages, once you have cleaned your data. We can compare new variable *y* with *x* loaded in the previous example/code section.
 * Use `biomet_path` again to define the filepath to the Second Stage clean data, e.g., `pth = biomet_path(2022,'DSM','Clean/SecondStage')` 
 
-<!--3. *Multiple years*: [XXX not yet complete, may need to move]-->
+    <pre>%% compare two traces
+pth = biomet_path(2022,'DSM','Clean/SecondStage'); % load Second Stage clean NET radiation trace
+y = read_bor(fullfile(pth,'NETRAD_1_1_1'));     % no need to reload tv_dt, same data period is used
+plot(tv_dt,[x y])                               % compare clean vs original
+legend('Measured','Cleaned')
+grid on;zoom on</pre>
 
-3. *Other functions for visualizing data*:
-* `gui_Browse_Folder`: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons.
-* `guiPlotTraces`
+3. *Extract a data period*:
+* For extracting a particular data period from your database, for closer inspection.
+
+    <pre>%% extract a data period
+indPeriod = find(tv_dt> "May 1, 2022" & tv_dt <= "Aug 1, 2022");
+plot(tv_dt(indPeriod),[x(indPeriod) y(indPeriod)])  % compare clean vs original for May-Jul
+legend('Measured','Cleaned')
+grid on;zoom on</pre>
+
+4. *Load multiple years*:
+* Sometimes it helps to look at multiple years together, this can help with spotting issues in different years, or if something is working in one year but not another, calibrations etc.
+
+    <pre>%% Multiple years
+yearsIn = 2019:2022;                                    % loading multiple years in one go
+pth = biomet_path('yyyy','BB','MET');                   % find data base path for multiple years, BB2 site
+tv = read_bor(fullfile(pth,'clean_tv'),8,[],yearsIn);   % load the time vector (Matlab's datenum format)
+tv_dt = datetime(tv,'convertfrom','datenum');           % convert to Matlab's datetime object (use for all new stuff)
+x = read_bor(fullfile(pth,'MET_HMP_T_2m_Avg'),[],[],yearsIn); % load MET_CNR4_Net_Avg trace from BB2/MET folder
+plot(tv_dt,x)                                           % plot data
+grid on; zoom on;</pre>
+
+
+. *Other functions for visualizing data*:
 * `plotApp` and `RShiny` apps: see sections 6.1 and 6.2, respectively.
+* `gui_Browse_Folder`: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons.
+* `guiPlotTraces`: will open a simple GUI for browsing data.
+
+
+### R-script for loading data using `Biomet.net`
+
+The R-script below is an example for loading a set of variables from your database using the `Biomet.net` function `read_database_generalized.R`. You would need to edit the file path to Biomet and to your Database, and also the years, site ID, folder with relevant cleaning stage, and the list of variables you wish to load.
+
+<pre># Load packages
+library(lubridate) # work with dates
+library(dplyr)     # data manipulation (filter, summarize, mutate)
+library(openair) #For plotting wind and pollution roses (to explore the relationship between fluxes and wind direction)
+library(ggsignif)
+library(hms)
+library(zoo)
+library(here)
+
+# Load data from the database
+p <- sapply(list.files(pattern="read_database_generalized.R", path="/Users/<'username'>/Code/Biomet.net/R/database_functions/", full.names=TRUE), source)
+ 
+# Hogg site
+db_path <- '/Users/<'username'>/Code/local_data_cleaning/Database'
+data.Hogg <- read_data_generalized(db_path,c(2021:2023),"HOGG","Clean/ThirdStage",c("NEE","NEE_PI_F_MDS","FCH4","FCH4_PI_F_MDS","FCH4_PI_F_RF","H","H_PI_F_MDS","LE","LE_PI_F_MDS","GPP_PI_F_DT","GPP_PI_F_NT","Reco_PI_F_DT","Reco_PI_F_NT","NETRAD_1_1_1","P_1_1_1","PA_1_1_1","RH_1_1_1","SW_IN_1_1_1","PPFD_IN_1_1_1","TA_1_1_1","TS_1","TS_2","TS_3","USTAR","VPD_1_1_1","WD_1_1_1","WS_1_1_1"),"clean_tv",0)
+ 
+data.Hogg$datetime <- as.POSIXct(data.Hogg$datetime,"%Y-%m-%d %H:%M:%OS",tz = 'UTC')
+data.Hogg$DOY <- yday(data.Hogg$datetime)</pre>
