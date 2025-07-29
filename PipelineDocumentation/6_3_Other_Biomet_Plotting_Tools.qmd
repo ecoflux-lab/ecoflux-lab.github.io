@@ -2,9 +2,21 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-### Matlab *read_bor_notes_micromet.m* `Biomet.net` function
+This section contains information on reading your database files using Matlab and R `Biomet.net` functions.
 
-This function is part of the `Biomet.net` library and is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example (relevant section of code is provided for reference).
+On this page:
+
+- <a href="#div_id_MatlabReadDataBiomet">Reading data using Matlab Biomet.net function</a>
+- <a href="#div_id_RscriptReadDataBiomet">Reading data using R-script Biomet.net function</a>
+
+
+<div id="div_id_MatlabReadDataBiomet">
+
+<hr>
+
+### Reading data using Matlab `Biomet.net` function
+
+The *read_bor_notes_micromet.m* function is part of the `Biomet.net` library and is intended as a manual on how to tell Matlab to read data from your newly created database, learning by example (one code section at a time, sequentially). The following notes help to describe and explain each example (relevant section of code is provided for reference).
 
 1. *Load one trace and plot it*: 
 * Use the `biomet_path` function, e.g., `pth = biomet_path(2022, 'DSM', 'MET')` to give you the filepath to your data, in this case the Met data for the DSM site for all of 2022; you should not define the filepath yourself but always use this function. 
@@ -55,15 +67,20 @@ plot(tv_dt,x)                                           % plot data
 grid on; zoom on;</pre>
 
 
-. *Other functions for visualizing data*:
+5. *Other functions for visualizing data*:
 * `plotApp` and `RShiny` apps: see sections 6.1 and 6.2, respectively.
 * `gui_Browse_Folder`: given a filepath, this function will open a new figure window and provide a dropdown containing all traces located at that filepath location. You can pick one or scroll through using the arrow buttons.
 * `guiPlotTraces`: will open a simple GUI for browsing data.
 
+</div>
 
-### R-script for loading data using `Biomet.net`
+<div id="div_id_RscriptReadDataBiomet">
 
-The R-script below is an example for loading a set of variables from your database using the `Biomet.net` function `read_database_generalized.R`. You would need to edit the file path to Biomet and to your Database, and also the years, site ID, folder with relevant cleaning stage, and the list of variables you wish to load.
+<hr>
+
+### Reading data using R-script `Biomet.net` function
+
+The R-script code shows how to load a set of variables from your database using the `Biomet.net` function `read_database_generalized.R`. You would need to edit the file path to Biomet and to your Database, and also the years, site ID, folder with relevant cleaning stage, and the list of variables you wish to load.
 
 <pre># Load packages
 library(lubridate) # work with dates
@@ -83,3 +100,5 @@ data.Hogg <- read_data_generalized(db_path,c(2021:2023),"HOGG","Clean/ThirdStage
  
 data.Hogg$datetime <- as.POSIXct(data.Hogg$datetime,"%Y-%m-%d %H:%M:%OS",tz = 'UTC')
 data.Hogg$DOY <- yday(data.Hogg$datetime)</pre>
+
+</div>
