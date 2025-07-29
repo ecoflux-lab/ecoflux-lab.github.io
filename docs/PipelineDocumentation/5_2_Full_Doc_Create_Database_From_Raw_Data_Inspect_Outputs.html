@@ -538,7 +538,7 @@ Specifically, these functions keep track of the new and old input (CSV) files so
 <li>StationID is the USAF and WBAN numbers combined into an 11-digit number.</li>
 </ul>
 <p>Below is some sample code (<a href="ini_templates_sample_data/getNCEIStationData.m">download code snippet here</a> or copy from below) where you should edit the stationsIDs (can be just one or more), UTC_offset, and yearRng parameters. Again, if you are using this code, we recommend adding it into your “main” do-it-all script introduced in section 4.2.</p>
-<pre><code>&lt;pre&gt;%% get US station data
+<pre>%% get US station data
 % 31km away: 72493023230 (Oakland international airport, 2021-2024, TA&amp;P)
 % - Station list can be found at: https://www.ncei.noaa.gov/pub/data/noaa/isd-history.txt
 % - stationID is the USAF and WBAN numbers combined into an 11-digit number
@@ -559,7 +559,7 @@ for cntStations = 1:length(stationIDs)
             fprintf('Error processing station: %s, Year: %d\n',sID,yearIn); 
         end 
     end
-end&lt;/pre&gt;</code></pre>
+end</pre>
 </section></div>
 <br>
 <div id="div_id_VisualizeInspect">
