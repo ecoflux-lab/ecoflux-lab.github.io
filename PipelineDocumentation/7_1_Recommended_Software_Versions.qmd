@@ -22,7 +22,7 @@ Updated on: 5 November 2024
 | Software | Recommended version as of above date |
 | -------- | ------------------- |
 | Matlab   | **2024a** (at least 2023b)  |
-| R        | v4.3.3              |
+| R        | v4.4.2              |
 | RStudio  | 2024.09.0-375       |
 | Python   | 3.9.6 for Mac       |
 | Git      | Latest available <!-- (see link in 2_Install_Git_Create_Account_Optional.md) -->  |

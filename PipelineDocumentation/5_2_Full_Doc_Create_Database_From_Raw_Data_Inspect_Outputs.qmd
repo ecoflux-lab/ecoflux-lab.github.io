@@ -10,6 +10,7 @@ On this page:
 - <a href="#div_id_CreateDatabaseUsefulInfo">Useful information on creating your database</a>
 - <a href="#div_id_MultipleInputFilesContinuousUpdates">Create Database From Multiple Input Files and Updates for Continuous Operational Sites</a>
 - <a href="#div_id_CreateDatabaseFromECCC">Create Database Using Data from Canadian Meteorological Stations</a>
+- <a href="#div_id_CreateDatabaseFromNCEI">Create Database Using Data from U.S. Meteorological Stations</a>
 - <a href="#div_id_VisualizeInspect">Visualize and inspect your newly created database</a>
 
 <br>
@@ -169,9 +170,9 @@ Data from Canadian meteorological stations [operational climate stations run by 
 
 7. Next, you need the **Station ID** (which is different to the Climate ID). Go to this website: <a href="https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/" target="_blank" rel="noopener noreferrer">https://collaboration.cmc.ec.gc.ca/cmc/climate/Get_More_Data_Plus_de_donnees/</a>; open the `Station Inventory EN.csv` file and search on the Climate ID number that you saved. The number in the column to the right of this is the Station ID, which in the Winnipeg example is 28051. This Station ID will be used for the data downloads.
 
-8. Create a script using the snippet below and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once. 
+8. Create a script using the snippet below (<a href="ini_templates_sample_data/getECCCStationData.m">download code snippet here</a> or copy from below; we recommend adding this into your "main" do-it-all script introduced in section 4.2), and enter your Station ID and other relevant information (years and months). You can enter multiple station IDs at once. 
 
-    <pre>
+    <pre>%% get Canadian ECCC station data
     structProject = set_TAB_project(projectPath); 
     stationIDs = [28051]; 
     yearsIn = 2022:2023; 
@@ -192,6 +193,48 @@ Data from Canadian meteorological stations [operational climate stations run by 
 
     Or, for example, to update only the last two months of the current year: `run_ECCC_climate_station_update([],month(datetime)-1:month(datetime),28051,db_pth_root)`.
  
+</div>
+
+<br>
+<div id="div_id_CreateDatabaseFromNCEI">
+
+<hr>
+
+### Create Database Using Data from U.S. Meteorological Stations
+
+For gap-filling met data for U.S. flux sites, you can use data from the U.S. National Centers for Environmental Information (NCEI) climate stations if they are in close proximity. 
+
+Some resources to find the nearest NCEI station and its ID:
+
+* Map view of stations: <a href="https://www.ncei.noaa.gov/access/search/data-search/global-hourly" target="_blank" rel="noopener noreferrer">https://www.ncei.noaa.gov/access/search/data-search/global-hourly</a>.
+* Station list can be found at: <a href="https://www.ncei.noaa.gov/pub/data/noaa/isd-history.txt" target="_blank" rel="noopener noreferrer">https://www.ncei.noaa.gov/pub/data/noaa/isd-history.txt</a>.
+* StationID is the USAF and WBAN numbers combined into an 11-digit number.
+
+Below is some sample code (<a href="ini_templates_sample_data/getNCEIStationData.m">download code snippet here</a> or copy from below) where you should edit the stationsIDs (can be just one or more), UTC_offset, and yearRng parameters. Again, if you are using this code, we recommend adding it into your "main" do-it-all script introduced in section 4.2.
+
+    <pre>%% get US station data
+    % 31km away: 72493023230 (Oakland international airport, 2021-2024, TA&P)
+    % - Station list can be found at: https://www.ncei.noaa.gov/pub/data/noaa/isd-history.txt
+    % - stationID is the USAF and WBAN numbers combined into an 11-digit number
+    % - Map view of ISD stations: https://www.ncei.noaa.gov/access/search/data-search/global-hourly
+    structProject = set_TAB_project(projectPath); 
+    stationIDs = {'72493023230'};
+    UTC_offset = [-8];
+    yearRng = 2019:2024; 
+
+    for cntStations = 1:length(stationIDs) 
+        sID = stationIDs{cntStations};
+        UTC2local = UTC_offset(cntStations);
+        dbPath = fullfile(structProject.databasePath,'yyyy','NCEI',sID); 
+        for yearIn = yearRng
+            try 
+                db_NCEI_climate_station(yearIn,UTC2local,sID,dbPath,'60MIN') 
+            catch 
+                fprintf('Error processing station: %s, Year: %d\n',sID,yearIn); 
+            end 
+        end
+    end</pre>
+
 </div>
 
 <br>
