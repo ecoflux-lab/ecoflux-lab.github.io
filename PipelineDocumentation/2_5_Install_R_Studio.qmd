@@ -19,3 +19,8 @@ installed_packages <- packages %in% rownames(installed.packages())
   if (any(installed_packages == FALSE)) {
     install.packages(packages[!installed_packages])
   }</pre> 
+
+ **Tips**
+<ul>
+   <li>If Matlab has trouble finding R/R-script on your computer while running third stage cleaning, see the FAQ in section 7 for a workaround.</li> 
+</ul> 

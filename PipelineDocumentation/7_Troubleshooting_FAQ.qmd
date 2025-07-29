@@ -39,11 +39,25 @@ Note that this page will continue to be updated as the pipeline is further devel
 
     * See section ...
 
-3. *How do I incorporate data from other sources such as nearby climate stations, e.g., for gap-filling, into my database?*
+3. *I replaced my 2-m air temperature (or any other) sensor; how do I tell Matlab to read multiple date ranges, one for each sensor?*
+
+    * Use the `inputFileName` and `inputFileName_dates` parameters, with the syntax as in the following example, showing three different sensors with their respective date ranges:
+
+    <pre>variableName = 'TA_1_1_1'
+title = 'Air temperature at 2m (HMP)'
+originalVariable = 'Air temperature at 2m (HMP)'
+inputFileName = {'MET_HMP_T_2m_Avg','LI7700_Tair','MET_HMP155_2m'}
+inputFileName_dates = [datenum(2010,1,1) datenum(2020,1,1);datenum(2020,1,1) datenum(2024,1,1);datenum(2024,1,1) datenum(2999,1,1)]
+measurementType = 'met'
+units = '∞C'
+instrument = 'HMP155A'
+...</pre>
+
+4. *How do I incorporate data from other sources such as nearby climate stations, e.g., for gap-filling, into my database?*
 
     * See section 5.2: subsection "Create Database Using Data from Canadian Meteorological Stations".
 
-4. *When I run the third stage cleaning, why does it finish so quickly (less than a minute), and/or why is there is no data output in the* `Database` *directory?*
+5. *When I run third stage cleaning, why does it finish so quickly (less than a minute), and/or why is there is no data output in the* `Database` *directory?*
 
     * Check the log file that is produced automatically when running the third stage (`SITEID1_ThirdStageCleaning.log`). It is informative and will usually tell you the issue; it is located here:
 
@@ -55,7 +69,21 @@ Note that this page will continue to be updated as the pipeline is further devel
 
     * Check that after you downloaded and unzipped the `Biomet.net` library, you renamed it from `Biomet.net-main` to **`Biomet.net`**.
 
-5. *My raw eddy-covariance data has a frequency of 10 Hz (rather than 20 Hz): how do I tell the pipeline to utilize this information in the diagnostics, used records and file records?*
+6. *Matlab cannot find R/Rscript on my computer, even though it is installed with the correct versions. How do I fix this?*
+
+    * Create a function called `biomet_Rpath_default.m` and put it in your project Matlab folder. You can explicitly define the path to the Rscript executable file, like in the example below:
+
+        *Mac example:*
+        <pre>function folderR = biomet_Rpath_default
+        folderR = '/usr/local/bin/Rscript';</pre>
+
+        *Windows example:*
+        <pre>function folderR = biomet_Rpath_default
+        folderR = 'C:\Program Files\R\R-4.4.1\bin\Rscript.exe';</pre>
+
+    * This can happen if R and/or Matlab are not both in "Program Files" folder, on Windows. 
+
+7. *My raw eddy-covariance data has a frequency of 10 Hz (rather than 20 Hz): how do I tell the pipeline to utilize this information in the diagnostics, used records and file records?*
 
     * In your `SITEID1_FirstStage.ini` file, you can use global variables to overwrite diagnostic settings defined in include files (see section 5.3: subsection Global variables and include files), as follows:
     <pre>
@@ -63,6 +91,18 @@ Note that this page will continue to be updated as the pipeline is further devel
     % Example: globalVars.Trace.used_records.minMax = [1500*frequency 1800*frequency] %(where frequency is typically 10 or 20 Hz)
     globalVars.Trace.used_records.minMax 					= [15000 18000] 
     globalVars.Trace.file_records.minMax 					= [15000 18000]</pre>
+
+8. *Is there a fast way to check whether variables loaded into my database actually contain data (or if all data points are NaN)?*
+
+    * Yes. Call the following function by giving it siteID, year, and cleaning stage number (1 or 2), and it will return the names of all traces from that stage that contain no other numbers but NaNs:
+    <pre>cntAllNanFiles = findAllNaNfiles('DSM',2025,1);</pre>
+
+    * Alternatively, you can just point it to a folder with database files without specifying anything else:
+    <pre>cntAllNanFiles = findAllNaNfiles('E:\Pipeline_Projects\database\2024\DSM\Clean\SecondStage');</pre>
+
+    * Sample output:
+    <img src="images/matlab/findAllNaNfiles.jpg" alt="findAllNaNfiles" width="650"/>   
+
 
 </div>
 
@@ -102,5 +142,66 @@ This section outlines some recurring special cases and how to deal with them:
     <pre>*** Error! File: ".../Database/2024/RBM/met/Clean/TA_1_1_1" cannot be opened!</pre>
 
     This is because the `measurementType` parameter in your first stage INI file has lower case. To fix this, make sure that you are using upper case for the `measurementType` parameter everywhere it appears in your first stage INI, e.g., `measurementType = 'Met'` or `measurementType = 'Flux'`.
+
+4. *I am starting with a "clean" data set, for example from Ameriflux or ICOS. Is there a quick or generic way to create INI files directly from this data to get it into the pipeline to run third stage/gap-filling?*
+
+    * Yes, we have a generic way of doing this, and one specifically designed for data downloaded from Ameriflux (BASE and BIF).
+    
+    * Usually, these input files have a small number of traces (<100) and they don't need to use our "include" files.
+
+    * Once the INI files are created, they can be edited to include some additional cleaning or data manipulation. 
+
+    *Generic solution:*
+    
+    * First convert the input (usually CSV) files to our database format (see sections 4.2/5.2).
+    * Run the code below, after editing the inputs to match your site. In particular, make sure you get the siteID and the startYear right.
+
+    <pre>
+    startYear = 2021;
+    siteID = 'mySite'
+    GMT_offset = -8;
+
+    % Set input parameters:
+    structSetup.startYear = startYear;
+    structSetup.startMonth = 1;
+    structSetup.startDay = 1;
+    structSetup.endYear = 2999;
+    structSetup.endMonth = 12;
+    structSetup.endDay = 31;
+    structSetup.Site_name = 'Long name here';
+    structSetup.siteID = siteID;
+    structSetup.allMeasurementTypes = {'Flux'};
+    structSetup.Difference_GMT_to_local_time = -GMT_offset;     % local+Difference_GMT_to_local_time -> GMT time
+    structSetup.outputPath = [];                                % keep it in the local directory
+    structSetup.isTemplate = false;                             % Set to false if you want to create 
+
+    % create template:
+    createFirstStageIni(structSetup)
+
+    % SecondStage template:
+    createSecondStageIni(structSetup)</pre>
+
+    *Ameriflux solution:*
+
+    * Edit site ID(s), data source path (where you put your downloaded Ameriflux data), and project path as necessary.
+
+    <pre>
+    % Convert Ameriflux BASE+BIF files into TAB database project
+    
+    % Example creating a new project with two sites:
+    allNewSites = {'BR-Npw','CA-BOU'};
+    dbID = 'AMF';
+    sourcePath = 'E:\Pipeline_Projects\Ameriflux_raw';
+    projectPath = 'E:\Pipeline_Projects\Ameriflux_CH4_v2'
+    flagNewSites = false
+    result = convertAmeriflux2TAB(allNewSites,dbID,sourcePath,projectPath,flagNewSites);</pre>
+
+    <pre>% Example: adding a new site to an existing project
+    allNewSites = {'CA-DSM'};
+    dbID = 'AMF';
+    sourcePath = 'E:\Pipeline_Projects\Ameriflux_raw';
+    projectPath = 'E:\Pipeline_Projects\Ameriflux_CH4_v2'
+    flagNewSites = true
+    result = convertAmeriflux2TAB(allNewSites,dbID,sourcePath,projectPath,flagNewSites);</pre>
 
 </div>

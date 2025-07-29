@@ -16,7 +16,7 @@ On this page:
 - <a href="#div_id_Overwrite">Overwrite feature</a>
 - <a href="#div_id_Eval">More about Evaluate and postEvaluate: order of operations</a>
 - <a href="#div_id_Flags">Flags for removing periods of data</a>
-<!-- - <a href="#div_id_CreateFromAmeriflux">Creating INI file from Ameriflux data</a> -->
+- <a href="#div_id_CreateFromAmeriflux">Creating INI files from Ameriflux data</a>
 - <a href="#div_id_SyntaxRules">Programming syntax rules for first and second stage INI files</a>
 - <a href="#div_id_TipsINI">Tips</a>
 
@@ -380,15 +380,15 @@ Occasionally you might need to remove periods of data for certain instruments or
 
 </div>
 
-<!-- <div id="div_id_CreateFromAmeriflux">
+<div id="div_id_CreateFromAmeriflux">
 
 <hr>
 
-#### Creating INI file from Ameriflux data
+### Creating INI files from Ameriflux data
 
-[XXX Add details once I've tested this] Instead of duplicating INI files and rename... Create first stage cleaning INI file from template using `createFirstStageIni` - quick way to put ALL traces from specified folder into template first stage file. Not a good option if starting from Met/Flux folders with EddyPro (1000s of traces), but a good option if starting from Ameriflux downloads (20-50 traces).
+To create INI files starting from downloaded Ameriflux BASE and BIF data, see "Special Cases" in section 7; you will also find an example of how to do this with more generic cleaned data from other sources.
 
-</div> -->
+</div>
 
 <br>
 

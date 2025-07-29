@@ -2,7 +2,7 @@
 
 Before completing this step, you must have the Biomet.net repository cloned or downloaded to your local computer (section 2.2). The following steps are important for ensuring the pipeline scripts and tools run successfully on your local computer. 
 
-#### Instructions for configuring Matlab to work with Biomet.net:
+### Instructions for configuring Matlab to work with Biomet.net:
 * Once Biomet.net is successfully cloned/downloaded, open Matlab.
 
 * In the “Home” tab, click “Set Path” menu option. Figure 2.4A shows what your screen should be displaying when you do this, for Windows, Mac, and Linux users:
