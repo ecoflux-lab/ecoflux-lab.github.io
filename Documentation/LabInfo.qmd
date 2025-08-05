@@ -6,14 +6,34 @@ This page provides information and links to documentation that are relevant to c
 
 ## Information for new lab members
 
-1) Add your info to the 'Lab contact information' doc in Google Drive
+1) Add your info to the 'Lab contact information' doc in the 'Lab information' Teams folder
 2) Review the <a href=../files/grad_expectations_MicrometLab_20220114.pdf>Grad Expectations document </a>
 3) Coordinate a day/time for your bi-weekly lab meeting with Sara
-4) Make sure you’ve been added to the Google Drive account and Slack Workspace
+4) Make sure you’ve been added to the Teams channel
 5) Send bio and picture to Sara so that she can add you to the lab website
-6) Review program requirements (see below). More information on potential courses can be found [here](https://docs.google.com/document/d/1Aj2DghLRYhFqoIMposPYwHl772gsQ8CTwZ09oXXrJDw/edit?usp=sharing).
+6) Review program requirements (see below). More information on potential courses can be found can be found in the 'Graduate student information' Teams folder
 
-## Program requirements
+## Program requirements for McGill
+### [MSc](https://www.mcgill.ca/geography/graduate) (typical timeline)
+
+* Year 1
+  * Courses including: 
+      * 3 credits for GEOG 631: Methods of Geographical Research
+      * 12 credits for four 3-credit graduate-level courses selected according to Department guidelines. 
+      * 6 credits for GEOG 698: Thesis Proposal. Note that working on your literature review and thesis proposal is an important component of your first year.
+  * Identify committee members and schedule first meeting with your committee towards the end of the winter semester.
+  * Complete the [Graduate Student Research Progress Tracking Form](https://www.mcgill.ca/gps/students/progress-tracking) with me. This form should be completed by the end of your first year.
+  * Fieldwork/research (primarily in the summer of your first year)
+
+* Year 2
+  * 24 credits for GEOG 699: Thesis Research
+  * Fieldwork/research
+  * Complete the [Graduate Student Research Progress Tracking Form](https://www.mcgill.ca/gps/students/progress-tracking) with me and schedule a second committee meeting at the end of the winter semester. 
+  * Submit final thesis (**guidelines for the thesis** can be found [here](https://www.mcgill.ca/gps/thesis/thesis-guidelines/preparation)). 
+
+Note that the thesis manuscript is usually 80 to 100 pages in length. Students are expected to complete their degrees within 24 months.
+
+## Program requirements for UBC
 ### [PhD](https://geog.ubc.ca/graduate/phd-program/) (typical timeline)
 
 * Fall term Year 1
@@ -108,7 +128,7 @@ This page provides information and links to documentation that are relevant to c
 * Summer Year 2
   * Thesis defense & submit final thesis (**guidelines for the thesis** can be found [here](https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/formatting-requirements)). And see ‘msc-thesis-defence-revised.pdf’ doc for details.
 
-## Leaving the lab checklist
+<!-- ## Leaving the lab checklist - UPDATE WITH REPRODUCIBLE DATA!
 
 We're sad to see you go, but we're excited for your next adventure! However, before you leave, make sure to:
 
@@ -116,5 +136,5 @@ We're sad to see you go, but we're excited for your next adventure! However, bef
 
 2) Make sure to share all relevant data with Sara. Ideally this would be in the data folder in each of your project/chapter folders.
 
-3) Return all keys, equipment, field gear that belong to be lab/university.
+3) Return all keys, equipment, field gear that belong to be lab/university. -->
 
