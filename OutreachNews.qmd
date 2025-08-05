@@ -4,6 +4,9 @@ title: "Outreach and News"
 ## 2025
 
 ### July
+A Radio-Canada piece featuring our CARBONIQUE research project:
+
+[![](images/news-banners/radio-canada.png){width=300}](https://ici.radio-canada.ca/recit-numerique/13342/tourbieres-carbone-changements-climatiques-quebec)
 
 An article featuring our work in Futurum Careers, a STEM outreach magazine:
 
@@ -18,7 +21,7 @@ We had a great time at the lab barbecue!
 
 ### April
 
-Watch the CARBONIQUE team set up two eddy covariance flux towers (5m and 22m) in an open and wooded bog peatland at the Lac-à-la-Tortue peatland complex. 
+Watch the CARBONIQUE team set up two eddy covariance flux towers (5m and 22m) in an open and forested peatland at the Lac-à-la-Tortue peatland complex. 
 
 {{< video https://www.youtube.com/watch?v=H0BmmfVAthQ >}}
 
@@ -31,13 +34,13 @@ I spoke about the importance of wetlands with McGill Research and Innovation on 
 ## 2024
 
 ### December
-A LeDevoir paper highlighting our CARBONIQUE research project:
+A Le Devoir article highlighting our CARBONIQUE research project:
 
 
 [![](images/news-banners/towers.jpg)](https://www.ledevoir.com/environnement/826589/force-cachee-marecages?)
 
 ### November
-UQAM University paper on the CARBONIQUE research project:
+UQAM University news article on the CARBONIQUE research project:
 
 [![](images/news-banners/UQAM.png){width=300}](https://actualites.uqam.ca/2024/plus-de-12-m-pour-etudier-le-carbone-en-milieu-humide/)
 
