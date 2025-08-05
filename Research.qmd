@@ -15,7 +15,7 @@ My interdisciplinary research addresses these knowledge gaps by quantifying how 
 ## EcoFlux Research Projects
 
 ### CARBONIQUE  - CARBON cycling In QUEbec’s wetlands
-<img src="images/NECB.png" style="float: left; margin-top: 20px; margin-right: 25px; margin-bottom: 15px" width="300" height="250"/>
+<img src="images/NECB.png" style="float: left; margin-top: 20px; margin-right: 25px; margin-bottom: 15px" width="400" height="250"/>
 
 [CARBONIQUE](https://carbonique.ca/en/) is funded by the Ministère de l’Environnement (MELCCFP) and NSERC and co-led by seven principal investigators across five Quebec universities. It focuses on measuring and modelling GHG fluxes across a range of wetland types in southern Quebec – including open and forested bogs, forested swamps, and freshwater marshes – under both natural and disturbed conditions. It represents the largest and most comprehensive assessment of wetland carbon dynamics undertaken in Canada. Our team is using a combination of eddy covariance, chamber-based flux measurements, and lateral carbon flux monitoring to quantify the full carbon budget of these systems under varying hydrological and land-use regimes. The project aims to generate high-quality empirical data, coupled with modelling tools and management frameworks, to inform and enable the deployment of evidence-based, verifiable, and scalable wetland-based climate solutions. The results will directly support Quebec’s Plan pour une économie verte and Canada’s national climate adaptation and mitigation strategies by providing robust assessments of the capacity wetland restoration and conservation to contribute to GHG reduction goals.
 

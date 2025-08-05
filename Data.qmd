@@ -3,28 +3,33 @@ title: "Field Sites & Data"
 ---
 <img src="images/bb2-banner.jpeg" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"/>
 
-## Field Sites
-This web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.
+# Field Sites
 
-* Click the points to sites to see more information.
+## Towers (Co-)Led by EcoFlux Lab
 
-<div style="overflow: hidden;
-  padding-top: 75%;
-  position: relative">
-  <iframe src="https://ubc-micromet.github.io/FieldSiteMaps/" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
+```{r}
+library(leaflet)
 
- <a href="https://ubc-micromet.github.io/FieldSiteMaps/">View map in separate window</a> 
+# Example coordinates (replace with your own)
+site_data <- data.frame(
+  site = c("CA-DBB","CA-DB2","CA-DSM", "CA-RBM", "CA-EM1","CA-EM2","CA-EM3","UQAM1","UQAM2","UQAM3","MCGILL1"),
+  lat = c(49.1293,49.1190,49.0887,49.1313,
+          50.3623,50.3706,50.1738,46.1645,46.5317,46.527972,46.149299),
+  lon = c(-122.9849,-122.9951,-122.8954,-123.1964,
+          -100.2024,-100.5339,-97.1231,-72.6850,-72.6447,-72.64625,-72.726666)
+)
 
-### Burns Bog 1 (BB)
+# Create the interactive map
+leaflet(data = site_data) %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%  # Satellite-style background
+  addMarkers(~lon, ~lat, label = ~site)
+```
+
+### CARBONIQUE Sites - UQAM1, UQAM2, UQAM3, MCGILL1
+
+For the location and description of the sites in CARBONIQUE project see the [Field Sites & Data page](https://carbonique.ca/en/data.html). The data collected can be viewed [here](https://288-gic-rshiny.geog.mcgill.ca/knox/carbonique/).
+
+### Burns Bog 1 (CA-DBB)
 :::: {.columns}
 
 :::{.column width="65%"}
@@ -45,7 +50,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Burns Bog 2 (BB2)
+### Burns Bog 2 (CA-DB2)
 
 :::: {.columns}
 
@@ -87,7 +92,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Delta Salt Marsh (DSM)
+### Delta Salt Marsh (CA-DSM)
 :::: {.columns}
 
 ::: {.column width="65%"}
@@ -108,7 +113,7 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### Richmond Brackish Marsh (RBM)
+### Richmond Brackish Marsh (CA-RBM)
 
 :::: {.columns}
 
@@ -130,10 +135,13 @@ This web-app shows the sites where operate Eddy Covariance towers and Flux Chamb
 
 ::::
 
-### UBC Climate Station on Totem Field
+### CA-EM1, CA-EM2, CA-EM3
+These sites are co-managed with [Dr. Pascal Badiou](https://iwwr.ducks.ca/team/pascal-badiou/) at [Ducks Unlimited Canada](https://www.ducks.ca/). More information on the sites and project are available on the [project website page](https://www.wetlandsolutions.org).
+
+## UBC Climate Station on Totem Field
 * Access to [custom data download](http://137.82.254.122/DataExport.aspx) of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format.
 
 ## Code and Documentation
-Our <a href="https://github.com/ubc-micromet">lab github</a> hosts code for flux processing, README docs for our lab, and various other bits of information.
+Our <a href="https://github.com/CANFLUX">lab organization</a> hosts code for flux processing, README docs for our lab, and various other bits of information. Details on our data processing pipeline are available on our [Pipeline Documentation page](https://ecoflux-lab.github.io/PipelineDocumentation/PipelineDocumentation.html)
 
 More documentation related to maintenance procedures for our sites can be found <a href="https://ubc-micromet.github.io/Documentation.html">here</a>.

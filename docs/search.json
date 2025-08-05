@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "Data.html#field-sites",
-    "href": "Data.html#field-sites",
+    "objectID": "Data.html#towers-co-led-by-ecoflux-lab",
+    "href": "Data.html#towers-co-led-by-ecoflux-lab",
     "title": "Field Sites & Data",
-    "section": "Field Sites",
-    "text": "Field Sites\nThis web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.\n\nClick the points to sites to see more information.\n\n\n\n&lt;p&gt;\nYour browser does not support iframes.\n&lt;/p&gt;\n&lt;p&gt;\n\nView map in separate window\n\nBurns Bog 1 (BB)\n\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\nDownload Data for CA-DBB from Ameriflux.\nData from the web plots are available here\n\nprefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog 2 (BB2)\n\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\nDownload Data for CA-DB2 will soon be available from Ameriflux.\nData from the web plots are available here\n\nprefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB2 Site Photos\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog Seedling (BBS)\n\n\n\nFlux chambers were installed in spring 2023\nA temporary flux tower was installed in summer 2023\n\nmore info to come\n\n\n\n\n\n\n\n\n\n\n\n\nDelta Salt Marsh (DSM)\n\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\nData from CA-DSM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix DSM. note that this is raw data – no filtering or QCQA.\n\nDSM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nRichmond Brackish Marsh (RBM)\n\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\nData from CA-RBM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix RBM. note that this is raw data – no filtering or QCQA.\n\nRBM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nUBC Climate Station on Totem Field\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
+    "section": "Towers (Co-)Led by EcoFlux Lab",
+    "text": "Towers (Co-)Led by EcoFlux Lab\n\n\n\n\n\n\n\nCARBONIQUE Sites - UQAM1, UQAM2, UQAM3, MCGILL1\nFor the location and description of the sites in CARBONIQUE project see the Field Sites & Data page. The data collected can be viewed here.\n\n\nBurns Bog 1 (CA-DBB)\n\n\n\nData Preview Graph (CA-DBB) (2014 - *, Delta, BC, Canada)\nDownload Data for CA-DBB from Ameriflux.\nData from the web plots are available here\n\nprefix BB. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB1 Site Photos (also see Dr. Andreas Christen’s previous photos from when he held his position at UBC)\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog 2 (CA-DB2)\n\n\n\nData Preview Graph (CA-DB2) (2019 - *, Delta, BC, Canada)\nDownload Data for CA-DB2 will soon be available from Ameriflux.\nData from the web plots are available here\n\nprefix BB2. note that this is raw data – no filtering or QCQA. Database codes are available here.\n\nBB2 Site Photos\n\n\n\n\n\n\n\n\n\n\n\nBurns Bog Seedling (BBS)\n\n\n\nFlux chambers were installed in spring 2023\nA temporary flux tower was installed in summer 2023\n\nmore info to come\n\n\n\n\n\n\n\n\n\n\n\n\nDelta Salt Marsh (CA-DSM)\n\n\n\nData Preview Graph (CA-DSM) (2021 - *, Delta, BC, Canada)\nData from CA-DSM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix DSM. note that this is raw data – no filtering or QCQA.\n\nDSM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nRichmond Brackish Marsh (CA-RBM)\n\n\n\nData Preview Graph (CA-RBM) (2021 - *, Richmond, BC, Canada)\nData from CA-RBM will soon be available on AmeriFlux.\nData from the web plots are available here\n\nprefix RBM. note that this is raw data – no filtering or QCQA.\n\nRBM Site Photos\n\n\n\n\n\n\n\n\n\n\n\nCA-EM1, CA-EM2, CA-EM3\nThese sites are co-managed with Dr. Pascal Badiou at Ducks Unlimited Canada. More information on the sites and project are available on the project website page."
+  },
+  {
+    "objectID": "Data.html#ubc-climate-station-on-totem-field",
+    "href": "Data.html#ubc-climate-station-on-totem-field",
+    "title": "Field Sites & Data",
+    "section": "UBC Climate Station on Totem Field",
+    "text": "UBC Climate Station on Totem Field\n\nAccess to custom data download of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format."
   },
   {
     "objectID": "Data.html#code-and-documentation",
     "href": "Data.html#code-and-documentation",
     "title": "Field Sites & Data",
     "section": "Code and Documentation",
-    "text": "Code and Documentation\nOur lab github hosts code for flux processing, README docs for our lab, and various other bits of information.\nMore documentation related to maintenance procedures for our sites can be found here."
+    "text": "Code and Documentation\nOur lab organization hosts code for flux processing, README docs for our lab, and various other bits of information. Details on our data processing pipeline are available on our Pipeline Documentation page\nMore documentation related to maintenance procedures for our sites can be found here."
   },
   {
     "objectID": "People.html",

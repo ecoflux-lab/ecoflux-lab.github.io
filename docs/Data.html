@@ -66,6 +66,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -136,14 +148,19 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#field-sites" id="toc-field-sites" class="nav-link active" data-scroll-target="#field-sites">Field Sites</a>
   <ul class="collapse">
-  <li><a href="#burns-bog-1-bb" id="toc-burns-bog-1-bb" class="nav-link" data-scroll-target="#burns-bog-1-bb">Burns Bog 1 (BB)</a></li>
-  <li><a href="#burns-bog-2-bb2" id="toc-burns-bog-2-bb2" class="nav-link" data-scroll-target="#burns-bog-2-bb2">Burns Bog 2 (BB2)</a></li>
+  <li><a href="#towers-co-led-by-ecoflux-lab" id="toc-towers-co-led-by-ecoflux-lab" class="nav-link" data-scroll-target="#towers-co-led-by-ecoflux-lab">Towers (Co-)Led by EcoFlux Lab</a>
+  <ul class="collapse">
+  <li><a href="#carbonique-sites---uqam1-uqam2-uqam3-mcgill1" id="toc-carbonique-sites---uqam1-uqam2-uqam3-mcgill1" class="nav-link" data-scroll-target="#carbonique-sites---uqam1-uqam2-uqam3-mcgill1">CARBONIQUE Sites - UQAM1, UQAM2, UQAM3, MCGILL1</a></li>
+  <li><a href="#burns-bog-1-ca-dbb" id="toc-burns-bog-1-ca-dbb" class="nav-link" data-scroll-target="#burns-bog-1-ca-dbb">Burns Bog 1 (CA-DBB)</a></li>
+  <li><a href="#burns-bog-2-ca-db2" id="toc-burns-bog-2-ca-db2" class="nav-link" data-scroll-target="#burns-bog-2-ca-db2">Burns Bog 2 (CA-DB2)</a></li>
   <li><a href="#burns-bog-seedling-bbs" id="toc-burns-bog-seedling-bbs" class="nav-link" data-scroll-target="#burns-bog-seedling-bbs">Burns Bog Seedling (BBS)</a></li>
-  <li><a href="#delta-salt-marsh-dsm" id="toc-delta-salt-marsh-dsm" class="nav-link" data-scroll-target="#delta-salt-marsh-dsm">Delta Salt Marsh (DSM)</a></li>
-  <li><a href="#richmond-brackish-marsh-rbm" id="toc-richmond-brackish-marsh-rbm" class="nav-link" data-scroll-target="#richmond-brackish-marsh-rbm">Richmond Brackish Marsh (RBM)</a></li>
-  <li><a href="#ubc-climate-station-on-totem-field" id="toc-ubc-climate-station-on-totem-field" class="nav-link" data-scroll-target="#ubc-climate-station-on-totem-field">UBC Climate Station on Totem Field</a></li>
+  <li><a href="#delta-salt-marsh-ca-dsm" id="toc-delta-salt-marsh-ca-dsm" class="nav-link" data-scroll-target="#delta-salt-marsh-ca-dsm">Delta Salt Marsh (CA-DSM)</a></li>
+  <li><a href="#richmond-brackish-marsh-ca-rbm" id="toc-richmond-brackish-marsh-ca-rbm" class="nav-link" data-scroll-target="#richmond-brackish-marsh-ca-rbm">Richmond Brackish Marsh (CA-RBM)</a></li>
+  <li><a href="#ca-em1-ca-em2-ca-em3" id="toc-ca-em1-ca-em2-ca-em3" class="nav-link" data-scroll-target="#ca-em1-ca-em2-ca-em3">CA-EM1, CA-EM2, CA-EM3</a></li>
   </ul></li>
+  <li><a href="#ubc-climate-station-on-totem-field" id="toc-ubc-climate-station-on-totem-field" class="nav-link" data-scroll-target="#ubc-climate-station-on-totem-field">UBC Climate Station on Totem Field</a></li>
   <li><a href="#code-and-documentation" id="toc-code-and-documentation" class="nav-link" data-scroll-target="#code-and-documentation">Code and Documentation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -170,29 +187,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="images/bb2-banner.jpeg" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; object-fit: fill" width="750"></p>
-<section id="field-sites" class="level2">
-<h2 class="anchored" data-anchor-id="field-sites">Field Sites</h2>
-<p>This web-app shows the sites where operate Eddy Covariance towers and Flux Chamber sites in wetlands across the Metro Vancouver.</p>
-<ul>
-<li>Click the points to sites to see more information.</li>
-</ul>
-<div style="overflow: hidden;
-  padding-top: 75%;
-  position: relative">
-<iframe src="https://ubc-micromet.github.io/FieldSiteMaps/" title="Processes" scrolling="no" frameborder="0" style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-<p>
-Your browser does not support iframes.
-</p>
-<p></iframe><p></p>
+<section id="field-sites" class="level1">
+<h1>Field Sites</h1>
+<section id="towers-co-led-by-ecoflux-lab" class="level2">
+<h2 class="anchored" data-anchor-id="towers-co-led-by-ecoflux-lab">Towers (Co-)Led by EcoFlux Lab</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-e737d9e26bf2befe3d43" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-e737d9e26bf2befe3d43">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[[49.1293,49.119,49.0887,49.1313,50.3623,50.3706,50.1738,46.1645,46.5317,46.527972,46.149299],[-122.9849,-122.9951,-122.8954,-123.1964,-100.2024,-100.5339,-97.12309999999999,-72.685,-72.6447,-72.64624999999999,-72.72666599999999],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["CA-DBB","CA-DB2","CA-DSM","CA-RBM","CA-EM1","CA-EM2","CA-EM3","UQAM1","UQAM2","UQAM3","MCGILL1"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[46.149299,50.3706],"lng":[-123.1964,-72.6447]}},"evals":[],"jsHooks":[]}</script>
 </div>
-<p><a href="https://ubc-micromet.github.io/FieldSiteMaps/">View map in separate window</a></p>
-<section id="burns-bog-1-bb" class="level3">
-<h3 class="anchored" data-anchor-id="burns-bog-1-bb">Burns Bog 1 (BB)</h3>
+</div>
+<section id="carbonique-sites---uqam1-uqam2-uqam3-mcgill1" class="level3">
+<h3 class="anchored" data-anchor-id="carbonique-sites---uqam1-uqam2-uqam3-mcgill1">CARBONIQUE Sites - UQAM1, UQAM2, UQAM3, MCGILL1</h3>
+<p>For the location and description of the sites in CARBONIQUE project see the <a href="https://carbonique.ca/en/data.html">Field Sites &amp; Data page</a>. The data collected can be viewed <a href="https://288-gic-rshiny.geog.mcgill.ca/knox/carbonique/">here</a>.</p>
+</section>
+<section id="burns-bog-1-ca-dbb" class="level3">
+<h3 class="anchored" data-anchor-id="burns-bog-1-ca-dbb">Burns Bog 1 (CA-DBB)</h3>
 <div class="columns">
 <div class="column" style="width:65%;">
 <ul>
@@ -213,8 +223,8 @@ Your browser does not support iframes.
 </div>
 </div>
 </section>
-<section id="burns-bog-2-bb2" class="level3">
-<h3 class="anchored" data-anchor-id="burns-bog-2-bb2">Burns Bog 2 (BB2)</h3>
+<section id="burns-bog-2-ca-db2" class="level3">
+<h3 class="anchored" data-anchor-id="burns-bog-2-ca-db2">Burns Bog 2 (CA-DB2)</h3>
 <div class="columns">
 <div class="column" style="width:65%;">
 <ul>
@@ -255,8 +265,8 @@ Your browser does not support iframes.
 </div>
 </div>
 </section>
-<section id="delta-salt-marsh-dsm" class="level3">
-<h3 class="anchored" data-anchor-id="delta-salt-marsh-dsm">Delta Salt Marsh (DSM)</h3>
+<section id="delta-salt-marsh-ca-dsm" class="level3">
+<h3 class="anchored" data-anchor-id="delta-salt-marsh-ca-dsm">Delta Salt Marsh (CA-DSM)</h3>
 <div class="columns">
 <div class="column" style="width:65%;">
 <ul>
@@ -277,8 +287,8 @@ Your browser does not support iframes.
 </div>
 </div>
 </section>
-<section id="richmond-brackish-marsh-rbm" class="level3">
-<h3 class="anchored" data-anchor-id="richmond-brackish-marsh-rbm">Richmond Brackish Marsh (RBM)</h3>
+<section id="richmond-brackish-marsh-ca-rbm" class="level3">
+<h3 class="anchored" data-anchor-id="richmond-brackish-marsh-ca-rbm">Richmond Brackish Marsh (CA-RBM)</h3>
 <div class="columns">
 <div class="column" style="width:65%;">
 <ul>
@@ -299,19 +309,24 @@ Your browser does not support iframes.
 </div>
 </div>
 </section>
-<section id="ubc-climate-station-on-totem-field" class="level3">
-<h3 class="anchored" data-anchor-id="ubc-climate-station-on-totem-field">UBC Climate Station on Totem Field</h3>
+<section id="ca-em1-ca-em2-ca-em3" class="level3">
+<h3 class="anchored" data-anchor-id="ca-em1-ca-em2-ca-em3">CA-EM1, CA-EM2, CA-EM3</h3>
+<p>These sites are co-managed with <a href="https://iwwr.ducks.ca/team/pascal-badiou/">Dr.&nbsp;Pascal Badiou</a> at <a href="https://www.ducks.ca/">Ducks Unlimited Canada</a>. More information on the sites and project are available on the <a href="https://www.wetlandsolutions.org">project website page</a>.</p>
+</section>
+</section>
+<section id="ubc-climate-station-on-totem-field" class="level2">
+<h2 class="anchored" data-anchor-id="ubc-climate-station-on-totem-field">UBC Climate Station on Totem Field</h2>
 <ul>
 <li>Access to <a href="http://137.82.254.122/DataExport.aspx">custom data download</a> of standard measured meteorological observations (air temperature, humidity, precipitation, soil temperatures, solar irradiance, wind) measured since 1958. Data can be downloaded in .csv format.</li>
 </ul>
 </section>
-</section>
 <section id="code-and-documentation" class="level2">
 <h2 class="anchored" data-anchor-id="code-and-documentation">Code and Documentation</h2>
-<p>Our <a href="https://github.com/ubc-micromet">lab github</a> hosts code for flux processing, README docs for our lab, and various other bits of information.</p>
+<p>Our <a href="https://github.com/CANFLUX">lab organization</a> hosts code for flux processing, README docs for our lab, and various other bits of information. Details on our data processing pipeline are available on our <a href="https://ecoflux-lab.github.io/PipelineDocumentation/PipelineDocumentation.html">Pipeline Documentation page</a></p>
 <p>More documentation related to maintenance procedures for our sites can be found <a href="https://ubc-micromet.github.io/Documentation.html">here</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
