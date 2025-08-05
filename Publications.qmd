@@ -4,8 +4,8 @@ format:
   html:
     code-fold: true
 
-bibliography: lab_publications.json
-section-bibs-bibliography: lab_publications.json
+bibliography: lab_publications_sorted.json
+section-bibs-bibliography: lab_publications_sorted.json
 section-bibs-level: 2 # May require edit to line 78 in _extensions/section-bibliographies.lua - have submitted issue
 citeproc: False
 csl: american-geophysical-union.csl
@@ -17,6 +17,8 @@ filters:
 bold-auth-name:
   - family: Knox
     given: S. H.
+  - family: Knox
+    given: S.
   - family: Skeeter
     given: J.
   - family: Lee
@@ -29,6 +31,8 @@ bold-auth-name:
     given: T.-Y.  
   - family: Russell
     given: S. J.
+  - family: Russell
+    given: S.
   - family: Katrina
     given: P.
   - family: Ng
@@ -39,57 +43,94 @@ bold-auth-name:
     given: T.
   - family: Howard
     given: R.
+  - family: Moore
+    given: P.
+  - family: Zhang
+    given: H.
+  - family: Li
+    given: J.
 ---
+
+<!-- To update the publication list, first export a zotero CSL JSON file and rename as lab_publications. Then run code 'sort_publication.R before running this script to generate file lab_publications_sorted.json -->
 
 ## Peer Reviewed Journal Articles
 
+For the most up-to-date list, please visit my [Google Scholar page](https://scholar.google.com/citations?user=-yNUihgAAAAJ&hl=en)
+
 ::: hide-me
 
-@quan_estimating_2023
-
-@russell_increased_2023
-
-@lee_biogeochemical_2022
-
-@nyberg_impacts_2022
-
-@lee_biophysical_2021
-
-<!-- @yuan_causality_2022 -->
-
-<!-- @ouyang_paddy_2023 -->
-
-@zhang_anthropogenic_2021
-
-@miller_potential_2021
-
-<!-- @irvin_gap_2021 -->
-
-@knox_identifying_2021
-
-@delwiche_fluxnet_2021
-
-<!-- @chang_substantial_2021 -->
-
-@dronova_remotely_2021
-
-@fisher_once_2021
-
-<!-- @chu_representativeness_2021 -->
-
-@bogard_hydrologic_2020
-
-<!-- @pastorello_fluxnet_2020 -->
-
-<!-- @feagin_tidal_2020 -->
-
-@kim_gap-filling_2019
-
-@mcnicol_where_2019
-
-@knox_fluxnet_2019
-
-<!-- @peltola_monthly_2019 -->
+@http://zotero.org/users/16062011/items/JY2VC3VC 
+@http://zotero.org/users/16062011/items/3BPUN9KS 
+@http://zotero.org/users/16062011/items/Q5XQHTKF 
+@http://zotero.org/users/16062011/items/VWPGVTX9 
+@http://zotero.org/users/16062011/items/KF3FZHKR 
+@http://zotero.org/users/16062011/items/NF9K25S8 
+@http://zotero.org/users/16062011/items/PENASLKE 
+@http://zotero.org/users/16062011/items/MZJAMZWT 
+@http://zotero.org/users/16062011/items/HE5M5PXH 
+@http://zotero.org/users/16062011/items/LETDFHRC 
+@http://zotero.org/users/16062011/items/YAC2IAA7 
+@http://zotero.org/users/16062011/items/GLD8F8CY 
+@http://zotero.org/users/16062011/items/UVLAI497 
+@http://zotero.org/users/16062011/items/SKFPZSXX 
+@http://zotero.org/users/16062011/items/7YA7SH7T 
+@http://zotero.org/users/16062011/items/F9TE4UMJ 
+@http://zotero.org/users/16062011/items/6BJRVDEB 
+@http://zotero.org/users/16062011/items/BU7N6R37 
+@http://zotero.org/users/16062011/items/IDCMX85X 
+@http://zotero.org/users/16062011/items/7SLFG6MH 
+@http://zotero.org/users/16062011/items/AFYCKU2V 
+@http://zotero.org/users/16062011/items/ZKNSTGZB 
+@http://zotero.org/users/16062011/items/5SCBHQB6 
+@http://zotero.org/users/16062011/items/VH9CD4VJ 
+@http://zotero.org/users/16062011/items/Q46MCKJ9 
+@http://zotero.org/users/16062011/items/FA354G5H 
+@http://zotero.org/users/16062011/items/C8XW8SYE 
+@http://zotero.org/users/16062011/items/H52D8RBS 
+@http://zotero.org/users/16062011/items/VI9NLWH7 
+@http://zotero.org/users/16062011/items/ABJF74LD 
+@http://zotero.org/users/16062011/items/A2IBX8JX 
+@http://zotero.org/users/16062011/items/J63JF23R 
+@http://zotero.org/users/16062011/items/8GBBVPC2 
+@http://zotero.org/users/16062011/items/L627JN4X 
+@http://zotero.org/users/16062011/items/SSM82IV9 
+@http://zotero.org/users/16062011/items/AEC37JT7 
+@http://zotero.org/users/16062011/items/B9VQIP4X 
+@http://zotero.org/users/16062011/items/LMHEZYYT 
+@http://zotero.org/users/16062011/items/9L6JMHWQ 
+@http://zotero.org/users/16062011/items/SG7Y5E7Q 
+@http://zotero.org/users/16062011/items/LISCEGYQ 
+@http://zotero.org/users/16062011/items/VBTH9UW6 
+@http://zotero.org/users/16062011/items/49BLPKGE 
+@http://zotero.org/users/16062011/items/WNTQDLMD 
+@http://zotero.org/users/16062011/items/LF9362FN 
+@http://zotero.org/users/16062011/items/LW3U4Y3N 
+@http://zotero.org/users/16062011/items/9RXTSCBD 
+@http://zotero.org/users/16062011/items/PEVMYWVQ 
+@http://zotero.org/users/16062011/items/24JGQI7V 
+@http://zotero.org/users/16062011/items/KH5T8V7X 
+@http://zotero.org/users/16062011/items/MXN4GBPB 
+@http://zotero.org/users/16062011/items/UN9TTLA3 
+@http://zotero.org/users/16062011/items/LDXNX3GH 
+@http://zotero.org/users/16062011/items/N577ZFH9 
+@http://zotero.org/users/16062011/items/HP7SAGKH 
+@http://zotero.org/users/16062011/items/L9QKA9Z3 
+@http://zotero.org/users/16062011/items/SP2K5JZ6 
+@http://zotero.org/users/16062011/items/ND77BDD8 
+@http://zotero.org/users/16062011/items/TFJYWJZU 
+@http://zotero.org/users/16062011/items/77YZQPYQ 
+@http://zotero.org/users/16062011/items/ESXR5IG5 
+@http://zotero.org/users/16062011/items/AJT74ZWC 
+@http://zotero.org/users/16062011/items/QYW8KUM8 
+@http://zotero.org/users/16062011/items/H4KFW5N7 
+@http://zotero.org/users/16062011/items/L6VRK8R7 
+@http://zotero.org/users/16062011/items/XEXBU69I 
+@http://zotero.org/users/16062011/items/VEUNFEH8 
+@http://zotero.org/users/16062011/items/43QN3NDK 
+@http://zotero.org/users/16062011/items/TA4KGBKU 
+@http://zotero.org/users/16062011/items/INNRTGQZ 
+@http://zotero.org/users/16062011/items/SI7A5IXI 
+@http://zotero.org/users/16062011/items/PV5GWCRH 
 
 :::
 
@@ -97,11 +138,11 @@ bold-auth-name:
 
 ::: hide-me
 
-@satriawan_interannual_2022
-
-@russell_increased_2021
-
-@nyberg_impacts_2021
+@http://zotero.org/users/16062011/items/RBPNGKKK 
+@http://zotero.org/users/16062011/items/CWYFA99M 
+@http://zotero.org/users/16062011/items/DKYGTX2X 
+@http://zotero.org/users/16062011/items/KXPVWMI3 
+@http://zotero.org/users/16062011/items/H2EMF8XB 
 
 :::
 
