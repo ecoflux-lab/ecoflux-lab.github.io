@@ -42,10 +42,10 @@ website:
           text: Publications
         - href: Join.qmd
           text: Join the lab
-        - href: Meetings.qmd
-          text: Lab Meetings
-        - href: acknowledgement.qmd
-          text: Territorial and Cultural Acknowledgement
+#        - href: Meetings.qmd
+#          text: Lab Meetings
+#        - href: acknowledgement.qmd
+#          text: Territorial and Cultural Acknowledgement
     
     - id: documentation
       title: "Documentation"
