@@ -6,7 +6,20 @@ On this page:
 
 - <a href="#div_id_GeneralTips">Troubleshooting: some general tips</a>
 - <a href="#div_id_FAQ">FAQ</a>
+    1. Creating one database from multiple files.
+    2. Adding further flux sites to one project after first site is set up.
+    3. Replacing the sensor for one unique variable; using multiple date ranges for each sensor.
+    4. Including data from nearby climate stations for gap-filling.
+    5. Third stage finishing within seconds.
+    6. Helping Matlab to locate R on your computer.
+    7. Informing pipeline of data frequency, e.g., 10 Hz or 20 Hz.
+    8. Determining which existing variables contain all NaNs.
+
 - <a href="#div_id_SpecialCases">Special Cases</a>
+    1. Ignoring variables that have no raw input data but are defined in INI files.
+    2. Creating a project with older Matlab versions than 2023b.
+    3. Issues with upper/lower case on Linux operating system.
+    4. Creating INI files from Ameriflux or other generic network data.
 
 This section presents some general troubleshooting tips outlining things to check to make sure the pipeline scripts will run smoothly. There are also some FAQ, and some guidance on special cases and how to handle them.
 
@@ -37,7 +50,18 @@ Note that this page will continue to be updated as the pipeline is further devel
 
 2. *I have multiple flux sites. Once I've added one site and created my database with data from that site (and cleaned it, etc.), what are the steps to move on to my next site?*
 
-    * See section ...
+    * `create_TAB_ProjectFolders` has a third optional input argument, `flagAddingSiteOnly`. After setting up your project with your first flux site, define your second site ID, then set this argument to TRUE (or '1'). Here is an example of code to create a project from scratch and then add a second site:
+
+    <pre>
+    % Define project path and first site ID
+        projectPath = '/Users/&lt;username&gt;/Projects/test-project/';
+        siteID = 'SITEID1';
+    % Create project
+        create_TAB_ProjectFolders(projectPath,siteID);
+    % Define second site ID
+        siteID = 'SITEID2';
+    % Add site only using same function
+        create_TAB_ProjectFolders(projectPath,siteID,1);</pre>
 
 3. *I replaced my 2-m air temperature (or any other) sensor; how do I tell Matlab to read multiple date ranges, one for each sensor?*
 

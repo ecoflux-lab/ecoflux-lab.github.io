@@ -383,8 +383,24 @@ ul.task-list li input[type="checkbox"] {
 <p>On this page:</p>
 <ul>
 <li><a href="#div_id_GeneralTips">Troubleshooting: some general tips</a></li>
-<li><a href="#div_id_FAQ">FAQ</a></li>
-<li><a href="#div_id_SpecialCases">Special Cases</a></li>
+<li><a href="#div_id_FAQ">FAQ</a>
+<ol type="1">
+<li>Creating one database from multiple files.</li>
+<li>Adding further flux sites to one project after first site is set up.</li>
+<li>Replacing the sensor for one unique variable; using multiple date ranges for each sensor.</li>
+<li>Including data from nearby climate stations for gap-filling.</li>
+<li>Third stage finishing within seconds.</li>
+<li>Helping Matlab to locate R on your computer.</li>
+<li>Informing pipeline of data frequency, e.g., 10 Hz or 20 Hz.</li>
+<li>Determining which existing variables contain all NaNs.</li>
+</ol></li>
+<li><a href="#div_id_SpecialCases">Special Cases</a>
+<ol type="1">
+<li>Ignoring variables that have no raw input data but are defined in INI files.</li>
+<li>Creating a project with older Matlab versions than 2023b.</li>
+<li>Issues with upper/lower case on Linux operating system.</li>
+<li>Creating INI files from Ameriflux or other generic network data.</li>
+</ol></li>
 </ul>
 <p>This section presents some general troubleshooting tips outlining things to check to make sure the pipeline scripts will run smoothly. There are also some FAQ, and some guidance on special cases and how to handle them.</p>
 <p>Note that this page will continue to be updated as the pipeline is further developed and tested.</p>
@@ -411,8 +427,17 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p><em>I have multiple flux sites. Once I’ve added one site and created my database with data from that site (and cleaned it, etc.), what are the steps to move on to my next site?</em></p>
 <ul>
-<li>See section …</li>
-</ul></li>
+<li><code>create_TAB_ProjectFolders</code> has a third optional input argument, <code>flagAddingSiteOnly</code>. After setting up your project with your first flux site, define your second site ID, then set this argument to TRUE (or ‘1’). Here is an example of code to create a project from scratch and then add a second site:</li>
+</ul>
+<pre> % Define project path and first site ID
+     projectPath = '/Users/&lt;username&gt;/Projects/test-project/';
+     siteID = 'SITEID1';
+ % Create project
+     create_TAB_ProjectFolders(projectPath,siteID);
+ % Define second site ID
+     siteID = 'SITEID2';
+ % Add site only using same function
+     create_TAB_ProjectFolders(projectPath,siteID,1);</pre></li>
 <li><p><em>I replaced my 2-m air temperature (or any other) sensor; how do I tell Matlab to read multiple date ranges, one for each sensor?</em></p>
 <ul>
 <li>Use the <code>inputFileName</code> and <code>inputFileName_dates</code> parameters, with the syntax as in the following example, showing three different sensors with their respective date ranges:</li>
