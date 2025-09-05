@@ -8,7 +8,7 @@ On this page:
 - <a href="#div_id_FAQ">FAQ</a>
     1. Creating one database from multiple files.
     2. Adding further flux sites to one project after first site is set up.
-    3. Replacing the sensor for one unique variable; using multiple date ranges for each sensor.
+    3. Multiple date ranges for different sensors applied to one unique variable.
     4. Including data from nearby climate stations for gap-filling.
     5. Third stage finishing within seconds.
     6. Helping Matlab to locate R on your computer.
