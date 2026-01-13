@@ -22,11 +22,11 @@ Updated on: 5 November 2024
 | Software | Recommended version as of above date |
 | -------- | ------------------- |
 | Matlab   | **2024a** (at least 2023b)  |
-| R        | v4.4.2              |
-| RStudio  | 2024.09.0-375       |
+| R        | v4.5.2              |
+| RStudio  | 2025.09.2+418       |
 | Python   | 3.9.6 for Mac       |
 | Git      | Latest available <!-- (see link in 2_Install_Git_Create_Account_Optional.md) -->  |
 
-Your computer/system administrators should be able to help you with all these installations if necessary. 
+Your computer/system administrators should be able to help you with these installations if necessary. 
 
 
