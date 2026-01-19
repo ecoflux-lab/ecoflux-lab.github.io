@@ -105,6 +105,8 @@ website:
               text: "2.5 &nbsp; Install Software: R/RStudio"
             - href: PipelineDocumentation/2_6_Install_Python_Optional.qmd
               text: "2.6 &nbsp; Install Software: Python (optional)"
+            - href: PipelineDocumentation/2_7_Recommended_Software_Versions.qmd
+              text: "2.7 &nbsp; Recommended Software Versions"
         - href: PipelineDocumentation/3_Data_Cleaning_Principles.qmd
           text: "3. Data Cleaning Principles"
         - href: PipelineDocumentation/4_Quick_Start_Tutorial.qmd
@@ -147,10 +149,10 @@ website:
         - href: PipelineDocumentation/7_Troubleshooting_FAQ.qmd
           text: "7. Troubleshooting and FAQ"
           contents:
-            - href: PipelineDocumentation/7_1_Recommended_Software_Versions.qmd
-              text: "7.1 &nbsp; Recommended Software Versions"
-            - href: PipelineDocumentation/7_2_Recently_Added_Features.qmd
-              text: "7.2 &nbsp; Recently Added Features"
+            #- href: PipelineDocumentation/7_1_Recommended_Software_Versions.qmd
+            #  text: "7.1 &nbsp; Recommended Software Versions"
+            - href: PipelineDocumentation/7_1_Recently_Added_Features.qmd
+              text: "7.1 &nbsp; Recently Added Features"
         
 format:
   html:
