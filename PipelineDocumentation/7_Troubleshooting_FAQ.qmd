@@ -14,6 +14,7 @@ On this page:
     6. Helping Matlab to locate R on your computer.
     7. Informing pipeline of data frequency, e.g., 10 Hz or 20 Hz.
     8. Determining which existing variables contain all NaNs.
+    9. Remove time period from data, for all or a subset of traces.
 
 - <a href="#div_id_SpecialCases">Special Cases</a>
     1. Ignoring variables that have no raw input data but are defined in INI files.
@@ -127,6 +128,76 @@ instrument = 'HMP155A'
     * Sample output:
     <img src="images/matlab/findAllNaNfiles.jpg" alt="findAllNaNfiles" width="650"/>   
 
+9. *How do I remove a specific time period from my data?*
+
+    To remove data *within* a time period:
+
+    * In your first stage INI file, use the following code to create a trace called 'flag_Kill_TimePeriod', or similar. You will also need to define a time vector trace 'clean_tv' (defined first in this code snippet), if it does not already exist.
+    
+    * The first code block example removes data for 3 January 2025; adjust this as needed using the datetimes in the 'Evaluate' parameter. 
+    
+    * If you wish to remove data for specific traces you should change the 'dependent' parameter in the 'flag_Kill_TimePeriod' trace from 'tag_All' to the relevant variable names.
+
+    <pre>
+    % Load time vector clean_tv
+    [Trace]
+        variableName = 'clean_tv'
+        title = 'Testing'
+        inputFilename = {'clean_tv'}
+        inputFileName_dates = []
+        measurementType = 'Flux'
+        units = ''
+        instrument = ''
+        instrumentSN = []
+        loggedCalibration = []
+        currentCalibration = []
+        comments = 'Load time vector so that it becomes available for Evaluate calculations'
+        minMax = [Inf, Inf]
+        zeroPt = [-9999]
+        dependent = ''
+    [End]
+
+    [Trace]
+        variableName = 'flag_Kill_TimePeriod'
+        title = 'Testing'
+        inputFileName = {'clean_tv'}
+        inputFileName_dates = 'Flux'
+        units = ''
+        instrument = ''
+        instrumentSN = ''
+        loggedCalibration = []
+        currentCalibration = []
+        comments = 'Remove ALL data from Jan 3, 2025'
+        minMax = [-Inf,Inf]
+        zeroPt = [-9999]
+        Evaluate = 'flag_Kill_TimePeriod = ones(size(clean_tv));
+                    flag_Kill_TimePeriod(clean_tv>datenum(2025,1,3) & clean_tv <= datenum(2025,1,4)) = NaN;'
+        dependent = 'tag_All'
+    [End]    
+    </pre>
+
+    To remove data *outside* a time period:
+
+    * The code snippet below will remove all data prior to September 2021:
+
+    <pre>
+    [Trace]
+        variableName = 'flag_Kill_TimePeriod'
+        title = 'Testing'
+        inputFileName = {'clean_tv'}
+        inputFileName_dates = 'Flux'
+        units = ''
+        instrument = ''
+        instrumentSN = ''
+        loggedCalibration = []
+        currentCalibration = []
+        comments = 'Remove ALL data BEFORE September 2021'
+        % minMax needs to be entered as Matlab datenum like this:
+        minMax = [datenum(2021,9,1) datenum(2099,12,31)]
+        zeroPt = [-9999]
+        dependent = 'tag_All'
+    [End]        
+    </pre>
 
 </div>
 
@@ -212,20 +283,22 @@ This section outlines some recurring special cases and how to deal with them:
     <pre>
     % Convert Ameriflux BASE+BIF files into TAB database project
     
-    % Example creating a new project with two sites:
+    % Example: creating a new project with two sites:
     allNewSites = {'BR-Npw','CA-BOU'};
     dbID = 'AMF';
     sourcePath = 'E:\Pipeline_Projects\Ameriflux_raw';
-    projectPath = 'E:\Pipeline_Projects\Ameriflux_CH4_v2'
-    flagNewSites = false
+    projectPath = 'E:\Pipeline_Projects\Ameriflux_CH4_v2';
+    flagNewSites = false;
     result = convertAmeriflux2TAB(allNewSites,dbID,sourcePath,projectPath,flagNewSites);</pre>
 
     <pre>% Example: adding a new site to an existing project
     allNewSites = {'CA-DSM'};
     dbID = 'AMF';
     sourcePath = 'E:\Pipeline_Projects\Ameriflux_raw';
-    projectPath = 'E:\Pipeline_Projects\Ameriflux_CH4_v2'
-    flagNewSites = true
+    projectPath = 'E:\Pipeline_Projects\Ameriflux_CH4_v2';
+    flagNewSites = true;
     result = convertAmeriflux2TAB(allNewSites,dbID,sourcePath,projectPath,flagNewSites);</pre>
+
+    * If you use this method, you must ensure that you edit the resulting first and second stage INI files giving the following variables positional qualifiers ready for third stage processing/filtering: TA, RH, VPD, SW_IN, WD. The variable names must match the inputs you provide in your site-specific YAML file.
 
 </div>
