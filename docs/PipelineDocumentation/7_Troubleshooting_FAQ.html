@@ -397,13 +397,13 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li><a href="#div_id_SpecialCases">Special Cases</a>
 <ol type="1">
-<li>Ignoring variables that have no raw input data but are defined in INI files.</li>
+<li>Ignoring variables that have no raw input data but are defined in INI include files.</li>
 <li>Creating a project with older Matlab versions than 2023b.</li>
 <li>Issues with upper/lower case on Linux operating system.</li>
 <li>Creating INI files from Ameriflux or other generic network data.</li>
 </ol></li>
 </ul>
-<p>This section presents some general troubleshooting tips outlining things to check to make sure the pipeline scripts will run smoothly. There are also some FAQ, and some guidance on special cases and how to handle them.</p>
+<p>This section presents some general troubleshooting tips outlining things to check to make sure the pipeline scripts will run smoothly, as well as FAQ, and some guidance on special cases and how to handle them.</p>
 <p>Note that this page will continue to be updated as the pipeline is further developed and tested.</p>
 <br>
 <div id="div_id_GeneralTips">
@@ -637,6 +637,41 @@ instrument = 'HMP155A'
 <ul>
 <li>If you use this method, you must ensure that you edit the resulting first and second stage INI files giving the following variables positional qualifiers ready for third stage processing/filtering: TA, RH, VPD, SW_IN, WD. The variable names must match the inputs you provide in your site-specific YAML file.</li>
 </ul></li>
+<li><p><em>I have missing <strong>nighttime</strong> incoming shortwave radiation (SW_IN). Is there a way to gap-fill this data?</em></p>
+<ul>
+<li>Yes. In your second stage INI, use the following code to substitute the estimated global potential radiation during nighttime, which in this example is when global_potential_radiation &lt; 5 W/m^2. You can always edit this threshold. If you are <em>not</em> using the radiation include file (RAD_FirstStage_include.ini) you will also need to define the ‘global_potential_radiation’ trace, otherwise leave this out.</li>
+</ul>
+<pre> [Trace]
+     variableName = 'global_potential_radiation'
+     title = 'Calculate potential radiation'
+     inputFileName = {'clean_tv'}
+     inputFileName_dates = []
+     measurementType = 'met'
+     units = ''
+     instrument = ''
+     instrumentType = ''
+     instrumentSN = ''
+     Evaluate = 'lat = configYAML.Metadata.lat;
+                 long = configYAML.Metadata.long;
+                 longW = -long;
+                 TimeZoneHour = configYAML.Metadata.TimeZoneHour;
+                 GMT = clean_tv - (TimeZoneHour/24);
+                 global_potential_radiation = potential_radiation(GMT,lat,longW);
+     loggedCalibration = []
+     currentCalibration = []
+     comments = 'Above assumes TimeZoneHour in YAML file is negative west of prime meridian. We need to make sure this is standardized. The function potential_radiation() assumes longitude west of prime is positive.'
+     minMax = [0,1361]
+     zeroPt = [-9999]
+     dependent = ''
+ [End]
+
+ [Trace]
+     variableName = 'SW_IN_1_1_1'
+     title = 'Shortwave radiation, incoming'
+     units = 'W m-2'
+     Evaluate = 'flag = (global_potential_radiation &lt; 5);
+                 SW_IN_1_1_1(flag) = global_potential_radiation(flag);'
+ [End]</pre></li>
 </ol>
 </section></div>
 

@@ -493,8 +493,20 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <div id="div_id_Tips">
 <hr>
-<p><strong>TIPS</strong><br>
-We recommend <em>not</em> editing the <code>global_config.yml</code> file directly as it is part of the <code>Biomet.net</code> library and therefore will create issues when you try to update the library (which you should be doing regularly).</p>
+<strong>TIPS</strong><br>
+
+<ul>
+<li>
+We recommend <em>not</em> editing the <code>global_config.yml</code> file directly as it is part of the <code>Biomet.net</code> library and therefore will create issues when you try to update the library (which you should be doing regularly).
+</li>
+<li>
+<p>If your third stage cleaning fails, check the following:</p>
+<ol type="1">
+<li><p>You may have insufficient data for REddyProc: the minimum requirements are continuous fluxes (e.g., NEE, FCH4, H, LE), air temperature, incoming shortwave radiation, vapour pressure deficit, and friction velocity. To help this, you can gap-fill met data in second stage if needed. However, the default setting is that REddyProc will not gap-fill any fluxes with gaps longer than 60 days.</p></li>
+<li><p>Sometimes REddyProc will complete until the end of November but not process December at all if you are missing data from the subsequent year, due to the way REddyProc defines seasons: December belongs to the Dec-Jan-Feb meteorological season. In particular, if you are doing the storage correction, you need storage fluxes not just for the year you are running cleaning for, but also for the year before and following that year, again due to the default season definitions. (If you have multiyear data you will hopefully be consistent with your methods across years, but of course this depends upon data availability at time of cleaning.)</p></li>
+</ol>
+</li>
+</ul>
 </div>
 
 

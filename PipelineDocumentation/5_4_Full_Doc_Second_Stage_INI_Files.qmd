@@ -70,6 +70,7 @@ fr_automated_cleaning(yearIn,'SITEID',[1 2])
 | Evaluate | User defined function.  If no function is applied, default input will just pass the variable from the first stage to the second stage, e.g.,  `Evaluate = 'TKE = TKE;'`.  Use the `calc_avg_trace` function (described above) to average or gap-fill met variables (such as air temperature) with values from secondary measurements or nearby sites (you will need to load these into the first stage before using them in this second stage). See sample file `DSM_SecondStage.ini` for more use cases.|
 | title | Descriptive variable name for plots/visualization. |
 | units | Units for this current trace, e.g. `'W/m^2'`|
+| warnings | Optional. Warning will be printed out at the end of second stage cleaning output. E.g., `warnings = 'Warning in the second stage'`. (Can also use this parameter in first stage, see section 5.3.) 
 
 <br>
 
