@@ -36,13 +36,13 @@ On this page:
 <hr>
 
 ### Quick summary of second stage features
-1. Combine multiple traces into one using the `calc_avg_trace` function. These traces *must* already have been defined in the first stage.
+1. Combine multiple meteorological traces into one using the `gapFillUsingAltSensor` function. The traces that you input to the function *must* already have been defined in the first stage.
 2. Use the "Evaluate" option to operate on your input traces.
 
-Example: the `TA_1_1_1` trace you defined in the first stage has some missing data and there is a nearby reliable climate station with a long record. In the first stage you also defined (and filtered etc.) data from this climate station in a variable called `TA_OTHER_SOURCE`. Then in the second stage, you can use `calc_avg_trace` within the `Evaluate` parameter, as follows:
+Example: the `TA_1_1_1` trace you defined in the first stage has some missing data and there is a nearby reliable climate station with a long record. In the first stage you also defined (and cleaned/filtered etc.) data from this climate station in a variable called `TA_OTHER_SOURCE`. Then in the second stage, you can use `gapFillUsingAltSensor` within the `Evaluate` parameter, as follows:
 <pre>
-Evaluate = 'TA_1_1_1 = calc_avg_trace(clean_tv,TA_1_1_1,TA_OTHER_SOURCE,-1)';</pre>
+Evaluate = 'TA_F_1_1_1 = gapFillUsingAltSensor(TA_1_1_1,TA_OTHER_SOURCE,~,~,~,"TA_F_1_1_1")';</pre>
 
-The function regresses the two variables provided and uses the resulting linear fit to fill the gap(s) in the first variable. Note that fluxes are gap-filled in stage three. 
+The function first does some preprocessing of the two variables provided, then regresses them and uses the resulting linear fit to fill the gap(s) in the first variable. Note that fluxes are gap-filled in stage three. For more information on this `gapFillUsingAltSensor` function, possible inputs, and how to change the quality-of-fit thresholds, see section 5.4.
 
 </div>
