@@ -8,11 +8,11 @@ Edits and contributions: Zoran Nesic, Sara Knox, June Skeeter, Paul Moore, Karol
 Revisions:\
 - June 2025: Further detailed "full" documentation added, all moved to lab website.\
 - March 2025: Full documentation added including pipeline features and further information to supplement the tutorial.\
-- February 2025: "Recently Added Features" section 7.2 added. Full documentation still in progress.\
+- February 2025: "Recently Added Features" section 7.1 added. Full documentation still in progress.\
 - October 2024: These are the "quick-start" instructions for new users of the data-cleaning pipeline. The full documentation will be made available at a later date.\
 
 ### Useful links 
-- <a href="https://ecoflux-lab.github.io/PipelineDocumentation/7_2_Recently_Added_Features.html" target="_blank" rel="noopener noreferrer">Recently added pipeline features</a>
+- <a href="https://ecoflux-lab.github.io/PipelineDocumentation/7_1_Recently_Added_Features.html" target="_blank" rel="noopener noreferrer">Recently added pipeline features</a>
 - Recently updated <a href="presentations/DataCleaningPipeline_Overview_LabMeeting15Jan2026_FINAL.zip">Overview of Data Cleaning Pipeline</a> slides presented on 15 January 2026.
 - Link to <a href="https://www.youtube.com/watch?v=wpeOC09LvS8&list=PLwwM5mY7NX4S62HBzrxXWvox_tWysd9un&ab_channel=EcoFluxLab" target="_blank" rel="noopener noreferrer">YouTube playlist of ALL presentations</a> from FLUXNET-CH4 V2.0 Workshop (October 2024), and accompanying slides for <a href="workshop/DataCleaningPipeline_Overview_Final_Web.zip">Overview of Data Cleaning Pipeline</a> presentation.
 

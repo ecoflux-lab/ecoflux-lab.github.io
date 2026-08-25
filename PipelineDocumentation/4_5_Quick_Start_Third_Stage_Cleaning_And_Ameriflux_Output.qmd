@@ -8,6 +8,7 @@ On this page:
 
 - <a href="#div_id_InstructionsThirdStage">Third stage cleaning instructions</a>
 - <a href="#div_id_FluxVarDefinitions">Third stage flux variable definitions</a>
+- <a href="#div_id_FluxGapFilling">Notes on flux gap-filling</a>
 - <a href="#div_id_AmerifluxOutput">Creating Ameriflux output</a>
 
 <br>
@@ -33,7 +34,9 @@ On this page:
     - Second, check the met variable names for used for gap-filling are named the same as those output by your second stage cleaning.
     - Third, if you wish to, you can edit the wind sector and precipitation filter values, but we recommend the values already written in the file.
     
-    The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. More information on this is provided in the full documentation in section 5.5.
+    The main configuration file (`global_config.yml`) for running third stage cleaning is located in the `Biomet.net` library and generally speaking this should not be edited. The custom `SITEID1_config.yml` file can be used to add parameters/inputs; these site-specific settings will overwrite those in the `global_config.yml` if they are also defined there. More information on this is provided in the full documentation in section 5.5. 
+    
+    Notes on gap-filling fluxes can be found later on this page.
 
     <!-- Note on gap-filling FCH4: currently the predictors for all random forest models used to fill gaps are set to: `Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1`. However, for FCH4, these inputs should be changed to prioritize soil variables such as soil temperature, soil moisture, and water table depth. You can change these settings under "Optional parameters" (figure 6.7; peach highlighting). -->
 
@@ -68,6 +71,16 @@ The standalone flux variable names (i.e., FCH4, FC, H, LE) are copied directly f
 | _PI_SC_JSZ_MAD_RP              | Plus REddyProc applied (u-star filtering)  |
 
 <a href="https://www.bgc-jena.mpg.de/5624929/Output-Format" target="_blank" rel="noopener noreferrer">This link</a> provides descriptions of suffixes applied to REddyProc output, e.g., `_uStar`, `U95`, `_orig`, and `_f`.
+
+</div>
+
+<br>
+<div id="div_id_FluxGapFilling">
+<hr>
+
+### Notes on flux gap-filling
+
+By default, REddyProc uses marginal distribution sampling (<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2486.2005.001002.x" target="_blank" rel="noopener noreferrer">Reichstein et al. 2005</a>) to gap-fill fluxes. The pipeline also has the option to use a machine learning algorithm based on <a href="https://www.sciencedirect.com/science/article/pii/S0168192321002124" target="_blank" rel="noopener noreferrer">Irvin et al. (2021)</a>. Quick-start instructions for this can be downloaded <a href="fluxgapfilling/DocumentationStage9-MLGapfillingPython.pdf" target="_blank">here</a> (more details will be provided in the full documentation soon).
 
 </div>
 
