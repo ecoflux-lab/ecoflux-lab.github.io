@@ -186,6 +186,26 @@ I am conducting remote sensing analyses to characterize Canada’s tidal marsh e
 :::: {.columns}
 :::{.column width="30%"}
 
+![](images/headshots/Daniel-oval.png){width=85%}
+:::
+::: {.column width="70%"}
+
+ |
+-----|:-----
+Name| Daniel Schermaier 
+Level of Study | Ph.D. Student
+
+::: 
+::::
+
+I am a PhD student studying greenhouse gas dynamics in salt marsh ecosystems across Canada as part of the Blue Carbon Canada project. My research aims to understand how environmental drivers influence fluxes across sites, with the goal of improving estimates of salt marsh contributions to climate mitigation. I previously earned a Bachelor of Chemical Engineering with a minor in Bioengineering from the University of Dayton in 2022, where I developed a strong interest in microbial function and behavior through lab-based research. Inspired to study microbial activity at larger scales and in natural systems, I went on to work as an Eddy Covariance Tower Technician at Clemson University’s Baruch Institute of Coastal Ecology and Forest Science. There, I began studying salt marsh carbon dynamics and the biogeochemical complexity of these systems. 
+
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
 ![](images/headshots/tzu-yi-oval.png){width=85%}
 :::
 ::: {.column width="70%"}
@@ -221,65 +241,6 @@ Email| poppek\@student.ubc.ca
 
 I earned an MS in Environmental Science from Western Washington University in 2016 and continued at WWU as a Research Associate for several years. My previous research has focused primarily on blue carbon, studying soil carbon sequestration rates in Pacific Northwest estuaries and in United Arab Emirates mangroves, in addition to monitoring and modeling vegetation and sediment dynamics in relation to estuary restoration and sea level rise. I am currently interested in studying greenhouse gas fluxes in Pacific Northwest tidal wetlands -- particularly how they respond to ecosystem restoration and climate change -- to ultimately better understand the value of tidal wetland management actions as natural climate solutions. 
 
----
-
-:::: {.columns} 
-:::{.column width="30%"}
-
-![](images/headshots/sarah-russell-oval.png){width=85%}
-
-:::
-::: {.column width="70%"}
-
- |
------|:-----
-Name| Sarah Russell
-Level of Study| Ph.D. Student
-
-::: 
-::::
-
-I received a BS in Biological Sciences from Wellesley College in 2017, then worked as an ecosystem ecology field technician and research assistant before moving to Vancouver. I am interested in land-atmosphere carbon dynamics and am particularly interested in quantifying the terrestrial carbon sink. My research at UBC involves modeling greenhouse gas fluxes from restored tidal wetlands in the Sacramento-San Joaquin River Delta. 
-
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/jinshuai-oval.jpg){width=85%}
-:::
-::: {.column width="70%"}
-
- |
------|:-----
-Name| Jinshuai Li
-Position | Visiting PhD Candidate
-Email| jinshuai.li@mail.mcgill.ca
-
-::: 
-::::
-
-I am a PhD candidate at the Institute of Geographic Sciences and Natural Resources, Chinese Academy of Sciences. Currently, I am doing research at McGill University as a visiting student. I am interested in the basic characteristics of the wetland carbon cycle and the main environmental response features. At the present stage, my research focuses on quantifying the environmental response characteristics of methane emissions from wetlands, and based on this, I am trying to construct models to quantify methane emissions and further reduce the simulation errors. 
-
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/vanessa-oval.jpg){width=85%}
-
-:::
-::: {.column width="70%"}
-
-|
------|:-----
-Name| Vanessa Valenti
-Level of Study| M.Sc. Student
-
-::: 
-::::
-  
-I earned a Bachelor’s degree in Geography/Environmental Studies from the University of California, Los Angeles in 2019. Before coming to UBC, I worked as a scientific programmer at the NASA Goddard Space Flight Center, providing visualization and computation support to earth system and atmosphere climate models. I am interested in modelling land-atmosphere exchanges and projecting responses of wetland and forested ecosystems to climate change. 
 
 ---
 
@@ -321,45 +282,6 @@ Level of Study| M.Sc. Student
 
 I’m interested in applying Machine Learning to interdisciplinary problems. With a background in Computer Science and Psychology, I explore how both new and established methods can help us better understand complex systems. Currently, I’m working on modelling ecosystem exchange using neural networks, with the goal of gaining insight into ecological processes.
   
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/alice-oval.png){width=85%}
-
-:::
-::: {.column width="70%"}
-
-|
------|:-----
-Name| Alice Godbout
-Level of Study| B.Eng. Student
-
-::: 
-::::
-
-I am a U4 student pursuing a Bachelors in Software Engineering (B. Eng.) at McGill University. I have always been interested in the intersection of technology and sustainability, and using the technical skills I learn from my degree to drive a positive impact on climate change. 
-
----
-
-:::: {.columns}
-:::{.column width="30%"}
-
-![](images/headshots/Lisa-oval.jpg){width=85%}
-
-:::
-::: {.column width="70%"}
-
-|
------|:-----
-Name| Lisa Stewart
-Level of Study| BA & Sc. Student
-
-::: 
-::::
-
-I am a U3 undergraduate student at McGill University studying Sustainability, Science and Society. I am interested in how scientific research is conducted to induce societal change, especially for climate change mitigation and adaptation. 
 
 ---
 
@@ -376,7 +298,7 @@ I am a U3 undergraduate student at McGill University studying Sustainability, Sc
 Name| Karolina Bajda
 Level of Study| BA & Sc. Student
 
-::: 
+:::
 ::::
   
 I am a U2 Geography student at McGill University. I am interested in learning more about nature based climate solutions and performing data visualization and analysis to evaluate seasonal variability in fluxes driven by climatic and environmental factors.
@@ -386,89 +308,139 @@ I am a U2 Geography student at McGill University. I am interested in learning mo
 
 :::: {.columns}
 ::: {.column width="50%"}
+**Jinshuai Li**  
+*(Visiting PhD Candidate)*  
+![](images/headshots/jinshuai-oval.png){width=45%}
+:::
+
+
+
+
+::: {.column width="50%"}
+**Vanessa Valenti **  
+*(M.Sc. Student)*  
+![](images/headshots/Vanessa-oval.jpg){width=45%}
+:::
+::::
+
+
+
+:::: {.columns}
+::: {.column width="50%"}
+**Alice Godbout**  
+*(B.Eng. Student)*  
+![](images/headshots/alice-oval.png){width=45%}
+:::
+
+::: {.column width="50%"}
+**Lisa Stewart**  
+*(BA & Sc. Student)*  
+![](images/headshots/Lisa-oval.jpg){width=45%}
+:::
+::::
+
+
+
+:::: {.columns}
+::: {.column width="50%"}
+**Sarah Russell**  
+*(Ph.D. Student)*  
+![](images/headshots/sarah-russell-oval.png){width=45%}
+:::
+
+::: {.column width="50%"}
 **June Skeeter**  
 *(Postdoctoral Scholar)*  
 ![](images/headshots/june-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Dr. Sung-Ching (Nick) Lee**  
 *(Postdoctoral Scholar)*  
 ![](images/headshots/sung-ching-oval.png){width=45%}
 :::
-::::
 
-:::: {.columns}
 ::: {.column width="50%"}
 **Hehan (Zoe) Zhang**  
 *(M.Sc. Student)*  
 ![](images/headshots/zhang-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Darian Ng**  
 *(M.Sc. Student)*  
 ![](images/headshots/darian-oval.png){width=45%}
 :::
-::::
 
-:::: {.columns}
 ::: {.column width="50%"}
 **Tin Satriawan**  
 *(M.Sc. Student)*  
 ![](images/headshots/satriawan-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Marion Nyberg**  
 *(M.Sc. Student)*  
 ![](images/headshots/nyberg-oval.png){width=45%}
 :::
-::::
 
-:::: {.columns}
 ::: {.column width="50%"}
 **Aylin Barreras-Apodaca**  
 *(Visiting International M.Sc. Student)*  
 ![](images/headshots/aylin-ba-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Nicole Choi**  
 *(B.Sc. Student)*  
 ![](images/headshots/choi-oval.png){width=45%}
 :::
-::::
 
-:::: {.columns}
+
 ::: {.column width="50%"}
 **Cristina Mace**  
 *(B.Sc. Student)*  
 ![](images/headshots/mace-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Adin Litman**  
 *(B.Sc. Student)*  
 ![](images/headshots/litman-oval.png){width=45%}
 :::
-::::
 
-
-:::: {.columns}
 ::: {.column width="50%"}
 **Azumi Konaka**  
 *(B.Sc. Student)*  
 ![](images/headshots/konaka-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Weiwen Fu**  
 *(B.Sc. Student)*  
 ![](images/headshots/weiwen-oval.png){width=45%}
 :::
-::::
 
-:::: {.columns}
 ::: {.column width="50%"}
 **Himari Honda** 
 *(B.Sc. Student)* 
 ![](images/headshots/himari-oval.png){width=45%}
 :::
+::::
+
+:::: {.columns}
 ::: {.column width="50%"}
 **Kelsey McGuire**  
 *(B.Sc. Student)*  

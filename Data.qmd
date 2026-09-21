@@ -144,4 +144,4 @@ These sites are co-managed with [Dr. Pascal Badiou](https://iwwr.ducks.ca/team/p
 ## Code and Documentation
 Our <a href="https://github.com/CANFLUX">lab organization</a> hosts code for flux processing, README docs for our lab, and various other bits of information. Details on our data processing pipeline are available on our [Pipeline Documentation page](https://ecoflux-lab.github.io/PipelineDocumentation/PipelineDocumentation.html)
 
-More documentation related to maintenance procedures for our sites can be found <a href="https://ubc-micromet.github.io/Documentation.html">here</a>.
+More documentation related to maintenance procedures for our sites can be found <a href="https://ecoflux-lab.github.io/Documentation/Fieldwork/">here</a>.
