@@ -303,7 +303,73 @@ Level of Study| BA & Sc. Student
   
 I am a U2 Geography student at McGill University. I am interested in learning more about nature based climate solutions and performing data visualization and analysis to evaluate seasonal variability in fluxes driven by climatic and environmental factors.
 
+
 ---
+
+:::: {.columns}
+:::{.column width="30%"}
+
+![](images/headshots/Chloe-oval.png){width=85%}
+
+:::
+::: {.column width="70%"}
+
+|
+-----|:-----
+Name| Chloe Kaplan 
+Position| Technical Assistant
+
+:::
+::::
+  
+I received my B.Sc in Life Sciences from McGill in 2025. Currently I am a technical assistant for the CARBONIQUE project specializing in field operations and site maintenance. In this role, I am responsible for assisting with the installation, preparation, and ongoing maintenance of flux towers. This work directly supports accurate data collection across the CARBONIQUE project. 
+
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
+![](images/headshots/Simone-oval.png){width=85%}
+
+:::
+::: {.column width="70%"}
+
+|
+-----|:-----
+Name| Simone Châtelier
+Position| Research Assistant
+
+:::
+::::
+  
+I received my B.Sc in Earth System Sciences from McGill in 2026 and I am currently working as a research assistant for the CANFLUX project in the field and processing and standardizing data from the eddy flux towers.
+
+---
+
+
+:::: {.columns}
+:::{.column width="30%"}
+
+![](images/headshots/Sophie-oval.png){width=85%}
+
+:::
+::: {.column width="70%"}
+
+|
+-----|:-----
+Name| Sophie Michelle Gilbert 
+Position| Research Assistant
+Pronouns| She/Her/Hers
+
+:::
+::::
+  
+I am a recent B.Sc. Environment graduate from McGill University, where I specialized in Atmospheric Environment and Air Quality. Currently, I am a Research Assistant working on the CANFLUX project while investigating post-fire trajectories of carbon fluxes in a restored peatland in Delta, British Columbia.
+
+---
+
+
 ## Lab Alumni
 
 :::: {.columns}
