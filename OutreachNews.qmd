@@ -1,7 +1,14 @@
 ---
 title: "Outreach and News"
 ---
+## 2026
+
+
 ## 2025
+
+### October 
+We hosted the CanFlux Workshop:
+[![](images/news-banners/CanFlux_Meeting.png){width=300}](https://canflux.github.io/news.html)
 
 ### July
 A Radio-Canada piece featuring our CARBONIQUE research project:
