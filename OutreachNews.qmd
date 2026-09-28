@@ -6,6 +6,10 @@ title: "Outreach and News"
 ### September
 Congratulations to Dr. Tzu-Yi Lu on successfully defending her PhD thesis!
 
+A Canada Foundation for Innovation article highlighting our work using wetlands as nature-based climate solutions. 
+
+[![](images/news-banners/CFI-article.png){width=300}](https://www.innovation.ca/projects-results/research-stories/canadian-wetlands?utm_source=Institutions&utm_medium=Email&utm_campaign=StoryPromo-wetlands-Institutions-EN-Sep2026)
+
 Members of the lab attended the International Blue Carbon Science Working Group Meeting in Halifax, NS: 
 
 ![](images/beach_group_bluecarbon_2026.jpg){width=400}
@@ -22,7 +26,7 @@ I am pleased to announce that I received the CGU Early Career Award at the CGU a
 ### October 
 We hosted the CanFlux Workshop:
 
-[![](images/news-banners/CanFlux_Meeting.png){width=300}](https://canflux.github.io/news.html)
+[![](images/news-banners/CanFlux-Meeting.png){width=300}](https://canflux.github.io/news.html)
 
 ### July
 A Radio-Canada piece featuring our CARBONIQUE research project:
