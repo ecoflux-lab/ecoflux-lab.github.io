@@ -181,6 +181,37 @@ I am conducting remote sensing analyses to characterize Canada’s tidal marsh e
 : University of Strasbourg, France, PhD
 : Peking University, China, Masters
 
+
+---
+
+:::: {.columns}
+:::{.column width="30%"}
+
+![](images/headshots/Mohammed-oval.png){width=85%}
+:::
+::: {.column width="70%"}
+
+ |
+-----|:-----
+Name| Dr. Mohammed A. Abdaki 
+Position | Postdoctoral Researcher (Co-Supervised by Oliver Sonnetag, UdeM)
+Pronouns | He/Him/His
+ORCID | 0000-0003-2621-9513
+Email | mohammed.abdaki@umontreal.ca
+
+::: 
+::::
+
+I am interested in understanding how climate change and land-use disturbances influence land-atmosphere exchanges of carbon, water, and energy, and other ecosystem functions. My research integrates micrometeorology, flux footprint modeling, and remote sensing with interpretable machine learning to evaluate biosphere-atmosphere interactions across terrestrial ecosystems. I focus on eddy covariance data and analyzing spatial representativeness to quantify Net Ecosystem Carbon variation. Current research efforts with the CARBONIQUE project focus on supporting processing spatial big data, and projecting carbon fluxes future dynamics across Quebec’s natural and disturbed wetlands.
+
+**Previous experience**
+: University of Mosul, University Lecturer
+
+**Education**
+: University of Alberta, Canada, Ph.D. Earth & Atmospheric Sciences
+: University of Liverpool, England, MSc. Environment & Climate Change
+: University of Mosul, Iraq, B.Sc. Environmental Sciences
+
 ---
 
 :::: {.columns}
