@@ -1,7 +1,43 @@
 ---
 title: "Outreach and News"
 ---
+## 2026
+
+### September
+Congratulations to Dr. Tzu-Yi Lu on successfully defending her PhD thesis!
+
+A Canada Foundation for Innovation article highlighting our work: 
+
+[![](images/news-banners/CFI-article.png){width=300}](https://www.innovation.ca/projects-results/research-stories/canadian-wetlands?utm_source=Institutions&utm_medium=Email&utm_campaign=StoryPromo-wetlands-Institutions-EN-Sep2026)
+
+Members of the lab attended the International Blue Carbon Science Working Group Meeting in Halifax, NS: 
+
+![](images/beach_group_bluecarbon_2026.jpg){width=400}
+
+![](images/group_bluecarbon_2026.jpeg){width=400}
+
+### July
+A new CARBONIQUE flux tower was installed in a natural marsh in Québec
+
+:::{layout-ncol=2}
+
+[![](images/UQAM-5-tower.png){width=300}](https://carbonique.ca/en/data.html#baie-saint-fran%C3%A7ois-natural-marsh-uqam_5)
+
+[![](images/Solar-Structure.jpg){width=300}](https://carbonique.ca/en/data.html#baie-saint-fran%C3%A7ois-natural-marsh-uqam_5)
+
+:::
+
+### May 
+I am pleased to announce that I received the CGU Early Career Award at the CGU annual meeting held in Halifax, NS:
+
+[![](images/news-banners/cgu_award.png){width=300}](https://www.mcgill.ca/geography/channels/news/prof-knox-receives-cgu-early-career-scientist-award-373153)
+
 ## 2025
+
+### October 
+We hosted the CanFlux Workshop:
+
+[![](images/news-banners/CanFlux-Meeting.png){width=300}](https://canflux.github.io/news.html)
 
 ### July
 A Radio-Canada piece featuring our CARBONIQUE research project:
